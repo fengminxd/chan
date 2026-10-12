@@ -1,6 +1,0 @@
-{
-  "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ETHUSDT&interval=1m&startTime=1783932000000&endTime=1783991999999&limit=1000",
-  "downloaded_at": "2026-10-07T15:47:14.681070+00:00",
-  "server_date": "Wed, 07 Oct 2026 15:47:14 GMT",
-  "sha256": "cc8f107dbc860e67db4f5486735020f6254a5a510a412f511297637c96fb26bb"
-}

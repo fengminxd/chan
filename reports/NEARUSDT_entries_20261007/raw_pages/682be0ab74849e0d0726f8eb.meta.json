@@ -1,6 +1,0 @@
-{
-  "url": "https://fapi.binance.com/fapi/v1/klines?symbol=NEARUSDT&interval=1m&startTime=1784772000000&endTime=1784831999999&limit=1000",
-  "downloaded_at": "2026-10-07T10:19:13.716009+00:00",
-  "server_date": "Wed, 07 Oct 2026 10:19:13 GMT",
-  "sha256": "2c55fdc3fef8885c24c7d74d7f74d3e71b4505c8753f1f90a2969e1d700e4c32"
-}

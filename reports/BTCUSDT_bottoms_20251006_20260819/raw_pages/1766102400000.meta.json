@@ -1,6 +1,0 @@
-{
-  "url": "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1766102400000&endTime=1769702399999&limit=1000",
-  "downloaded_at": "2026-09-25T15:04:02.904859+00:00",
-  "server_date": "Fri, 25 Sep 2026 15:04:02 GMT",
-  "sha256": "be09a35913b24654c723110034ed37f5ff82d6780590cd2c590246e683388f84"
-}

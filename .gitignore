@@ -2,4 +2,6 @@ __pycache__/
 output/
 output-bi/
 history/
+reports/
 cases/local/
+/reports/

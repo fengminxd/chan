@@ -1,6 +1,0 @@
-{
-  "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1788912000000&endTime=1788971999999&limit=1000",
-  "downloaded_at": "2026-10-08T04:52:16.273270+00:00",
-  "server_date": "Thu, 08 Oct 2026 04:52:16 GMT",
-  "sha256": "ed0a11408afc846a71426570c40378d22c69b8712c15dc9c830d06e2bc525b5e"
-}
