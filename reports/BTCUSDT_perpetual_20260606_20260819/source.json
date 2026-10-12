@@ -1,0 +1,49 @@
+{
+  "symbol": "BTCUSDT",
+  "market": "Binance USD-M perpetual",
+  "price_type": "trade_price",
+  "window_start_utc": "2026-06-05T16:00:00+00:00",
+  "window_end_utc_exclusive": "2026-08-18T16:00:00+00:00",
+  "context_start_utc": "2026-02-05T16:00:00+00:00",
+  "context_days": 120,
+  "downloaded_at": "2026-09-24T10:03:27.817217+00:00",
+  "hourly_count": 4656,
+  "window_hourly_count": 1776,
+  "requests": [
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1770307200000&endTime=1787068799999&limit=1000",
+      "count": 1000,
+      "first": 1770307200000,
+      "last": 1773903600000
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1773907200000&endTime=1787068799999&limit=1000",
+      "count": 1000,
+      "first": 1773907200000,
+      "last": 1777503600000
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1777507200000&endTime=1787068799999&limit=1000",
+      "count": 1000,
+      "first": 1777507200000,
+      "last": 1781103600000
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1781107200000&endTime=1787068799999&limit=1000",
+      "count": 1000,
+      "first": 1781107200000,
+      "last": 1784703600000
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1784707200000&endTime=1787068799999&limit=1000",
+      "count": 656,
+      "first": 1784707200000,
+      "last": 1787065200000
+    }
+  ],
+  "sha256": {
+    "context_1h.csv": "c8cf6908fdc18a44d272189e31d08f8cd4a039525c865a2c1ad649ac803589d6",
+    "window_1h.csv": "8dd245c7caf6615d647263250a4cbe413fcb6004d762bc644cf08b0d9fc8fdbf",
+    "exchange_klines.json": "a84cce07e45c2479475ec3bb0a539a9d558722ce640483eb5efd743b6ba980f6"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "unchanged": {
+    "chart_data.json": true,
+    "btc_tradingview.html": true,
+    "signals.csv": true,
+    "history_1h.csv": true
+  }
+}

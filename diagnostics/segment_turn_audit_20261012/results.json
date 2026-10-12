@@ -1,0 +1,1523 @@
+{
+  "passed": true,
+  "seed": 20261012,
+  "counts": {
+    "exhaustive_sequences": 19683,
+    "random_sequences": 1000,
+    "confirmed_proofs": 18344
+  },
+  "market": {
+    "8h": {
+      "sha256": "55814ba32e795b7c6ef86cda55d4f80a07d23f3537bb1e6211fa6220739d8c66",
+      "blocks": [
+        {
+          "strokes": 202,
+          "segments": 26,
+          "tail": {
+            "strokes": [
+              {
+                "start": {
+                  "index": 2682,
+                  "kind": "bottom",
+                  "price": 63666.0,
+                  "time": "2026-07-24T08:00:00+00:00"
+                },
+                "end": {
+                  "index": 2688,
+                  "kind": "top",
+                  "price": 65722.5,
+                  "time": "2026-07-27T00:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-08-03T00:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 2688,
+                  "kind": "top",
+                  "price": 65722.5,
+                  "time": "2026-07-27T00:00:00+00:00"
+                },
+                "end": {
+                  "index": 2699,
+                  "kind": "bottom",
+                  "price": 62228.8,
+                  "time": "2026-08-01T16:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-08-10T16:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 2699,
+                  "kind": "bottom",
+                  "price": 62228.8,
+                  "time": "2026-08-01T16:00:00+00:00"
+                },
+                "end": {
+                  "index": 2710,
+                  "kind": "top",
+                  "price": 65482.7,
+                  "time": "2026-08-09T16:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-08-15T16:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 2710,
+                  "kind": "top",
+                  "price": 65482.7,
+                  "time": "2026-08-09T16:00:00+00:00"
+                },
+                "end": {
+                  "index": 2720,
+                  "kind": "bottom",
+                  "price": 62484.2,
+                  "time": "2026-08-14T08:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-08-29T00:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 2720,
+                  "kind": "bottom",
+                  "price": 62484.2,
+                  "time": "2026-08-14T08:00:00+00:00"
+                },
+                "end": {
+                  "index": 2748,
+                  "kind": "top",
+                  "price": 81500.0,
+                  "time": "2026-08-28T00:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-09-03T08:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 2748,
+                  "kind": "top",
+                  "price": 81500.0,
+                  "time": "2026-08-28T00:00:00+00:00"
+                },
+                "end": {
+                  "index": 2759,
+                  "kind": "bottom",
+                  "price": 76151.9,
+                  "time": "2026-09-02T08:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-09-04T16:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 2759,
+                  "kind": "bottom",
+                  "price": 76151.9,
+                  "time": "2026-09-02T08:00:00+00:00"
+                },
+                "end": {
+                  "index": 2763,
+                  "kind": "top",
+                  "price": 82282.8,
+                  "time": "2026-09-03T16:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-09-17T08:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 2763,
+                  "kind": "top",
+                  "price": 82282.8,
+                  "time": "2026-09-03T16:00:00+00:00"
+                },
+                "end": {
+                  "index": 2786,
+                  "kind": "bottom",
+                  "price": 74909.4,
+                  "time": "2026-09-15T16:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-09-22T16:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 2786,
+                  "kind": "bottom",
+                  "price": 74909.4,
+                  "time": "2026-09-15T16:00:00+00:00"
+                },
+                "end": {
+                  "index": 2799,
+                  "kind": "top",
+                  "price": 87385.1,
+                  "time": "2026-09-21T16:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-09-29T08:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 2799,
+                  "kind": "top",
+                  "price": 87385.1,
+                  "time": "2026-09-21T16:00:00+00:00"
+                },
+                "end": {
+                  "index": 2811,
+                  "kind": "bottom",
+                  "price": 82500.1,
+                  "time": "2026-09-28T08:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-10-03T16:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 2811,
+                  "kind": "bottom",
+                  "price": 82500.1,
+                  "time": "2026-09-28T08:00:00+00:00"
+                },
+                "end": {
+                  "index": 2821,
+                  "kind": "top",
+                  "price": 87249.6,
+                  "time": "2026-10-02T08:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-10-09T16:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 2821,
+                  "kind": "top",
+                  "price": 87249.6,
+                  "time": "2026-10-02T08:00:00+00:00"
+                },
+                "end": {
+                  "index": 2837,
+                  "kind": "bottom",
+                  "price": 80344.8,
+                  "time": "2026-10-08T16:00:00+00:00"
+                },
+                "provisional": true,
+                "confirmed_at": null
+              }
+            ],
+            "confirmed": [
+              {
+                "start": {
+                  "index": 2518,
+                  "kind": "top",
+                  "price": 82828.7,
+                  "time": "2026-05-06T08:00:00+00:00"
+                },
+                "end": {
+                  "index": 2625,
+                  "kind": "bottom",
+                  "price": 57758.6,
+                  "time": "2026-07-01T00:00:00+00:00"
+                },
+                "first_stroke": 171,
+                "last_stroke": 181,
+                "confirmed": true,
+                "confirmation": "no_gap",
+                "evidence_stroke": 186,
+                "evidence_at": "2026-07-19T00:00:00+00:00",
+                "feature_indices": [
+                  [
+                    178,
+                    180
+                  ],
+                  [
+                    182,
+                    184
+                  ],
+                  [
+                    186
+                  ]
+                ],
+                "reverse_feature_indices": [],
+                "range_low": 57758.6,
+                "range_high": 82828.7,
+                "local_evidence_stroke": 186
+              },
+              {
+                "start": {
+                  "index": 2625,
+                  "kind": "bottom",
+                  "price": 57758.6,
+                  "time": "2026-07-01T00:00:00+00:00"
+                },
+                "end": {
+                  "index": 2673,
+                  "kind": "top",
+                  "price": 66924.1,
+                  "time": "2026-07-21T08:00:00+00:00"
+                },
+                "first_stroke": 182,
+                "last_stroke": 188,
+                "confirmed": true,
+                "confirmation": "no_gap",
+                "evidence_stroke": 191,
+                "evidence_at": "2026-08-10T16:00:00+00:00",
+                "feature_indices": [
+                  [
+                    187
+                  ],
+                  [
+                    189
+                  ],
+                  [
+                    191
+                  ]
+                ],
+                "reverse_feature_indices": [],
+                "range_low": 57758.6,
+                "range_high": 66924.1,
+                "local_evidence_stroke": 191
+              },
+              {
+                "start": {
+                  "index": 2673,
+                  "kind": "top",
+                  "price": 66924.1,
+                  "time": "2026-07-21T08:00:00+00:00"
+                },
+                "end": {
+                  "index": 2699,
+                  "kind": "bottom",
+                  "price": 62228.8,
+                  "time": "2026-08-01T16:00:00+00:00"
+                },
+                "first_stroke": 189,
+                "last_stroke": 191,
+                "confirmed": true,
+                "confirmation": "no_gap",
+                "evidence_stroke": 194,
+                "evidence_at": "2026-09-03T08:00:00+00:00",
+                "feature_indices": [
+                  [
+                    190
+                  ],
+                  [
+                    192
+                  ],
+                  [
+                    194
+                  ]
+                ],
+                "reverse_feature_indices": [],
+                "range_low": 62228.8,
+                "range_high": 66924.1,
+                "local_evidence_stroke": 194
+              }
+            ],
+            "pending": {
+              "start": {
+                "index": 2699,
+                "kind": "bottom",
+                "price": 62228.8,
+                "time": "2026-08-01T16:00:00+00:00"
+              },
+              "end": {
+                "index": 2799,
+                "kind": "top",
+                "price": 87385.1,
+                "time": "2026-09-21T16:00:00+00:00"
+              },
+              "first_stroke": 192,
+              "last_stroke": 198,
+              "confirmed": false,
+              "confirmation": "pending",
+              "evidence_stroke": null,
+              "evidence_at": null,
+              "feature_indices": [],
+              "reverse_feature_indices": [],
+              "range_low": 62228.8,
+              "range_high": 87385.1,
+              "local_evidence_stroke": null
+            },
+            "diagnostics": {
+              "unassigned_completed_strokes": 9,
+              "candidate_turns": [
+                {
+                  "segment_start_stroke": 192,
+                  "turn_stroke": 195,
+                  "gap": true,
+                  "direct_break": false,
+                  "first_pattern_found": false,
+                  "reverse_pattern_found": false,
+                  "reverse_span_ready": false,
+                  "reason": "turn_extreme_exceeded",
+                  "evidence_stroke": 196
+                },
+                {
+                  "segment_start_stroke": 192,
+                  "turn_stroke": 197,
+                  "gap": false,
+                  "direct_break": true,
+                  "first_pattern_found": false,
+                  "reverse_pattern_found": false,
+                  "reverse_span_ready": false,
+                  "reason": "turn_extreme_exceeded",
+                  "evidence_stroke": 198
+                },
+                {
+                  "segment_start_stroke": 192,
+                  "turn_stroke": 199,
+                  "gap": true,
+                  "direct_break": false,
+                  "first_pattern_found": false,
+                  "reverse_pattern_found": false,
+                  "reverse_span_ready": false,
+                  "reason": "waiting_first_feature_fractal"
+                }
+              ],
+              "status": "waiting_confirmation",
+              "last_completed_stroke_end": "2026-10-02T08:00:00+00:00"
+            }
+          }
+        }
+      ]
+    },
+    "4h": {
+      "sha256": "d6f306e575729af048afba55c3fbe88d602f1c722484ea0a336b6ea23b2a70aa",
+      "blocks": [
+        {
+          "strokes": 393,
+          "segments": 48,
+          "tail": {
+            "strokes": [
+              {
+                "start": {
+                  "index": 5353,
+                  "kind": "top",
+                  "price": 79555.5,
+                  "time": "2026-08-21T08:00:00+00:00"
+                },
+                "end": {
+                  "index": 5360,
+                  "kind": "bottom",
+                  "price": 75588.0,
+                  "time": "2026-08-23T04:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-08-28T12:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 5360,
+                  "kind": "bottom",
+                  "price": 75588.0,
+                  "time": "2026-08-23T04:00:00+00:00"
+                },
+                "end": {
+                  "index": 5377,
+                  "kind": "top",
+                  "price": 81500.0,
+                  "time": "2026-08-28T00:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-09-03T08:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 5377,
+                  "kind": "top",
+                  "price": 81500.0,
+                  "time": "2026-08-28T00:00:00+00:00"
+                },
+                "end": {
+                  "index": 5403,
+                  "kind": "bottom",
+                  "price": 76151.9,
+                  "time": "2026-09-02T08:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-09-04T08:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 5403,
+                  "kind": "bottom",
+                  "price": 76151.9,
+                  "time": "2026-09-02T08:00:00+00:00"
+                },
+                "end": {
+                  "index": 5408,
+                  "kind": "top",
+                  "price": 82282.8,
+                  "time": "2026-09-03T20:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-09-16T16:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 5408,
+                  "kind": "top",
+                  "price": 82282.8,
+                  "time": "2026-09-03T20:00:00+00:00"
+                },
+                "end": {
+                  "index": 5449,
+                  "kind": "bottom",
+                  "price": 74909.4,
+                  "time": "2026-09-15T16:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-09-22T08:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 5449,
+                  "kind": "bottom",
+                  "price": 74909.4,
+                  "time": "2026-09-15T16:00:00+00:00"
+                },
+                "end": {
+                  "index": 5469,
+                  "kind": "top",
+                  "price": 87385.1,
+                  "time": "2026-09-21T20:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-09-26T12:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 5469,
+                  "kind": "top",
+                  "price": 87385.1,
+                  "time": "2026-09-21T20:00:00+00:00"
+                },
+                "end": {
+                  "index": 5484,
+                  "kind": "bottom",
+                  "price": 83130.1,
+                  "time": "2026-09-25T12:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-09-28T00:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 5484,
+                  "kind": "bottom",
+                  "price": 83130.1,
+                  "time": "2026-09-25T12:00:00+00:00"
+                },
+                "end": {
+                  "index": 5490,
+                  "kind": "top",
+                  "price": 85146.4,
+                  "time": "2026-09-27T12:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-09-29T00:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 5490,
+                  "kind": "top",
+                  "price": 85146.4,
+                  "time": "2026-09-27T12:00:00+00:00"
+                },
+                "end": {
+                  "index": 5494,
+                  "kind": "bottom",
+                  "price": 82500.1,
+                  "time": "2026-09-28T12:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-10-03T04:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 5494,
+                  "kind": "bottom",
+                  "price": 82500.1,
+                  "time": "2026-09-28T12:00:00+00:00"
+                },
+                "end": {
+                  "index": 5510,
+                  "kind": "top",
+                  "price": 87249.6,
+                  "time": "2026-10-02T12:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-10-09T04:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 5510,
+                  "kind": "top",
+                  "price": 87249.6,
+                  "time": "2026-10-02T12:00:00+00:00"
+                },
+                "end": {
+                  "index": 5537,
+                  "kind": "bottom",
+                  "price": 80344.8,
+                  "time": "2026-10-08T16:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-10-12T16:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 5537,
+                  "kind": "bottom",
+                  "price": 80344.8,
+                  "time": "2026-10-08T16:00:00+00:00"
+                },
+                "end": {
+                  "index": 5554,
+                  "kind": "top",
+                  "price": 84340.2,
+                  "time": "2026-10-12T04:00:00+00:00"
+                },
+                "provisional": true,
+                "confirmed_at": null
+              }
+            ],
+            "confirmed": [
+              {
+                "start": {
+                  "index": 4931,
+                  "kind": "top",
+                  "price": 82828.7,
+                  "time": "2026-05-06T08:00:00+00:00"
+                },
+                "end": {
+                  "index": 5132,
+                  "kind": "bottom",
+                  "price": 58030.0,
+                  "time": "2026-06-25T12:00:00+00:00"
+                },
+                "first_stroke": 349,
+                "last_stroke": 365,
+                "confirmed": true,
+                "confirmation": "gap_reverse_fractal",
+                "evidence_stroke": 377,
+                "evidence_at": "2026-08-10T16:00:00+00:00",
+                "feature_indices": [
+                  [
+                    362,
+                    364
+                  ],
+                  [
+                    366
+                  ],
+                  [
+                    368,
+                    370
+                  ]
+                ],
+                "reverse_feature_indices": [
+                  [
+                    373
+                  ],
+                  [
+                    375
+                  ],
+                  [
+                    377
+                  ]
+                ],
+                "range_low": 58030.0,
+                "range_high": 82828.7,
+                "local_evidence_stroke": 377
+              },
+              {
+                "start": {
+                  "index": 5132,
+                  "kind": "bottom",
+                  "price": 58030.0,
+                  "time": "2026-06-25T12:00:00+00:00"
+                },
+                "end": {
+                  "index": 5231,
+                  "kind": "top",
+                  "price": 66924.1,
+                  "time": "2026-07-21T12:00:00+00:00"
+                },
+                "first_stroke": 366,
+                "last_stroke": 374,
+                "confirmed": true,
+                "confirmation": "no_gap",
+                "evidence_stroke": 377,
+                "evidence_at": "2026-08-10T16:00:00+00:00",
+                "feature_indices": [
+                  [
+                    373
+                  ],
+                  [
+                    375
+                  ],
+                  [
+                    377
+                  ]
+                ],
+                "reverse_feature_indices": [],
+                "range_low": 58030.0,
+                "range_high": 66924.1,
+                "local_evidence_stroke": 377
+              },
+              {
+                "start": {
+                  "index": 5231,
+                  "kind": "top",
+                  "price": 66924.1,
+                  "time": "2026-07-21T12:00:00+00:00"
+                },
+                "end": {
+                  "index": 5269,
+                  "kind": "bottom",
+                  "price": 62228.8,
+                  "time": "2026-08-01T16:00:00+00:00"
+                },
+                "first_stroke": 375,
+                "last_stroke": 377,
+                "confirmed": true,
+                "confirmation": "no_gap",
+                "evidence_stroke": 380,
+                "evidence_at": "2026-08-23T16:00:00+00:00",
+                "feature_indices": [
+                  [
+                    376
+                  ],
+                  [
+                    378
+                  ],
+                  [
+                    380
+                  ]
+                ],
+                "reverse_feature_indices": [],
+                "range_low": 62228.8,
+                "range_high": 66924.1,
+                "local_evidence_stroke": 380
+              }
+            ],
+            "pending": {
+              "start": {
+                "index": 5269,
+                "kind": "bottom",
+                "price": 62228.8,
+                "time": "2026-08-01T16:00:00+00:00"
+              },
+              "end": {
+                "index": 5469,
+                "kind": "top",
+                "price": 87385.1,
+                "time": "2026-09-21T20:00:00+00:00"
+              },
+              "first_stroke": 378,
+              "last_stroke": 386,
+              "confirmed": false,
+              "confirmation": "pending",
+              "evidence_stroke": null,
+              "evidence_at": null,
+              "feature_indices": [],
+              "reverse_feature_indices": [],
+              "range_low": 62228.8,
+              "range_high": 87385.1,
+              "local_evidence_stroke": null
+            },
+            "diagnostics": {
+              "unassigned_completed_strokes": 14,
+              "candidate_turns": [
+                {
+                  "segment_start_stroke": 378,
+                  "turn_stroke": 381,
+                  "gap": true,
+                  "direct_break": false,
+                  "first_pattern_found": false,
+                  "reverse_pattern_found": false,
+                  "reverse_span_ready": false,
+                  "reason": "turn_extreme_exceeded",
+                  "evidence_stroke": 382
+                },
+                {
+                  "segment_start_stroke": 378,
+                  "turn_stroke": 383,
+                  "gap": false,
+                  "direct_break": false,
+                  "first_pattern_found": false,
+                  "reverse_pattern_found": false,
+                  "reverse_span_ready": false,
+                  "reason": "turn_extreme_exceeded",
+                  "evidence_stroke": 384
+                },
+                {
+                  "segment_start_stroke": 378,
+                  "turn_stroke": 385,
+                  "gap": false,
+                  "direct_break": true,
+                  "first_pattern_found": false,
+                  "reverse_pattern_found": false,
+                  "reverse_span_ready": false,
+                  "reason": "turn_extreme_exceeded",
+                  "evidence_stroke": 386
+                },
+                {
+                  "segment_start_stroke": 378,
+                  "turn_stroke": 387,
+                  "gap": true,
+                  "direct_break": false,
+                  "first_pattern_found": true,
+                  "reverse_pattern_found": false,
+                  "reverse_span_ready": true,
+                  "reason": "waiting_reverse_feature_fractal"
+                }
+              ],
+              "status": "waiting_confirmation",
+              "last_completed_stroke_end": "2026-10-08T16:00:00+00:00"
+            }
+          }
+        }
+      ]
+    },
+    "2h": {
+      "sha256": "7408e31223d9587b280df27099a4f4e0be15782d6ac4b8aeb8cfbac7dfed7c86",
+      "blocks": [
+        {
+          "strokes": 839,
+          "segments": 97,
+          "tail": {
+            "strokes": [
+              {
+                "start": {
+                  "index": 11262,
+                  "kind": "top",
+                  "price": 80536.1,
+                  "time": "2026-09-06T22:00:00+00:00"
+                },
+                "end": {
+                  "index": 11338,
+                  "kind": "bottom",
+                  "price": 74909.4,
+                  "time": "2026-09-15T18:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-09-22T02:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 11338,
+                  "kind": "bottom",
+                  "price": 74909.4,
+                  "time": "2026-09-15T18:00:00+00:00"
+                },
+                "end": {
+                  "index": 11385,
+                  "kind": "top",
+                  "price": 87385.1,
+                  "time": "2026-09-21T20:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-09-22T14:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 11385,
+                  "kind": "top",
+                  "price": 87385.1,
+                  "time": "2026-09-21T20:00:00+00:00"
+                },
+                "end": {
+                  "index": 11389,
+                  "kind": "bottom",
+                  "price": 85080.0,
+                  "time": "2026-09-22T04:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-09-23T10:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 11389,
+                  "kind": "bottom",
+                  "price": 85080.0,
+                  "time": "2026-09-22T04:00:00+00:00"
+                },
+                "end": {
+                  "index": 11396,
+                  "kind": "top",
+                  "price": 87247.3,
+                  "time": "2026-09-23T04:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-09-24T16:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 11396,
+                  "kind": "top",
+                  "price": 87247.3,
+                  "time": "2026-09-23T04:00:00+00:00"
+                },
+                "end": {
+                  "index": 11407,
+                  "kind": "bottom",
+                  "price": 83102.7,
+                  "time": "2026-09-24T10:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-09-25T16:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 11407,
+                  "kind": "bottom",
+                  "price": 83102.7,
+                  "time": "2026-09-24T10:00:00+00:00"
+                },
+                "end": {
+                  "index": 11415,
+                  "kind": "top",
+                  "price": 85224.0,
+                  "time": "2026-09-25T10:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-09-28T20:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 11415,
+                  "kind": "top",
+                  "price": 85224.0,
+                  "time": "2026-09-25T10:00:00+00:00"
+                },
+                "end": {
+                  "index": 11438,
+                  "kind": "bottom",
+                  "price": 82500.1,
+                  "time": "2026-09-28T14:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-10-01T00:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 11438,
+                  "kind": "bottom",
+                  "price": 82500.1,
+                  "time": "2026-09-28T14:00:00+00:00"
+                },
+                "end": {
+                  "index": 11457,
+                  "kind": "top",
+                  "price": 85632.7,
+                  "time": "2026-09-30T12:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-10-01T16:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 11457,
+                  "kind": "top",
+                  "price": 85632.7,
+                  "time": "2026-09-30T12:00:00+00:00"
+                },
+                "end": {
+                  "index": 11462,
+                  "kind": "bottom",
+                  "price": 83136.6,
+                  "time": "2026-10-01T08:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-10-02T18:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 11462,
+                  "kind": "bottom",
+                  "price": 83136.6,
+                  "time": "2026-10-01T08:00:00+00:00"
+                },
+                "end": {
+                  "index": 11471,
+                  "kind": "top",
+                  "price": 87249.6,
+                  "time": "2026-10-02T12:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-10-08T22:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 11471,
+                  "kind": "top",
+                  "price": 87249.6,
+                  "time": "2026-10-02T12:00:00+00:00"
+                },
+                "end": {
+                  "index": 11524,
+                  "kind": "bottom",
+                  "price": 80344.8,
+                  "time": "2026-10-08T16:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-10-12T12:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 11524,
+                  "kind": "bottom",
+                  "price": 80344.8,
+                  "time": "2026-10-08T16:00:00+00:00"
+                },
+                "end": {
+                  "index": 11552,
+                  "kind": "top",
+                  "price": 84340.2,
+                  "time": "2026-10-12T06:00:00+00:00"
+                },
+                "provisional": true,
+                "confirmed_at": null
+              }
+            ],
+            "confirmed": [
+              {
+                "start": {
+                  "index": 10949,
+                  "kind": "bottom",
+                  "price": 62228.8,
+                  "time": "2026-08-01T18:00:00+00:00"
+                },
+                "end": {
+                  "index": 11000,
+                  "kind": "top",
+                  "price": 65358.0,
+                  "time": "2026-08-07T12:00:00+00:00"
+                },
+                "first_stroke": 804,
+                "last_stroke": 810,
+                "confirmed": true,
+                "confirmation": "no_gap",
+                "evidence_stroke": 813,
+                "evidence_at": "2026-08-18T22:00:00+00:00",
+                "feature_indices": [
+                  [
+                    809
+                  ],
+                  [
+                    811
+                  ],
+                  [
+                    813
+                  ]
+                ],
+                "reverse_feature_indices": [],
+                "range_low": 62228.8,
+                "range_high": 65358.0,
+                "local_evidence_stroke": 813
+              },
+              {
+                "start": {
+                  "index": 11000,
+                  "kind": "top",
+                  "price": 65358.0,
+                  "time": "2026-08-07T12:00:00+00:00"
+                },
+                "end": {
+                  "index": 11055,
+                  "kind": "bottom",
+                  "price": 62484.2,
+                  "time": "2026-08-14T14:00:00+00:00"
+                },
+                "first_stroke": 811,
+                "last_stroke": 813,
+                "confirmed": true,
+                "confirmation": "no_gap",
+                "evidence_stroke": 816,
+                "evidence_at": "2026-08-23T12:00:00+00:00",
+                "feature_indices": [
+                  [
+                    812
+                  ],
+                  [
+                    814
+                  ],
+                  [
+                    816
+                  ]
+                ],
+                "reverse_feature_indices": [],
+                "range_low": 62484.2,
+                "range_high": 65358.0,
+                "local_evidence_stroke": 816
+              },
+              {
+                "start": {
+                  "index": 11055,
+                  "kind": "bottom",
+                  "price": 62484.2,
+                  "time": "2026-08-14T14:00:00+00:00"
+                },
+                "end": {
+                  "index": 11176,
+                  "kind": "top",
+                  "price": 81500.0,
+                  "time": "2026-08-28T00:00:00+00:00"
+                },
+                "first_stroke": 814,
+                "last_stroke": 820,
+                "confirmed": true,
+                "confirmation": "no_gap",
+                "evidence_stroke": 823,
+                "evidence_at": "2026-09-04T02:00:00+00:00",
+                "feature_indices": [
+                  [
+                    819
+                  ],
+                  [
+                    821
+                  ],
+                  [
+                    823
+                  ]
+                ],
+                "reverse_feature_indices": [],
+                "range_low": 62484.2,
+                "range_high": 81500.0,
+                "local_evidence_stroke": 823
+              }
+            ],
+            "pending": {
+              "start": {
+                "index": 11176,
+                "kind": "top",
+                "price": 81500.0,
+                "time": "2026-08-28T00:00:00+00:00"
+              },
+              "end": {
+                "index": 11338,
+                "kind": "bottom",
+                "price": 74909.4,
+                "time": "2026-09-15T18:00:00+00:00"
+              },
+              "first_stroke": 821,
+              "last_stroke": 827,
+              "confirmed": false,
+              "confirmation": "pending",
+              "evidence_stroke": null,
+              "evidence_at": null,
+              "feature_indices": [],
+              "reverse_feature_indices": [],
+              "range_low": 74909.4,
+              "range_high": 82282.8,
+              "local_evidence_stroke": null
+            },
+            "diagnostics": {
+              "unassigned_completed_strokes": 17,
+              "candidate_turns": [
+                {
+                  "segment_start_stroke": 821,
+                  "turn_stroke": 824,
+                  "gap": false,
+                  "direct_break": true,
+                  "first_pattern_found": false,
+                  "reverse_pattern_found": false,
+                  "reverse_span_ready": false,
+                  "reason": "turn_extreme_exceeded",
+                  "evidence_stroke": 827
+                },
+                {
+                  "segment_start_stroke": 821,
+                  "turn_stroke": 828,
+                  "gap": false,
+                  "direct_break": true,
+                  "first_pattern_found": false,
+                  "reverse_pattern_found": false,
+                  "reverse_span_ready": false,
+                  "reason": "waiting_direct_break_resolution"
+                }
+              ],
+              "status": "waiting_confirmation",
+              "last_completed_stroke_end": "2026-10-08T16:00:00+00:00"
+            }
+          }
+        }
+      ]
+    },
+    "1h": {
+      "sha256": "108b9db8094b7b69837271e6673102aade99aae235622dbf68d43ffee0d3c280",
+      "blocks": [
+        {
+          "strokes": 1637,
+          "segments": 179,
+          "tail": {
+            "strokes": [
+              {
+                "start": {
+                  "index": 23371,
+                  "kind": "top",
+                  "price": 85224.0,
+                  "time": "2026-09-25T11:00:00+00:00"
+                },
+                "end": {
+                  "index": 23425,
+                  "kind": "bottom",
+                  "price": 82500.1,
+                  "time": "2026-09-28T14:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-09-30T17:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 23425,
+                  "kind": "bottom",
+                  "price": 82500.1,
+                  "time": "2026-09-28T14:00:00+00:00"
+                },
+                "end": {
+                  "index": 23457,
+                  "kind": "top",
+                  "price": 85632.7,
+                  "time": "2026-09-30T13:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-10-01T13:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 23457,
+                  "kind": "top",
+                  "price": 85632.7,
+                  "time": "2026-09-30T13:00:00+00:00"
+                },
+                "end": {
+                  "index": 23473,
+                  "kind": "bottom",
+                  "price": 83136.6,
+                  "time": "2026-10-01T08:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-10-02T16:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 23473,
+                  "kind": "bottom",
+                  "price": 83136.6,
+                  "time": "2026-10-01T08:00:00+00:00"
+                },
+                "end": {
+                  "index": 23492,
+                  "kind": "top",
+                  "price": 87249.6,
+                  "time": "2026-10-02T12:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-10-02T22:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 23492,
+                  "kind": "top",
+                  "price": 87249.6,
+                  "time": "2026-10-02T12:00:00+00:00"
+                },
+                "end": {
+                  "index": 23497,
+                  "kind": "bottom",
+                  "price": 83841.9,
+                  "time": "2026-10-02T18:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-10-05T04:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 23497,
+                  "kind": "bottom",
+                  "price": 83841.9,
+                  "time": "2026-10-02T18:00:00+00:00"
+                },
+                "end": {
+                  "index": 23539,
+                  "kind": "top",
+                  "price": 86976.1,
+                  "time": "2026-10-05T01:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-10-05T19:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 23539,
+                  "kind": "top",
+                  "price": 86976.1,
+                  "time": "2026-10-05T01:00:00+00:00"
+                },
+                "end": {
+                  "index": 23551,
+                  "kind": "bottom",
+                  "price": 84910.0,
+                  "time": "2026-10-05T16:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-10-06T03:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 23551,
+                  "kind": "bottom",
+                  "price": 84910.0,
+                  "time": "2026-10-05T16:00:00+00:00"
+                },
+                "end": {
+                  "index": 23557,
+                  "kind": "top",
+                  "price": 86034.0,
+                  "time": "2026-10-05T23:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-10-06T09:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 23557,
+                  "kind": "top",
+                  "price": 86034.0,
+                  "time": "2026-10-05T23:00:00+00:00"
+                },
+                "end": {
+                  "index": 23562,
+                  "kind": "bottom",
+                  "price": 85072.7,
+                  "time": "2026-10-06T06:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-10-06T18:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 23562,
+                  "kind": "bottom",
+                  "price": 85072.7,
+                  "time": "2026-10-06T06:00:00+00:00"
+                },
+                "end": {
+                  "index": 23568,
+                  "kind": "top",
+                  "price": 86664.9,
+                  "time": "2026-10-06T15:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-10-08T20:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 23568,
+                  "kind": "top",
+                  "price": 86664.9,
+                  "time": "2026-10-06T15:00:00+00:00"
+                },
+                "end": {
+                  "index": 23604,
+                  "kind": "bottom",
+                  "price": 80344.8,
+                  "time": "2026-10-08T17:00:00+00:00"
+                },
+                "provisional": false,
+                "confirmed_at": "2026-10-12T10:00:00+00:00"
+              },
+              {
+                "start": {
+                  "index": 23604,
+                  "kind": "bottom",
+                  "price": 80344.8,
+                  "time": "2026-10-08T17:00:00+00:00"
+                },
+                "end": {
+                  "index": 23666,
+                  "kind": "top",
+                  "price": 84340.2,
+                  "time": "2026-10-12T06:00:00+00:00"
+                },
+                "provisional": true,
+                "confirmed_at": null
+              }
+            ],
+            "confirmed": [
+              {
+                "start": {
+                  "index": 23208,
+                  "kind": "bottom",
+                  "price": 74909.4,
+                  "time": "2026-09-15T18:00:00+00:00"
+                },
+                "end": {
+                  "index": 23308,
+                  "kind": "top",
+                  "price": 87385.1,
+                  "time": "2026-09-21T20:00:00+00:00"
+                },
+                "first_stroke": 1614,
+                "last_stroke": 1618,
+                "confirmed": true,
+                "confirmation": "gap_reverse_fractal",
+                "evidence_stroke": 1628,
+                "evidence_at": "2026-10-02T22:00:00+00:00",
+                "feature_indices": [
+                  [
+                    1617
+                  ],
+                  [
+                    1619
+                  ],
+                  [
+                    1621
+                  ]
+                ],
+                "reverse_feature_indices": [
+                  [
+                    1620
+                  ],
+                  [
+                    1622,
+                    1624,
+                    1626
+                  ],
+                  [
+                    1628
+                  ]
+                ],
+                "range_low": 74909.4,
+                "range_high": 87385.1,
+                "local_evidence_stroke": 1628
+              },
+              {
+                "start": {
+                  "index": 23308,
+                  "kind": "top",
+                  "price": 87385.1,
+                  "time": "2026-09-21T20:00:00+00:00"
+                },
+                "end": {
+                  "index": 23425,
+                  "kind": "bottom",
+                  "price": 82500.1,
+                  "time": "2026-09-28T14:00:00+00:00"
+                },
+                "first_stroke": 1619,
+                "last_stroke": 1625,
+                "confirmed": true,
+                "confirmation": "no_gap",
+                "evidence_stroke": 1628,
+                "evidence_at": "2026-10-02T22:00:00+00:00",
+                "feature_indices": [
+                  [
+                    1622,
+                    1624
+                  ],
+                  [
+                    1626
+                  ],
+                  [
+                    1628
+                  ]
+                ],
+                "reverse_feature_indices": [],
+                "range_low": 82500.1,
+                "range_high": 87385.1,
+                "local_evidence_stroke": 1628
+              },
+              {
+                "start": {
+                  "index": 23425,
+                  "kind": "bottom",
+                  "price": 82500.1,
+                  "time": "2026-09-28T14:00:00+00:00"
+                },
+                "end": {
+                  "index": 23492,
+                  "kind": "top",
+                  "price": 87249.6,
+                  "time": "2026-10-02T12:00:00+00:00"
+                },
+                "first_stroke": 1626,
+                "last_stroke": 1628,
+                "confirmed": true,
+                "confirmation": "no_gap",
+                "evidence_stroke": 1635,
+                "evidence_at": "2026-10-12T10:00:00+00:00",
+                "feature_indices": [
+                  [
+                    1627
+                  ],
+                  [
+                    1629,
+                    1631,
+                    1633
+                  ],
+                  [
+                    1635
+                  ]
+                ],
+                "reverse_feature_indices": [],
+                "range_low": 82500.1,
+                "range_high": 87249.6,
+                "local_evidence_stroke": 1635
+              }
+            ],
+            "pending": {
+              "start": {
+                "index": 23492,
+                "kind": "top",
+                "price": 87249.6,
+                "time": "2026-10-02T12:00:00+00:00"
+              },
+              "end": {
+                "index": 23604,
+                "kind": "bottom",
+                "price": 80344.8,
+                "time": "2026-10-08T17:00:00+00:00"
+              },
+              "first_stroke": 1629,
+              "last_stroke": 1635,
+              "confirmed": false,
+              "confirmation": "pending",
+              "evidence_stroke": null,
+              "evidence_at": null,
+              "feature_indices": [],
+              "reverse_feature_indices": [],
+              "range_low": 80344.8,
+              "range_high": 87249.6,
+              "local_evidence_stroke": null
+            },
+            "diagnostics": {
+              "unassigned_completed_strokes": 7,
+              "candidate_turns": [],
+              "status": "waiting_future_strokes",
+              "last_completed_stroke_end": "2026-10-08T17:00:00+00:00"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "audited_at": "2026-10-12T18:50:10.681044+00:00",
+  "source_asof": "2026-10-12T17:43:00+00:00",
+  "limitations": [
+    "固定已完成笔前缀；不承诺 K 线选笔永不重绘",
+    "规则重建与不变量检验；不等同于原课所有图例逐点复现",
+    "反向合法跨度是本项目的额外确认政策"
+  ],
+  "code_sha256": {
+    "chan.py": "55bd4ce21fa35e37e0ed25eeff58b0e800316418f4af40265ce98b46450133c5",
+    "chan_structure.py": "2ff167641c64cc5537f2c64cc186a137120aa44b6f553682d8093eab9c831597",
+    "test_structure.py": "49470fb8026ce2f396f9514222e4a6b686cce3cb78ae1b32f58bf5f71a5783bc"
+  }
+}

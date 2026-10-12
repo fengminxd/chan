@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "cases": [
+    {
+      "id": "lesson65_up_inclusion", "title": "向上包含的顺序合并",
+      "source": "https://chanlun108.cn/chanzhongshuochan108ke/65.html",
+      "provenance": "reconstructed_rule", "kind": "inclusion",
+      "input": {"ranges": [[0, 2], [1, 4], [2, 3]]},
+      "expected": {"ranges": [[0, 2], [2, 4]]}
+    },
+    {
+      "id": "lesson67_no_gap", "title": "无缺口特征序列分型确认",
+      "source": "https://chanlun108.cn/chanzhongshuochan108ke/67.html",
+      "provenance": "reconstructed_rule", "kind": "segments",
+      "input": {"prices": [0, 8, 4, 10, 6, 9, 5]},
+      "expected": {"end_prices": [10], "confirmation": ["no_gap"], "evidence_indices": [5]}
+    },
+    {
+      "id": "lesson67_gap_wait", "title": "有缺口时不能只凭第一个分型确认",
+      "source": "https://chanlun108.cn/chanzhongshuochan108ke/67.html",
+      "provenance": "reconstructed_rule", "kind": "segments",
+      "input": {"prices": [0, 8, 4, 14, 10, 13, 9]},
+      "expected": {"end_prices": [], "pending_end": 14}
+    },
+    {
+      "id": "lesson67_gap_reverse", "title": "缺口未封闭也可由反向分型确认",
+      "source": "https://chanlun108.cn/chanzhongshuochan108ke/67.html",
+      "provenance": "reconstructed_rule", "kind": "segments",
+      "input": {"prices": [0, 8, 4, 14, 10, 13, 9, 12, 10, 13]},
+      "expected": {"end_prices": [14, 9], "confirmation": ["gap_reverse_fractal", "no_gap"]}
+    },
+    {
+      "id": "lesson71_protected_boundary", "title": "转折点前后的包含不能吞掉反向破坏",
+      "source": "https://chanlun108.cn/chanzhongshuochan108ke/71.html",
+      "provenance": "reconstructed_rule", "kind": "segments",
+      "input": {"prices": [0, 8, 4, 10, 2, 7, 3, 6, 1]},
+      "expected": {"end_prices": [10], "evidence_indices": [7]}
+    },
+    {
+      "id": "lesson81_equal_is_inclusion", "title": "平底包含不直接确认反向分型",
+      "source": "https://chanlun108.cn/chanzhongshuochan108ke/81.html",
+      "provenance": "reconstructed_rule", "kind": "segments",
+      "note": "依据文字中的等价/包含条件重建，不是原图的逐坐标录入。",
+      "input": {"prices": [0, 8, 4, 14, 10, 13, 9, 12, 9, 13]},
+      "expected": {"end_prices": [], "pending_end": 14}
+    },
+    {
+      "id": "lesson20_extension", "title": "延伸保持核心区间，Z走势更新波动范围",
+      "source": "https://chanlun108.cn/chanzhongshuochan108ke/20.html",
+      "provenance": "reconstructed_rule", "kind": "evolution",
+      "input": {"prices": [0, 12, 6, 10, 7, 14, 8]},
+      "expected": {"centers": [{"zd": 7, "zg": 10, "dd": 6, "gg": 14, "status": "extending"}], "signals": []}
+    },
+    {
+      "id": "lesson20_third_buy", "title": "向上离开后首次回试不入中枢",
+      "source": "https://chanlun108.cn/chanzhongshuochan108ke/20.html",
+      "provenance": "reconstructed_rule", "kind": "evolution",
+      "input": {"prices": [0, 12, 6, 10, 7, 15, 13]},
+      "expected": {"centers": [{"zd": 7, "zg": 10, "dd": 6, "gg": 12, "status": "left_up"}], "signals": ["B3"]}
+    },
+    {
+      "id": "lesson20_expansion", "title": "核心相离但波动重叠，应标扩展而非上涨趋势",
+      "source": "https://chanlun108.cn/chanzhongshuochan108ke/20.html",
+      "provenance": "reconstructed_rule", "kind": "evolution",
+      "input": {"prices": [0, 12, 6, 10, 7, 15, 11, 16, 12]},
+      "expected": {"relations": ["expansion"], "classification": "higher_level_consolidation"}
+    },
+    {
+      "id": "lesson35_recursive_types", "title": "用下层走势完整范围构成上层中枢",
+      "source": "https://chanlun108.cn/chanzhongshuochan108ke/35.html",
+      "provenance": "reconstructed_rule", "kind": "hierarchy",
+      "input": {"prices": [0, 10, 4, 12, 3, 11, 5, 13, 2, 14]},
+      "expected": {"counts": [3, 1], "highest_core": [3, 12]}
+    },
+    {
+      "id": "lesson101_weak_second", "title": "第二类点允许越过第一类点的价格",
+      "source": "https://chanlun108.cn/chanzhongshuochan108ke/101.html",
+      "provenance": "reconstructed_rule", "kind": "weak_second",
+      "input": {"prices": [0, 12, 6, 10, 7, 15, 13, 18, 14, 21, 19, 23, 20]},
+      "expected": {"signals": ["S1", "S2"], "second_price": 23, "strength": "weak_new_extreme"}
+    },
+    {
+      "id": "lesson27_vanke_quarterly_points", "title": "万科季度案例：原文四个转折价的几何核对",
+      "source": "https://chanlun108.cn/chanzhongshuochan108ke/27.html",
+      "provenance": "original_text_points", "kind": "price_legs",
+      "input": {"prices": [36.7, 3.2, 15.99, 3.12], "quarter_labels": ["1993Q1", "1996Q1", "2001Q3", "2005Q3"]},
+      "expected": {"core": [3.2, 15.99], "first_decline": 33.5, "third_decline": 12.87, "new_low": true},
+      "unverified": ["原始季度 OHLC 与复权口径", "MACD 柱面积及预热", "完整分型/笔/线段划分", "原文背驰结论"]
+    },
+    {
+      "id": "lesson24_601628_5m", "title": "中国人寿 2007 年 1 月五分钟背驰案例",
+      "source": "https://chanlun108.cn/chanzhongshuochan108ke/24.html",
+      "provenance": "historical_ohlcv_required", "kind": "historical_macd",
+      "input": {"csv": "601628_5m.csv", "labels": "601628_5m.labels.json",
+                "a_start": "2007-01-15T10:35:00+08:00", "a_end": "2007-01-16T10:25:00+08:00",
+                "c_start": "2007-01-17T10:10:00+08:00"},
+      "expected": {"c_area_smaller": true, "new_high": true},
+      "unverified": ["完整原始分钟行情及复权口径", "原文 C 段终点人工标注", "交易时段连续性与线段复核"]
+    }
+  ]
+}

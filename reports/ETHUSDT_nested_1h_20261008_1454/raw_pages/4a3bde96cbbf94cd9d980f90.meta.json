@@ -1,0 +1,6 @@
+{
+  "url": "https://fapi.binance.com/fapi/v1/ticker/24hr?symbol=ETHUSDT",
+  "downloaded_at": "2026-10-08T14:59:28.378949+00:00",
+  "server_date": "Thu, 08 Oct 2026 14:59:28 GMT",
+  "sha256": "f3f722019b1007e73161398570bada852560eb031c19313fe05553423005f8d5"
+}

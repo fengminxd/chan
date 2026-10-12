@@ -1,0 +1,323 @@
+[
+  {
+    "cutoff_beijing": "2026-10-12T14:00:00+08:00",
+    "closed_bars": 33134,
+    "last_stroke": {
+      "start": {
+        "index": 23604,
+        "kind": "bottom",
+        "price": 80344.8,
+        "time": "2026-10-08T17:00:00+00:00"
+      },
+      "end": {
+        "index": 23658,
+        "kind": "top",
+        "price": 84180.0,
+        "time": "2026-10-11T17:00:00+00:00"
+      },
+      "provisional": true,
+      "confirmed_at": null
+    },
+    "last_confirmed_segment": {
+      "start": {
+        "index": 23425,
+        "kind": "bottom",
+        "price": 82500.1,
+        "time": "2026-09-28T14:00:00+00:00"
+      },
+      "end": {
+        "index": 23492,
+        "kind": "top",
+        "price": 87249.6,
+        "time": "2026-10-02T12:00:00+00:00"
+      },
+      "first_stroke": 1626,
+      "last_stroke": 1628,
+      "confirmed": true,
+      "confirmation": "no_gap",
+      "evidence_stroke": 1635,
+      "evidence_at": "2026-10-11T22:00:00+00:00",
+      "feature_indices": [
+        [
+          1627
+        ],
+        [
+          1629,
+          1631,
+          1633
+        ],
+        [
+          1635
+        ]
+      ],
+      "reverse_feature_indices": [],
+      "range_low": 82500.1,
+      "range_high": 87249.6,
+      "local_evidence_stroke": 1635
+    },
+    "pending_segment": {
+      "start": {
+        "index": 23492,
+        "kind": "top",
+        "price": 87249.6,
+        "time": "2026-10-02T12:00:00+00:00"
+      },
+      "end": {
+        "index": 23604,
+        "kind": "bottom",
+        "price": 80344.8,
+        "time": "2026-10-08T17:00:00+00:00"
+      },
+      "first_stroke": 1629,
+      "last_stroke": 1635,
+      "confirmed": false,
+      "confirmation": "pending",
+      "evidence_stroke": null,
+      "evidence_at": null,
+      "feature_indices": [],
+      "reverse_feature_indices": [],
+      "range_low": 80344.8,
+      "range_high": 87249.6,
+      "local_evidence_stroke": null
+    },
+    "target_signals": []
+  },
+  {
+    "cutoff_beijing": "2026-10-12T17:00:00+08:00",
+    "closed_bars": 33137,
+    "last_stroke": {
+      "start": {
+        "index": 23604,
+        "kind": "bottom",
+        "price": 80344.8,
+        "time": "2026-10-08T17:00:00+00:00"
+      },
+      "end": {
+        "index": 23658,
+        "kind": "top",
+        "price": 84180.0,
+        "time": "2026-10-11T17:00:00+00:00"
+      },
+      "provisional": true,
+      "confirmed_at": null
+    },
+    "last_confirmed_segment": {
+      "start": {
+        "index": 23425,
+        "kind": "bottom",
+        "price": 82500.1,
+        "time": "2026-09-28T14:00:00+00:00"
+      },
+      "end": {
+        "index": 23492,
+        "kind": "top",
+        "price": 87249.6,
+        "time": "2026-10-02T12:00:00+00:00"
+      },
+      "first_stroke": 1626,
+      "last_stroke": 1628,
+      "confirmed": true,
+      "confirmation": "no_gap",
+      "evidence_stroke": 1635,
+      "evidence_at": "2026-10-11T22:00:00+00:00",
+      "feature_indices": [
+        [
+          1627
+        ],
+        [
+          1629,
+          1631,
+          1633
+        ],
+        [
+          1635
+        ]
+      ],
+      "reverse_feature_indices": [],
+      "range_low": 82500.1,
+      "range_high": 87249.6,
+      "local_evidence_stroke": 1635
+    },
+    "pending_segment": {
+      "start": {
+        "index": 23492,
+        "kind": "top",
+        "price": 87249.6,
+        "time": "2026-10-02T12:00:00+00:00"
+      },
+      "end": {
+        "index": 23604,
+        "kind": "bottom",
+        "price": 80344.8,
+        "time": "2026-10-08T17:00:00+00:00"
+      },
+      "first_stroke": 1629,
+      "last_stroke": 1635,
+      "confirmed": false,
+      "confirmation": "pending",
+      "evidence_stroke": null,
+      "evidence_at": null,
+      "feature_indices": [],
+      "reverse_feature_indices": [],
+      "range_low": 80344.8,
+      "range_high": 87249.6,
+      "local_evidence_stroke": null
+    },
+    "target_signals": []
+  },
+  {
+    "cutoff_beijing": "2026-10-12T18:00:00+08:00",
+    "closed_bars": 33138,
+    "last_stroke": {
+      "start": {
+        "index": 23604,
+        "kind": "bottom",
+        "price": 80344.8,
+        "time": "2026-10-08T17:00:00+00:00"
+      },
+      "end": {
+        "index": 23666,
+        "kind": "top",
+        "price": 84340.2,
+        "time": "2026-10-12T06:00:00+00:00"
+      },
+      "provisional": true,
+      "confirmed_at": null
+    },
+    "last_confirmed_segment": {
+      "start": {
+        "index": 23425,
+        "kind": "bottom",
+        "price": 82500.1,
+        "time": "2026-09-28T14:00:00+00:00"
+      },
+      "end": {
+        "index": 23492,
+        "kind": "top",
+        "price": 87249.6,
+        "time": "2026-10-02T12:00:00+00:00"
+      },
+      "first_stroke": 1626,
+      "last_stroke": 1628,
+      "confirmed": true,
+      "confirmation": "no_gap",
+      "evidence_stroke": 1635,
+      "evidence_at": "2026-10-12T10:00:00+00:00",
+      "feature_indices": [
+        [
+          1627
+        ],
+        [
+          1629,
+          1631,
+          1633
+        ],
+        [
+          1635
+        ]
+      ],
+      "reverse_feature_indices": [],
+      "range_low": 82500.1,
+      "range_high": 87249.6,
+      "local_evidence_stroke": 1635
+    },
+    "pending_segment": {
+      "start": {
+        "index": 23492,
+        "kind": "top",
+        "price": 87249.6,
+        "time": "2026-10-02T12:00:00+00:00"
+      },
+      "end": {
+        "index": 23604,
+        "kind": "bottom",
+        "price": 80344.8,
+        "time": "2026-10-08T17:00:00+00:00"
+      },
+      "first_stroke": 1629,
+      "last_stroke": 1635,
+      "confirmed": false,
+      "confirmation": "pending",
+      "evidence_stroke": null,
+      "evidence_at": null,
+      "feature_indices": [],
+      "reverse_feature_indices": [],
+      "range_low": 80344.8,
+      "range_high": 87249.6,
+      "local_evidence_stroke": null
+    },
+    "target_signals": [
+      {
+        "id": "1h:block:0:strokes:pending:S2:P1636",
+        "label": "S2",
+        "level": 1,
+        "time": "2026-10-12T06:00:00+00:00",
+        "price": 84340.2,
+        "evidence_at": "2026-10-12T10:00:00+00:00",
+        "observed_at": "2026-10-12T10:00:00+00:00",
+        "certainty": "pending_stroke_candidate",
+        "basis": "1h笔级",
+        "child_index": 1636,
+        "center_id": null,
+        "source_ids": [
+          "P1634",
+          "P1635",
+          "P1636"
+        ],
+        "actionable": false,
+        "higher_point_confirmed": false,
+        "details": {
+          "first_point_confirmed": false,
+          "origin_time": "2026-10-06T15:00:00+00:00",
+          "origin_price": 86664.9,
+          "policy": "first_retest_holds_origin",
+          "missing": "1h转折性质待证；不破极值只是二类候选位置",
+          "scope": "stable_tail_endpoint_candidate_only",
+          "candidate_policy": "entry_plan_period_candidates",
+          "endpoint_stable_at": "2026-10-12T10:00:00+00:00",
+          "stroke_completed": false,
+          "parent_invalidation": {
+            "price": 86664.9,
+            "comparison": "gt"
+          }
+        }
+      },
+      {
+        "id": "1h:block:0:strokes:pending:S3:P1636",
+        "label": "S3",
+        "level": 1,
+        "time": "2026-10-12T06:00:00+00:00",
+        "price": 84340.2,
+        "evidence_at": "2026-10-12T10:00:00+00:00",
+        "observed_at": "2026-10-12T10:00:00+00:00",
+        "certainty": "pending_stroke_candidate",
+        "basis": "1h笔级",
+        "child_index": 1636,
+        "center_id": "1h:block:0:strokes:L1:E207",
+        "source_ids": [
+          "P1634",
+          "P1635",
+          "P1636"
+        ],
+        "actionable": false,
+        "higher_point_confirmed": false,
+        "details": {
+          "zd": 85072.7,
+          "zg": 86034.0,
+          "center_id": "L1:E207",
+          "boundary_policy": "touch_is_return",
+          "departure_start": "2026-10-06T15:00:00+00:00",
+          "missing": "1h首次回试尚未按完成走势确认",
+          "scope": "stable_tail_endpoint_candidate_only",
+          "candidate_policy": "entry_plan_period_candidates",
+          "endpoint_stable_at": "2026-10-12T10:00:00+00:00",
+          "stroke_completed": false,
+          "parent_invalidation": {
+            "price": 85072.7,
+            "comparison": "ge"
+          }
+        }
+      }
+    ]
+  }
+]

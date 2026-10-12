@@ -1,0 +1,40 @@
+{
+  "short_start": "2026-06-01T00:00:00+00:00",
+  "extended_start": "2026-02-17T16:00:00+00:00",
+  "candidates_match": true,
+  "extended_candidates": [
+    {
+      "id": "1h:B2:2026-10-10T08:00:00+00:00",
+      "label": "B2",
+      "side": "long",
+      "period": "1h",
+      "main_period": "1h",
+      "state": "candidate",
+      "higher_point_confirmed": false,
+      "basis": "1h_stroke_observation_not_completed_type_signal",
+      "developing_leg": true,
+      "observed_at": "2026-10-11T14:53:00+00:00",
+      "interval": {
+        "start": "2026-10-11T02:48:00+00:00",
+        "end": "2026-10-11T05:00:00+00:00",
+        "low": 0.10153,
+        "high": 0.1239,
+        "focus_time": "2026-10-11T04:24:00+00:00",
+        "focus_price": 0.10153
+      },
+      "candidate_price": 0.10153,
+      "candidate_time": "2026-10-11T04:24:00+00:00",
+      "parent_invalidation": {
+        "price": 0.06896,
+        "comparison": "lt"
+      },
+      "details": {
+        "first_point_confirmed": false,
+        "origin_time": "2026-10-10T08:00:00+00:00",
+        "origin_price": 0.06896,
+        "policy": "first_retest_holds_origin",
+        "missing": "1h转折性质待证；不破极值只是二类候选位置"
+      }
+    }
+  ]
+}

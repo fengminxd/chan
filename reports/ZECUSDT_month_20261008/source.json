@@ -1,0 +1,1384 @@
+{
+  "symbol": "ZECUSDT",
+  "market": "Binance USD-M perpetual",
+  "as_of": "2026-10-08T04:51:00+00:00",
+  "start": "2026-06-01T00:00:00+00:00",
+  "count": 186051,
+  "cache_source": null,
+  "cache_sha256": null,
+  "history_sha256": "88e3198c5a7fb65b0b7d158f81385d626b95e957d2fddc6d5bef5a56099c7006",
+  "ticker": {
+    "closeTime": 1791435141064,
+    "count": 4393383,
+    "firstId": 1648003950,
+    "highPrice": "1347.54",
+    "lastId": 1652400550,
+    "lastPrice": "1244.33",
+    "lastQty": "0.010",
+    "lowPrice": "1225.62",
+    "openPrice": "1317.25",
+    "openTime": 1791348720000,
+    "priceChange": "-72.92",
+    "priceChangePercent": "-5.536",
+    "quoteVolume": "1782503534.72",
+    "symbol": "ZECUSDT",
+    "volume": "1365711.813",
+    "weightedAvgPrice": "1305.18"
+  },
+  "premium": {
+    "symbol": "ZECUSDT",
+    "markPrice": "1244.75198348",
+    "indexPrice": "1245.02460188",
+    "estimatedSettlePrice": "1245.52146306",
+    "lastFundingRate": "0.00005816",
+    "interestRate": "0.00010000",
+    "nextFundingTime": 1791446400000,
+    "time": 1791435145000
+  },
+  "price_filter": {
+    "maxPrice": "100000",
+    "filterType": "PRICE_FILTER",
+    "minPrice": "2.85",
+    "tickSize": "0.01"
+  },
+  "requests": [
+    {
+      "url": "https://fapi.binance.com/fapi/v1/time",
+      "downloaded_at": "2026-10-08T04:51:39.239314+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:39 GMT",
+      "sha256": "a689c13b1dee72b7723d1d38a5fd7b4549484523f664756e3e7e1811ed1b400e",
+      "file": "raw_pages/21c386781f34f7460f069679.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1780272000000&endTime=1780331999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:39.322659+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:39 GMT",
+      "sha256": "4d1e2003e3a38931deb95376443ba645fb389c99c1e1f7940bcbe46a8cbc28cf",
+      "file": "raw_pages/d3db217392d19d440c5303d1.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1780332000000&endTime=1780391999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:39.504634+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:39 GMT",
+      "sha256": "9a53e2ad4be12a6e906035c99d5388daf235a79564da771916a317a1f8982e12",
+      "file": "raw_pages/fc4e7c7da235c643593c5727.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1780392000000&endTime=1780451999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:39.685109+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:39 GMT",
+      "sha256": "231cd8f1468f3243d23223f5e2ed88dd74bdb05aa9d3a482e8b0d62446065343",
+      "file": "raw_pages/9184f2a2d7c62db2bb41f58c.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1780452000000&endTime=1780511999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:39.864459+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:39 GMT",
+      "sha256": "1157c0937aa5edb2800b3829881e981d8d509fec965373ee6b827dba87c9f700",
+      "file": "raw_pages/9cf686c26bf6b893f47d365c.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1780512000000&endTime=1780571999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:40.050223+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:40 GMT",
+      "sha256": "27fa74d42d654ca03bef7bf4f55b6d025c925662bf34eb0d928562304d5c1065",
+      "file": "raw_pages/4a3b840c16505ad5128e68ac.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1780572000000&endTime=1780631999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:40.230128+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:40 GMT",
+      "sha256": "eb7a7f227a0cf3209783cdba9b43b6d9a83431bb0680a05319bb3ece279ea1ba",
+      "file": "raw_pages/b4c29d3bf6077f6a381e2d9b.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1780632000000&endTime=1780691999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:40.412950+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:40 GMT",
+      "sha256": "eaccdfbd93fd98671cdd018a4f16a3a711fb905d74e56e02e5a76124c8611e2b",
+      "file": "raw_pages/671f28cada678cae3a0ba46d.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1780692000000&endTime=1780751999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:40.601796+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:40 GMT",
+      "sha256": "fec78c5e2390c36c7128fd4602b4d990485283fe5372e35f8e885cfb402d6a8f",
+      "file": "raw_pages/8dc405875855cdfed8663f38.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1780752000000&endTime=1780811999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:40.785945+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:40 GMT",
+      "sha256": "93eafc4ccd7e13de9d761f42cc58969040ff2a544c83f68f9b240d9b30bd1692",
+      "file": "raw_pages/abcea6f05c0e6ad0e6b7647b.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1780812000000&endTime=1780871999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:41.004913+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:40 GMT",
+      "sha256": "28ee071bec50367f3ce049f53c14e6b766ad778e19db098bffa10a1b6eede0ce",
+      "file": "raw_pages/4acfa7296f39c15b3a795aee.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1780872000000&endTime=1780931999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:41.190002+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:41 GMT",
+      "sha256": "6748c49772cbefb10a19d5dca15b404dcf76afef41cefec920790d7ab37169f1",
+      "file": "raw_pages/07a0d55b2c9145e3b25490a3.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1780932000000&endTime=1780991999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:41.379523+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:41 GMT",
+      "sha256": "5baaa86d1f7afb8743de93c1ab297ae5206f2bc520510bcfda0d720252d0f0d8",
+      "file": "raw_pages/ae6037833b249f968f2be07f.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1780992000000&endTime=1781051999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:41.559576+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:41 GMT",
+      "sha256": "c21881a46504f25b1c4c7e843bb90a56f74110fa4755154d0d8f86468a251ac8",
+      "file": "raw_pages/aa17fa0810b161253cd4cadc.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1781052000000&endTime=1781111999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:41.771125+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:41 GMT",
+      "sha256": "a5d6aeff1d45401d6e9e45a182804bea69f3f4fb599cf1d4ecdf0da67fa3b8bf",
+      "file": "raw_pages/383b35de46f4e36e7635689e.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1781112000000&endTime=1781171999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:41.955460+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:41 GMT",
+      "sha256": "7b51f42d5f86c56e9d6bdbdd0b88d9aa68b63247afff4962e4fbafb6daccd80e",
+      "file": "raw_pages/12b44a7607c0d2ac420beed6.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1781172000000&endTime=1781231999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:42.165273+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:42 GMT",
+      "sha256": "7f8f37018f7959a1e5dc592388bd9a77c0fc84e3ea354a0be16e01bf6e0a8e5f",
+      "file": "raw_pages/fc197a4705b23b84eb6643fe.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1781232000000&endTime=1781291999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:42.347239+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:42 GMT",
+      "sha256": "c1ecbe0840a92c3134a045df0cb162a73f8748c428cb75631c5599ab4a5af676",
+      "file": "raw_pages/f9df752aa11ad1364a1c2421.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1781292000000&endTime=1781351999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:42.527983+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:42 GMT",
+      "sha256": "3f9dc51c2be8ef4cd86b766c69c48a00ead8c6c028925c636055f426a8e900ea",
+      "file": "raw_pages/501c2d510dcde0a105c75f4e.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1781352000000&endTime=1781411999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:42.868696+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:42 GMT",
+      "sha256": "0b00431296b040675b7262615ac38dcafedf78d28707ea5f632cba1876756687",
+      "file": "raw_pages/ebf2dc29c1296f1e696b2b62.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1781412000000&endTime=1781471999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:43.052023+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:43 GMT",
+      "sha256": "890834a955e0ce1c534552632c217d75f8f1f3fde3766299f545e5a981328072",
+      "file": "raw_pages/5875c437309ba03e913ac96a.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1781472000000&endTime=1781531999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:43.233725+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:43 GMT",
+      "sha256": "c6e3c1fca4aa0fcf92ef2888300d080bbd6144a922a453a967def8f7490d1fd1",
+      "file": "raw_pages/e7236824216646ea38b6a7e4.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1781532000000&endTime=1781591999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:43.479621+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:43 GMT",
+      "sha256": "5563e9dedcc2ad910fdf5fbe94f1df5a31bb3609e156616c821206c93c56946b",
+      "file": "raw_pages/c271043c9af362cf1bf4821e.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1781592000000&endTime=1781651999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:43.758341+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:43 GMT",
+      "sha256": "98818ee222d8a0127a767e10a269cadd637ad828bf822ef6c05aa66c8d1464d6",
+      "file": "raw_pages/bd1f889f9c69942f41ed44f1.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1781652000000&endTime=1781711999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:43.940623+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:43 GMT",
+      "sha256": "a81a6d6533fb9ffbb92f10ddd54b2d2e22c5608c2da568f0879668120b294e16",
+      "file": "raw_pages/964fb284836223822cab5ac9.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1781712000000&endTime=1781771999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:44.124806+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:44 GMT",
+      "sha256": "13bf4d83542eef2a1913ecfd8ca388008e9d5774ebefa585daed0596aeb5dfa4",
+      "file": "raw_pages/c99fab7ccec3a391d251958d.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1781772000000&endTime=1781831999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:44.314295+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:44 GMT",
+      "sha256": "f54c3cecb76687bc9efaf20709ac321dea83d6c0ae495c42460e1fa8a85b7dd9",
+      "file": "raw_pages/23c379bd8e021c8729767548.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1781832000000&endTime=1781891999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:44.501256+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:44 GMT",
+      "sha256": "6ab0f21cecabd9d4e8d9f54a5f8e15cf99cfd6d0e590f561371dfc2d7c4757bb",
+      "file": "raw_pages/452db14b1d0c41ccd935ed9a.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1781892000000&endTime=1781951999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:44.683814+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:44 GMT",
+      "sha256": "0c99d61ba59ac08486e9f79a1fd51665963cc5fdc3068c97549f847f827da89d",
+      "file": "raw_pages/9cd31ff195cd440287df693b.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1781952000000&endTime=1782011999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:44.958790+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:44 GMT",
+      "sha256": "5f46f611268a5962827d49da8332ccc1d6dd443a02e80c3bceff994ab4730f31",
+      "file": "raw_pages/f30b0fd1bf2271bbb32c2086.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1782012000000&endTime=1782071999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:45.139991+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:45 GMT",
+      "sha256": "99d301d1f1119aae5d8c74b400daedf7d94e93ced5d5e02c2cb1a36735fa056c",
+      "file": "raw_pages/56e21b09175de44ba79cfb9e.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1782072000000&endTime=1782131999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:45.358095+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:45 GMT",
+      "sha256": "df9a050f00f05550d62a307385567ad7098d527dad4e3db3201d065eab14d3d3",
+      "file": "raw_pages/c40b11457148cc11514f0797.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1782132000000&endTime=1782191999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:45.543491+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:45 GMT",
+      "sha256": "fa8fb61334fb7de5a21b1eae5eca9c7216d151fdd73da952d8b5ba93c39c2e07",
+      "file": "raw_pages/f9ebc3478608ef9a2210d1ce.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1782192000000&endTime=1782251999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:45.736109+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:45 GMT",
+      "sha256": "5643547527d19e813c9222cc2ad5e738c705a06d64b8e679c3c8be2dd9b4faa8",
+      "file": "raw_pages/c681b6eaef466732563559d9.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1782252000000&endTime=1782311999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:45.920341+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:45 GMT",
+      "sha256": "4f5b2f257822a28c73242fcafe6135dda899dea8db9ce95089f1579cb2d3867c",
+      "file": "raw_pages/39494723c99211d142de3a7e.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1782312000000&endTime=1782371999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:46.101777+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:46 GMT",
+      "sha256": "737908623788d0506c8e480ff27582d7a2d2d5f6756ed8d4548839a0c0bfc3dd",
+      "file": "raw_pages/2899875b78098537514552a6.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1782372000000&endTime=1782431999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:53.050440+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:53 GMT",
+      "sha256": "c005b5478fe9f5ccdc5c722f14ab0ac8db9834c5aefff6f4c475f2c144a9fe15",
+      "file": "raw_pages/8678d591813b41958ed491f7.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1782432000000&endTime=1782491999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:53.233095+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:53 GMT",
+      "sha256": "471e6f445a51473c8f3d5e3c4b50d4c664c49d406a5323f15f7b27fed1265ceb",
+      "file": "raw_pages/7970d01842ac75fe6e7dba0f.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1782492000000&endTime=1782551999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:53.420785+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:53 GMT",
+      "sha256": "774114b166c9caee3fda88075a621e45db2d6d648a63f06387062090dc6bb90e",
+      "file": "raw_pages/d5e4512bddefa3894bc3540f.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1782552000000&endTime=1782611999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:53.603941+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:53 GMT",
+      "sha256": "0522c505cc22f2c0082a69a8556396e6f3016a16e5a7b65c0276bd8714562330",
+      "file": "raw_pages/189d1e58c17026080ac03f4a.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1782612000000&endTime=1782671999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:53.790239+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:53 GMT",
+      "sha256": "086fe316eae2bff107427ed8946ae0db1572eaca72d01a3125c0f6927e36683b",
+      "file": "raw_pages/01e15f266e83a2f3558511b0.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1782672000000&endTime=1782731999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:53.975719+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:53 GMT",
+      "sha256": "ddd22e4720bc540a5ff13f8acbaca3afd7f29ba4984b30da2fdf67b53159dbd8",
+      "file": "raw_pages/876b113e536478c18b6e92c6.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1782732000000&endTime=1782791999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:54.158314+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:54 GMT",
+      "sha256": "d5000cfb87b1dd0c287fb2c0eb6246482c1e0240609f0348c01d4f2353cda3fd",
+      "file": "raw_pages/c429ff62a894c3dd52b4ede8.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1782792000000&endTime=1782851999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:54.433516+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:54 GMT",
+      "sha256": "ca649fb2e8d9df39301ffd8af7787dac1bfe7645a3b7b813f387f4542f546fdd",
+      "file": "raw_pages/6bb621dd2fb6fab8ea9f4a18.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1782852000000&endTime=1782911999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:54.644734+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:54 GMT",
+      "sha256": "4dc7ee89d2fed10d21c9b453ebb91fa0060d677547adbc63ffd66561c34ecae7",
+      "file": "raw_pages/3428da27a8ca90fe817cf3b0.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1782912000000&endTime=1782971999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:54.828232+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:54 GMT",
+      "sha256": "ff1f138598fca6391b4f18d5e90a214639aabf61a3b1b17a997264eb7379367c",
+      "file": "raw_pages/fd2241e9f411f70e9b156a68.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1782972000000&endTime=1783031999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:55.012943+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:54 GMT",
+      "sha256": "c561ed92d73a4521caeee1ab545761314d06bfc3d6faf19cacc9f584c62fa484",
+      "file": "raw_pages/def548703bbf4b8107d060fd.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1783032000000&endTime=1783091999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:55.191657+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:55 GMT",
+      "sha256": "0955fc243db9bd20a25fe4f64335274719d3b0c367f6fd39a1303a73edf8a3da",
+      "file": "raw_pages/cef37060e7a6f3303e17a229.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1783092000000&endTime=1783151999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:55.531255+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:55 GMT",
+      "sha256": "39e56e1d20f3dc0b3d44e41dbf14d1721cff96ad16d55bb76aab9cbdc248568a",
+      "file": "raw_pages/36ecc6173c71ddbe7a850c07.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1783152000000&endTime=1783211999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:55.804014+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:55 GMT",
+      "sha256": "34cf88b33c08cd7d35ed56ff83985a284e4a79430976cb641ff7eab0fe755f1c",
+      "file": "raw_pages/a9c202edea9f60cc51fe377f.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1783212000000&endTime=1783271999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:55.991860+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:55 GMT",
+      "sha256": "971b6d2e39382a9ac7608ffece2d663b9e67ee8dd89b9fa29592f414b4ce55c5",
+      "file": "raw_pages/db1f62685f3040b4a29a14cf.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1783272000000&endTime=1783331999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:56.171495+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:56 GMT",
+      "sha256": "b89526d8dc1799c999683b073a33dd502b5ff081a85feef099350aceb1e7c6d9",
+      "file": "raw_pages/e71bf899af392d96453aadcc.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1783332000000&endTime=1783391999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:56.352796+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:56 GMT",
+      "sha256": "7fc42650d0506a4280c8c4eb5be4acd0e26ce769e61b161ee5c471d377d6edfa",
+      "file": "raw_pages/0cbb07dd83efc29e6ffd4bf2.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1783392000000&endTime=1783451999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:56.536664+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:56 GMT",
+      "sha256": "85b46642e0fd746f3e7696ddad65115e226af64896bc64366343f524170d7630",
+      "file": "raw_pages/795d019cd54b55bef395eaa8.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1783452000000&endTime=1783511999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:56.874003+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:56 GMT",
+      "sha256": "c4643c1b24c4ee1c9a2002b1c9357ad396a6451dbb5373e221f417c07b591e72",
+      "file": "raw_pages/10cea1848ba92f56077ea480.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1783512000000&endTime=1783571999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:57.084853+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:57 GMT",
+      "sha256": "50144376ad2249cee0a1d79d8c8cbb0c8501872fdfdb0fec4dec9d4f6ee04399",
+      "file": "raw_pages/016d91580099fef9958fd4b6.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1783572000000&endTime=1783631999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:57.265003+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:57 GMT",
+      "sha256": "2efce9e6872b2505dc7ae015658f2ce6dbd403f3d8ac1f81fb269791b7104935",
+      "file": "raw_pages/1193ec3c672057dc38e88b18.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1783632000000&endTime=1783691999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:57.447844+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:57 GMT",
+      "sha256": "20674b40a4bd2c2c1d774ddbad2a2584830b647b53e22fd9883c980cfd834874",
+      "file": "raw_pages/5a5801be6e9be3e7cf8b2d5e.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1783692000000&endTime=1783751999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:57.627633+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:57 GMT",
+      "sha256": "90c561ad203342bdcb458d75e7b9073f58d9f5a36f25a6bd32523049dff73e20",
+      "file": "raw_pages/d654c8d0d5a4047b17c2b690.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1783752000000&endTime=1783811999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:57.809196+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:57 GMT",
+      "sha256": "1dedc57d9c19ace282f14bb02e04622b83d9a825771d659fea6e9955d34aae7d",
+      "file": "raw_pages/966577bf1e463b163dd570e8.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1783812000000&endTime=1783871999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:57.989840+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:57 GMT",
+      "sha256": "9964693bf3730c73416866868e5c028ebc5999bcd80fd3a288dd7b1a975f6a05",
+      "file": "raw_pages/d464887ac9b88884fead0c08.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1783872000000&endTime=1783931999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:58.173969+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:58 GMT",
+      "sha256": "e0bf62ba90f018e717286c19bb4ac5c8e31b10ba6e8a5b078f0ee88d45a54519",
+      "file": "raw_pages/2418b46d9a34bab577396515.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1783932000000&endTime=1783991999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:58.356153+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:58 GMT",
+      "sha256": "288927f7ef391d618be9a8ec290707ae0e47ff677dba4e1380b8a14c16df8b90",
+      "file": "raw_pages/d7f154f2dd4ee62ae6e15395.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1783992000000&endTime=1784051999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:58.566850+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:58 GMT",
+      "sha256": "879739f30d1cc4f87ae685a769138e3465b1ab324bd1a429ae9e41c4451b926c",
+      "file": "raw_pages/09546ca7c8e73bb7411636a2.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1784052000000&endTime=1784111999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:58.750676+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:58 GMT",
+      "sha256": "db821e6701b831a1b40a851fbe01717c8dd55f64db34ee03d568323a31d7f9ab",
+      "file": "raw_pages/3334e6c5764be40fa76d3c55.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1784112000000&endTime=1784171999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:58.933800+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:58 GMT",
+      "sha256": "b8292f49b4f9821bee714d061235e5b127b0b9fcbc7f4fc07385930631c250ee",
+      "file": "raw_pages/f62a04238c383819bdef31d9.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1784172000000&endTime=1784231999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:59.118549+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:59 GMT",
+      "sha256": "5df30f24d3bc8b06892846713f031d5a82839acd3830c69e7b60560bc691cf6b",
+      "file": "raw_pages/fbdf683e69727aabc435d012.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1784232000000&endTime=1784291999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:59.297684+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:59 GMT",
+      "sha256": "7ca0eeb6fb537546dd6163d8a19fec3399efe0408c273c28f9c9022f16d51f4a",
+      "file": "raw_pages/9ebcce2b41ec536dd729542f.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1784292000000&endTime=1784351999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:59.481528+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:59 GMT",
+      "sha256": "fba9cfb09c02e9f51b08bd53e94859876e009e8145c2afa479afe9d4ad84a756",
+      "file": "raw_pages/ec8c50786fdb4d5d29f2ae87.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1784352000000&endTime=1784411999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:59.662474+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:59 GMT",
+      "sha256": "b0e2c1b1389a3a64880077428ae49edac998721a2230464d325496104a3355f3",
+      "file": "raw_pages/c3f1517c63fed1c10b44fad9.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1784412000000&endTime=1784471999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:51:59.852710+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:51:59 GMT",
+      "sha256": "3dcdec3672190dfc288a272040452ee572ce7705ddadc117688b2e81961a7d56",
+      "file": "raw_pages/fbf6723277e26f0077e211f6.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1784472000000&endTime=1784531999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:00.131262+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:00 GMT",
+      "sha256": "37a8363be3434da790804b4e19677a7179e249d964cba8ff819ce65d9c66980e",
+      "file": "raw_pages/19914da26d14df7a77f481ab.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1784532000000&endTime=1784591999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:00.416967+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:00 GMT",
+      "sha256": "1c917965c620c6fe872f15b6431d267a90f727202d2788f878055ed31bdb6781",
+      "file": "raw_pages/2ad46f68e2a7a9a092d3ef8a.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1784592000000&endTime=1784651999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:00.628629+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:00 GMT",
+      "sha256": "5bd00530b090d4cc639fbcb07dccfb6c134c1a64cf815e28d3c3ff0e195bf5a7",
+      "file": "raw_pages/9cf9e01be97fdf4281a091c8.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1784652000000&endTime=1784711999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:00.844858+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:00 GMT",
+      "sha256": "1887c2c5bb20f0db2bf427822801a3ee3145823b9cd0ebb4d5f433534392432e",
+      "file": "raw_pages/ee480127a644d4d011eb1650.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1784712000000&endTime=1784771999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:01.029429+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:01 GMT",
+      "sha256": "6a11a924b378a7a7034e5044e17c6e25ce367173ce60163ead68a61401fa9319",
+      "file": "raw_pages/311f6a1a12e20f2681f758ed.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1784772000000&endTime=1784831999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:01.210273+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:01 GMT",
+      "sha256": "db7a3965b0301637500c0ef117729d571607ac9ac53d630eada2134a80c93504",
+      "file": "raw_pages/8253b64bc22140b292546e3f.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1784832000000&endTime=1784891999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:01.395088+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:01 GMT",
+      "sha256": "1d556cdfc9318a6e5c69a52c7b2857d2ba038572aa36ff9d12f8b4169852f1d5",
+      "file": "raw_pages/f50f631069165708e8c82505.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1784892000000&endTime=1784951999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:01.602250+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:01 GMT",
+      "sha256": "a6c35e638201c8ff1cc24d1a7ce940cd02414f91987ee1daf153fa4d939561d5",
+      "file": "raw_pages/c0a218ac00b3301be0e9390e.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1784952000000&endTime=1785011999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:01.802211+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:01 GMT",
+      "sha256": "d7894b89c4f4b44e9f534ca6aa5dd6c50a9b6d498ac7ab1082acd95bf316b15e",
+      "file": "raw_pages/8e451ee946e25ec91b18c352.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1785012000000&endTime=1785071999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:02.001557+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:01 GMT",
+      "sha256": "0c5eb3033a4643bff7a9f935b46da850202aef5b78e9b07188cd333d0dfa9b94",
+      "file": "raw_pages/cd72d55672ce9df7256bf43c.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1785072000000&endTime=1785131999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:02.200925+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:02 GMT",
+      "sha256": "1513aea8e7a17e73f129941819ce9432a81f6a5f7e91a8bcadcb164b893f8a5a",
+      "file": "raw_pages/207e6434f04ac997daf70285.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1785132000000&endTime=1785191999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:02.392455+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:02 GMT",
+      "sha256": "5898940fe515c2bbf5c87459d5d8c438238f00ed85c8e914cedf78c9d13b83bf",
+      "file": "raw_pages/ffd622df8f7211c2cb241e0d.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1785192000000&endTime=1785251999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:02.638092+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:02 GMT",
+      "sha256": "36bfdc1961ee1cbf046aac784cd2f9193e6919b97e2ea6cc472d70549e67f904",
+      "file": "raw_pages/60d100f2eb63d118fa25f88f.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1785252000000&endTime=1785311999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:02.913267+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:02 GMT",
+      "sha256": "9bc133c119f66fba9c156a75d66b9d91be083c7de1926a175f2790dae6a97296",
+      "file": "raw_pages/fd145926a0309ffdfef67d2a.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1785312000000&endTime=1785371999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:03.095656+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:03 GMT",
+      "sha256": "d8a2e5059cacc781fa86c97af35e07b05cd1b4b24ec52d3769408c17e6f49e06",
+      "file": "raw_pages/4635ef02d2969eb426d6a00f.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1785372000000&endTime=1785431999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:03.373855+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:03 GMT",
+      "sha256": "43663d0ef501a9dc7984ad6b48117a669a30e4ecb6e64c795db929291a4709a5",
+      "file": "raw_pages/ed575426afaa4dd1982049ac.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1785432000000&endTime=1785491999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:03.583048+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:03 GMT",
+      "sha256": "131e1a9a2c335098518ea252ec15c17a2b19ea6e29f7443e31294c4e682bdc39",
+      "file": "raw_pages/f109032ac22a9accf90fe55c.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1785492000000&endTime=1785551999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:03.766903+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:03 GMT",
+      "sha256": "37b8aa1df2dccbffa6a759f30e3ed0d5ebae228316d88ffc1cbda16d1ec1876b",
+      "file": "raw_pages/168851cf5a173b364155403c.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1785552000000&endTime=1785611999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:03.951803+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:03 GMT",
+      "sha256": "79d1a4db96df58ac8647ae1c092349a17e850ed2cbb85e95920b1676e51a78bb",
+      "file": "raw_pages/2f2fcedf0c8d514ff432d521.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1785612000000&endTime=1785671999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:04.134185+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:04 GMT",
+      "sha256": "7f89256a69573c9122ab325bdbd808849f21675945d028cba590145202b1dc9e",
+      "file": "raw_pages/6341ee27f634689d387c76ee.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1785672000000&endTime=1785731999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:04.345892+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:04 GMT",
+      "sha256": "d84d0d4fe04abe381b423d96d9b01f497c6f14c00ce8aaed7503fa4d8f5e8b9a",
+      "file": "raw_pages/9c3cb84f7a563ed88e01f7b4.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1785732000000&endTime=1785791999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:04.590194+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:04 GMT",
+      "sha256": "9f56b87f1312da4c2530e8afea38eaf08d34c97a3751e92d9d71ac7a522411ac",
+      "file": "raw_pages/ed82b0f3e270285bcf4c1831.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1785792000000&endTime=1785851999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:04.769300+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:04 GMT",
+      "sha256": "b7756a72c15005dd9fb126e0593a73afc462aa007ed4fb24514109ef74678519",
+      "file": "raw_pages/5d87abb0f8c7c63e7f4bd6d0.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1785852000000&endTime=1785911999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:04.954920+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:04 GMT",
+      "sha256": "de6f44cd1bc80f0a208a7c7905106777a2b32c4d0b181e406c8b427783fc2798",
+      "file": "raw_pages/e55c815b14999945f09bce7a.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1785912000000&endTime=1785971999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:05.140222+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:05 GMT",
+      "sha256": "455c9ffa90fc4f37fc5b5d712c64204a0c26f2fb4fb6017da027e39f4863c2a1",
+      "file": "raw_pages/1dc1a511fb6f5b1f7f072a75.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1785972000000&endTime=1786031999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:05.385380+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:05 GMT",
+      "sha256": "a51e40cf0bf37c3bbfbe64e906124809ca18ef2b22caf6af3d2476c6195bbbbc",
+      "file": "raw_pages/8e4e1fb2d5e5b8c20f162fd6.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1786032000000&endTime=1786091999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:05.659098+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:05 GMT",
+      "sha256": "da28109f3fece6bf2ce58c4aee53cd9253fd29ebe419aa4c3baf3153898ff1d4",
+      "file": "raw_pages/d94357b3750829a8811b86fb.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1786092000000&endTime=1786151999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:05.844989+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:05 GMT",
+      "sha256": "c2733949415fa485970f553c9afe4c5c2bee3a00f1d6312a76c6eee3f40fdf28",
+      "file": "raw_pages/56e9c1bfcd062980d00d5f6d.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1786152000000&endTime=1786211999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:06.056494+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:06 GMT",
+      "sha256": "ea4a500a4b6f84fab7e7a22ed0815b9bc0d2c32cefd2fe1b9c76a61f9ebd9fdf",
+      "file": "raw_pages/391d09951492e8d6bd12d86e.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1786212000000&endTime=1786271999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:06.240597+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:06 GMT",
+      "sha256": "772f8864436d151b62e7f7efbefa09b94a79a99b74c77c72b2e377823ca79508",
+      "file": "raw_pages/b42ee4bdd8097ee97ce33251.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1786272000000&endTime=1786331999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:06.420686+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:06 GMT",
+      "sha256": "c214ec9fe5d9f1e6f25c5147fc122e944c4d5474949b1c36133c89a82410af27",
+      "file": "raw_pages/9adf1fc528c3dd4febcc22ef.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1786332000000&endTime=1786391999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:06.602324+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:06 GMT",
+      "sha256": "60185098101884865e9642a8f99d774f19caab2f2a3dc6029fbe7834f828625b",
+      "file": "raw_pages/eedf3ae42d5a4ef3b5f09d6e.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1786392000000&endTime=1786451999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:06.822505+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:06 GMT",
+      "sha256": "b0c291c6d2ca0a1abae5ca82d27c0d85ff70c394ed2f9e5714da4ff836f00797",
+      "file": "raw_pages/dc00e2f0d526ede70b099445.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1786452000000&endTime=1786511999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:07.033164+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:06 GMT",
+      "sha256": "826a40240763a1b6b78752e320e5c0b3a702501faae8dc9fefc308e6387ca4b0",
+      "file": "raw_pages/6ee6a72cf0a893fed28db9d2.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1786512000000&endTime=1786571999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:07.310863+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:07 GMT",
+      "sha256": "93816cc7a8db99b3b46f70351dde87a40738e4cfcd2c6b262b257a78a8ad435c",
+      "file": "raw_pages/750846ac05fc4acf54cf7394.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1786572000000&endTime=1786631999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:07.519145+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:07 GMT",
+      "sha256": "ae8039034af998d942e9e84484ea1e86a62f8db22a0a5fa96525ac9d70cb0b4c",
+      "file": "raw_pages/58832715f7a9a53f6889547b.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1786632000000&endTime=1786691999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:07.861341+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:07 GMT",
+      "sha256": "0a81b6d496131b0a72fca4c581a7bfe9a6e0da712aac99670962faba958cfb27",
+      "file": "raw_pages/0406d582210d6d36fd6b1f46.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1786692000000&endTime=1786751999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:08.218284+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:08 GMT",
+      "sha256": "f4292b08152cb801ba1269d4abb8a35973fddf67fddc5cbeed256730ffeaaba5",
+      "file": "raw_pages/bcc5a2db361b466ddd0e4e8e.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1786752000000&endTime=1786811999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:08.493322+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:08 GMT",
+      "sha256": "f92828dbb507c2f096ad87727b356e6cd22734467b172b750fa6abf4986f47c7",
+      "file": "raw_pages/4d1bc25849293b2487129261.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1786812000000&endTime=1786871999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:08.707122+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:08 GMT",
+      "sha256": "f4e16008b10b454c1817ea9707a69c9754a096ea1c9df2e374eb0dfd8bb56f40",
+      "file": "raw_pages/017cb01209b8ab328bd64b5b.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1786872000000&endTime=1786931999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:08.916832+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:08 GMT",
+      "sha256": "f1de386dc4fc5d52ffbb38f43b8577252e917b3cbd88b29a82876ed2303eed63",
+      "file": "raw_pages/e626946dc6fc8e11e3e6a6e8.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1786932000000&endTime=1786991999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:09.267621+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:09 GMT",
+      "sha256": "8f754d9b802e0003dd7e30375d3540c8a3962ce2f06db7c95d6e246477c0aef7",
+      "file": "raw_pages/069873078f02d7433e41f5f5.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1786992000000&endTime=1787051999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:09.540903+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:09 GMT",
+      "sha256": "96fd3c76c0c60eefc8fc1ef9b3c57c42406b73d6e58f78a23e8d469edd20835c",
+      "file": "raw_pages/4aa23ba2bb2d8f02015ec9c4.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1787052000000&endTime=1787111999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:09.760702+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:09 GMT",
+      "sha256": "9bee6c79cf5889c73a8b16e7be7f758d8644a41103096905a306ea57561539c5",
+      "file": "raw_pages/3ec6e08e0ed2f3d55d55f1cd.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1787112000000&endTime=1787171999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:10.039286+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:09 GMT",
+      "sha256": "59e9f534b0cd97891b21b6ba7141b98fd6133341e2789820b21eec19353757e5",
+      "file": "raw_pages/37c0a1a9a5b5f5267aa26d53.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1787172000000&endTime=1787231999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:10.251720+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:10 GMT",
+      "sha256": "c45c944373071097adee68bad11ec6ba1925323f7d1eb397105713e05d327a90",
+      "file": "raw_pages/5948395f9d6041cf33b3c8d9.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1787232000000&endTime=1787291999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:10.467669+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:10 GMT",
+      "sha256": "546c5230ddeb52a974271536f4b4642e6d899b372f7eb8e558a66e2ab6d2d540",
+      "file": "raw_pages/7ad2c643e328267016a4311b.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1787292000000&endTime=1787351999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:10.653328+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:10 GMT",
+      "sha256": "cbf016e2f12077efc4e22a081544103b44d2c8cc58ff5f53e0c760a13c409662",
+      "file": "raw_pages/681bcde0b960bd6eda117bcb.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1787352000000&endTime=1787411999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:10.835635+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:10 GMT",
+      "sha256": "69c26cee34b7418ba77dae8456083c64cc655a98ed11cb76b49dd35085877a37",
+      "file": "raw_pages/5297adfa6959f8e431ea8290.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1787412000000&endTime=1787471999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:11.015349+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:10 GMT",
+      "sha256": "004a7a6b63543fc3f043f15d74a3e34d4eb57bda833872cd1482949b912f712f",
+      "file": "raw_pages/efa8881086ba6cde231b3540.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1787472000000&endTime=1787531999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:11.228907+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:11 GMT",
+      "sha256": "7349b69f47b061e3410641d8a22d2d55e2232cb1cbd25cbc2733df055401bf1a",
+      "file": "raw_pages/77b2a059af88430925a1f08c.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1787532000000&endTime=1787591999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:11.439212+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:11 GMT",
+      "sha256": "c7a644e9bcc69ad63ab8db4541df3ed964f50b3687693c92540f1c2ae221eac7",
+      "file": "raw_pages/6c48974a5cae10f02b8e7be1.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1787592000000&endTime=1787651999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:11.687281+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:11 GMT",
+      "sha256": "debc3e3c17afd06414065440a350b8182db3a4f3cf919a1df6bac05eb26ae363",
+      "file": "raw_pages/1b8760f80ac3b33faf57b152.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1787652000000&endTime=1787711999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:11.964867+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:11 GMT",
+      "sha256": "f218ebf2c8b0959e82b35437b6487cb0c615a433b098d9b2c2bae5afc889b5a8",
+      "file": "raw_pages/81e8bb1e1e4f4d9b28079dce.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1787712000000&endTime=1787771999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:12.149435+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:12 GMT",
+      "sha256": "a8dca361352ac7da520656bc0e6c2dd45f1ac3eacc6be28a915978a6ec4c879a",
+      "file": "raw_pages/10dc37199fd2622191470958.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1787772000000&endTime=1787831999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:12.373725+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:12 GMT",
+      "sha256": "85c510f78343cb0e84b2cdf6c52437e63dfd0c4d46aa9574a8c827e29870fab8",
+      "file": "raw_pages/076a3cc60acfd5456c65f4bc.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1787832000000&endTime=1787891999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:12.586819+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:12 GMT",
+      "sha256": "58492071d1ad2900c217969cb8fcd51eb88f0cac8a8493463d2a46e0bb7196e8",
+      "file": "raw_pages/5c512e9e7189f0b0076870af.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1787892000000&endTime=1787951999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:12.831596+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:12 GMT",
+      "sha256": "1435bfd74d1068ef2ca5a3f1bcc093f06517ca8230153516b63a649c2b348a0a",
+      "file": "raw_pages/5d158038422f95bf09b3d61e.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1787952000000&endTime=1788011999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:13.043343+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:12 GMT",
+      "sha256": "5728ad5da18c7f1c25ca6f495d3a4eaaa19694ea96d2a04e9d406532e81ba0e4",
+      "file": "raw_pages/08f047efe88ba56f946548cb.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1788012000000&endTime=1788071999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:13.288536+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:13 GMT",
+      "sha256": "837f4c7680ad59b2677e5b2a13797aa7e50a0ba927894a9020d34ada080ad716",
+      "file": "raw_pages/20527d01422982e43344f1ea.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1788072000000&endTime=1788131999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:13.509841+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:13 GMT",
+      "sha256": "9ad2c423e9f970aa077e66839fdb1f49ad874a7a967dcbbbebdbc96db4eaedf5",
+      "file": "raw_pages/bdeef30902c53e0fa5896c30.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1788132000000&endTime=1788191999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:13.691316+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:13 GMT",
+      "sha256": "9f1aea5c7ace9fb48f609cb2ba5cfe043517333039e8fb3f842ba9d6598b0567",
+      "file": "raw_pages/ae454bde5b8acb51da9a2205.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1788192000000&endTime=1788251999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:13.904538+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:13 GMT",
+      "sha256": "52440f9f1abecb310d88772ecc392c3ceb3bfd17c927b773ac93f7c52c16aa12",
+      "file": "raw_pages/5d9a69eceaab0e0acc117d6a.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1788252000000&endTime=1788311999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:14.087617+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:14 GMT",
+      "sha256": "2c30c3ab6ea9aaba16472392677074a808678684b9f313337b422dc0fa491276",
+      "file": "raw_pages/dd5ec388345a1daefb644881.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1788312000000&endTime=1788371999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:14.297996+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:14 GMT",
+      "sha256": "30cf94acd4d36f33933017cff6294a333fedbeb6ca0103a2fe38ae92daebffe5",
+      "file": "raw_pages/c6ca5cbb5a16f5664e440ec2.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1788372000000&endTime=1788431999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:14.544200+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:14 GMT",
+      "sha256": "f485b0feb7b7d37ea97a693078b52c1e0a65b6cd6f89129d3b7abdbf3cb659ce",
+      "file": "raw_pages/5605eb59649546415e61fe34.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1788432000000&endTime=1788491999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:14.724921+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:14 GMT",
+      "sha256": "3172c5bcfa6f7297850967f5ca82217ce7e519c1a226289987409dc9352ee602",
+      "file": "raw_pages/2c28300b3f83bd2d72850b4b.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1788492000000&endTime=1788551999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:14.938043+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:14 GMT",
+      "sha256": "f693e778a72f7e72336d516e51cc7e5ae8e500b059f17d676ec3b66e9636a693",
+      "file": "raw_pages/27a6f94bb24a420c5ee3d9d8.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1788552000000&endTime=1788611999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:15.121232+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:15 GMT",
+      "sha256": "241b0b09d89205b220e28c89143eee57fc2fa6075dd8dad32200aca4076eac24",
+      "file": "raw_pages/d4d99462d33ca8f7ef41c36a.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1788612000000&endTime=1788671999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:15.302882+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:15 GMT",
+      "sha256": "dd89bd6774c75d1e8195f991ef4aa6abc3911ac3bd549a4299b5e0601be7a5c9",
+      "file": "raw_pages/3675b8e92743175b2717a2c0.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1788672000000&endTime=1788731999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:15.511330+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:15 GMT",
+      "sha256": "9bd81e57cdc885f318b1ace35b414b33bad0080c7ff4564b2c35aff1ae700b04",
+      "file": "raw_pages/c8f39789d57fc87922b63771.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1788732000000&endTime=1788791999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:15.694653+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:15 GMT",
+      "sha256": "550e7c74ee93c5cb087055136527453d1e383fab9bc6b72dcac5c326b0aa9ed7",
+      "file": "raw_pages/38d3bf1a9e00b232da372167.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1788792000000&endTime=1788851999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:15.878042+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:15 GMT",
+      "sha256": "626dabdf8257facf16fcba7af2eb936a2367ef760f2ac096327d2b82e92d65d8",
+      "file": "raw_pages/e9d3f4520a5ae972121c037e.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1788852000000&endTime=1788911999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:16.061215+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:16 GMT",
+      "sha256": "c36a5c826cc56c54723faaf336173ec3c653264d78e06640aaeef0e12b56f263",
+      "file": "raw_pages/95bac34f9fd0d3adb8443b42.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1788912000000&endTime=1788971999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:16.273270+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:16 GMT",
+      "sha256": "ed0a11408afc846a71426570c40378d22c69b8712c15dc9c830d06e2bc525b5e",
+      "file": "raw_pages/45a9a2c7d12f9d424d2d8e66.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1788972000000&endTime=1789031999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:16.486808+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:16 GMT",
+      "sha256": "a63cfb78fa65ddacb0e9aa455b3ba883ec625b616b41dcc28e2f1580848db1f1",
+      "file": "raw_pages/8e52f7e1d31d5a31b81f53ab.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1789032000000&endTime=1789091999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:16.668840+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:16 GMT",
+      "sha256": "d0a9bbba28f0732e73f1d5fcc29538f8836a1d2f7c0cef791cc141b5418cfede",
+      "file": "raw_pages/6c5d50fc4f2b1ed290ade063.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1789092000000&endTime=1789151999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:16.849357+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:16 GMT",
+      "sha256": "0ecf53d2f8feff5d28c08a4d5105051b459f02ddd4b981aeff4a27b3624a150b",
+      "file": "raw_pages/4d097449e2cecc3916f5dd71.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1789152000000&endTime=1789211999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:17.126170+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:17 GMT",
+      "sha256": "3470f11d699e652f4f2b0f6abca151ba2f32c05429c4b4d84d4860689960a57b",
+      "file": "raw_pages/1bef8f52123f6ac319f1cc4a.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1789212000000&endTime=1789271999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:17.407511+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:17 GMT",
+      "sha256": "7f261931d579458a7a82e0af9c553da92aa1544e0b8253ecc29a58d0f52fdc34",
+      "file": "raw_pages/8435c8d65620bd5c85932da3.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1789272000000&endTime=1789331999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:17.623770+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:17 GMT",
+      "sha256": "aa3e07afffae0c8002825e08bec4eba45f87bdb6c3f6019f989a530277f58161",
+      "file": "raw_pages/03bca6ba7ac6a0fc63558299.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1789332000000&endTime=1789391999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:17.839951+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:17 GMT",
+      "sha256": "65b1a366ba05f7f8fe1a234cd0c3a46b112f1d8947804b7f80ea9726df0e4962",
+      "file": "raw_pages/2f1347f43ef245c0fbb6ccab.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1789392000000&endTime=1789451999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:18.052016+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:18 GMT",
+      "sha256": "24807d9e2b3bd7d5aed939884df76459881b0ba79f015df1d25fab4e706cbe62",
+      "file": "raw_pages/fe6d66b4a290fc291cdc5c4b.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1789452000000&endTime=1789511999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:18.234954+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:18 GMT",
+      "sha256": "618512b2447784718ca35b7314ce05abf3c2c461efe413a23895b1db7a593845",
+      "file": "raw_pages/49fb50bc49c9a4905d14d74b.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1789512000000&endTime=1789571999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:18.425887+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:18 GMT",
+      "sha256": "1f4487a00ac8b50c06005bcc64377d904b3bcf0a40ac7f549a8bd13447d62993",
+      "file": "raw_pages/c638214646c50177580d6c13.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1789572000000&endTime=1789631999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:18.641295+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:18 GMT",
+      "sha256": "9ed460c8dd6dd17096a9d72cc843b7c2678c3a4db6eea98d36d8ade14c73d1d1",
+      "file": "raw_pages/2896be52a6674cefb5de6399.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1789632000000&endTime=1789691999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:18.823843+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:18 GMT",
+      "sha256": "bf07836c65c7fdce173c14bcfece42e80dbfd062793843d8b14589977f0f4554",
+      "file": "raw_pages/77f9075e1490a820f7b8f5f1.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1789692000000&endTime=1789751999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:19.008779+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:18 GMT",
+      "sha256": "4258cb24ec6980cad56b927f16a6d3abd61f6781e5548b57a1c2547d8f185d12",
+      "file": "raw_pages/bc88fe9594c32df7f7ea72b2.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1789752000000&endTime=1789811999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:19.192079+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:19 GMT",
+      "sha256": "9a335d7d1f49d5037591dd6e370d6769cacd4f39e7d922bc4cd82c817d1617e1",
+      "file": "raw_pages/53af53e40cab760fd63f79f8.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1789812000000&endTime=1789871999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:19.405591+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:19 GMT",
+      "sha256": "93f562cc6d73683b34e280cab4081d66bdbbff37525bbc091398dd964cfce44c",
+      "file": "raw_pages/f1335209d197f251ff92db2e.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1789872000000&endTime=1789931999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:19.593818+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:19 GMT",
+      "sha256": "75fd0057ebea2471dacefbe3ae2dab8f0b85b1b5408c4b531e294d8f21a885fe",
+      "file": "raw_pages/0cfa01ba588b540e10056f8a.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1789932000000&endTime=1789991999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:19.776128+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:19 GMT",
+      "sha256": "8620c3da7bac243a0ea36395d670b1ed9bfcaa433ce6b490899ca47bbec2127b",
+      "file": "raw_pages/fbccab7c0389e303a365e32e.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1789992000000&endTime=1790051999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:19.955656+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:19 GMT",
+      "sha256": "8edeef9f96e5108648900251e24b524aacb3f31e8509065e074c97840ad651fc",
+      "file": "raw_pages/464c24bae06d0ccad0e5eb0d.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1790052000000&endTime=1790111999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:20.232547+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:20 GMT",
+      "sha256": "e1368b8605825074839c7b561a57b91656eea6c995fb828c2e458c052393f551",
+      "file": "raw_pages/09ed6c768cc06b30572e3fc7.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1790112000000&endTime=1790171999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:20.410482+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:20 GMT",
+      "sha256": "97055f39809930cf675deffd00230036b015445df2e13cfeca90f974b750c979",
+      "file": "raw_pages/3f7a5f04a706990dbc0e0f6a.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1790172000000&endTime=1790231999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:20.626334+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:20 GMT",
+      "sha256": "b7c53b589507ba643e0796e501c98f44b33f57764bbfe681e6e4511f9934cbe6",
+      "file": "raw_pages/cc7c402dc702da568b20fc41.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1790232000000&endTime=1790291999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:20.809893+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:20 GMT",
+      "sha256": "b1463cbb26654378c89779934328ea53839629372d5c11b60869ca5710367f7b",
+      "file": "raw_pages/2994b2c3e6f2bc1b649e75ce.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1790292000000&endTime=1790351999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:21.001123+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:20 GMT",
+      "sha256": "5cce68ecd6e7dc968ecc09e9a962ddd7c616837761136bf23b7bedc7ac5bdc4a",
+      "file": "raw_pages/d517e3b057fda2182b317a78.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1790352000000&endTime=1790411999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:21.184259+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:21 GMT",
+      "sha256": "c4c05e3cea18798c2914519fe7ea4dae7c386acb25234f51289d7d34337e4bac",
+      "file": "raw_pages/93af7c499407176305d398d4.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1790412000000&endTime=1790471999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:21.368984+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:21 GMT",
+      "sha256": "7d2f831b17a258936dcb2d3a6bea5429c284aab051c37722112226c557298e4e",
+      "file": "raw_pages/dac7096cee7183989de5ce46.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1790472000000&endTime=1790531999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:21.553411+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:21 GMT",
+      "sha256": "745076303d166884bc27e1b469575f6657070f1e5f335be575e20691ab242b7b",
+      "file": "raw_pages/e8844b22df18c72c66349e6a.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1790532000000&endTime=1790591999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:21.737095+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:21 GMT",
+      "sha256": "a297785991986f52f5409a7bb2d482a3e8c23e2a1b10cd8e51f217daf3ac8884",
+      "file": "raw_pages/db591c3d2a402b7f63500e53.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1790592000000&endTime=1790651999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:21.920417+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:21 GMT",
+      "sha256": "815804b5e39bcb3d1a0f8e2c38e585eeb1b2561eccf9d57f98034c9f5c9316e2",
+      "file": "raw_pages/256bf6f97962b7b466a8f379.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1790652000000&endTime=1790711999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:22.133077+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:22 GMT",
+      "sha256": "746a45894151c66c35e8d07d5f3c232e3047338220ae917348b8ae2d8e2fabbd",
+      "file": "raw_pages/56a4aa1eaff500952ee3bf1c.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1790712000000&endTime=1790771999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:22.313276+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:22 GMT",
+      "sha256": "fbd0cc0541bec5de2accc5387368b78b417681a261723a335e7b2727594f3d10",
+      "file": "raw_pages/45ed5b96014bc335ec2ffe71.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1790772000000&endTime=1790831999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:22.495369+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:22 GMT",
+      "sha256": "9f102ec2808777b0a81bf1ebc6f6fa5d4db4a7ff9d7e14bab6d85b66af088bfb",
+      "file": "raw_pages/d11e1528bfcac1e2870063a7.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1790832000000&endTime=1790891999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:22.703813+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:22 GMT",
+      "sha256": "6577ece1ce44b5be7acbbfae1829765b60dac8e68d8bd94c7d4380eea0a57bb7",
+      "file": "raw_pages/9cf3602fda83f44bf7e78aa4.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1790892000000&endTime=1790951999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:22.887961+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:22 GMT",
+      "sha256": "059e8f2d5c39491b7e64d2a805493965d754d73a29f1bc3aa8149111e4bce5f3",
+      "file": "raw_pages/72c0c10d789db59260eeda75.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1790952000000&endTime=1791011999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:23.067397+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:23 GMT",
+      "sha256": "caa78fac0dfb9c4d7793680a72fc1e4aa3e8e2bab3bfffa683c55552a38c8a97",
+      "file": "raw_pages/643cfdecd2964f88fb0bd07f.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1791012000000&endTime=1791071999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:23.278844+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:23 GMT",
+      "sha256": "666ca083eef7b55b81d8ff5aed225595d7d0c4268e6d90cea6fc068aff1c659e",
+      "file": "raw_pages/4b7a4e0699397ef1f6e41b48.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1791072000000&endTime=1791131999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:23.460948+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:23 GMT",
+      "sha256": "cf96af82da0b4838803db830c36beb3bd0686846a3a4cd093c3bd2fbe5272eb7",
+      "file": "raw_pages/00fa331ee84e2491836fc3bf.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1791132000000&endTime=1791191999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:23.643100+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:23 GMT",
+      "sha256": "4c0445b5f39cac11758be2b9ac793392d5622a0d91ca80b8042f6ae3c69bf102",
+      "file": "raw_pages/2f68fcd092d3d27a251aaf44.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1791192000000&endTime=1791251999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:23.852302+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:23 GMT",
+      "sha256": "cd6324cbda0a0efc78478da0c6523b00c7e479851e538f296d3a901dcd81454e",
+      "file": "raw_pages/3499ff020250a02b48706fb1.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1791252000000&endTime=1791311999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:24.032181+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:24 GMT",
+      "sha256": "d6c6c1cb96fe125db89f0788d17f1dd6dae82aad6e806beafe4594949101f6c2",
+      "file": "raw_pages/f996c09a4a60554516e2fb55.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1791312000000&endTime=1791371999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:24.243593+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:24 GMT",
+      "sha256": "af0cfb205d99698d44f57d8ec4365b1dbfac2b86fabcec4b87ab823e5516c5e4",
+      "file": "raw_pages/883fe0be73853f20f58b346c.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1791372000000&endTime=1791431999999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:24.423801+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:24 GMT",
+      "sha256": "77adc3b627b3b5a38ef5a2a16752883337cebec6f7a9188ca26db4836876e83b",
+      "file": "raw_pages/dcdba3a85d285dd8a698be88.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1m&startTime=1791432000000&endTime=1791435059999&limit=1000",
+      "downloaded_at": "2026-10-08T04:52:24.597650+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:24 GMT",
+      "sha256": "ce4c1f1be3c64be45750a67a5f1ccad2bbe7bfa293efcc4c3ac51b4ed7d0eb0d",
+      "file": "raw_pages/d656d69c9d4919f44df10ee7.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/ticker/24hr?symbol=ZECUSDT",
+      "downloaded_at": "2026-10-08T04:52:25.996115+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:25 GMT",
+      "sha256": "6bf7181b2edc08ec6494b32b7cfe59d87e283849b50a704b1dba284d675c5a55",
+      "file": "raw_pages/b416b2bfc69e2c20d75b881d.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/premiumIndex?symbol=ZECUSDT",
+      "downloaded_at": "2026-10-08T04:52:26.042552+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:26 GMT",
+      "sha256": "511be8a0b97ab244a8e4847406fbedbf6d360e019fa4fe040b417ecce934a735",
+      "file": "raw_pages/b85b99b624e4eed0f4fbfece.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/exchangeInfo",
+      "downloaded_at": "2026-10-08T04:52:26.192115+00:00",
+      "server_date": "Thu, 08 Oct 2026 04:52:26 GMT",
+      "sha256": "95ecbd25b54df4320deea994831b0b17e78bd8206008beb58f04188584c28b63",
+      "file": "raw_pages/9e1b776811e8385e9a81a9f2.json"
+    }
+  ],
+  "validation": "all requested minutes closed and contiguous; native OHLCV; no synthetic data"
+}

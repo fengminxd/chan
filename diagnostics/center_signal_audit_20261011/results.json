@@ -1,0 +1,800 @@
+{
+  "scope": "synthetic completed inputs; audit only; no production rules changed",
+  "source_sha256": {
+    "chan_theory.py": "8e601d2cb6611dcba06bbfd2f46a70c5af4303c83ebf7e4d8bbdd199cfbfea40",
+    "chan_types.py": "999c38d073085eef064b2565906755dd36811722750c4216b1c10bf84e14c3f4",
+    "chan_structure.py": "362409b50774253ae765b8826b3e74460396199d15448bd1f6cae2f2ee077ae8",
+    "chan_dynamics.py": "e9ca20086cb26ccaf3b0d8054807c9867e845c65ae126424c8ae74dd628ca3f3",
+    "entry_plan.py": "996dc9c993bcccd72ccfc89e26188c7bb6e984021b511f6c69a31fdae67db036"
+  },
+  "passed": 10,
+  "failed": 6,
+  "checks": [
+    {
+      "name": "closed_center_range_1",
+      "passed": false,
+      "category": "range_semantics",
+      "expected": {
+        "child_ids": [
+          "L0:M6",
+          "L0:M7",
+          "L0:M8",
+          "L0:M9",
+          "L0:M10",
+          "L0:M11"
+        ],
+        "dd": 61,
+        "gg": 89,
+        "range_low": 61,
+        "range_high": 89
+      },
+      "actual": {
+        "prices": [
+          128,
+          130,
+          109,
+          128,
+          78,
+          79,
+          63,
+          85,
+          61,
+          85,
+          66,
+          89,
+          81,
+          97,
+          89
+        ],
+        "center": {
+          "id": "T1:M1:Z0",
+          "level": 1,
+          "first_index": 6,
+          "last_index": 9,
+          "start": "2024-01-02T00:00:00+00:00",
+          "end": "2024-01-02T16:00:00+00:00",
+          "formed_at": "2024-01-02T12:00:00+00:00",
+          "evidence_at": "2024-01-02T13:00:00+00:00",
+          "updated_at": "2024-01-02T17:00:00+00:00",
+          "zd": 63,
+          "zg": 85,
+          "dd": 61,
+          "gg": 85,
+          "d": 63,
+          "g": 85,
+          "range_low": 61,
+          "range_high": 85,
+          "seed_ids": [
+            "L0:M6",
+            "L0:M7",
+            "L0:M8"
+          ],
+          "child_ids": [
+            "L0:M6",
+            "L0:M7",
+            "L0:M8",
+            "L0:M9"
+          ],
+          "z_ids": [
+            "L0:M6",
+            "L0:M8"
+          ],
+          "z_direction": "up",
+          "directional_z_valid": true,
+          "status": "left_up",
+          "departure_index": 12,
+          "return_index": 13,
+          "closed_at": "2024-01-03T09:00:00+00:00"
+        }
+      }
+    },
+    {
+      "name": "structural_signal_persistence_1",
+      "passed": false,
+      "category": "lifecycle_risk",
+      "expected": "若 structural 用作稳定历史确认，固定完成输入追加后不得丢失已发布三类点",
+      "actual": {
+        "prices": [
+          196,
+          215,
+          214,
+          226,
+          203,
+          210,
+          195,
+          218,
+          213,
+          218,
+          199
+        ],
+        "lost": [
+          {
+            "id": "T1:M0:Z1:B3",
+            "label": "B3",
+            "level": 1,
+            "time": "2024-01-02T08:00:00+00:00",
+            "price": 213,
+            "evidence_at": "2024-01-02T09:00:00+00:00",
+            "certainty": "structural",
+            "child_index": 7,
+            "center_id": "T1:M0:Z1",
+            "source_ids": [
+              "L0:M6",
+              "L0:M7"
+            ],
+            "details": {
+              "zd": 203,
+              "zg": 210,
+              "return_low": 213,
+              "return_high": 218,
+              "boundary_policy": "touch_is_return",
+              "structure_source": "completed_type_tree"
+            }
+          }
+        ],
+        "old_centers": [
+          {
+            "id": "T1:M0:Z0",
+            "level": 1,
+            "first_index": 1,
+            "last_index": 3,
+            "start": "2024-01-01T04:00:00+00:00",
+            "end": "2024-01-01T16:00:00+00:00",
+            "formed_at": "2024-01-01T16:00:00+00:00",
+            "evidence_at": "2024-01-01T17:00:00+00:00",
+            "updated_at": "2024-01-01T17:00:00+00:00",
+            "zd": 214,
+            "zg": 215,
+            "dd": 203,
+            "gg": 226,
+            "d": 214,
+            "g": 215,
+            "range_low": 203,
+            "range_high": 226,
+            "seed_ids": [
+              "L0:M1",
+              "L0:M2",
+              "L0:M3"
+            ],
+            "child_ids": [
+              "L0:M1",
+              "L0:M2",
+              "L0:M3"
+            ],
+            "z_ids": [
+              "L0:M1",
+              "L0:M3"
+            ],
+            "z_direction": "down",
+            "directional_z_valid": true,
+            "status": "left_down",
+            "departure_index": 3,
+            "return_index": 4,
+            "closed_at": "2024-01-01T21:00:00+00:00"
+          },
+          {
+            "id": "T1:M0:Z1",
+            "level": 1,
+            "first_index": 4,
+            "last_index": 6,
+            "start": "2024-01-01T16:00:00+00:00",
+            "end": "2024-01-02T04:00:00+00:00",
+            "formed_at": "2024-01-02T04:00:00+00:00",
+            "evidence_at": "2024-01-02T05:00:00+00:00",
+            "updated_at": "2024-01-02T05:00:00+00:00",
+            "zd": 203,
+            "zg": 210,
+            "dd": 195,
+            "gg": 218,
+            "d": 203,
+            "g": 210,
+            "range_low": 195,
+            "range_high": 218,
+            "seed_ids": [
+              "L0:M4",
+              "L0:M5",
+              "L0:M6"
+            ],
+            "child_ids": [
+              "L0:M4",
+              "L0:M5",
+              "L0:M6"
+            ],
+            "z_ids": [
+              "L0:M4",
+              "L0:M6"
+            ],
+            "z_direction": "up",
+            "directional_z_valid": true,
+            "status": "left_up",
+            "departure_index": 6,
+            "return_index": 7,
+            "closed_at": "2024-01-02T09:00:00+00:00"
+          }
+        ],
+        "new_centers": [
+          {
+            "id": "T1:M0:Z0",
+            "level": 1,
+            "first_index": 1,
+            "last_index": 3,
+            "start": "2024-01-01T04:00:00+00:00",
+            "end": "2024-01-01T16:00:00+00:00",
+            "formed_at": "2024-01-01T16:00:00+00:00",
+            "evidence_at": "2024-01-01T17:00:00+00:00",
+            "updated_at": "2024-01-01T17:00:00+00:00",
+            "zd": 214,
+            "zg": 215,
+            "dd": 203,
+            "gg": 226,
+            "d": 214,
+            "g": 215,
+            "range_low": 203,
+            "range_high": 226,
+            "seed_ids": [
+              "L0:M1",
+              "L0:M2",
+              "L0:M3"
+            ],
+            "child_ids": [
+              "L0:M1",
+              "L0:M2",
+              "L0:M3"
+            ],
+            "z_ids": [
+              "L0:M1",
+              "L0:M3"
+            ],
+            "z_direction": "down",
+            "directional_z_valid": true,
+            "status": "left_down",
+            "departure_index": 3,
+            "return_index": 4,
+            "closed_at": "2024-01-01T21:00:00+00:00"
+          },
+          {
+            "id": "T1:M1:Z0",
+            "level": 1,
+            "first_index": 6,
+            "last_index": 9,
+            "start": "2024-01-02T00:00:00+00:00",
+            "end": "2024-01-02T16:00:00+00:00",
+            "formed_at": "2024-01-02T12:00:00+00:00",
+            "evidence_at": "2024-01-02T13:00:00+00:00",
+            "updated_at": "2024-01-02T17:00:00+00:00",
+            "zd": 213,
+            "zg": 218,
+            "dd": 195,
+            "gg": 218,
+            "d": 213,
+            "g": 218,
+            "range_low": 195,
+            "range_high": 218,
+            "seed_ids": [
+              "L0:M6",
+              "L0:M7",
+              "L0:M8"
+            ],
+            "child_ids": [
+              "L0:M6",
+              "L0:M7",
+              "L0:M8",
+              "L0:M9"
+            ],
+            "z_ids": [
+              "L0:M6",
+              "L0:M8"
+            ],
+            "z_direction": "up",
+            "directional_z_valid": true,
+            "status": "extending",
+            "departure_index": null,
+            "return_index": null,
+            "closed_at": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "third_retry_policy_alignment_1",
+      "passed": false,
+      "category": "policy_mismatch",
+      "expected": "候选与完成结构对回枢后再次离开的可接受性一致（完成时间可不同）",
+      "actual": {
+        "prices": [
+          0,
+          12,
+          6,
+          10,
+          7,
+          15,
+          9,
+          16,
+          13
+        ],
+        "candidate_labels": [
+          "B2"
+        ],
+        "completed_labels": [
+          "B3"
+        ]
+      }
+    },
+    {
+      "name": "break_without_segment_end_1",
+      "passed": true,
+      "category": "implementation",
+      "expected": "第3号笔已破坏，旧段仍未确认结束",
+      "actual": {
+        "marks": [
+          3
+        ],
+        "segments": 0
+      }
+    },
+    {
+      "name": "break_survives_extension_1",
+      "passed": true,
+      "category": "implementation",
+      "expected": [
+        3,
+        9
+      ],
+      "actual": [
+        3,
+        9
+      ]
+    },
+    {
+      "name": "weak_second_is_dependent_1",
+      "passed": true,
+      "category": "implementation",
+      "expected": "弱二类点保留为依赖候选且等待反弹/回试完成",
+      "actual": [
+        {
+          "id": "D:B1",
+          "label": "B1",
+          "level": 1,
+          "time": "2024-01-01T04:00:00+00:00",
+          "price": 10,
+          "evidence_at": "2024-01-01T05:00:00+00:00",
+          "certainty": "macd_candidate",
+          "child_index": 0,
+          "center_id": "Z",
+          "source_ids": [
+            "D"
+          ],
+          "details": {}
+        },
+        {
+          "id": "D:B2",
+          "label": "B2",
+          "level": 1,
+          "time": "2024-01-01T12:00:00+00:00",
+          "price": 9,
+          "evidence_at": "2024-01-01T13:00:00+00:00",
+          "certainty": "dependent_candidate",
+          "child_index": 2,
+          "center_id": "Z",
+          "source_ids": [
+            "D:B1",
+            "L0:M1",
+            "L0:M2"
+          ],
+          "details": {
+            "strength": "weak_new_extreme",
+            "first_price": 10,
+            "first_signal_is_candidate": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "consolidation_not_first_point_1",
+      "passed": true,
+      "category": "implementation",
+      "expected": "盘整背驰不输出一类点",
+      "actual": "no first point"
+    },
+    {
+      "name": "third_touch_boundary_waits_1",
+      "passed": true,
+      "category": "implementation",
+      "expected": "沿用 touch_is_return 政策，接触边界不确认三类点",
+      "actual": "no third point"
+    },
+    {
+      "name": "closed_center_range_-1",
+      "passed": false,
+      "category": "range_semantics",
+      "expected": {
+        "child_ids": [
+          "L0:M6",
+          "L0:M7",
+          "L0:M8",
+          "L0:M9",
+          "L0:M10",
+          "L0:M11"
+        ],
+        "dd": -89,
+        "gg": -61,
+        "range_low": -89,
+        "range_high": -61
+      },
+      "actual": {
+        "prices": [
+          -128,
+          -130,
+          -109,
+          -128,
+          -78,
+          -79,
+          -63,
+          -85,
+          -61,
+          -85,
+          -66,
+          -89,
+          -81,
+          -97,
+          -89
+        ],
+        "center": {
+          "id": "T1:M1:Z0",
+          "level": 1,
+          "first_index": 6,
+          "last_index": 9,
+          "start": "2024-01-02T00:00:00+00:00",
+          "end": "2024-01-02T16:00:00+00:00",
+          "formed_at": "2024-01-02T12:00:00+00:00",
+          "evidence_at": "2024-01-02T13:00:00+00:00",
+          "updated_at": "2024-01-02T17:00:00+00:00",
+          "zd": -85,
+          "zg": -63,
+          "dd": -85,
+          "gg": -61,
+          "d": -85,
+          "g": -63,
+          "range_low": -85,
+          "range_high": -61,
+          "seed_ids": [
+            "L0:M6",
+            "L0:M7",
+            "L0:M8"
+          ],
+          "child_ids": [
+            "L0:M6",
+            "L0:M7",
+            "L0:M8",
+            "L0:M9"
+          ],
+          "z_ids": [
+            "L0:M6",
+            "L0:M8"
+          ],
+          "z_direction": "down",
+          "directional_z_valid": true,
+          "status": "left_down",
+          "departure_index": 12,
+          "return_index": 13,
+          "closed_at": "2024-01-03T09:00:00+00:00"
+        }
+      }
+    },
+    {
+      "name": "structural_signal_persistence_-1",
+      "passed": false,
+      "category": "lifecycle_risk",
+      "expected": "若 structural 用作稳定历史确认，固定完成输入追加后不得丢失已发布三类点",
+      "actual": {
+        "prices": [
+          -196,
+          -215,
+          -214,
+          -226,
+          -203,
+          -210,
+          -195,
+          -218,
+          -213,
+          -218,
+          -199
+        ],
+        "lost": [
+          {
+            "id": "T1:M0:Z1:S3",
+            "label": "S3",
+            "level": 1,
+            "time": "2024-01-02T08:00:00+00:00",
+            "price": -213,
+            "evidence_at": "2024-01-02T09:00:00+00:00",
+            "certainty": "structural",
+            "child_index": 7,
+            "center_id": "T1:M0:Z1",
+            "source_ids": [
+              "L0:M6",
+              "L0:M7"
+            ],
+            "details": {
+              "zd": -210,
+              "zg": -203,
+              "return_low": -218,
+              "return_high": -213,
+              "boundary_policy": "touch_is_return",
+              "structure_source": "completed_type_tree"
+            }
+          }
+        ],
+        "old_centers": [
+          {
+            "id": "T1:M0:Z0",
+            "level": 1,
+            "first_index": 1,
+            "last_index": 3,
+            "start": "2024-01-01T04:00:00+00:00",
+            "end": "2024-01-01T16:00:00+00:00",
+            "formed_at": "2024-01-01T16:00:00+00:00",
+            "evidence_at": "2024-01-01T17:00:00+00:00",
+            "updated_at": "2024-01-01T17:00:00+00:00",
+            "zd": -215,
+            "zg": -214,
+            "dd": -226,
+            "gg": -203,
+            "d": -215,
+            "g": -214,
+            "range_low": -226,
+            "range_high": -203,
+            "seed_ids": [
+              "L0:M1",
+              "L0:M2",
+              "L0:M3"
+            ],
+            "child_ids": [
+              "L0:M1",
+              "L0:M2",
+              "L0:M3"
+            ],
+            "z_ids": [
+              "L0:M1",
+              "L0:M3"
+            ],
+            "z_direction": "up",
+            "directional_z_valid": true,
+            "status": "left_up",
+            "departure_index": 3,
+            "return_index": 4,
+            "closed_at": "2024-01-01T21:00:00+00:00"
+          },
+          {
+            "id": "T1:M0:Z1",
+            "level": 1,
+            "first_index": 4,
+            "last_index": 6,
+            "start": "2024-01-01T16:00:00+00:00",
+            "end": "2024-01-02T04:00:00+00:00",
+            "formed_at": "2024-01-02T04:00:00+00:00",
+            "evidence_at": "2024-01-02T05:00:00+00:00",
+            "updated_at": "2024-01-02T05:00:00+00:00",
+            "zd": -210,
+            "zg": -203,
+            "dd": -218,
+            "gg": -195,
+            "d": -210,
+            "g": -203,
+            "range_low": -218,
+            "range_high": -195,
+            "seed_ids": [
+              "L0:M4",
+              "L0:M5",
+              "L0:M6"
+            ],
+            "child_ids": [
+              "L0:M4",
+              "L0:M5",
+              "L0:M6"
+            ],
+            "z_ids": [
+              "L0:M4",
+              "L0:M6"
+            ],
+            "z_direction": "down",
+            "directional_z_valid": true,
+            "status": "left_down",
+            "departure_index": 6,
+            "return_index": 7,
+            "closed_at": "2024-01-02T09:00:00+00:00"
+          }
+        ],
+        "new_centers": [
+          {
+            "id": "T1:M0:Z0",
+            "level": 1,
+            "first_index": 1,
+            "last_index": 3,
+            "start": "2024-01-01T04:00:00+00:00",
+            "end": "2024-01-01T16:00:00+00:00",
+            "formed_at": "2024-01-01T16:00:00+00:00",
+            "evidence_at": "2024-01-01T17:00:00+00:00",
+            "updated_at": "2024-01-01T17:00:00+00:00",
+            "zd": -215,
+            "zg": -214,
+            "dd": -226,
+            "gg": -203,
+            "d": -215,
+            "g": -214,
+            "range_low": -226,
+            "range_high": -203,
+            "seed_ids": [
+              "L0:M1",
+              "L0:M2",
+              "L0:M3"
+            ],
+            "child_ids": [
+              "L0:M1",
+              "L0:M2",
+              "L0:M3"
+            ],
+            "z_ids": [
+              "L0:M1",
+              "L0:M3"
+            ],
+            "z_direction": "up",
+            "directional_z_valid": true,
+            "status": "left_up",
+            "departure_index": 3,
+            "return_index": 4,
+            "closed_at": "2024-01-01T21:00:00+00:00"
+          },
+          {
+            "id": "T1:M1:Z0",
+            "level": 1,
+            "first_index": 6,
+            "last_index": 9,
+            "start": "2024-01-02T00:00:00+00:00",
+            "end": "2024-01-02T16:00:00+00:00",
+            "formed_at": "2024-01-02T12:00:00+00:00",
+            "evidence_at": "2024-01-02T13:00:00+00:00",
+            "updated_at": "2024-01-02T17:00:00+00:00",
+            "zd": -218,
+            "zg": -213,
+            "dd": -218,
+            "gg": -195,
+            "d": -218,
+            "g": -213,
+            "range_low": -218,
+            "range_high": -195,
+            "seed_ids": [
+              "L0:M6",
+              "L0:M7",
+              "L0:M8"
+            ],
+            "child_ids": [
+              "L0:M6",
+              "L0:M7",
+              "L0:M8",
+              "L0:M9"
+            ],
+            "z_ids": [
+              "L0:M6",
+              "L0:M8"
+            ],
+            "z_direction": "down",
+            "directional_z_valid": true,
+            "status": "extending",
+            "departure_index": null,
+            "return_index": null,
+            "closed_at": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "third_retry_policy_alignment_-1",
+      "passed": false,
+      "category": "policy_mismatch",
+      "expected": "候选与完成结构对回枢后再次离开的可接受性一致（完成时间可不同）",
+      "actual": {
+        "prices": [
+          0,
+          -12,
+          -6,
+          -10,
+          -7,
+          -15,
+          -9,
+          -16,
+          -13
+        ],
+        "candidate_labels": [
+          "S2"
+        ],
+        "completed_labels": [
+          "S3"
+        ]
+      }
+    },
+    {
+      "name": "break_without_segment_end_-1",
+      "passed": true,
+      "category": "implementation",
+      "expected": "第3号笔已破坏，旧段仍未确认结束",
+      "actual": {
+        "marks": [
+          3
+        ],
+        "segments": 0
+      }
+    },
+    {
+      "name": "break_survives_extension_-1",
+      "passed": true,
+      "category": "implementation",
+      "expected": [
+        3,
+        9
+      ],
+      "actual": [
+        3,
+        9
+      ]
+    },
+    {
+      "name": "weak_second_is_dependent_-1",
+      "passed": true,
+      "category": "implementation",
+      "expected": "弱二类点保留为依赖候选且等待反弹/回试完成",
+      "actual": [
+        {
+          "id": "D:S1",
+          "label": "S1",
+          "level": 1,
+          "time": "2024-01-01T04:00:00+00:00",
+          "price": -10,
+          "evidence_at": "2024-01-01T05:00:00+00:00",
+          "certainty": "macd_candidate",
+          "child_index": 0,
+          "center_id": "Z",
+          "source_ids": [
+            "D"
+          ],
+          "details": {}
+        },
+        {
+          "id": "D:S2",
+          "label": "S2",
+          "level": 1,
+          "time": "2024-01-01T12:00:00+00:00",
+          "price": -9,
+          "evidence_at": "2024-01-01T13:00:00+00:00",
+          "certainty": "dependent_candidate",
+          "child_index": 2,
+          "center_id": "Z",
+          "source_ids": [
+            "D:S1",
+            "L0:M1",
+            "L0:M2"
+          ],
+          "details": {
+            "strength": "weak_new_extreme",
+            "first_price": -10,
+            "first_signal_is_candidate": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "consolidation_not_first_point_-1",
+      "passed": true,
+      "category": "implementation",
+      "expected": "盘整背驰不输出一类点",
+      "actual": "no first point"
+    },
+    {
+      "name": "third_touch_boundary_waits_-1",
+      "passed": true,
+      "category": "implementation",
+      "expected": "沿用 touch_is_return 政策，接触边界不确认三类点",
+      "actual": "no third point"
+    }
+  ]
+}

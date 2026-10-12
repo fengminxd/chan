@@ -1,0 +1,6 @@
+{
+  "url": "https://fapi.binance.com/fapi/v1/ticker/24hr?symbol=BTCUSDT",
+  "downloaded_at": "2026-10-12T11:01:47.195999+00:00",
+  "server_date": "Mon, 12 Oct 2026 11:01:47 GMT",
+  "sha256": "287259582f7268873ca8d2793012b4c3d8e8923f6f38e6b5db664813f751d11c"
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "symbol": "BTCUSDT",
+    "hours": 4,
+    "bars": 8271,
+    "source": "reports/BTCUSDT_20260626_20261010_4h_2h_1h/history_4h.csv",
+    "sha256": "7bf7f5b8ee1971a7fa4b8238f2931574105b4be2343ac6638d8e3b1bea2abbbd",
+    "historical_centers": 1,
+    "signals": {
+      "B2": 14,
+      "S2": 9,
+      "B3": 4,
+      "S1": 1,
+      "S3": 4
+    },
+    "seconds": 1.443,
+    "graph_reference_validation": true
+  },
+  {
+    "symbol": "BTCUSDT",
+    "hours": 1,
+    "bars": 33084,
+    "source": "reports/BTCUSDT_20260626_20261010_4h_2h_1h/history_1h.csv",
+    "sha256": "1748a9782bf0451e55e011b82f46c256eb49e2a619b78ea603f6f8532587b63e",
+    "historical_centers": 2,
+    "signals": {
+      "S2": 46,
+      "B2": 44,
+      "B3": 14,
+      "S3": 6,
+      "S1": 1
+    },
+    "seconds": 20.764,
+    "graph_reference_validation": true
+  },
+  {
+    "symbol": "STRKUSDT",
+    "hours": 1,
+    "bars": 5639,
+    "source": "reports/STRKUSDT_1h_20260817_20261010/history_1h.csv",
+    "sha256": "99953126241886a78a99182735860924dbd9181a66b247946805f38dae2282a7",
+    "historical_centers": 0,
+    "signals": {
+      "S2": 8,
+      "S3": 3,
+      "B2": 8,
+      "B3": 2
+    },
+    "seconds": 0.88,
+    "graph_reference_validation": true
+  }
+]

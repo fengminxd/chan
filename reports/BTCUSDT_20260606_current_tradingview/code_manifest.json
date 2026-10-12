@@ -1,0 +1,61 @@
+{
+  "rule_manifest": {
+    "version": "chan-rules-v5",
+    "parameters": {
+      "min_span": 4,
+      "initial_direction": "up",
+      "mode": "strict",
+      "max_levels": 5,
+      "zero_axis_ratio": 0.2,
+      "strength_fast": 5,
+      "strength_slow": 10
+    },
+    "inclusion": "directional_high_low_merge; stable_right_neighbor",
+    "stroke": "earliest_origin_latest_reachable_max_edges_v1",
+    "stroke_evidence": "stable_right_neighbor_witness_first_raw_close",
+    "segment": "feature_sequence_no_gap_or_reverse_fractal; reverse_valid_span_required",
+    "segment_origin": "earliest_overlapping_first_three; retain_extendable_origin",
+    "segment_evidence": "local_pattern_plus_predecessor_publication; max_input_prefix_availability",
+    "direct_break": "retain_attacking_stroke_events_across_segment_extension",
+    "recursive_center": "same_level_earliest_triple; full_child_range; zd<=zg",
+    "completed_type": "opposite_third_point_or_incompatible_center; completed_children_only",
+    "completed_type_boundary": "directional_extreme_ranked_legal_prefix; latest_equal_extreme",
+    "signal_structure": "completed_type_center_registry; legacy_signals_ineligible",
+    "center_ranges": "independent_observation_range; preserve_parent_decomposition_members",
+    "third_signal_history": "seed_identity; causal_prefix_publication; retain_closed_center_evidence",
+    "third_retry": "new_departure_after_return_to_center; consume_first_success",
+    "base_divergence": "missing_L0_internal_centers_is_pending",
+    "macd": {
+      "metric": "same_direction_histogram_sum",
+      "parameters": [
+        12,
+        26,
+        9
+      ],
+      "histogram_multiplier": 2,
+      "interval": "[start,end)",
+      "units": "price_bars",
+      "scope": "auxiliary_only"
+    },
+    "strength": {
+      "metric": "cross_kiss_sma",
+      "units": "price_hours",
+      "scope": "complete_aligned_waves_only"
+    },
+    "confirmation": "snapshot_evidence_can_be_revised; replay_observation_required",
+    "scope": "explicit_engineering_policy_not_unique_canonical_decomposition",
+    "fingerprint": "412c55e3043f619c357c25160d0d09cb4aff6639a63cebec2b3533e490d4a042"
+  },
+  "library": "TradingView Lightweight Charts 5.0.4",
+  "library_sha256": "6df220f06dbe16e302d9f10415223c1509b2655a997bf3a256f3321775ac8657",
+  "sha256": {
+    "report_btc_tradingview.py": "9a8c0d094a27ebdfebbe8ed168166b8b667b39e03099c310b3e685476c47abda",
+    "btc_multiperiod_tradingview_template.html": "05908227cadf3bf8cd52449306a458e7c6d625674a34304cf1c9c7961d62d365",
+    "report_btc_4h_auto.py": "a56af3b0573fb09735ff7aabe360dc42f1b18d88dffec802f9b11c826a573bb7",
+    "entry_plan.py": "12dfe95daed134f2047edb6ffe977861833a3b7ea0203187a0e84915a22f1521",
+    "chan.py": "55bd4ce21fa35e37e0ed25eeff58b0e800316418f4af40265ce98b46450133c5",
+    "chan_structure.py": "2ff167641c64cc5537f2c64cc186a137120aa44b6f553682d8093eab9c831597",
+    "chan_types.py": "811c30a5d276f85d5accfd8c19800cd11f163b088b6413ef929d52a03e620d9b",
+    "chan_dynamics.py": "c629d02c2eb098a8886dc341d47bad564e22bdbfc2408aa34d048cce17784e50"
+  }
+}

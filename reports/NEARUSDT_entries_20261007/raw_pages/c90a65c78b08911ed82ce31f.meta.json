@@ -1,0 +1,6 @@
+{
+  "url": "https://fapi.binance.com/fapi/v1/ticker/24hr?symbol=NEARUSDT",
+  "downloaded_at": "2026-10-07T10:19:36.323457+00:00",
+  "server_date": "Wed, 07 Oct 2026 10:19:36 GMT",
+  "sha256": "53af7b41d91b88b201dd2117ced1277a640aee80f230ec1a2a349b0e6fd4b601"
+}

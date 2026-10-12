@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "period": "8h",
+      "basis": "strokes",
+      "bars": 388,
+      "signals": 18,
+      "lines": 28,
+      "breaks": 1
+    },
+    {
+      "period": "8h",
+      "basis": "types",
+      "bars": 388,
+      "signals": 2,
+      "lines": 28,
+      "breaks": 1
+    },
+    {
+      "period": "4h",
+      "basis": "strokes",
+      "bars": 775,
+      "signals": 20,
+      "lines": 37,
+      "breaks": 2
+    },
+    {
+      "period": "4h",
+      "basis": "types",
+      "bars": 775,
+      "signals": 2,
+      "lines": 37,
+      "breaks": 2
+    },
+    {
+      "period": "2h",
+      "basis": "strokes",
+      "bars": 1549,
+      "signals": 40,
+      "lines": 77,
+      "breaks": 6
+    },
+    {
+      "period": "2h",
+      "basis": "types",
+      "bars": 1549,
+      "signals": 4,
+      "lines": 77,
+      "breaks": 6
+    },
+    {
+      "period": "1h",
+      "basis": "strokes",
+      "bars": 3098,
+      "signals": 87,
+      "lines": 151,
+      "breaks": 12
+    },
+    {
+      "period": "1h",
+      "basis": "types",
+      "bars": 3098,
+      "signals": 12,
+      "lines": 151,
+      "breaks": 12
+    }
+  ],
+  "filters": 56,
+  "errors": [],
+  "mobile": true
+}

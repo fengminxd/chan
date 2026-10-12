@@ -1,0 +1,121 @@
+{
+  "passed": true,
+  "same_segment_geometry": true,
+  "snapshot_evidence_time_changes": true,
+  "sampled_first_confirmed_observed_at": "2026-10-12T06:00:00+00:00",
+  "sampled_first_observation_is_not_historical_first": true,
+  "lifecycle_events": [
+    {
+      "action": "added",
+      "id": "sampled_segment",
+      "first_observed_at": "2026-10-12T06:00:00+00:00",
+      "observed_at": "2026-10-12T06:00:00+00:00",
+      "lifecycle": {
+        "first_observed_at": "2026-10-12T06:00:00+00:00",
+        "revision": 1,
+        "first_confirmed_observed_at": "2026-10-12T06:00:00+00:00",
+        "current_revision_confirmed_at": "2026-10-12T06:00:00+00:00",
+        "endpoint_time": "2026-10-02T12:00:00+00:00",
+        "structural_evidence_at": "2026-10-11T22:00:00+00:00",
+        "status": "confirmed_in_snapshot",
+        "reappeared": false
+      },
+      "structure": {
+        "type": "segment",
+        "value": {
+          "start": {
+            "index": 23425,
+            "kind": "bottom",
+            "price": 82500.1,
+            "time": "2026-09-28T14:00:00+00:00"
+          },
+          "end": {
+            "index": 23492,
+            "kind": "top",
+            "price": 87249.6,
+            "time": "2026-10-02T12:00:00+00:00"
+          },
+          "first_stroke": 1626,
+          "last_stroke": 1628,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1635,
+          "evidence_at": "2026-10-11T22:00:00+00:00",
+          "feature_indices": [
+            [
+              1627
+            ],
+            [
+              1629,
+              1631,
+              1633
+            ],
+            [
+              1635
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 82500.1,
+          "range_high": 87249.6,
+          "local_evidence_stroke": 1635
+        }
+      }
+    },
+    {
+      "action": "updated",
+      "id": "sampled_segment",
+      "first_observed_at": "2026-10-12T06:00:00+00:00",
+      "observed_at": "2026-10-12T10:00:00+00:00",
+      "lifecycle": {
+        "first_observed_at": "2026-10-12T06:00:00+00:00",
+        "revision": 2,
+        "first_confirmed_observed_at": "2026-10-12T06:00:00+00:00",
+        "current_revision_confirmed_at": "2026-10-12T10:00:00+00:00",
+        "endpoint_time": "2026-10-02T12:00:00+00:00",
+        "structural_evidence_at": "2026-10-12T10:00:00+00:00",
+        "status": "confirmed_in_snapshot",
+        "reappeared": false
+      },
+      "structure": {
+        "type": "segment",
+        "value": {
+          "start": {
+            "index": 23425,
+            "kind": "bottom",
+            "price": 82500.1,
+            "time": "2026-09-28T14:00:00+00:00"
+          },
+          "end": {
+            "index": 23492,
+            "kind": "top",
+            "price": 87249.6,
+            "time": "2026-10-02T12:00:00+00:00"
+          },
+          "first_stroke": 1626,
+          "last_stroke": 1628,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1635,
+          "evidence_at": "2026-10-12T10:00:00+00:00",
+          "feature_indices": [
+            [
+              1627
+            ],
+            [
+              1629,
+              1631,
+              1633
+            ],
+            [
+              1635
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 82500.1,
+          "range_high": 87249.6,
+          "local_evidence_stroke": 1635
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,726 @@
+{
+  "schema": "entry-plan-v5",
+  "as_of": "2026-10-12T11:01:00+00:00",
+  "fingerprint": "4a1b80bb4fef1515e555a280",
+  "policy": {
+    "version": "entry-plan-v5",
+    "analysis": {
+      "version": "chan-rules-v5",
+      "parameters": {
+        "min_span": 4,
+        "initial_direction": "up",
+        "mode": "strict",
+        "max_levels": 5,
+        "zero_axis_ratio": 0.2,
+        "strength_fast": 5,
+        "strength_slow": 10
+      },
+      "inclusion": "directional_high_low_merge; stable_right_neighbor",
+      "stroke": "earliest_origin_latest_reachable_max_edges_v1",
+      "stroke_evidence": "stable_right_neighbor_witness_first_raw_close",
+      "segment": "feature_sequence_no_gap_or_reverse_fractal; reverse_valid_span_required",
+      "segment_origin": "earliest_overlapping_first_three; retain_extendable_origin",
+      "segment_evidence": "local_pattern_plus_predecessor_publication; max_input_prefix_availability",
+      "direct_break": "retain_attacking_stroke_events_across_segment_extension",
+      "recursive_center": "same_level_earliest_triple; full_child_range; zd<=zg",
+      "completed_type": "opposite_third_point_or_incompatible_center; completed_children_only",
+      "completed_type_boundary": "directional_extreme_ranked_legal_prefix; latest_equal_extreme",
+      "signal_structure": "completed_type_center_registry; legacy_signals_ineligible",
+      "center_ranges": "independent_observation_range; preserve_parent_decomposition_members",
+      "third_signal_history": "seed_identity; causal_prefix_publication; retain_closed_center_evidence",
+      "third_retry": "new_departure_after_return_to_center; consume_first_success",
+      "base_divergence": "missing_L0_internal_centers_is_pending",
+      "macd": {
+        "metric": "same_direction_histogram_sum",
+        "parameters": [
+          12,
+          26,
+          9
+        ],
+        "histogram_multiplier": 2,
+        "interval": "[start,end)",
+        "units": "price_bars",
+        "scope": "auxiliary_only"
+      },
+      "strength": {
+        "metric": "cross_kiss_sma",
+        "units": "price_hours",
+        "scope": "complete_aligned_waves_only"
+      },
+      "confirmation": "snapshot_evidence_can_be_revised; replay_observation_required",
+      "scope": "explicit_engineering_policy_not_unique_canonical_decomposition",
+      "fingerprint": "412c55e3043f619c357c25160d0d09cb4aff6639a63cebec2b3533e490d4a042"
+    },
+    "entry": {
+      "trigger_buffer": 0.0,
+      "stop_buffer": 0.0,
+      "max_wait_minutes": 60,
+      "profile": "nested_1h"
+    },
+    "periods": [
+      "1h",
+      "15m",
+      "5m",
+      "1m"
+    ],
+    "main_periods": [
+      "1h"
+    ],
+    "routes": {
+      "1h": [
+        "1h",
+        "15m",
+        "5m",
+        "1m"
+      ]
+    }
+  },
+  "input_digest": "e319208261ac7cf980d3846f886e008dea96d43159da8365374a4e5651ab61a9",
+  "data_quality": {
+    "excluded_unclosed_source_bars": 0,
+    "dropped_incomplete_buckets": 0,
+    "contiguous_start": "2026-06-01T00:00:00+00:00",
+    "fresh": true,
+    "dropped_before_last_gap": 0
+  },
+  "periods": {
+    "1h": {
+      "bar_count": 3203,
+      "last_closed_at": "2026-10-12T11:00:00+00:00",
+      "stroke_count": 134,
+      "data_quality": {
+        "excluded_unclosed_source_bars": 0,
+        "dropped_incomplete_buckets": 1
+      }
+    },
+    "15m": {
+      "bar_count": 12812,
+      "last_closed_at": "2026-10-12T11:00:00+00:00",
+      "stroke_count": 691,
+      "data_quality": {
+        "excluded_unclosed_source_bars": 0,
+        "dropped_incomplete_buckets": 1
+      }
+    },
+    "5m": {
+      "bar_count": 38436,
+      "last_closed_at": "2026-10-12T11:00:00+00:00",
+      "stroke_count": 2140,
+      "data_quality": {
+        "excluded_unclosed_source_bars": 0,
+        "dropped_incomplete_buckets": 1
+      }
+    },
+    "1m": {
+      "bar_count": 192181,
+      "last_closed_at": "2026-10-12T11:01:00+00:00",
+      "stroke_count": 9753,
+      "data_quality": {
+        "excluded_unclosed_source_bars": 0,
+        "dropped_incomplete_buckets": 0
+      }
+    }
+  },
+  "candidates": [
+    {
+      "id": "1h:B2:2026-10-08T17:00:00+00:00",
+      "label": "B2",
+      "side": "long",
+      "period": "1h",
+      "main_period": "1h",
+      "state": "candidate",
+      "higher_point_confirmed": false,
+      "basis": "1h_stroke_observation_not_completed_type_signal",
+      "developing_leg": true,
+      "observed_at": "2026-10-12T11:01:00+00:00",
+      "interval": {
+        "start": "2026-10-12T06:56:00+00:00",
+        "end": "2026-10-12T10:00:00+00:00",
+        "low": 83272.4,
+        "high": 84340.2,
+        "focus_time": "2026-10-12T09:48:00+00:00",
+        "focus_price": 83272.4
+      },
+      "candidate_price": 83272.4,
+      "candidate_time": "2026-10-12T09:48:00+00:00",
+      "parent_invalidation": {
+        "price": 80344.8,
+        "comparison": "lt"
+      },
+      "details": {
+        "first_point_confirmed": false,
+        "origin_time": "2026-10-08T17:00:00+00:00",
+        "origin_price": 80344.8,
+        "policy": "first_retest_holds_origin",
+        "missing": "1h转折性质待证；不破极值只是二类候选位置"
+      }
+    },
+    {
+      "id": "1h:S2:2026-10-06T15:00:00+00:00",
+      "label": "S2",
+      "side": "short",
+      "period": "1h",
+      "main_period": "1h",
+      "state": "candidate",
+      "higher_point_confirmed": false,
+      "basis": "1h_stroke_observation_not_completed_type_signal",
+      "developing_leg": false,
+      "observed_at": "2026-10-12T11:01:00+00:00",
+      "interval": {
+        "start": "2026-10-08T17:00:00+00:00",
+        "end": "2026-10-12T07:00:00+00:00",
+        "low": 80344.8,
+        "high": 84340.2,
+        "focus_time": "2026-10-12T06:56:00+00:00",
+        "focus_price": 84340.2
+      },
+      "candidate_price": 84340.2,
+      "candidate_time": "2026-10-12T06:56:00+00:00",
+      "parent_invalidation": {
+        "price": 86664.9,
+        "comparison": "gt"
+      },
+      "details": {
+        "first_point_confirmed": false,
+        "origin_time": "2026-10-06T15:00:00+00:00",
+        "origin_price": 86664.9,
+        "policy": "first_retest_holds_origin",
+        "missing": "1h转折性质待证；不破极值只是二类候选位置"
+      }
+    },
+    {
+      "id": "1h:S3:2026-10-05T01:00:00+00:00",
+      "label": "S3",
+      "side": "short",
+      "period": "1h",
+      "main_period": "1h",
+      "state": "candidate",
+      "higher_point_confirmed": false,
+      "basis": "1h_stroke_observation_not_completed_type_signal",
+      "developing_leg": false,
+      "observed_at": "2026-10-12T11:01:00+00:00",
+      "interval": {
+        "start": "2026-10-08T17:00:00+00:00",
+        "end": "2026-10-12T07:00:00+00:00",
+        "low": 80344.8,
+        "high": 84340.2,
+        "focus_time": "2026-10-12T06:56:00+00:00",
+        "focus_price": 84340.2
+      },
+      "candidate_price": 84340.2,
+      "candidate_time": "2026-10-12T06:56:00+00:00",
+      "parent_invalidation": {
+        "price": 85072.7,
+        "comparison": "ge"
+      },
+      "details": {
+        "zd": 85072.7,
+        "zg": 86034.0,
+        "center_id": "L1:E19",
+        "boundary_policy": "touch_is_return",
+        "departure_start": "2026-10-06T15:00:00+00:00",
+        "missing": "1h首次回试尚未按完成走势确认"
+      }
+    }
+  ],
+  "plans": [
+    {
+      "id": "1h:B2:2026-10-08T17:00:00+00:00",
+      "label": "B2",
+      "side": "long",
+      "period": "1h",
+      "main_period": "1h",
+      "state": "waiting_descent",
+      "higher_point_confirmed": false,
+      "basis": "1h_stroke_observation_not_completed_type_signal",
+      "developing_leg": true,
+      "observed_at": "2026-10-12T11:01:00+00:00",
+      "interval": {
+        "start": "2026-10-12T06:56:00+00:00",
+        "end": "2026-10-12T10:00:00+00:00",
+        "low": 83272.4,
+        "high": 84340.2,
+        "focus_time": "2026-10-12T09:48:00+00:00",
+        "focus_price": 83272.4
+      },
+      "candidate_price": 83272.4,
+      "candidate_time": "2026-10-12T09:48:00+00:00",
+      "parent_invalidation": {
+        "price": 80344.8,
+        "comparison": "lt"
+      },
+      "details": {
+        "first_point_confirmed": false,
+        "origin_time": "2026-10-08T17:00:00+00:00",
+        "origin_price": 80344.8,
+        "policy": "first_retest_holds_origin",
+        "missing": "1h转折性质待证；不破极值只是二类候选位置"
+      },
+      "entry_model": "nested_1h",
+      "path": [
+        {
+          "period": "1h",
+          "start": "2026-10-12T06:56:00+00:00",
+          "end": "2026-10-12T10:00:00+00:00",
+          "low": 83272.4,
+          "high": 84340.2,
+          "focus_time": "2026-10-12T09:48:00+00:00",
+          "focus_price": 83272.4
+        }
+      ],
+      "waiting_period": "15m",
+      "reason": "缺少本周期稳定起点支持且实际路径缩小的同向子区间；纯分钟反向路径或仅桶尾缩短不可用",
+      "setup": null,
+      "rejected_setups": [],
+      "evaluated_at": "2026-10-12T11:01:00+00:00",
+      "actionable": false,
+      "new_trigger": false,
+      "execution_group_id": null
+    },
+    {
+      "id": "1h:S2:2026-10-06T15:00:00+00:00",
+      "label": "S2",
+      "side": "short",
+      "period": "1h",
+      "main_period": "1h",
+      "state": "waiting_descent",
+      "higher_point_confirmed": false,
+      "basis": "1h_stroke_observation_not_completed_type_signal",
+      "developing_leg": false,
+      "observed_at": "2026-10-12T11:01:00+00:00",
+      "interval": {
+        "start": "2026-10-08T17:00:00+00:00",
+        "end": "2026-10-12T07:00:00+00:00",
+        "low": 80344.8,
+        "high": 84340.2,
+        "focus_time": "2026-10-12T06:56:00+00:00",
+        "focus_price": 84340.2
+      },
+      "candidate_price": 84340.2,
+      "candidate_time": "2026-10-12T06:56:00+00:00",
+      "parent_invalidation": {
+        "price": 86664.9,
+        "comparison": "gt"
+      },
+      "details": {
+        "first_point_confirmed": false,
+        "origin_time": "2026-10-06T15:00:00+00:00",
+        "origin_price": 86664.9,
+        "policy": "first_retest_holds_origin",
+        "missing": "1h转折性质待证；不破极值只是二类候选位置"
+      },
+      "entry_model": "nested_1h",
+      "path": [
+        {
+          "period": "1h",
+          "start": "2026-10-08T17:00:00+00:00",
+          "end": "2026-10-12T07:00:00+00:00",
+          "low": 80344.8,
+          "high": 84340.2,
+          "focus_time": "2026-10-12T06:56:00+00:00",
+          "focus_price": 84340.2
+        },
+        {
+          "period": "15m",
+          "start": "2026-10-11T21:15:00+00:00",
+          "end": "2026-10-12T07:00:00+00:00",
+          "low": 83228.5,
+          "high": 84340.2,
+          "focus_time": "2026-10-12T06:56:00+00:00",
+          "focus_price": 84340.2,
+          "native_structure": {
+            "kind": "stroke",
+            "index": 689,
+            "start_time": "2026-10-11T21:15:00+00:00",
+            "start_price": 83228.5,
+            "start_confirmed": true,
+            "endpoint_time": "2026-10-12T06:45:00+00:00",
+            "endpoint_price": 84340.2,
+            "observed_at": "2026-10-12T11:01:00+00:00",
+            "focus_matches_endpoint": true
+          }
+        },
+        {
+          "period": "5m",
+          "start": "2026-10-12T06:25:00+00:00",
+          "end": "2026-10-12T07:00:00+00:00",
+          "low": 83712.6,
+          "high": 84340.2,
+          "focus_time": "2026-10-12T06:56:00+00:00",
+          "focus_price": 84340.2,
+          "native_structure": {
+            "kind": "stroke",
+            "index": 2138,
+            "start_time": "2026-10-12T06:25:00+00:00",
+            "start_price": 83712.6,
+            "start_confirmed": true,
+            "endpoint_time": "2026-10-12T06:55:00+00:00",
+            "endpoint_price": 84340.2,
+            "observed_at": "2026-10-12T11:01:00+00:00",
+            "focus_matches_endpoint": true
+          }
+        }
+      ],
+      "waiting_period": "1m",
+      "reason": "缺少本周期稳定起点支持且实际路径缩小的同向子区间；纯分钟反向路径或仅桶尾缩短不可用",
+      "setup": null,
+      "rejected_setups": [
+        {
+          "setup": {
+            "period": "15m",
+            "anchor_time": "2026-10-12T06:45:00+00:00",
+            "anchor_price": 84340.2,
+            "structure": "stable_top_fractal",
+            "evidence_at": "2026-10-12T08:00:00+00:00",
+            "trigger_price": 83732.4,
+            "stop_price": 84340.2,
+            "trigger_rule": "1m_close_lt",
+            "id": "78fec17878231c31faac99ea"
+          },
+          "path": [
+            {
+              "period": "1h",
+              "start": "2026-10-08T17:00:00+00:00",
+              "end": "2026-10-12T07:00:00+00:00",
+              "low": 80344.8,
+              "high": 84340.2,
+              "focus_time": "2026-10-12T06:56:00+00:00",
+              "focus_price": 84340.2
+            },
+            {
+              "period": "15m",
+              "start": "2026-10-11T21:15:00+00:00",
+              "end": "2026-10-12T07:00:00+00:00",
+              "low": 83228.5,
+              "high": 84340.2,
+              "focus_time": "2026-10-12T06:56:00+00:00",
+              "focus_price": 84340.2,
+              "native_structure": {
+                "kind": "stroke",
+                "index": 689,
+                "start_time": "2026-10-11T21:15:00+00:00",
+                "start_price": 83228.5,
+                "start_confirmed": true,
+                "endpoint_time": "2026-10-12T06:45:00+00:00",
+                "endpoint_price": 84340.2,
+                "observed_at": "2026-10-12T11:01:00+00:00",
+                "focus_matches_endpoint": true
+              }
+            }
+          ],
+          "state": "missed"
+        },
+        {
+          "setup": {
+            "period": "5m",
+            "anchor_time": "2026-10-12T06:55:00+00:00",
+            "anchor_price": 84340.2,
+            "structure": "stable_top_fractal",
+            "evidence_at": "2026-10-12T07:20:00+00:00",
+            "trigger_price": 83956.9,
+            "stop_price": 84340.2,
+            "trigger_rule": "1m_close_lt",
+            "id": "2cf905e80b29614c28c87e35"
+          },
+          "path": [
+            {
+              "period": "1h",
+              "start": "2026-10-08T17:00:00+00:00",
+              "end": "2026-10-12T07:00:00+00:00",
+              "low": 80344.8,
+              "high": 84340.2,
+              "focus_time": "2026-10-12T06:56:00+00:00",
+              "focus_price": 84340.2
+            },
+            {
+              "period": "15m",
+              "start": "2026-10-11T21:15:00+00:00",
+              "end": "2026-10-12T07:00:00+00:00",
+              "low": 83228.5,
+              "high": 84340.2,
+              "focus_time": "2026-10-12T06:56:00+00:00",
+              "focus_price": 84340.2,
+              "native_structure": {
+                "kind": "stroke",
+                "index": 689,
+                "start_time": "2026-10-11T21:15:00+00:00",
+                "start_price": 83228.5,
+                "start_confirmed": true,
+                "endpoint_time": "2026-10-12T06:45:00+00:00",
+                "endpoint_price": 84340.2,
+                "observed_at": "2026-10-12T11:01:00+00:00",
+                "focus_matches_endpoint": true
+              }
+            },
+            {
+              "period": "5m",
+              "start": "2026-10-12T06:25:00+00:00",
+              "end": "2026-10-12T07:00:00+00:00",
+              "low": 83712.6,
+              "high": 84340.2,
+              "focus_time": "2026-10-12T06:56:00+00:00",
+              "focus_price": 84340.2,
+              "native_structure": {
+                "kind": "stroke",
+                "index": 2138,
+                "start_time": "2026-10-12T06:25:00+00:00",
+                "start_price": 83712.6,
+                "start_confirmed": true,
+                "endpoint_time": "2026-10-12T06:55:00+00:00",
+                "endpoint_price": 84340.2,
+                "observed_at": "2026-10-12T11:01:00+00:00",
+                "focus_matches_endpoint": true
+              }
+            }
+          ],
+          "state": "missed"
+        }
+      ],
+      "evaluated_at": "2026-10-12T11:01:00+00:00",
+      "actionable": false,
+      "new_trigger": false,
+      "execution_group_id": null
+    },
+    {
+      "id": "1h:S3:2026-10-05T01:00:00+00:00",
+      "label": "S3",
+      "side": "short",
+      "period": "1h",
+      "main_period": "1h",
+      "state": "waiting_descent",
+      "higher_point_confirmed": false,
+      "basis": "1h_stroke_observation_not_completed_type_signal",
+      "developing_leg": false,
+      "observed_at": "2026-10-12T11:01:00+00:00",
+      "interval": {
+        "start": "2026-10-08T17:00:00+00:00",
+        "end": "2026-10-12T07:00:00+00:00",
+        "low": 80344.8,
+        "high": 84340.2,
+        "focus_time": "2026-10-12T06:56:00+00:00",
+        "focus_price": 84340.2
+      },
+      "candidate_price": 84340.2,
+      "candidate_time": "2026-10-12T06:56:00+00:00",
+      "parent_invalidation": {
+        "price": 85072.7,
+        "comparison": "ge"
+      },
+      "details": {
+        "zd": 85072.7,
+        "zg": 86034.0,
+        "center_id": "L1:E19",
+        "boundary_policy": "touch_is_return",
+        "departure_start": "2026-10-06T15:00:00+00:00",
+        "missing": "1h首次回试尚未按完成走势确认"
+      },
+      "entry_model": "nested_1h",
+      "path": [
+        {
+          "period": "1h",
+          "start": "2026-10-08T17:00:00+00:00",
+          "end": "2026-10-12T07:00:00+00:00",
+          "low": 80344.8,
+          "high": 84340.2,
+          "focus_time": "2026-10-12T06:56:00+00:00",
+          "focus_price": 84340.2
+        },
+        {
+          "period": "15m",
+          "start": "2026-10-11T21:15:00+00:00",
+          "end": "2026-10-12T07:00:00+00:00",
+          "low": 83228.5,
+          "high": 84340.2,
+          "focus_time": "2026-10-12T06:56:00+00:00",
+          "focus_price": 84340.2,
+          "native_structure": {
+            "kind": "stroke",
+            "index": 689,
+            "start_time": "2026-10-11T21:15:00+00:00",
+            "start_price": 83228.5,
+            "start_confirmed": true,
+            "endpoint_time": "2026-10-12T06:45:00+00:00",
+            "endpoint_price": 84340.2,
+            "observed_at": "2026-10-12T11:01:00+00:00",
+            "focus_matches_endpoint": true
+          }
+        },
+        {
+          "period": "5m",
+          "start": "2026-10-12T06:25:00+00:00",
+          "end": "2026-10-12T07:00:00+00:00",
+          "low": 83712.6,
+          "high": 84340.2,
+          "focus_time": "2026-10-12T06:56:00+00:00",
+          "focus_price": 84340.2,
+          "native_structure": {
+            "kind": "stroke",
+            "index": 2138,
+            "start_time": "2026-10-12T06:25:00+00:00",
+            "start_price": 83712.6,
+            "start_confirmed": true,
+            "endpoint_time": "2026-10-12T06:55:00+00:00",
+            "endpoint_price": 84340.2,
+            "observed_at": "2026-10-12T11:01:00+00:00",
+            "focus_matches_endpoint": true
+          }
+        }
+      ],
+      "waiting_period": "1m",
+      "reason": "缺少本周期稳定起点支持且实际路径缩小的同向子区间；纯分钟反向路径或仅桶尾缩短不可用",
+      "setup": null,
+      "rejected_setups": [
+        {
+          "setup": {
+            "period": "15m",
+            "anchor_time": "2026-10-12T06:45:00+00:00",
+            "anchor_price": 84340.2,
+            "structure": "stable_top_fractal",
+            "evidence_at": "2026-10-12T08:00:00+00:00",
+            "trigger_price": 83732.4,
+            "stop_price": 84340.2,
+            "trigger_rule": "1m_close_lt",
+            "id": "78fec17878231c31faac99ea"
+          },
+          "path": [
+            {
+              "period": "1h",
+              "start": "2026-10-08T17:00:00+00:00",
+              "end": "2026-10-12T07:00:00+00:00",
+              "low": 80344.8,
+              "high": 84340.2,
+              "focus_time": "2026-10-12T06:56:00+00:00",
+              "focus_price": 84340.2
+            },
+            {
+              "period": "15m",
+              "start": "2026-10-11T21:15:00+00:00",
+              "end": "2026-10-12T07:00:00+00:00",
+              "low": 83228.5,
+              "high": 84340.2,
+              "focus_time": "2026-10-12T06:56:00+00:00",
+              "focus_price": 84340.2,
+              "native_structure": {
+                "kind": "stroke",
+                "index": 689,
+                "start_time": "2026-10-11T21:15:00+00:00",
+                "start_price": 83228.5,
+                "start_confirmed": true,
+                "endpoint_time": "2026-10-12T06:45:00+00:00",
+                "endpoint_price": 84340.2,
+                "observed_at": "2026-10-12T11:01:00+00:00",
+                "focus_matches_endpoint": true
+              }
+            }
+          ],
+          "state": "missed"
+        },
+        {
+          "setup": {
+            "period": "5m",
+            "anchor_time": "2026-10-12T06:55:00+00:00",
+            "anchor_price": 84340.2,
+            "structure": "stable_top_fractal",
+            "evidence_at": "2026-10-12T07:20:00+00:00",
+            "trigger_price": 83956.9,
+            "stop_price": 84340.2,
+            "trigger_rule": "1m_close_lt",
+            "id": "2cf905e80b29614c28c87e35"
+          },
+          "path": [
+            {
+              "period": "1h",
+              "start": "2026-10-08T17:00:00+00:00",
+              "end": "2026-10-12T07:00:00+00:00",
+              "low": 80344.8,
+              "high": 84340.2,
+              "focus_time": "2026-10-12T06:56:00+00:00",
+              "focus_price": 84340.2
+            },
+            {
+              "period": "15m",
+              "start": "2026-10-11T21:15:00+00:00",
+              "end": "2026-10-12T07:00:00+00:00",
+              "low": 83228.5,
+              "high": 84340.2,
+              "focus_time": "2026-10-12T06:56:00+00:00",
+              "focus_price": 84340.2,
+              "native_structure": {
+                "kind": "stroke",
+                "index": 689,
+                "start_time": "2026-10-11T21:15:00+00:00",
+                "start_price": 83228.5,
+                "start_confirmed": true,
+                "endpoint_time": "2026-10-12T06:45:00+00:00",
+                "endpoint_price": 84340.2,
+                "observed_at": "2026-10-12T11:01:00+00:00",
+                "focus_matches_endpoint": true
+              }
+            },
+            {
+              "period": "5m",
+              "start": "2026-10-12T06:25:00+00:00",
+              "end": "2026-10-12T07:00:00+00:00",
+              "low": 83712.6,
+              "high": 84340.2,
+              "focus_time": "2026-10-12T06:56:00+00:00",
+              "focus_price": 84340.2,
+              "native_structure": {
+                "kind": "stroke",
+                "index": 2138,
+                "start_time": "2026-10-12T06:25:00+00:00",
+                "start_price": 83712.6,
+                "start_confirmed": true,
+                "endpoint_time": "2026-10-12T06:55:00+00:00",
+                "endpoint_price": 84340.2,
+                "observed_at": "2026-10-12T11:01:00+00:00",
+                "focus_matches_endpoint": true
+              }
+            }
+          ],
+          "state": "missed"
+        }
+      ],
+      "evaluated_at": "2026-10-12T11:01:00+00:00",
+      "actionable": false,
+      "new_trigger": false,
+      "execution_group_id": null
+    }
+  ],
+  "withdrawn": [],
+  "direction_conflict": false,
+  "by_main_period": {
+    "1h": {
+      "entry_model": "nested_1h",
+      "candidate_count": 3,
+      "plan_count": 3,
+      "new_trigger_count": 0,
+      "actionable_count": 0,
+      "plan_ids": [
+        "1h:B2:2026-10-08T17:00:00+00:00",
+        "1h:S2:2026-10-06T15:00:00+00:00",
+        "1h:S3:2026-10-05T01:00:00+00:00"
+      ],
+      "state_counts": {
+        "waiting_descent": 3
+      }
+    }
+  },
+  "orders": [],
+  "scope": "1h笔观察候选：15m→5m→1m逐级包含与稳定分型突破",
+  "empty_reason": null,
+  "previous_snapshot": null,
+  "data_origin": {
+    "symbol": "BTCUSDT",
+    "source": "source.json",
+    "minute_csv": "history_1m.csv"
+  },
+  "code_sha256": {
+    "entry_plan.py": "12dfe95daed134f2047edb6ffe977861833a3b7ea0203187a0e84915a22f1521",
+    "entry_matrix.py": "87fdd89f29b3b43aa218945026366e94a051cfed89333998ca8c2e1a3acac246",
+    "chan.py": "55bd4ce21fa35e37e0ed25eeff58b0e800316418f4af40265ce98b46450133c5",
+    "chan_structure.py": "362409b50774253ae765b8826b3e74460396199d15448bd1f6cae2f2ee077ae8",
+    "chan_theory.py": "7497c46f7182a1694cec3b732dc26cdaafb3e779ab4021181f4cc81d7a8aab4c",
+    "chan_dynamics.py": "c629d02c2eb098a8886dc341d47bad564e22bdbfc2408aa34d048cce17784e50"
+  }
+}

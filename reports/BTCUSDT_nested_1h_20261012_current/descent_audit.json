@@ -1,0 +1,177 @@
+[
+  {
+    "label": "S2",
+    "levels": [
+      {
+        "period": "15m",
+        "interval": {
+          "start": "2026-10-11T21:15:00+00:00",
+          "end": "2026-10-12T07:00:00+00:00",
+          "low": 83228.5,
+          "high": 84340.2,
+          "focus_time": "2026-10-12T06:56:00+00:00",
+          "focus_price": 84340.2,
+          "native_structure": {
+            "kind": "stroke",
+            "index": 689,
+            "start_time": "2026-10-11T21:15:00+00:00",
+            "start_price": 83228.5,
+            "start_confirmed": true,
+            "endpoint_time": "2026-10-12T06:45:00+00:00",
+            "endpoint_price": 84340.2,
+            "observed_at": "2026-10-12T11:01:00+00:00",
+            "focus_matches_endpoint": true
+          }
+        },
+        "setups": [
+          {
+            "period": "15m",
+            "anchor_time": "2026-10-12T06:45:00+00:00",
+            "anchor_price": 84340.2,
+            "structure": "stable_top_fractal",
+            "evidence_at": "2026-10-12T08:00:00+00:00",
+            "trigger_price": 83732.4,
+            "stop_price": 84340.2,
+            "trigger_rule": "1m_close_lt",
+            "id": "78fec17878231c31faac99ea",
+            "status": "missed",
+            "first_cross": {
+              "close_at": "2026-10-12T08:15:00+00:00",
+              "close": 83686.6
+            }
+          }
+        ]
+      },
+      {
+        "period": "5m",
+        "interval": {
+          "start": "2026-10-12T06:25:00+00:00",
+          "end": "2026-10-12T07:00:00+00:00",
+          "low": 83712.6,
+          "high": 84340.2,
+          "focus_time": "2026-10-12T06:56:00+00:00",
+          "focus_price": 84340.2,
+          "native_structure": {
+            "kind": "stroke",
+            "index": 2138,
+            "start_time": "2026-10-12T06:25:00+00:00",
+            "start_price": 83712.6,
+            "start_confirmed": true,
+            "endpoint_time": "2026-10-12T06:55:00+00:00",
+            "endpoint_price": 84340.2,
+            "observed_at": "2026-10-12T11:01:00+00:00",
+            "focus_matches_endpoint": true
+          }
+        },
+        "setups": [
+          {
+            "period": "5m",
+            "anchor_time": "2026-10-12T06:55:00+00:00",
+            "anchor_price": 84340.2,
+            "structure": "stable_top_fractal",
+            "evidence_at": "2026-10-12T07:20:00+00:00",
+            "trigger_price": 83956.9,
+            "stop_price": 84340.2,
+            "trigger_rule": "1m_close_lt",
+            "id": "2cf905e80b29614c28c87e35",
+            "status": "missed",
+            "first_cross": {
+              "close_at": "2026-10-12T07:36:00+00:00",
+              "close": 83954.2
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "S3",
+    "levels": [
+      {
+        "period": "15m",
+        "interval": {
+          "start": "2026-10-11T21:15:00+00:00",
+          "end": "2026-10-12T07:00:00+00:00",
+          "low": 83228.5,
+          "high": 84340.2,
+          "focus_time": "2026-10-12T06:56:00+00:00",
+          "focus_price": 84340.2,
+          "native_structure": {
+            "kind": "stroke",
+            "index": 689,
+            "start_time": "2026-10-11T21:15:00+00:00",
+            "start_price": 83228.5,
+            "start_confirmed": true,
+            "endpoint_time": "2026-10-12T06:45:00+00:00",
+            "endpoint_price": 84340.2,
+            "observed_at": "2026-10-12T11:01:00+00:00",
+            "focus_matches_endpoint": true
+          }
+        },
+        "setups": [
+          {
+            "period": "15m",
+            "anchor_time": "2026-10-12T06:45:00+00:00",
+            "anchor_price": 84340.2,
+            "structure": "stable_top_fractal",
+            "evidence_at": "2026-10-12T08:00:00+00:00",
+            "trigger_price": 83732.4,
+            "stop_price": 84340.2,
+            "trigger_rule": "1m_close_lt",
+            "id": "78fec17878231c31faac99ea",
+            "status": "missed",
+            "first_cross": {
+              "close_at": "2026-10-12T08:15:00+00:00",
+              "close": 83686.6
+            }
+          }
+        ]
+      },
+      {
+        "period": "5m",
+        "interval": {
+          "start": "2026-10-12T06:25:00+00:00",
+          "end": "2026-10-12T07:00:00+00:00",
+          "low": 83712.6,
+          "high": 84340.2,
+          "focus_time": "2026-10-12T06:56:00+00:00",
+          "focus_price": 84340.2,
+          "native_structure": {
+            "kind": "stroke",
+            "index": 2138,
+            "start_time": "2026-10-12T06:25:00+00:00",
+            "start_price": 83712.6,
+            "start_confirmed": true,
+            "endpoint_time": "2026-10-12T06:55:00+00:00",
+            "endpoint_price": 84340.2,
+            "observed_at": "2026-10-12T11:01:00+00:00",
+            "focus_matches_endpoint": true
+          }
+        },
+        "setups": [
+          {
+            "period": "5m",
+            "anchor_time": "2026-10-12T06:55:00+00:00",
+            "anchor_price": 84340.2,
+            "structure": "stable_top_fractal",
+            "evidence_at": "2026-10-12T07:20:00+00:00",
+            "trigger_price": 83956.9,
+            "stop_price": 84340.2,
+            "trigger_rule": "1m_close_lt",
+            "id": "2cf905e80b29614c28c87e35",
+            "status": "missed",
+            "first_cross": {
+              "close_at": "2026-10-12T07:36:00+00:00",
+              "close": 83954.2
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "B2",
+    "levels": [],
+    "waiting_period": "15m"
+  }
+]

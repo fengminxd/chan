@@ -1,0 +1,356 @@
+{
+  "symbol": "SUIUSDT",
+  "market": "Binance USD-M perpetual",
+  "price_type": "trade_price",
+  "as_of": "2026-09-27T08:44:00+00:00",
+  "ticker": {
+    "closeTime": 1790498655098,
+    "count": 1863941,
+    "firstId": 1588151890,
+    "highPrice": "1.287300",
+    "lastId": 1590017018,
+    "lastPrice": "1.271800",
+    "lastQty": "280.8",
+    "lowPrice": "1.128300",
+    "openPrice": "1.164300",
+    "openTime": 1790412240000,
+    "priceChange": "0.107500",
+    "priceChangePercent": "9.233",
+    "quoteVolume": "497133134.091380",
+    "symbol": "SUIUSDT",
+    "volume": "418412459.9",
+    "weightedAvgPrice": "1.188141"
+  },
+  "ticker_time": "2026-09-27T08:44:15.098000+00:00",
+  "price_decimals": 4,
+  "tick_size": "0.000100",
+  "contract_type": "PERPETUAL",
+  "contract_status": "TRADING",
+  "periods": {
+    "1h": {
+      "context_start": "2023-05-03T16:00:00+00:00",
+      "closed_bars": 29824,
+      "closed_end": "2026-09-27T08:00:00+00:00",
+      "sha256": "19bcbcd255ae3673970852020c1caf208b186cdabc933b4994a7324cd086a21a"
+    },
+    "4h": {
+      "context_start": "2023-05-03T16:00:00+00:00",
+      "closed_bars": 7456,
+      "closed_end": "2026-09-27T08:00:00+00:00",
+      "sha256": "392f11e5c44c6c4a5f049abbe3a962209cc2d405f5bcc34aadbba4b12e934640"
+    }
+  },
+  "requests": [
+    {
+      "url": "https://fapi.binance.com/fapi/v1/time",
+      "file": "raw_pages/21c386781f34f7460f06.json",
+      "sha256": "6b53ef0af53266fed7d0f759f286c8b7aa4c6bddc18993f221617eb33367a35e",
+      "server_date": "Sun, 27 Sep 2026 08:44:17 GMT",
+      "downloaded_at": "2026-09-27T08:44:17.406464+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/ticker/24hr?symbol=SUIUSDT",
+      "file": "raw_pages/bf1f1cbd2238743f95be.json",
+      "sha256": "56330762e227bd9333b1efdc40ab2624da7ac1cc63577ebccec757298aff3c9b",
+      "server_date": "Sun, 27 Sep 2026 08:44:17 GMT",
+      "downloaded_at": "2026-09-27T08:44:17.451358+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/exchangeInfo",
+      "file": "raw_pages/9e1b776811e8385e9a81.json",
+      "sha256": "65bb7dff0f2500d39fdd7e52d49ec002e692d0d22b414e95a90629c57fc70e61",
+      "server_date": "Sun, 27 Sep 2026 08:44:17 GMT",
+      "downloaded_at": "2026-09-27T08:44:17.528054+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=1h&startTime=0&limit=1",
+      "file": "raw_pages/5c6858d22574be2b9cbf.json",
+      "sha256": "7dc95ae9380fa82720be99733d46ec58371f96d540566d85f9b5f75ec97dd3cf",
+      "server_date": "Sun, 27 Sep 2026 08:44:17 GMT",
+      "downloaded_at": "2026-09-27T08:44:17.595729+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=1h&startTime=1683129600000&endTime=1686729599999&limit=1000",
+      "file": "raw_pages/a2eb886c21e8ab0ee0c4.json",
+      "sha256": "7731bb19ff7f2c03ab14e27f118a92bc3b5e0ac560e39e6cce2d40e799a66d27",
+      "server_date": "Sun, 27 Sep 2026 08:44:17 GMT",
+      "downloaded_at": "2026-09-27T08:44:17.678873+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=1h&startTime=1686729600000&endTime=1690329599999&limit=1000",
+      "file": "raw_pages/aaef88328789faa6563c.json",
+      "sha256": "cb1f86afb72420d96bd079ecf3b837ea276d4a7e29fd22a82862d34c402e8bc8",
+      "server_date": "Sun, 27 Sep 2026 08:44:17 GMT",
+      "downloaded_at": "2026-09-27T08:44:17.739056+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=1h&startTime=1690329600000&endTime=1693929599999&limit=1000",
+      "file": "raw_pages/25e12ab3325f72a18784.json",
+      "sha256": "a8a249d2eb8445609a8cdba8c0d7a4c48f1efad69112651a50720caf135456ff",
+      "server_date": "Sun, 27 Sep 2026 08:44:17 GMT",
+      "downloaded_at": "2026-09-27T08:44:17.822722+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=1h&startTime=1693929600000&endTime=1697529599999&limit=1000",
+      "file": "raw_pages/5350a2000c950599f72e.json",
+      "sha256": "ff0e4189017b8afb0896ee318dfd7c7867b4bfb34e332c95fa7759e8b52b75e0",
+      "server_date": "Sun, 27 Sep 2026 08:44:17 GMT",
+      "downloaded_at": "2026-09-27T08:44:17.890687+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=1h&startTime=1697529600000&endTime=1701129599999&limit=1000",
+      "file": "raw_pages/43269d07535cca61acc6.json",
+      "sha256": "1c7540c76e532b8f89a809a085f54c0b528f18f7c25cd370b51709afc87bd29e",
+      "server_date": "Sun, 27 Sep 2026 08:44:17 GMT",
+      "downloaded_at": "2026-09-27T08:44:17.951913+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=1h&startTime=1701129600000&endTime=1704729599999&limit=1000",
+      "file": "raw_pages/93cfc463f422c106c9fd.json",
+      "sha256": "3a64e71471c4be4227e49d5b468c7c83e1c580434903f05418d042c7aeaa0555",
+      "server_date": "Sun, 27 Sep 2026 08:44:17 GMT",
+      "downloaded_at": "2026-09-27T08:44:18.068620+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=1h&startTime=1704729600000&endTime=1708329599999&limit=1000",
+      "file": "raw_pages/8600857b248445b25775.json",
+      "sha256": "2e5ccbeacaa581309efd5f0c9177084852c1cfe5d6b5ca6144fdaec8dc186891",
+      "server_date": "Sun, 27 Sep 2026 08:44:18 GMT",
+      "downloaded_at": "2026-09-27T08:44:18.194671+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=1h&startTime=1708329600000&endTime=1711929599999&limit=1000",
+      "file": "raw_pages/4ba542e16b104054c687.json",
+      "sha256": "677988cba39296df68064ab952b0d1b654b7120f84f5ec55cce415df737eab00",
+      "server_date": "Sun, 27 Sep 2026 08:44:18 GMT",
+      "downloaded_at": "2026-09-27T08:44:18.253003+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=1h&startTime=1711929600000&endTime=1715529599999&limit=1000",
+      "file": "raw_pages/9a95e1c6edd6806c8e1a.json",
+      "sha256": "0a49ab6ce4980f1110ec34d6dd535126f354c57c62476ea8b10e00972883872d",
+      "server_date": "Sun, 27 Sep 2026 08:44:18 GMT",
+      "downloaded_at": "2026-09-27T08:44:18.343605+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=1h&startTime=1715529600000&endTime=1719129599999&limit=1000",
+      "file": "raw_pages/78399c3d59e1faa3c773.json",
+      "sha256": "8bd7cea5fe5aa6bfcc9e249347246d39e693f71cdfe4d00f59a58e0c0a4ebced",
+      "server_date": "Sun, 27 Sep 2026 08:44:18 GMT",
+      "downloaded_at": "2026-09-27T08:44:18.431178+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=1h&startTime=1719129600000&endTime=1722729599999&limit=1000",
+      "file": "raw_pages/29d99f6b2e46ace4dff5.json",
+      "sha256": "ea2b70dc9f3c5e0ecd1c47299f86ebc8b0e71435ad8056cc5d67a6b1b57a4b5a",
+      "server_date": "Sun, 27 Sep 2026 08:44:18 GMT",
+      "downloaded_at": "2026-09-27T08:44:18.484881+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=1h&startTime=1722729600000&endTime=1726329599999&limit=1000",
+      "file": "raw_pages/8ab7541d79d615da1b18.json",
+      "sha256": "24b4866f2ff977aa5246f4b7c5cba6eec1ddc096701cdcebd8b51ab90dd93747",
+      "server_date": "Sun, 27 Sep 2026 08:44:18 GMT",
+      "downloaded_at": "2026-09-27T08:44:18.575654+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=1h&startTime=1726329600000&endTime=1729929599999&limit=1000",
+      "file": "raw_pages/4aebf874f381ec1d1d42.json",
+      "sha256": "a4e243a1a7e63e1994a90cc84da16e3c8fdf8de18793e6376b8bc76a73323dbf",
+      "server_date": "Sun, 27 Sep 2026 08:44:18 GMT",
+      "downloaded_at": "2026-09-27T08:44:18.657619+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=1h&startTime=1729929600000&endTime=1733529599999&limit=1000",
+      "file": "raw_pages/6e3cfe52f0741c170e93.json",
+      "sha256": "b61d7ecd257569982257e9d473ad2de65922bca9b4f1938bbb11c9e00235e9d9",
+      "server_date": "Sun, 27 Sep 2026 08:44:18 GMT",
+      "downloaded_at": "2026-09-27T08:44:18.718807+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=1h&startTime=1733529600000&endTime=1737129599999&limit=1000",
+      "file": "raw_pages/e2805e1f3cee6fb154b2.json",
+      "sha256": "88782acf8cb93aa3dfaf137e09a8536452a1ff1b1ad6dafffaf21994f14ffccb",
+      "server_date": "Sun, 27 Sep 2026 08:44:18 GMT",
+      "downloaded_at": "2026-09-27T08:44:18.778348+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=1h&startTime=1737129600000&endTime=1740729599999&limit=1000",
+      "file": "raw_pages/13de2977ed20736113e8.json",
+      "sha256": "30b085a20a27d1c4530366b638514a4b3404a533ddeb59f231f1330585c4ee4c",
+      "server_date": "Sun, 27 Sep 2026 08:44:18 GMT",
+      "downloaded_at": "2026-09-27T08:44:18.835695+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=1h&startTime=1740729600000&endTime=1744329599999&limit=1000",
+      "file": "raw_pages/7ede36720d45502f1d6b.json",
+      "sha256": "ec07f03e18e3c6a1a42979a6e4ecdfcc52f3fc541380c499c7e2697dabcb7cdf",
+      "server_date": "Sun, 27 Sep 2026 08:44:18 GMT",
+      "downloaded_at": "2026-09-27T08:44:18.895307+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=1h&startTime=1744329600000&endTime=1747929599999&limit=1000",
+      "file": "raw_pages/4659a37909750412e6fa.json",
+      "sha256": "3824670e15f98a658b86ba31769a5ee2292b88518be6bd17cee5180ba13e4911",
+      "server_date": "Sun, 27 Sep 2026 08:44:18 GMT",
+      "downloaded_at": "2026-09-27T08:44:19.023646+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=1h&startTime=1747929600000&endTime=1751529599999&limit=1000",
+      "file": "raw_pages/8f2595cfb2a2d3191205.json",
+      "sha256": "244edc7ba024c69031cd4c4b831b7558a0a306447f0b71d7dfa0e98d1097cb4d",
+      "server_date": "Sun, 27 Sep 2026 08:44:19 GMT",
+      "downloaded_at": "2026-09-27T08:44:19.113883+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=1h&startTime=1751529600000&endTime=1755129599999&limit=1000",
+      "file": "raw_pages/29e11e8e2a2662c601a2.json",
+      "sha256": "f380e0d416f9075a92df79a2fcc63adcf2cecf0d998f80507e73ad1b0cdbe1e9",
+      "server_date": "Sun, 27 Sep 2026 08:44:19 GMT",
+      "downloaded_at": "2026-09-27T08:44:19.194929+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=1h&startTime=1755129600000&endTime=1758729599999&limit=1000",
+      "file": "raw_pages/6bbb4e6d811baf6c6244.json",
+      "sha256": "6981ae65048bdc3516604764a8389f992bb7bceee85d3d379b696daf193222d9",
+      "server_date": "Sun, 27 Sep 2026 08:44:19 GMT",
+      "downloaded_at": "2026-09-27T08:44:19.254202+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=1h&startTime=1758729600000&endTime=1762329599999&limit=1000",
+      "file": "raw_pages/eadae3489016d76b048c.json",
+      "sha256": "7629739bdd8aa508ed0d04a81f5bf8034ad8aeaa0e509fb71db206038e3b01e3",
+      "server_date": "Sun, 27 Sep 2026 08:44:19 GMT",
+      "downloaded_at": "2026-09-27T08:44:19.343687+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=1h&startTime=1762329600000&endTime=1765929599999&limit=1000",
+      "file": "raw_pages/f44900841993d64828f7.json",
+      "sha256": "3e181ceeb51552e0e60b11c6d01743716d0c4a43bd2e1378f9d7010d24ef1fc1",
+      "server_date": "Sun, 27 Sep 2026 08:44:19 GMT",
+      "downloaded_at": "2026-09-27T08:44:19.434826+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=1h&startTime=1765929600000&endTime=1769529599999&limit=1000",
+      "file": "raw_pages/2b3bd58c3a1ae92d5038.json",
+      "sha256": "952baa0c5e2ccd6c2668412c68a3c46df46db79cb5c5924298b394eb8fd1b5b2",
+      "server_date": "Sun, 27 Sep 2026 08:44:19 GMT",
+      "downloaded_at": "2026-09-27T08:44:19.498163+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=1h&startTime=1769529600000&endTime=1773129599999&limit=1000",
+      "file": "raw_pages/d784c2acc45a5c02a115.json",
+      "sha256": "d04a3a7cf13c981586f088af60fd4b3a3734371f7ad4a2b114fb75832441c1c6",
+      "server_date": "Sun, 27 Sep 2026 08:44:19 GMT",
+      "downloaded_at": "2026-09-27T08:44:19.557654+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=1h&startTime=1773129600000&endTime=1776729599999&limit=1000",
+      "file": "raw_pages/5a6bd051500fac83d4cf.json",
+      "sha256": "794648824b5b7590b9ecf5dc3aec672ba36e54a11cf1a0a33035211306964e3a",
+      "server_date": "Sun, 27 Sep 2026 08:44:19 GMT",
+      "downloaded_at": "2026-09-27T08:44:19.614704+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=1h&startTime=1776729600000&endTime=1780329599999&limit=1000",
+      "file": "raw_pages/42f0fd77d11bdf8c4c82.json",
+      "sha256": "16293ef779d88e965820dfd9f8d2c54780593ba8e7a3b87ae70b6d092ee2c30a",
+      "server_date": "Sun, 27 Sep 2026 08:44:19 GMT",
+      "downloaded_at": "2026-09-27T08:44:19.756414+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=1h&startTime=1780329600000&endTime=1783929599999&limit=1000",
+      "file": "raw_pages/f606d752c9a19002bfa5.json",
+      "sha256": "5e25385292e7c4cca7920163c75c1b2456ebac25d976ed48f39af8cea9957639",
+      "server_date": "Sun, 27 Sep 2026 08:44:19 GMT",
+      "downloaded_at": "2026-09-27T08:44:19.822258+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=1h&startTime=1783929600000&endTime=1787529599999&limit=1000",
+      "file": "raw_pages/014eb644daefdd1e15a2.json",
+      "sha256": "641166612a8ad6b48e68f3d888f660bf6af06ae6c9e09b9d743ade58917d2298",
+      "server_date": "Sun, 27 Sep 2026 08:44:19 GMT",
+      "downloaded_at": "2026-09-27T08:44:19.878433+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=1h&startTime=1787529600000&endTime=1790495999999&limit=1000",
+      "file": "raw_pages/5d10527dbdf9ace69d86.json",
+      "sha256": "ab0cdcb57491d15bb612d7366c64bc93d7ba773684e26aabc11e16cc1b020555",
+      "server_date": "Sun, 27 Sep 2026 08:44:19 GMT",
+      "downloaded_at": "2026-09-27T08:44:19.934664+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=4h&startTime=0&limit=1",
+      "file": "raw_pages/2a9549403590aa72c8ed.json",
+      "sha256": "359e992bcf65695913eb2bf3590962a771efc671300d5868da649c16393080d9",
+      "server_date": "Sun, 27 Sep 2026 08:44:20 GMT",
+      "downloaded_at": "2026-09-27T08:44:20.127507+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=4h&startTime=1683129600000&endTime=1697529599999&limit=1000",
+      "file": "raw_pages/9c279c372b58eb23d4ba.json",
+      "sha256": "16672817e7a41a0863d422fd69cbf1976399a9dcc62578e224414c3c0e1dd26d",
+      "server_date": "Sun, 27 Sep 2026 08:44:20 GMT",
+      "downloaded_at": "2026-09-27T08:44:20.216603+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=4h&startTime=1697529600000&endTime=1711929599999&limit=1000",
+      "file": "raw_pages/42f1e164ab442984b5d2.json",
+      "sha256": "3613953821dff2957d938edcdbed900f93a7133c67d94f51f1ec59aa5f200b5a",
+      "server_date": "Sun, 27 Sep 2026 08:44:20 GMT",
+      "downloaded_at": "2026-09-27T08:44:20.313663+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=4h&startTime=1711929600000&endTime=1726329599999&limit=1000",
+      "file": "raw_pages/94af6ec1818693c4bfec.json",
+      "sha256": "f3906f35a121779d6115627d99b82283187a0e3267970322e491dff16ada6756",
+      "server_date": "Sun, 27 Sep 2026 08:44:20 GMT",
+      "downloaded_at": "2026-09-27T08:44:20.396701+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=4h&startTime=1726329600000&endTime=1740729599999&limit=1000",
+      "file": "raw_pages/ad1e99accd53162c8286.json",
+      "sha256": "dc8ed082b6c0f06bdd6343f54f97ab6817d292bd46d653dff9ba415a885e4ff4",
+      "server_date": "Sun, 27 Sep 2026 08:44:20 GMT",
+      "downloaded_at": "2026-09-27T08:44:20.484477+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=4h&startTime=1740729600000&endTime=1755129599999&limit=1000",
+      "file": "raw_pages/3f63d67724daf59d0c5a.json",
+      "sha256": "cfbf78e30949888c6d3afd31271cba214b36d653ad0370d12538b19286fe42cb",
+      "server_date": "Sun, 27 Sep 2026 08:44:20 GMT",
+      "downloaded_at": "2026-09-27T08:44:20.576612+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=4h&startTime=1755129600000&endTime=1769529599999&limit=1000",
+      "file": "raw_pages/5c971c01f4443a0b5345.json",
+      "sha256": "2a1692e6c970c0855272923bbe235648948aacbe4fcba1417cd2de719ba74992",
+      "server_date": "Sun, 27 Sep 2026 08:44:20 GMT",
+      "downloaded_at": "2026-09-27T08:44:20.665430+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=4h&startTime=1769529600000&endTime=1783929599999&limit=1000",
+      "file": "raw_pages/b6ce9381d5b3104664fe.json",
+      "sha256": "17245746ee0fda670a16963c81c40dc939ce5b58d4cb2afdc86165480eb1c3f8",
+      "server_date": "Sun, 27 Sep 2026 08:44:20 GMT",
+      "downloaded_at": "2026-09-27T08:44:20.715191+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=4h&startTime=1783929600000&endTime=1790495999999&limit=1000",
+      "file": "raw_pages/8f5cdc2cf6cf7617acbf.json",
+      "sha256": "d50b7d48da33688e005f8d33d74daaa273115e44e4034b9bb45f8fe22c6803de",
+      "server_date": "Sun, 27 Sep 2026 08:44:20 GMT",
+      "downloaded_at": "2026-09-27T08:44:20.778627+00:00"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=SUIUSDT&interval=1m&startTime=1790496000000&endTime=1790498639999&limit=1000",
+      "file": "raw_pages/d92d1fdb1603482c934b.json",
+      "sha256": "d1aec3701cbf64f7bb2103c3b53cba5ca019b51339f0667d0cce773ee76ab694",
+      "server_date": "Sun, 27 Sep 2026 08:44:20 GMT",
+      "downloaded_at": "2026-09-27T08:44:20.857245+00:00"
+    }
+  ],
+  "window_days": 100,
+  "context_policy": "all_available_native_candles_from_listing",
+  "validation": "closed bars continuous; unclosed buckets from closed minutes for display only"
+}

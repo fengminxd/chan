@@ -1,0 +1,6 @@
+{
+  "url": "https://fapi.binance.com/fapi/v1/premiumIndex?symbol=ZECUSDT",
+  "downloaded_at": "2026-10-08T04:52:26.042552+00:00",
+  "server_date": "Thu, 08 Oct 2026 04:52:26 GMT",
+  "sha256": "511be8a0b97ab244a8e4847406fbedbf6d360e019fa4fe040b417ecce934a735"
+}

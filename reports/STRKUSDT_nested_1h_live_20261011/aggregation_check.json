@@ -1,0 +1,10 @@
+{
+  "closed_hourly_bars": 3182,
+  "ohlc_mismatch_times": [
+    "2026-08-16T11:00:00+00:00"
+  ],
+  "minutes_quality": {
+    "excluded_unclosed_source_bars": 0,
+    "dropped_incomplete_buckets": 1
+  }
+}

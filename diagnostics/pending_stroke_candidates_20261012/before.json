@@ -1,0 +1,5206 @@
+{
+  "8h": {
+    "types_sha256": "360ff296972f7b19100a2954c17b810424dbfd7c60ffa97ce374ca044feefa94",
+    "nodes_sha256": "b9973f7b5669028a959d91baa8a3b3f265b28b5fe06a7d530f730fbc30e3c8be",
+    "centers_sha256": "a84848c89ad5e25d70bf42b068de3e8725fb746ef9319b8fbbb07087862def1e",
+    "signals": [
+      {
+        "id": "8h:block:0:strokes:L1:E18:S3",
+        "label": "S3",
+        "level": 1,
+        "time": 1781510400,
+        "price": 67255.4,
+        "evidence_at": 1781913600,
+        "certainty": "stroke_structural",
+        "child_index": 178,
+        "center_id": "8h:block:0:strokes:L1:E18",
+        "source_ids": [
+          "P177",
+          "P178"
+        ],
+        "details": {
+          "zd": 76014.2,
+          "zg": 77887.9,
+          "return_low": 59080.0,
+          "return_high": 67255.4,
+          "boundary_policy": "touch_is_return"
+        },
+        "basis": "8h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1781769600,
+        "price": 62232.1,
+        "evidence_at": 1782201600,
+        "origin_time": "2026-06-05T16:00:00+00:00",
+        "origin_price": 59080.0,
+        "rebound_time": "2026-06-15T08:00:00+00:00",
+        "rebound_price": 67255.4,
+        "source_ids": [
+          "P177",
+          "P178",
+          "P179"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "8h:block:0:strokes:retest:B2:P179",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-06-05T16:00:00+00:00",
+          "origin_price": 59080.0,
+          "first_point_confirmed": false
+        },
+        "basis": "8h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1782115200,
+        "price": 65597.2,
+        "evidence_at": 1782950400,
+        "origin_time": "2026-06-15T08:00:00+00:00",
+        "origin_price": 67255.4,
+        "rebound_time": "2026-06-18T08:00:00+00:00",
+        "rebound_price": 62232.1,
+        "source_ids": [
+          "P178",
+          "P179",
+          "P180"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "8h:block:0:strokes:retest:S2:P180",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-06-15T08:00:00+00:00",
+          "origin_price": 67255.4,
+          "first_point_confirmed": false
+        },
+        "basis": "8h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1783353600,
+        "price": 64691.9,
+        "evidence_at": 1783641600,
+        "origin_time": "2026-06-22T08:00:00+00:00",
+        "origin_price": 65597.2,
+        "rebound_time": "2026-07-01T00:00:00+00:00",
+        "rebound_price": 57758.6,
+        "source_ids": [
+          "P180",
+          "P181",
+          "P182"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "8h:block:0:strokes:retest:S2:P182",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-06-22T08:00:00+00:00",
+          "origin_price": 65597.2,
+          "first_point_confirmed": false
+        },
+        "basis": "8h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1783497600,
+        "price": 61520.0,
+        "evidence_at": 1783756800,
+        "origin_time": "2026-07-01T00:00:00+00:00",
+        "origin_price": 57758.6,
+        "rebound_time": "2026-07-06T16:00:00+00:00",
+        "rebound_price": 64691.9,
+        "source_ids": [
+          "P181",
+          "P182",
+          "P183"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "8h:block:0:strokes:retest:B2:P183",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-07-01T00:00:00+00:00",
+          "origin_price": 57758.6,
+          "first_point_confirmed": false
+        },
+        "basis": "8h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1783670400,
+        "price": 64680.0,
+        "evidence_at": 1784044800,
+        "origin_time": "2026-07-06T16:00:00+00:00",
+        "origin_price": 64691.9,
+        "rebound_time": "2026-07-08T08:00:00+00:00",
+        "rebound_price": 61520.0,
+        "source_ids": [
+          "P182",
+          "P183",
+          "P184"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "8h:block:0:strokes:retest:S2:P184",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-07-06T16:00:00+00:00",
+          "origin_price": 64691.9,
+          "first_point_confirmed": false
+        },
+        "basis": "8h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1783958400,
+        "price": 61806.0,
+        "evidence_at": 1784217600,
+        "origin_time": "2026-07-08T08:00:00+00:00",
+        "origin_price": 61520.0,
+        "rebound_time": "2026-07-10T08:00:00+00:00",
+        "rebound_price": 64680.0,
+        "source_ids": [
+          "P183",
+          "P184",
+          "P185"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "8h:block:0:strokes:retest:B2:P185",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-07-08T08:00:00+00:00",
+          "origin_price": 61520.0,
+          "first_point_confirmed": false
+        },
+        "basis": "8h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1784275200,
+        "price": 62505.1,
+        "evidence_at": 1784707200,
+        "origin_time": "2026-07-13T16:00:00+00:00",
+        "origin_price": 61806.0,
+        "rebound_time": "2026-07-15T08:00:00+00:00",
+        "rebound_price": 65589.7,
+        "source_ids": [
+          "P185",
+          "P186",
+          "P187"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "8h:block:0:strokes:retest:B2:P187",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-07-13T16:00:00+00:00",
+          "origin_price": 61806.0,
+          "first_point_confirmed": false
+        },
+        "basis": "8h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1784880000,
+        "price": 63666.0,
+        "evidence_at": 1785196800,
+        "origin_time": "2026-07-17T08:00:00+00:00",
+        "origin_price": 62505.1,
+        "rebound_time": "2026-07-21T08:00:00+00:00",
+        "rebound_price": 66924.1,
+        "source_ids": [
+          "P187",
+          "P188",
+          "P189"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "8h:block:0:strokes:retest:B2:P189",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-07-17T08:00:00+00:00",
+          "origin_price": 62505.1,
+          "first_point_confirmed": false
+        },
+        "basis": "8h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1785110400,
+        "price": 65722.5,
+        "evidence_at": 1785715200,
+        "origin_time": "2026-07-21T08:00:00+00:00",
+        "origin_price": 66924.1,
+        "rebound_time": "2026-07-24T08:00:00+00:00",
+        "rebound_price": 63666.0,
+        "source_ids": [
+          "P188",
+          "P189",
+          "P190"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "8h:block:0:strokes:retest:S2:P190",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-07-21T08:00:00+00:00",
+          "origin_price": 66924.1,
+          "first_point_confirmed": false
+        },
+        "basis": "8h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1786291200,
+        "price": 65482.7,
+        "evidence_at": 1786809600,
+        "origin_time": "2026-07-27T00:00:00+00:00",
+        "origin_price": 65722.5,
+        "rebound_time": "2026-08-01T16:00:00+00:00",
+        "rebound_price": 62228.8,
+        "source_ids": [
+          "P190",
+          "P191",
+          "P192"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "8h:block:0:strokes:retest:S2:P192",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-07-27T00:00:00+00:00",
+          "origin_price": 65722.5,
+          "first_point_confirmed": false
+        },
+        "basis": "8h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1786694400,
+        "price": 62484.2,
+        "evidence_at": 1787961600,
+        "origin_time": "2026-08-01T16:00:00+00:00",
+        "origin_price": 62228.8,
+        "rebound_time": "2026-08-09T16:00:00+00:00",
+        "rebound_price": 65482.7,
+        "source_ids": [
+          "P191",
+          "P192",
+          "P193"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "8h:block:0:strokes:retest:B2:P193",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-08-01T16:00:00+00:00",
+          "origin_price": 62228.8,
+          "first_point_confirmed": false
+        },
+        "basis": "8h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1788336000,
+        "price": 76151.9,
+        "evidence_at": 1788537600,
+        "origin_time": "2026-08-14T08:00:00+00:00",
+        "origin_price": 62484.2,
+        "rebound_time": "2026-08-28T00:00:00+00:00",
+        "rebound_price": 81500.0,
+        "source_ids": [
+          "P193",
+          "P194",
+          "P195"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "8h:block:0:strokes:retest:B2:P195",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-08-14T08:00:00+00:00",
+          "origin_price": 62484.2,
+          "first_point_confirmed": false
+        },
+        "basis": "8h笔级"
+      },
+      {
+        "id": "8h:block:0:strokes:L1:E19:B3",
+        "label": "B3",
+        "level": 1,
+        "time": 1788336000,
+        "price": 76151.9,
+        "evidence_at": 1788537600,
+        "certainty": "stroke_structural",
+        "child_index": 195,
+        "center_id": "8h:block:0:strokes:L1:E19",
+        "source_ids": [
+          "P194",
+          "P195"
+        ],
+        "details": {
+          "zd": 62232.1,
+          "zg": 65597.2,
+          "return_low": 76151.9,
+          "return_high": 81500.0,
+          "boundary_policy": "touch_is_return"
+        },
+        "basis": "8h笔级"
+      },
+      {
+        "id": "8h:block:0:strokes:L1:E20:D:198:S1",
+        "label": "S1",
+        "level": 1,
+        "time": 1790006400,
+        "price": 87385.1,
+        "evidence_at": 1790668800,
+        "certainty": "macd_candidate",
+        "child_index": 198,
+        "center_id": "8h:block:0:strokes:L1:E20",
+        "source_ids": [
+          "L1:E20:D:198"
+        ],
+        "details": {},
+        "basis": "8h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1790582400,
+        "price": 82500.1,
+        "evidence_at": 1791043200,
+        "origin_time": "2026-09-15T16:00:00+00:00",
+        "origin_price": 74909.4,
+        "rebound_time": "2026-09-21T16:00:00+00:00",
+        "rebound_price": 87385.1,
+        "source_ids": [
+          "P197",
+          "P198",
+          "P199"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "8h:block:0:strokes:retest:B2:P199",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-09-15T16:00:00+00:00",
+          "origin_price": 74909.4,
+          "first_point_confirmed": false
+        },
+        "basis": "8h笔级"
+      },
+      {
+        "id": "8h:block:0:strokes:L1:E20:B3",
+        "label": "B3",
+        "level": 1,
+        "time": 1790582400,
+        "price": 82500.1,
+        "evidence_at": 1791043200,
+        "certainty": "stroke_structural",
+        "child_index": 199,
+        "center_id": "8h:block:0:strokes:L1:E20",
+        "source_ids": [
+          "P198",
+          "P199"
+        ],
+        "details": {
+          "zd": 76151.9,
+          "zg": 81500.0,
+          "return_low": 82500.1,
+          "return_high": 87385.1,
+          "boundary_policy": "touch_is_return"
+        },
+        "basis": "8h笔级"
+      },
+      {
+        "id": "8h:block:0:strokes:L1:E20:D:198:S2",
+        "label": "S2",
+        "level": 1,
+        "time": 1790928000,
+        "price": 87249.6,
+        "evidence_at": 1791561600,
+        "certainty": "dependent_candidate",
+        "child_index": 200,
+        "center_id": "8h:block:0:strokes:L1:E20",
+        "source_ids": [
+          "L1:E20:D:198:S1",
+          "P199",
+          "P200"
+        ],
+        "details": {
+          "strength": "holds_first",
+          "first_price": 87385.1,
+          "first_signal_is_candidate": true
+        },
+        "basis": "8h笔级"
+      }
+    ]
+  },
+  "4h": {
+    "types_sha256": "b1e8ce8679e83d72568ff152b7b72205804d29812bf4774003ef7d55a5c49f5b",
+    "nodes_sha256": "46be7e505aac84a1117e5594da75e23157be3b1473f973a40766854b96ce2b30",
+    "centers_sha256": "cc2430605b254ce9b5fc9b92cfe6964a4fbc1c7b6169bf55b2adc53c69681190",
+    "signals": [
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1780862400,
+        "price": 64250.0,
+        "evidence_at": 1781136000,
+        "origin_time": "2026-05-29T16:00:00+00:00",
+        "origin_price": 74293.1,
+        "rebound_time": "2026-06-05T16:00:00+00:00",
+        "rebound_price": 59080.0,
+        "source_ids": [
+          "P358",
+          "P359",
+          "P360"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "4h:block:0:strokes:retest:S2:P360",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-05-29T16:00:00+00:00",
+          "origin_price": 74293.1,
+          "first_point_confirmed": false
+        },
+        "basis": "4h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1781078400,
+        "price": 60691.9,
+        "evidence_at": 1781582400,
+        "origin_time": "2026-06-05T16:00:00+00:00",
+        "origin_price": 59080.0,
+        "rebound_time": "2026-06-07T20:00:00+00:00",
+        "rebound_price": 64250.0,
+        "source_ids": [
+          "P359",
+          "P360",
+          "P361"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "4h:block:0:strokes:retest:B2:P361",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-06-05T16:00:00+00:00",
+          "origin_price": 59080.0,
+          "first_point_confirmed": false
+        },
+        "basis": "4h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1781784000,
+        "price": 62232.1,
+        "evidence_at": 1782172800,
+        "origin_time": "2026-06-10T08:00:00+00:00",
+        "origin_price": 60691.9,
+        "rebound_time": "2026-06-15T12:00:00+00:00",
+        "rebound_price": 67255.4,
+        "source_ids": [
+          "P361",
+          "P362",
+          "P363"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "4h:block:0:strokes:retest:B2:P363",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-06-10T08:00:00+00:00",
+          "origin_price": 60691.9,
+          "first_point_confirmed": false
+        },
+        "basis": "4h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1782129600,
+        "price": 65597.2,
+        "evidence_at": 1782446400,
+        "origin_time": "2026-06-15T12:00:00+00:00",
+        "origin_price": 67255.4,
+        "rebound_time": "2026-06-18T12:00:00+00:00",
+        "rebound_price": 62232.1,
+        "source_ids": [
+          "P362",
+          "P363",
+          "P364"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "4h:block:0:strokes:retest:S2:P364",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-06-15T12:00:00+00:00",
+          "origin_price": 67255.4,
+          "first_point_confirmed": false
+        },
+        "basis": "4h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1782561600,
+        "price": 60924.7,
+        "evidence_at": 1782892800,
+        "origin_time": "2026-06-22T12:00:00+00:00",
+        "origin_price": 65597.2,
+        "rebound_time": "2026-06-25T12:00:00+00:00",
+        "rebound_price": 58030.0,
+        "source_ids": [
+          "P364",
+          "P365",
+          "P366"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "4h:block:0:strokes:retest:S2:P366",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-06-22T12:00:00+00:00",
+          "origin_price": 65597.2,
+          "first_point_confirmed": false
+        },
+        "basis": "4h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1782820800,
+        "price": 58160.0,
+        "evidence_at": 1783411200,
+        "origin_time": "2026-06-25T12:00:00+00:00",
+        "origin_price": 58030.0,
+        "rebound_time": "2026-06-27T12:00:00+00:00",
+        "rebound_price": 60924.7,
+        "source_ids": [
+          "P365",
+          "P366",
+          "P367"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "4h:block:0:strokes:retest:B2:P367",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-06-25T12:00:00+00:00",
+          "origin_price": 58030.0,
+          "first_point_confirmed": false
+        },
+        "basis": "4h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1783684800,
+        "price": 64680.0,
+        "evidence_at": 1784016000,
+        "origin_time": "2026-07-06T20:00:00+00:00",
+        "origin_price": 64691.9,
+        "rebound_time": "2026-07-08T12:00:00+00:00",
+        "rebound_price": 61520.0,
+        "source_ids": [
+          "P368",
+          "P369",
+          "P370"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "4h:block:0:strokes:retest:S2:P370",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-07-06T20:00:00+00:00",
+          "origin_price": 64691.9,
+          "first_point_confirmed": false
+        },
+        "basis": "4h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1783958400,
+        "price": 61806.0,
+        "evidence_at": 1784174400,
+        "origin_time": "2026-07-08T12:00:00+00:00",
+        "origin_price": 61520.0,
+        "rebound_time": "2026-07-10T12:00:00+00:00",
+        "rebound_price": 64680.0,
+        "source_ids": [
+          "P369",
+          "P370",
+          "P371"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "4h:block:0:strokes:retest:B2:P371",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-07-08T12:00:00+00:00",
+          "origin_price": 61520.0,
+          "first_point_confirmed": false
+        },
+        "basis": "4h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1784289600,
+        "price": 62505.1,
+        "evidence_at": 1784692800,
+        "origin_time": "2026-07-13T16:00:00+00:00",
+        "origin_price": 61806.0,
+        "rebound_time": "2026-07-15T12:00:00+00:00",
+        "rebound_price": 65589.7,
+        "source_ids": [
+          "P371",
+          "P372",
+          "P373"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "4h:block:0:strokes:retest:B2:P373",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-07-13T16:00:00+00:00",
+          "origin_price": 61806.0,
+          "first_point_confirmed": false
+        },
+        "basis": "4h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1785240000,
+        "price": 62660.1,
+        "evidence_at": 1785484800,
+        "origin_time": "2026-07-17T12:00:00+00:00",
+        "origin_price": 62505.1,
+        "rebound_time": "2026-07-21T12:00:00+00:00",
+        "rebound_price": 66924.1,
+        "source_ids": [
+          "P373",
+          "P374",
+          "P375"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "4h:block:0:strokes:retest:B2:P375",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-07-17T12:00:00+00:00",
+          "origin_price": 62505.1,
+          "first_point_confirmed": false
+        },
+        "basis": "4h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1785412800,
+        "price": 65157.0,
+        "evidence_at": 1785657600,
+        "origin_time": "2026-07-21T12:00:00+00:00",
+        "origin_price": 66924.1,
+        "rebound_time": "2026-07-28T12:00:00+00:00",
+        "rebound_price": 62660.1,
+        "source_ids": [
+          "P374",
+          "P375",
+          "P376"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "4h:block:0:strokes:retest:S2:P376",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-07-21T12:00:00+00:00",
+          "origin_price": 66924.1,
+          "first_point_confirmed": false
+        },
+        "basis": "4h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1786708800,
+        "price": 62484.2,
+        "evidence_at": 1787356800,
+        "origin_time": "2026-08-01T16:00:00+00:00",
+        "origin_price": 62228.8,
+        "rebound_time": "2026-08-09T20:00:00+00:00",
+        "rebound_price": 65482.7,
+        "source_ids": [
+          "P377",
+          "P378",
+          "P379"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "4h:block:0:strokes:retest:B2:P379",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-08-01T16:00:00+00:00",
+          "origin_price": 62228.8,
+          "first_point_confirmed": false
+        },
+        "basis": "4h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1787457600,
+        "price": 75588.0,
+        "evidence_at": 1787918400,
+        "origin_time": "2026-08-14T12:00:00+00:00",
+        "origin_price": 62484.2,
+        "rebound_time": "2026-08-21T08:00:00+00:00",
+        "rebound_price": 79555.5,
+        "source_ids": [
+          "P379",
+          "P380",
+          "P381"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "4h:block:0:strokes:retest:B2:P381",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-08-14T12:00:00+00:00",
+          "origin_price": 62484.2,
+          "first_point_confirmed": false
+        },
+        "basis": "4h笔级"
+      },
+      {
+        "id": "4h:block:0:strokes:L1:E45:B3",
+        "label": "B3",
+        "level": 1,
+        "time": 1787457600,
+        "price": 75588.0,
+        "evidence_at": 1787918400,
+        "certainty": "stroke_structural",
+        "child_index": 381,
+        "center_id": "4h:block:0:strokes:L1:E45",
+        "source_ids": [
+          "P380",
+          "P381"
+        ],
+        "details": {
+          "zd": 60691.9,
+          "zg": 64250.0,
+          "return_low": 75588.0,
+          "return_high": 79555.5,
+          "boundary_policy": "touch_is_return"
+        },
+        "basis": "4h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1788336000,
+        "price": 76151.9,
+        "evidence_at": 1788508800,
+        "origin_time": "2026-08-23T04:00:00+00:00",
+        "origin_price": 75588.0,
+        "rebound_time": "2026-08-28T00:00:00+00:00",
+        "rebound_price": 81500.0,
+        "source_ids": [
+          "P381",
+          "P382",
+          "P383"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "4h:block:0:strokes:retest:B2:P383",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-08-23T04:00:00+00:00",
+          "origin_price": 75588.0,
+          "first_point_confirmed": false
+        },
+        "basis": "4h笔级"
+      },
+      {
+        "id": "4h:block:0:strokes:L1:E46:D:386:S1",
+        "label": "S1",
+        "level": 1,
+        "time": 1790020800,
+        "price": 87385.1,
+        "evidence_at": 1790424000,
+        "certainty": "macd_candidate",
+        "child_index": 386,
+        "center_id": "4h:block:0:strokes:L1:E46",
+        "source_ids": [
+          "L1:E46:D:386"
+        ],
+        "details": {},
+        "basis": "4h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1790337600,
+        "price": 83130.1,
+        "evidence_at": 1790553600,
+        "origin_time": "2026-09-15T16:00:00+00:00",
+        "origin_price": 74909.4,
+        "rebound_time": "2026-09-21T20:00:00+00:00",
+        "rebound_price": 87385.1,
+        "source_ids": [
+          "P385",
+          "P386",
+          "P387"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "4h:block:0:strokes:retest:B2:P387",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-09-15T16:00:00+00:00",
+          "origin_price": 74909.4,
+          "first_point_confirmed": false
+        },
+        "basis": "4h笔级"
+      },
+      {
+        "id": "4h:block:0:strokes:L1:E46:B3",
+        "label": "B3",
+        "level": 1,
+        "time": 1790337600,
+        "price": 83130.1,
+        "evidence_at": 1790553600,
+        "certainty": "stroke_structural",
+        "child_index": 387,
+        "center_id": "4h:block:0:strokes:L1:E46",
+        "source_ids": [
+          "P386",
+          "P387"
+        ],
+        "details": {
+          "zd": 76151.9,
+          "zg": 79555.5,
+          "return_low": 83130.1,
+          "return_high": 87385.1,
+          "boundary_policy": "touch_is_return"
+        },
+        "basis": "4h笔级"
+      },
+      {
+        "id": "4h:block:0:strokes:L1:E46:D:386:S2",
+        "label": "S2",
+        "level": 1,
+        "time": 1790510400,
+        "price": 85146.4,
+        "evidence_at": 1790640000,
+        "certainty": "dependent_candidate",
+        "child_index": 388,
+        "center_id": "4h:block:0:strokes:L1:E46",
+        "source_ids": [
+          "L1:E46:D:386:S1",
+          "P387",
+          "P388"
+        ],
+        "details": {
+          "strength": "holds_first",
+          "first_price": 87385.1,
+          "first_signal_is_candidate": true
+        },
+        "basis": "4h笔级"
+      }
+    ]
+  },
+  "2h": {
+    "types_sha256": "153c91e856341acdb19117bba7eb4e480aa0fe5b39fac0f37048196163897733",
+    "nodes_sha256": "3c5d76123c75e052b1a849278de663e9289f107436d6b3680794806b9bc6b4e7",
+    "centers_sha256": "a48fb2185e66b4c81003cc4f60b426a2854bd590e096bc714f1f11963744cd5a",
+    "signals": [
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1780869600,
+        "price": 64250.0,
+        "evidence_at": 1781107200,
+        "origin_time": "2026-05-26T14:00:00+00:00",
+        "origin_price": 78077.1,
+        "rebound_time": "2026-06-05T18:00:00+00:00",
+        "rebound_price": 59080.0,
+        "source_ids": [
+          "P770",
+          "P771",
+          "P772"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "2h:block:0:strokes:retest:S2:P772",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-05-26T14:00:00+00:00",
+          "origin_price": 78077.1,
+          "first_point_confirmed": false
+        },
+        "basis": "2h笔级"
+      },
+      {
+        "id": "2h:block:0:strokes:L1:E100:S3",
+        "label": "S3",
+        "level": 1,
+        "time": 1780869600,
+        "price": 64250.0,
+        "evidence_at": 1781107200,
+        "certainty": "stroke_structural",
+        "child_index": 772,
+        "center_id": "2h:block:0:strokes:L1:E100",
+        "source_ids": [
+          "P771",
+          "P772"
+        ],
+        "details": {
+          "zd": 77601.8,
+          "zg": 78180.0,
+          "return_low": 59080.0,
+          "return_high": 64250.0,
+          "boundary_policy": "touch_is_return"
+        },
+        "basis": "2h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1781078400,
+        "price": 60691.9,
+        "evidence_at": 1781222400,
+        "origin_time": "2026-06-05T18:00:00+00:00",
+        "origin_price": 59080.0,
+        "rebound_time": "2026-06-07T22:00:00+00:00",
+        "rebound_price": 64250.0,
+        "source_ids": [
+          "P771",
+          "P772",
+          "P773"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "2h:block:0:strokes:retest:B2:P773",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-06-05T18:00:00+00:00",
+          "origin_price": 59080.0,
+          "first_point_confirmed": false
+        },
+        "basis": "2h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1781200800,
+        "price": 63915.3,
+        "evidence_at": 1781272800,
+        "origin_time": "2026-06-07T22:00:00+00:00",
+        "origin_price": 64250.0,
+        "rebound_time": "2026-06-10T08:00:00+00:00",
+        "rebound_price": 60691.9,
+        "source_ids": [
+          "P772",
+          "P773",
+          "P774"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "2h:block:0:strokes:retest:S2:P774",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-06-07T22:00:00+00:00",
+          "origin_price": 64250.0,
+          "first_point_confirmed": false
+        },
+        "basis": "2h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1781244000,
+        "price": 62800.0,
+        "evidence_at": 1781416800,
+        "origin_time": "2026-06-10T08:00:00+00:00",
+        "origin_price": 60691.9,
+        "rebound_time": "2026-06-11T18:00:00+00:00",
+        "rebound_price": 63915.3,
+        "source_ids": [
+          "P773",
+          "P774",
+          "P775"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "2h:block:0:strokes:retest:B2:P775",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-06-10T08:00:00+00:00",
+          "origin_price": 60691.9,
+          "first_point_confirmed": false
+        },
+        "basis": "2h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1781452800,
+        "price": 63650.0,
+        "evidence_at": 1781560800,
+        "origin_time": "2026-06-12T06:00:00+00:00",
+        "origin_price": 62800.0,
+        "rebound_time": "2026-06-13T20:00:00+00:00",
+        "rebound_price": 64738.0,
+        "source_ids": [
+          "P775",
+          "P776",
+          "P777"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "2h:block:0:strokes:retest:B2:P777",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-06-12T06:00:00+00:00",
+          "origin_price": 62800.0,
+          "first_point_confirmed": false
+        },
+        "basis": "2h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1782014400,
+        "price": 64568.0,
+        "evidence_at": 1782108000,
+        "origin_time": "2026-06-15T14:00:00+00:00",
+        "origin_price": 67255.4,
+        "rebound_time": "2026-06-18T14:00:00+00:00",
+        "rebound_price": 62232.1,
+        "source_ids": [
+          "P778",
+          "P779",
+          "P780"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "2h:block:0:strokes:retest:S2:P780",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-06-15T14:00:00+00:00",
+          "origin_price": 67255.4,
+          "first_point_confirmed": false
+        },
+        "basis": "2h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1782079200,
+        "price": 63220.0,
+        "evidence_at": 1782158400,
+        "origin_time": "2026-06-18T14:00:00+00:00",
+        "origin_price": 62232.1,
+        "rebound_time": "2026-06-21T04:00:00+00:00",
+        "rebound_price": 64568.0,
+        "source_ids": [
+          "P779",
+          "P780",
+          "P781"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "2h:block:0:strokes:retest:B2:P781",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-06-18T14:00:00+00:00",
+          "origin_price": 62232.1,
+          "first_point_confirmed": false
+        },
+        "basis": "2h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1782295200,
+        "price": 63209.6,
+        "evidence_at": 1782439200,
+        "origin_time": "2026-06-22T14:00:00+00:00",
+        "origin_price": 65597.2,
+        "rebound_time": "2026-06-23T08:00:00+00:00",
+        "rebound_price": 61870.0,
+        "source_ids": [
+          "P782",
+          "P783",
+          "P784"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "2h:block:0:strokes:retest:S2:P784",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-06-22T14:00:00+00:00",
+          "origin_price": 65597.2,
+          "first_point_confirmed": false
+        },
+        "basis": "2h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1782568800,
+        "price": 60924.7,
+        "evidence_at": 1782720000,
+        "origin_time": "2026-06-24T10:00:00+00:00",
+        "origin_price": 63209.6,
+        "rebound_time": "2026-06-25T12:00:00+00:00",
+        "rebound_price": 58030.0,
+        "source_ids": [
+          "P784",
+          "P785",
+          "P786"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "2h:block:0:strokes:retest:S2:P786",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-06-24T10:00:00+00:00",
+          "origin_price": 63209.6,
+          "first_point_confirmed": false
+        },
+        "basis": "2h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1782698400,
+        "price": 58850.0,
+        "evidence_at": 1782756000,
+        "origin_time": "2026-06-25T12:00:00+00:00",
+        "origin_price": 58030.0,
+        "rebound_time": "2026-06-27T14:00:00+00:00",
+        "rebound_price": 60924.7,
+        "source_ids": [
+          "P785",
+          "P786",
+          "P787"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "2h:block:0:strokes:retest:B2:P787",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-06-25T12:00:00+00:00",
+          "origin_price": 58030.0,
+          "first_point_confirmed": false
+        },
+        "basis": "2h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1782734400,
+        "price": 60758.3,
+        "evidence_at": 1782856800,
+        "origin_time": "2026-06-27T14:00:00+00:00",
+        "origin_price": 60924.7,
+        "rebound_time": "2026-06-29T02:00:00+00:00",
+        "rebound_price": 58850.0,
+        "source_ids": [
+          "P786",
+          "P787",
+          "P788"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "2h:block:0:strokes:retest:S2:P788",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-06-27T14:00:00+00:00",
+          "origin_price": 60924.7,
+          "first_point_confirmed": false
+        },
+        "basis": "2h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1783684800,
+        "price": 64680.0,
+        "evidence_at": 1783994400,
+        "origin_time": "2026-07-06T20:00:00+00:00",
+        "origin_price": 64691.9,
+        "rebound_time": "2026-07-08T14:00:00+00:00",
+        "rebound_price": 61520.0,
+        "source_ids": [
+          "P790",
+          "P791",
+          "P792"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "2h:block:0:strokes:retest:S2:P792",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-07-06T20:00:00+00:00",
+          "origin_price": 64691.9,
+          "first_point_confirmed": false
+        },
+        "basis": "2h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1783965600,
+        "price": 61806.0,
+        "evidence_at": 1784145600,
+        "origin_time": "2026-07-08T14:00:00+00:00",
+        "origin_price": 61520.0,
+        "rebound_time": "2026-07-10T12:00:00+00:00",
+        "rebound_price": 64680.0,
+        "source_ids": [
+          "P791",
+          "P792",
+          "P793"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "2h:block:0:strokes:retest:B2:P793",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-07-08T14:00:00+00:00",
+          "origin_price": 61520.0,
+          "first_point_confirmed": false
+        },
+        "basis": "2h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1784289600,
+        "price": 62505.1,
+        "evidence_at": 1784678400,
+        "origin_time": "2026-07-13T18:00:00+00:00",
+        "origin_price": 61806.0,
+        "rebound_time": "2026-07-15T14:00:00+00:00",
+        "rebound_price": 65589.7,
+        "source_ids": [
+          "P793",
+          "P794",
+          "P795"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "2h:block:0:strokes:retest:B2:P795",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-07-13T18:00:00+00:00",
+          "origin_price": 61806.0,
+          "first_point_confirmed": false
+        },
+        "basis": "2h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1784822400,
+        "price": 64636.0,
+        "evidence_at": 1784894400,
+        "origin_time": "2026-07-17T12:00:00+00:00",
+        "origin_price": 62505.1,
+        "rebound_time": "2026-07-21T14:00:00+00:00",
+        "rebound_price": 66924.1,
+        "source_ids": [
+          "P795",
+          "P796",
+          "P797"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "2h:block:0:strokes:retest:B2:P797",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-07-17T12:00:00+00:00",
+          "origin_price": 62505.1,
+          "first_point_confirmed": false
+        },
+        "basis": "2h笔级"
+      },
+      {
+        "id": "2h:block:0:strokes:L1:E101:B3",
+        "label": "B3",
+        "level": 1,
+        "time": 1784822400,
+        "price": 64636.0,
+        "evidence_at": 1784894400,
+        "certainty": "stroke_structural",
+        "child_index": 797,
+        "center_id": "2h:block:0:strokes:L1:E101",
+        "source_ids": [
+          "P796",
+          "P797"
+        ],
+        "details": {
+          "zd": 60691.9,
+          "zg": 63915.3,
+          "return_low": 64636.0,
+          "return_high": 66924.1,
+          "boundary_policy": "touch_is_return"
+        },
+        "basis": "2h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1784872800,
+        "price": 65780.0,
+        "evidence_at": 1784930400,
+        "origin_time": "2026-07-21T14:00:00+00:00",
+        "origin_price": 66924.1,
+        "rebound_time": "2026-07-23T16:00:00+00:00",
+        "rebound_price": 64636.0,
+        "source_ids": [
+          "P796",
+          "P797",
+          "P798"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "2h:block:0:strokes:retest:S2:P798",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-07-21T14:00:00+00:00",
+          "origin_price": 66924.1,
+          "first_point_confirmed": false
+        },
+        "basis": "2h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1785132000,
+        "price": 65722.5,
+        "evidence_at": 1785261600,
+        "origin_time": "2026-07-24T06:00:00+00:00",
+        "origin_price": 65780.0,
+        "rebound_time": "2026-07-24T14:00:00+00:00",
+        "rebound_price": 63666.0,
+        "source_ids": [
+          "P798",
+          "P799",
+          "P800"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "2h:block:0:strokes:retest:S2:P800",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-07-24T06:00:00+00:00",
+          "origin_price": 65780.0,
+          "first_point_confirmed": false
+        },
+        "basis": "2h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1785456000,
+        "price": 65391.3,
+        "evidence_at": 1785636000,
+        "origin_time": "2026-07-27T06:00:00+00:00",
+        "origin_price": 65722.5,
+        "rebound_time": "2026-07-28T12:00:00+00:00",
+        "rebound_price": 62660.1,
+        "source_ids": [
+          "P800",
+          "P801",
+          "P802"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "2h:block:0:strokes:retest:S2:P802",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-07-27T06:00:00+00:00",
+          "origin_price": 65722.5,
+          "first_point_confirmed": false
+        },
+        "basis": "2h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1785708000,
+        "price": 63779.0,
+        "evidence_at": 1785772800,
+        "origin_time": "2026-07-31T00:00:00+00:00",
+        "origin_price": 65391.3,
+        "rebound_time": "2026-08-01T18:00:00+00:00",
+        "rebound_price": 62228.8,
+        "source_ids": [
+          "P802",
+          "P803",
+          "P804"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "2h:block:0:strokes:retest:S2:P804",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-07-31T00:00:00+00:00",
+          "origin_price": 65391.3,
+          "first_point_confirmed": false
+        },
+        "basis": "2h笔级"
+      },
+      {
+        "id": "2h:block:0:strokes:L1:E102:S3",
+        "label": "S3",
+        "level": 1,
+        "time": 1785708000,
+        "price": 63779.0,
+        "evidence_at": 1785772800,
+        "certainty": "stroke_structural",
+        "child_index": 804,
+        "center_id": "2h:block:0:strokes:L1:E102",
+        "source_ids": [
+          "P803",
+          "P804"
+        ],
+        "details": {
+          "zd": 64636.0,
+          "zg": 65780.0,
+          "return_low": 62228.8,
+          "return_high": 63779.0,
+          "boundary_policy": "touch_is_return"
+        },
+        "basis": "2h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1785744000,
+        "price": 62268.2,
+        "evidence_at": 1785902400,
+        "origin_time": "2026-08-01T18:00:00+00:00",
+        "origin_price": 62228.8,
+        "rebound_time": "2026-08-02T22:00:00+00:00",
+        "rebound_price": 63779.0,
+        "source_ids": [
+          "P803",
+          "P804",
+          "P805"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "2h:block:0:strokes:retest:B2:P805",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-08-01T18:00:00+00:00",
+          "origin_price": 62228.8,
+          "first_point_confirmed": false
+        },
+        "basis": "2h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1785931200,
+        "price": 63847.0,
+        "evidence_at": 1785981600,
+        "origin_time": "2026-08-03T08:00:00+00:00",
+        "origin_price": 62268.2,
+        "rebound_time": "2026-08-04T22:00:00+00:00",
+        "rebound_price": 64512.9,
+        "source_ids": [
+          "P805",
+          "P806",
+          "P807"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "2h:block:0:strokes:retest:B2:P807",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-08-03T08:00:00+00:00",
+          "origin_price": 62268.2,
+          "first_point_confirmed": false
+        },
+        "basis": "2h笔级"
+      },
+      {
+        "id": "2h:block:0:strokes:L1:E103:B3",
+        "label": "B3",
+        "level": 1,
+        "time": 1785931200,
+        "price": 63847.0,
+        "evidence_at": 1785981600,
+        "certainty": "stroke_structural",
+        "child_index": 807,
+        "center_id": "2h:block:0:strokes:L1:E103",
+        "source_ids": [
+          "P806",
+          "P807"
+        ],
+        "details": {
+          "zd": 62268.2,
+          "zg": 63779.0,
+          "return_low": 63847.0,
+          "return_high": 64512.9,
+          "boundary_policy": "touch_is_return"
+        },
+        "basis": "2h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1786017600,
+        "price": 64111.0,
+        "evidence_at": 1786125600,
+        "origin_time": "2026-08-05T12:00:00+00:00",
+        "origin_price": 63847.0,
+        "rebound_time": "2026-08-05T20:00:00+00:00",
+        "rebound_price": 65022.0,
+        "source_ids": [
+          "P807",
+          "P808",
+          "P809"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "2h:block:0:strokes:retest:B2:P809",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-08-05T12:00:00+00:00",
+          "origin_price": 63847.0,
+          "first_point_confirmed": false
+        },
+        "basis": "2h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1787119200,
+        "price": 64131.3,
+        "evidence_at": 1787328000,
+        "origin_time": "2026-08-14T14:00:00+00:00",
+        "origin_price": 62484.2,
+        "rebound_time": "2026-08-18T14:00:00+00:00",
+        "rebound_price": 65057.9,
+        "source_ids": [
+          "P813",
+          "P814",
+          "P815"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "2h:block:0:strokes:retest:B2:P815",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-08-14T14:00:00+00:00",
+          "origin_price": 62484.2,
+          "first_point_confirmed": false
+        },
+        "basis": "2h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1787457600,
+        "price": 75588.0,
+        "evidence_at": 1787652000,
+        "origin_time": "2026-08-19T06:00:00+00:00",
+        "origin_price": 64131.3,
+        "rebound_time": "2026-08-21T08:00:00+00:00",
+        "rebound_price": 79555.5,
+        "source_ids": [
+          "P815",
+          "P816",
+          "P817"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "2h:block:0:strokes:retest:B2:P817",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-08-19T06:00:00+00:00",
+          "origin_price": 64131.3,
+          "first_point_confirmed": false
+        },
+        "basis": "2h笔级"
+      },
+      {
+        "id": "2h:block:0:strokes:L1:E104:B3",
+        "label": "B3",
+        "level": 1,
+        "time": 1787457600,
+        "price": 75588.0,
+        "evidence_at": 1787652000,
+        "certainty": "stroke_structural",
+        "child_index": 817,
+        "center_id": "2h:block:0:strokes:L1:E104",
+        "source_ids": [
+          "P816",
+          "P817"
+        ],
+        "details": {
+          "zd": 64111.0,
+          "zg": 64512.9,
+          "return_low": 75588.0,
+          "return_high": 79555.5,
+          "boundary_policy": "touch_is_return"
+        },
+        "basis": "2h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1787752800,
+        "price": 77600.0,
+        "evidence_at": 1787896800,
+        "origin_time": "2026-08-23T04:00:00+00:00",
+        "origin_price": 75588.0,
+        "rebound_time": "2026-08-25T02:00:00+00:00",
+        "rebound_price": 81270.5,
+        "source_ids": [
+          "P817",
+          "P818",
+          "P819"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "2h:block:0:strokes:retest:B2:P819",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-08-23T04:00:00+00:00",
+          "origin_price": 75588.0,
+          "first_point_confirmed": false
+        },
+        "basis": "2h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1788105600,
+        "price": 79384.4,
+        "evidence_at": 1788364800,
+        "origin_time": "2026-08-28T00:00:00+00:00",
+        "origin_price": 81500.0,
+        "rebound_time": "2026-08-28T16:00:00+00:00",
+        "rebound_price": 76853.1,
+        "source_ids": [
+          "P820",
+          "P821",
+          "P822"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "2h:block:0:strokes:retest:S2:P822",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-08-28T00:00:00+00:00",
+          "origin_price": 81500.0,
+          "first_point_confirmed": false
+        },
+        "basis": "2h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1788530400,
+        "price": 78618.1,
+        "evidence_at": 1788760800,
+        "origin_time": "2026-09-02T10:00:00+00:00",
+        "origin_price": 76151.9,
+        "rebound_time": "2026-09-03T20:00:00+00:00",
+        "rebound_price": 82282.8,
+        "source_ids": [
+          "P823",
+          "P824",
+          "P825"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "2h:block:0:strokes:retest:B2:P825",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-09-02T10:00:00+00:00",
+          "origin_price": 76151.9,
+          "first_point_confirmed": false
+        },
+        "basis": "2h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1788732000,
+        "price": 80536.1,
+        "evidence_at": 1789531200,
+        "origin_time": "2026-09-03T20:00:00+00:00",
+        "origin_price": 82282.8,
+        "rebound_time": "2026-09-04T14:00:00+00:00",
+        "rebound_price": 78618.1,
+        "source_ids": [
+          "P824",
+          "P825",
+          "P826"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "2h:block:0:strokes:retest:S2:P826",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-09-03T20:00:00+00:00",
+          "origin_price": 82282.8,
+          "first_point_confirmed": false
+        },
+        "basis": "2h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1790049600,
+        "price": 85080.0,
+        "evidence_at": 1790157600,
+        "origin_time": "2026-09-15T18:00:00+00:00",
+        "origin_price": 74909.4,
+        "rebound_time": "2026-09-21T20:00:00+00:00",
+        "rebound_price": 87385.1,
+        "source_ids": [
+          "P827",
+          "P828",
+          "P829"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "2h:block:0:strokes:retest:B2:P829",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-09-15T18:00:00+00:00",
+          "origin_price": 74909.4,
+          "first_point_confirmed": false
+        },
+        "basis": "2h笔级"
+      },
+      {
+        "id": "2h:block:0:strokes:L1:E105:B3",
+        "label": "B3",
+        "level": 1,
+        "time": 1790049600,
+        "price": 85080.0,
+        "evidence_at": 1790157600,
+        "certainty": "stroke_structural",
+        "child_index": 829,
+        "center_id": "2h:block:0:strokes:L1:E105",
+        "source_ids": [
+          "P828",
+          "P829"
+        ],
+        "details": {
+          "zd": 77600.0,
+          "zg": 79555.5,
+          "return_low": 85080.0,
+          "return_high": 87385.1,
+          "boundary_policy": "touch_is_return"
+        },
+        "basis": "2h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1790136000,
+        "price": 87247.3,
+        "evidence_at": 1790265600,
+        "origin_time": "2026-09-21T20:00:00+00:00",
+        "origin_price": 87385.1,
+        "rebound_time": "2026-09-22T04:00:00+00:00",
+        "rebound_price": 85080.0,
+        "source_ids": [
+          "P828",
+          "P829",
+          "P830"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "2h:block:0:strokes:retest:S2:P830",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-09-21T20:00:00+00:00",
+          "origin_price": 87385.1,
+          "first_point_confirmed": false
+        },
+        "basis": "2h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1790330400,
+        "price": 85224.0,
+        "evidence_at": 1790625600,
+        "origin_time": "2026-09-23T04:00:00+00:00",
+        "origin_price": 87247.3,
+        "rebound_time": "2026-09-24T10:00:00+00:00",
+        "rebound_price": 83102.7,
+        "source_ids": [
+          "P830",
+          "P831",
+          "P832"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "2h:block:0:strokes:retest:S2:P832",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-09-23T04:00:00+00:00",
+          "origin_price": 87247.3,
+          "first_point_confirmed": false
+        },
+        "basis": "2h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1790841600,
+        "price": 83136.6,
+        "evidence_at": 1790964000,
+        "origin_time": "2026-09-28T14:00:00+00:00",
+        "origin_price": 82500.1,
+        "rebound_time": "2026-09-30T12:00:00+00:00",
+        "rebound_price": 85632.7,
+        "source_ids": [
+          "P833",
+          "P834",
+          "P835"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "2h:block:0:strokes:retest:B2:P835",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-09-28T14:00:00+00:00",
+          "origin_price": 82500.1,
+          "first_point_confirmed": false
+        },
+        "basis": "2h笔级"
+      }
+    ]
+  },
+  "1h": {
+    "types_sha256": "d91d5abca4ed05065e29e16d306897877c716e94fc882cf9100b2b42dcf98399",
+    "nodes_sha256": "a8d9c07cb38f9221524d97d2bcb68ba8927983c6ad978730bb934ac4deec1ef8",
+    "centers_sha256": "284c549bdef83a6b2e43a0ab14b3c3c6bd144566d248f27ef415c183b0d4dbaa",
+    "signals": [
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1780894800,
+        "price": 62377.0,
+        "evidence_at": 1780941600,
+        "origin_time": "2026-06-05T19:00:00+00:00",
+        "origin_price": 59080.0,
+        "rebound_time": "2026-06-07T22:00:00+00:00",
+        "rebound_price": 64250.0,
+        "source_ids": [
+          "P1503",
+          "P1504",
+          "P1505"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:B2:P1505",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-06-05T19:00:00+00:00",
+          "origin_price": 59080.0,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1780930800,
+        "price": 64179.5,
+        "evidence_at": 1780977600,
+        "origin_time": "2026-06-07T22:00:00+00:00",
+        "origin_price": 64250.0,
+        "rebound_time": "2026-06-08T05:00:00+00:00",
+        "rebound_price": 62377.0,
+        "source_ids": [
+          "P1504",
+          "P1505",
+          "P1506"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:S2:P1506",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-06-07T22:00:00+00:00",
+          "origin_price": 64250.0,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1780963200,
+        "price": 62381.2,
+        "evidence_at": 1780995600,
+        "origin_time": "2026-06-08T05:00:00+00:00",
+        "origin_price": 62377.0,
+        "rebound_time": "2026-06-08T15:00:00+00:00",
+        "rebound_price": 64179.5,
+        "source_ids": [
+          "P1505",
+          "P1506",
+          "P1507"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:B2:P1507",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-06-08T05:00:00+00:00",
+          "origin_price": 62377.0,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1780981200,
+        "price": 63499.9,
+        "evidence_at": 1781031600,
+        "origin_time": "2026-06-08T15:00:00+00:00",
+        "origin_price": 64179.5,
+        "rebound_time": "2026-06-09T00:00:00+00:00",
+        "rebound_price": 62381.2,
+        "source_ids": [
+          "P1506",
+          "P1507",
+          "P1508"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:S2:P1508",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-06-08T15:00:00+00:00",
+          "origin_price": 64179.5,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1781035200,
+        "price": 62253.2,
+        "evidence_at": 1781092800,
+        "origin_time": "2026-06-09T05:00:00+00:00",
+        "origin_price": 63499.9,
+        "rebound_time": "2026-06-09T16:00:00+00:00",
+        "rebound_price": 60755.0,
+        "source_ids": [
+          "P1508",
+          "P1509",
+          "P1510"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:S2:P1510",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-06-09T05:00:00+00:00",
+          "origin_price": 63499.9,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "id": "1h:block:0:strokes:L1:E188:S3",
+        "label": "S3",
+        "level": 1,
+        "time": 1781035200,
+        "price": 62253.2,
+        "evidence_at": 1781092800,
+        "certainty": "stroke_structural",
+        "child_index": 1510,
+        "center_id": "1h:block:0:strokes:L1:E188",
+        "source_ids": [
+          "P1509",
+          "P1510"
+        ],
+        "details": {
+          "zd": 62377.0,
+          "zg": 64250.0,
+          "return_low": 60755.0,
+          "return_high": 62253.2,
+          "boundary_policy": "touch_is_return"
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1781128800,
+        "price": 61068.6,
+        "evidence_at": 1781218800,
+        "origin_time": "2026-06-10T09:00:00+00:00",
+        "origin_price": 60691.9,
+        "rebound_time": "2026-06-10T15:00:00+00:00",
+        "rebound_price": 62840.2,
+        "source_ids": [
+          "P1511",
+          "P1512",
+          "P1513"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:B2:P1513",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-06-10T09:00:00+00:00",
+          "origin_price": 60691.9,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1781244000,
+        "price": 62800.0,
+        "evidence_at": 1781287200,
+        "origin_time": "2026-06-10T22:00:00+00:00",
+        "origin_price": 61068.6,
+        "rebound_time": "2026-06-11T19:00:00+00:00",
+        "rebound_price": 63915.3,
+        "source_ids": [
+          "P1513",
+          "P1514",
+          "P1515"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:B2:P1515",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-06-10T22:00:00+00:00",
+          "origin_price": 61068.6,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "id": "1h:block:0:strokes:L1:E189:B3",
+        "label": "B3",
+        "level": 1,
+        "time": 1781244000,
+        "price": 62800.0,
+        "evidence_at": 1781287200,
+        "certainty": "stroke_structural",
+        "child_index": 1515,
+        "center_id": "1h:block:0:strokes:L1:E189",
+        "source_ids": [
+          "P1514",
+          "P1515"
+        ],
+        "details": {
+          "zd": 60755.0,
+          "zg": 62253.2,
+          "return_low": 62800.0,
+          "return_high": 63915.3,
+          "boundary_policy": "touch_is_return"
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1781294400,
+        "price": 63352.3,
+        "evidence_at": 1781402400,
+        "origin_time": "2026-06-12T06:00:00+00:00",
+        "origin_price": 62800.0,
+        "rebound_time": "2026-06-12T15:00:00+00:00",
+        "rebound_price": 64362.6,
+        "source_ids": [
+          "P1515",
+          "P1516",
+          "P1517"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:B2:P1517",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-06-12T06:00:00+00:00",
+          "origin_price": 62800.0,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1781456400,
+        "price": 63650.0,
+        "evidence_at": 1781506800,
+        "origin_time": "2026-06-12T20:00:00+00:00",
+        "origin_price": 63352.3,
+        "rebound_time": "2026-06-13T21:00:00+00:00",
+        "rebound_price": 64738.0,
+        "source_ids": [
+          "P1517",
+          "P1518",
+          "P1519"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:B2:P1519",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-06-12T20:00:00+00:00",
+          "origin_price": 63352.3,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1781514000,
+        "price": 65469.0,
+        "evidence_at": 1781553600,
+        "origin_time": "2026-06-14T17:00:00+00:00",
+        "origin_price": 63650.0,
+        "rebound_time": "2026-06-15T03:00:00+00:00",
+        "rebound_price": 65996.8,
+        "source_ids": [
+          "P1519",
+          "P1520",
+          "P1521"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:B2:P1521",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-06-14T17:00:00+00:00",
+          "origin_price": 63650.0,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "id": "1h:block:0:strokes:L1:E190:B3",
+        "label": "B3",
+        "level": 1,
+        "time": 1781514000,
+        "price": 65469.0,
+        "evidence_at": 1781553600,
+        "certainty": "stroke_structural",
+        "child_index": 1521,
+        "center_id": "1h:block:0:strokes:L1:E190",
+        "source_ids": [
+          "P1520",
+          "P1521"
+        ],
+        "details": {
+          "zd": 63352.3,
+          "zg": 63915.3,
+          "return_low": 65469.0,
+          "return_high": 65996.8,
+          "boundary_policy": "touch_is_return"
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1781712000,
+        "price": 66419.2,
+        "evidence_at": 1781812800,
+        "origin_time": "2026-06-15T15:00:00+00:00",
+        "origin_price": 67255.4,
+        "rebound_time": "2026-06-17T11:00:00+00:00",
+        "rebound_price": 64525.0,
+        "source_ids": [
+          "P1522",
+          "P1523",
+          "P1524"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:S2:P1524",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-06-15T15:00:00+00:00",
+          "origin_price": 67255.4,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1781931600,
+        "price": 63894.0,
+        "evidence_at": 1781978400,
+        "origin_time": "2026-06-17T16:00:00+00:00",
+        "origin_price": 66419.2,
+        "rebound_time": "2026-06-18T15:00:00+00:00",
+        "rebound_price": 62232.1,
+        "source_ids": [
+          "P1524",
+          "P1525",
+          "P1526"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:S2:P1526",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-06-17T16:00:00+00:00",
+          "origin_price": 66419.2,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "id": "1h:block:0:strokes:L1:E191:S3",
+        "label": "S3",
+        "level": 1,
+        "time": 1781931600,
+        "price": 63894.0,
+        "evidence_at": 1781978400,
+        "certainty": "stroke_structural",
+        "child_index": 1526,
+        "center_id": "1h:block:0:strokes:L1:E191",
+        "source_ids": [
+          "P1525",
+          "P1526"
+        ],
+        "details": {
+          "zd": 65469.0,
+          "zg": 65996.8,
+          "return_low": 62232.1,
+          "return_high": 63894.0,
+          "boundary_policy": "touch_is_return"
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1781964000,
+        "price": 63136.2,
+        "evidence_at": 1782025200,
+        "origin_time": "2026-06-18T15:00:00+00:00",
+        "origin_price": 62232.1,
+        "rebound_time": "2026-06-20T05:00:00+00:00",
+        "rebound_price": 63894.0,
+        "source_ids": [
+          "P1525",
+          "P1526",
+          "P1527"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:B2:P1527",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-06-18T15:00:00+00:00",
+          "origin_price": 62232.1,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1782082800,
+        "price": 63220.0,
+        "evidence_at": 1782147600,
+        "origin_time": "2026-06-20T14:00:00+00:00",
+        "origin_price": 63136.2,
+        "rebound_time": "2026-06-21T04:00:00+00:00",
+        "rebound_price": 64568.0,
+        "source_ids": [
+          "P1527",
+          "P1528",
+          "P1529"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:B2:P1529",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-06-20T14:00:00+00:00",
+          "origin_price": 63136.2,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1782223200,
+        "price": 62837.1,
+        "evidence_at": 1782248400,
+        "origin_time": "2026-06-22T14:00:00+00:00",
+        "origin_price": 65597.2,
+        "rebound_time": "2026-06-23T08:00:00+00:00",
+        "rebound_price": 61870.0,
+        "source_ids": [
+          "P1530",
+          "P1531",
+          "P1532"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:S2:P1532",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-06-22T14:00:00+00:00",
+          "origin_price": 65597.2,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "id": "1h:block:0:strokes:L1:E192:S3",
+        "label": "S3",
+        "level": 1,
+        "time": 1782223200,
+        "price": 62837.1,
+        "evidence_at": 1782248400,
+        "certainty": "stroke_structural",
+        "child_index": 1532,
+        "center_id": "1h:block:0:strokes:L1:E192",
+        "source_ids": [
+          "P1531",
+          "P1532"
+        ],
+        "details": {
+          "zd": 63136.2,
+          "zg": 63894.0,
+          "return_low": 61870.0,
+          "return_high": 62837.1,
+          "boundary_policy": "touch_is_return"
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1782237600,
+        "price": 62075.6,
+        "evidence_at": 1782273600,
+        "origin_time": "2026-06-23T08:00:00+00:00",
+        "origin_price": 61870.0,
+        "rebound_time": "2026-06-23T14:00:00+00:00",
+        "rebound_price": 62837.1,
+        "source_ids": [
+          "P1531",
+          "P1532",
+          "P1533"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:B2:P1533",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-06-23T08:00:00+00:00",
+          "origin_price": 61870.0,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "id": "1h:block:0:strokes:L1:E193:S3",
+        "label": "S3",
+        "level": 1,
+        "time": 1782370800,
+        "price": 61931.1,
+        "evidence_at": 1782410400,
+        "certainty": "stroke_structural",
+        "child_index": 1536,
+        "center_id": "1h:block:0:strokes:L1:E193",
+        "source_ids": [
+          "P1535",
+          "P1536"
+        ],
+        "details": {
+          "zd": 62075.6,
+          "zg": 62837.1,
+          "return_low": 59060.0,
+          "return_high": 61931.1,
+          "boundary_policy": "touch_is_return"
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1782572400,
+        "price": 60924.7,
+        "evidence_at": 1782709200,
+        "origin_time": "2026-06-25T07:00:00+00:00",
+        "origin_price": 61931.1,
+        "rebound_time": "2026-06-25T13:00:00+00:00",
+        "rebound_price": 58030.0,
+        "source_ids": [
+          "P1536",
+          "P1537",
+          "P1538"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:S2:P1538",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-06-25T07:00:00+00:00",
+          "origin_price": 61931.1,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1782698400,
+        "price": 58850.0,
+        "evidence_at": 1782770400,
+        "origin_time": "2026-06-25T13:00:00+00:00",
+        "origin_price": 58030.0,
+        "rebound_time": "2026-06-27T15:00:00+00:00",
+        "rebound_price": 60924.7,
+        "source_ids": [
+          "P1537",
+          "P1538",
+          "P1539"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:B2:P1539",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-06-25T13:00:00+00:00",
+          "origin_price": 58030.0,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1782752400,
+        "price": 60666.6,
+        "evidence_at": 1782878400,
+        "origin_time": "2026-06-27T15:00:00+00:00",
+        "origin_price": 60924.7,
+        "rebound_time": "2026-06-29T02:00:00+00:00",
+        "rebound_price": 58850.0,
+        "source_ids": [
+          "P1538",
+          "P1539",
+          "P1540"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:S2:P1540",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-06-27T15:00:00+00:00",
+          "origin_price": 60924.7,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1783144800,
+        "price": 62302.6,
+        "evidence_at": 1783209600,
+        "origin_time": "2026-07-01T01:00:00+00:00",
+        "origin_price": 57758.6,
+        "rebound_time": "2026-07-03T21:00:00+00:00",
+        "rebound_price": 62957.2,
+        "source_ids": [
+          "P1541",
+          "P1542",
+          "P1543"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:B2:P1543",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-07-01T01:00:00+00:00",
+          "origin_price": 57758.6,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "id": "1h:block:0:strokes:L1:E194:B3",
+        "label": "B3",
+        "level": 1,
+        "time": 1783144800,
+        "price": 62302.6,
+        "evidence_at": 1783209600,
+        "certainty": "stroke_structural",
+        "child_index": 1543,
+        "center_id": "1h:block:0:strokes:L1:E194",
+        "source_ids": [
+          "P1542",
+          "P1543"
+        ],
+        "details": {
+          "zd": 59060.0,
+          "zg": 60924.7,
+          "return_low": 62302.6,
+          "return_high": 62957.2,
+          "boundary_policy": "touch_is_return"
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1783242000,
+        "price": 62410.1,
+        "evidence_at": 1783303200,
+        "origin_time": "2026-07-04T06:00:00+00:00",
+        "origin_price": 62302.6,
+        "rebound_time": "2026-07-04T19:00:00+00:00",
+        "rebound_price": 63450.0,
+        "source_ids": [
+          "P1543",
+          "P1544",
+          "P1545"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:B2:P1545",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-07-04T06:00:00+00:00",
+          "origin_price": 62302.6,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1783522800,
+        "price": 61520.0,
+        "evidence_at": 1783702800,
+        "origin_time": "2026-07-06T13:00:00+00:00",
+        "origin_price": 61297.0,
+        "rebound_time": "2026-07-06T21:00:00+00:00",
+        "rebound_price": 64691.9,
+        "source_ids": [
+          "P1547",
+          "P1548",
+          "P1549"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:B2:P1549",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-07-06T13:00:00+00:00",
+          "origin_price": 61297.0,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1783688400,
+        "price": 64680.0,
+        "evidence_at": 1783724400,
+        "origin_time": "2026-07-06T21:00:00+00:00",
+        "origin_price": 64691.9,
+        "rebound_time": "2026-07-08T15:00:00+00:00",
+        "rebound_price": 61520.0,
+        "source_ids": [
+          "P1548",
+          "P1549",
+          "P1550"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:S2:P1550",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-07-06T21:00:00+00:00",
+          "origin_price": 64691.9,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1783713600,
+        "price": 63619.9,
+        "evidence_at": 1783792800,
+        "origin_time": "2026-07-08T15:00:00+00:00",
+        "origin_price": 61520.0,
+        "rebound_time": "2026-07-10T13:00:00+00:00",
+        "rebound_price": 64680.0,
+        "source_ids": [
+          "P1549",
+          "P1550",
+          "P1551"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:B2:P1551",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-07-08T15:00:00+00:00",
+          "origin_price": 61520.0,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "id": "1h:block:0:strokes:L1:E195:B3",
+        "label": "B3",
+        "level": 1,
+        "time": 1783713600,
+        "price": 63619.9,
+        "evidence_at": 1783792800,
+        "certainty": "stroke_structural",
+        "child_index": 1551,
+        "center_id": "1h:block:0:strokes:L1:E195",
+        "source_ids": [
+          "P1550",
+          "P1551"
+        ],
+        "details": {
+          "zd": 62410.1,
+          "zg": 62957.2,
+          "return_low": 63619.9,
+          "return_high": 64680.0,
+          "boundary_policy": "touch_is_return"
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1783778400,
+        "price": 64497.4,
+        "evidence_at": 1783850400,
+        "origin_time": "2026-07-10T13:00:00+00:00",
+        "origin_price": 64680.0,
+        "rebound_time": "2026-07-10T20:00:00+00:00",
+        "rebound_price": 63619.9,
+        "source_ids": [
+          "P1550",
+          "P1551",
+          "P1552"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:S2:P1552",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-07-10T13:00:00+00:00",
+          "origin_price": 64680.0,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1783864800,
+        "price": 64271.9,
+        "evidence_at": 1783976400,
+        "origin_time": "2026-07-11T14:00:00+00:00",
+        "origin_price": 64497.4,
+        "rebound_time": "2026-07-12T06:00:00+00:00",
+        "rebound_price": 63602.8,
+        "source_ids": [
+          "P1552",
+          "P1553",
+          "P1554"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:S2:P1554",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-07-11T14:00:00+00:00",
+          "origin_price": 64497.4,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1784293200,
+        "price": 62505.1,
+        "evidence_at": 1784653200,
+        "origin_time": "2026-07-13T18:00:00+00:00",
+        "origin_price": 61806.0,
+        "rebound_time": "2026-07-15T15:00:00+00:00",
+        "rebound_price": 65589.7,
+        "source_ids": [
+          "P1555",
+          "P1556",
+          "P1557"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:B2:P1557",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-07-13T18:00:00+00:00",
+          "origin_price": 61806.0,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1784826000,
+        "price": 64636.0,
+        "evidence_at": 1784887200,
+        "origin_time": "2026-07-17T13:00:00+00:00",
+        "origin_price": 62505.1,
+        "rebound_time": "2026-07-21T14:00:00+00:00",
+        "rebound_price": 66924.1,
+        "source_ids": [
+          "P1557",
+          "P1558",
+          "P1559"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:B2:P1559",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-07-17T13:00:00+00:00",
+          "origin_price": 62505.1,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "id": "1h:block:0:strokes:L1:E196:B3",
+        "label": "B3",
+        "level": 1,
+        "time": 1784826000,
+        "price": 64636.0,
+        "evidence_at": 1784887200,
+        "certainty": "stroke_structural",
+        "child_index": 1559,
+        "center_id": "1h:block:0:strokes:L1:E196",
+        "source_ids": [
+          "P1558",
+          "P1559"
+        ],
+        "details": {
+          "zd": 63619.9,
+          "zg": 64497.4,
+          "return_low": 64636.0,
+          "return_high": 66924.1,
+          "boundary_policy": "touch_is_return"
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1784876400,
+        "price": 65780.0,
+        "evidence_at": 1784926800,
+        "origin_time": "2026-07-21T14:00:00+00:00",
+        "origin_price": 66924.1,
+        "rebound_time": "2026-07-23T17:00:00+00:00",
+        "rebound_price": 64636.0,
+        "source_ids": [
+          "P1558",
+          "P1559",
+          "P1560"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:S2:P1560",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-07-21T14:00:00+00:00",
+          "origin_price": 66924.1,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1785132000,
+        "price": 65722.5,
+        "evidence_at": 1785258000,
+        "origin_time": "2026-07-24T07:00:00+00:00",
+        "origin_price": 65780.0,
+        "rebound_time": "2026-07-24T14:00:00+00:00",
+        "rebound_price": 63666.0,
+        "source_ids": [
+          "P1560",
+          "P1561",
+          "P1562"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:S2:P1562",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-07-24T07:00:00+00:00",
+          "origin_price": 65780.0,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1785315600,
+        "price": 64715.9,
+        "evidence_at": 1785373200,
+        "origin_time": "2026-07-27T06:00:00+00:00",
+        "origin_price": 65722.5,
+        "rebound_time": "2026-07-28T13:00:00+00:00",
+        "rebound_price": 62660.1,
+        "source_ids": [
+          "P1562",
+          "P1563",
+          "P1564"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:S2:P1564",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-07-27T06:00:00+00:00",
+          "origin_price": 65722.5,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1785358800,
+        "price": 63234.0,
+        "evidence_at": 1785427200,
+        "origin_time": "2026-07-28T13:00:00+00:00",
+        "origin_price": 62660.1,
+        "rebound_time": "2026-07-29T09:00:00+00:00",
+        "rebound_price": 64715.9,
+        "source_ids": [
+          "P1563",
+          "P1564",
+          "P1565"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:B2:P1565",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-07-28T13:00:00+00:00",
+          "origin_price": 62660.1,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "id": "1h:block:0:strokes:L1:E197:S3",
+        "label": "S3",
+        "level": 1,
+        "time": 1785646800,
+        "price": 63620.0,
+        "evidence_at": 1785679200,
+        "certainty": "stroke_structural",
+        "child_index": 1568,
+        "center_id": "1h:block:0:strokes:L1:E197",
+        "source_ids": [
+          "P1567",
+          "P1568"
+        ],
+        "details": {
+          "zd": 64636.0,
+          "zg": 65780.0,
+          "return_low": 62228.8,
+          "return_high": 63620.0,
+          "boundary_policy": "touch_is_return"
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1785668400,
+        "price": 62961.1,
+        "evidence_at": 1785718800,
+        "origin_time": "2026-08-01T18:00:00+00:00",
+        "origin_price": 62228.8,
+        "rebound_time": "2026-08-02T05:00:00+00:00",
+        "rebound_price": 63620.0,
+        "source_ids": [
+          "P1567",
+          "P1568",
+          "P1569"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:B2:P1569",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-08-01T18:00:00+00:00",
+          "origin_price": 62228.8,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1785801600,
+        "price": 63290.2,
+        "evidence_at": 1785970800,
+        "origin_time": "2026-08-03T08:00:00+00:00",
+        "origin_price": 62268.2,
+        "rebound_time": "2026-08-03T19:00:00+00:00",
+        "rebound_price": 64058.8,
+        "source_ids": [
+          "P1571",
+          "P1572",
+          "P1573"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:B2:P1573",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-08-03T08:00:00+00:00",
+          "origin_price": 62268.2,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1786021200,
+        "price": 64111.0,
+        "evidence_at": 1786327200,
+        "origin_time": "2026-08-04T00:00:00+00:00",
+        "origin_price": 63290.2,
+        "rebound_time": "2026-08-05T20:00:00+00:00",
+        "rebound_price": 65022.0,
+        "source_ids": [
+          "P1573",
+          "P1574",
+          "P1575"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:B2:P1575",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-08-04T00:00:00+00:00",
+          "origin_price": 63290.2,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "id": "1h:block:0:strokes:L1:E198:B3",
+        "label": "B3",
+        "level": 1,
+        "time": 1786021200,
+        "price": 64111.0,
+        "evidence_at": 1786327200,
+        "certainty": "stroke_structural",
+        "child_index": 1575,
+        "center_id": "1h:block:0:strokes:L1:E198",
+        "source_ids": [
+          "P1574",
+          "P1575"
+        ],
+        "details": {
+          "zd": 62961.1,
+          "zg": 63620.0,
+          "return_low": 64111.0,
+          "return_high": 65022.0,
+          "boundary_policy": "touch_is_return"
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1786449600,
+        "price": 64470.0,
+        "evidence_at": 1786485600,
+        "origin_time": "2026-08-09T22:00:00+00:00",
+        "origin_price": 65482.7,
+        "rebound_time": "2026-08-10T18:00:00+00:00",
+        "rebound_price": 63788.0,
+        "source_ids": [
+          "P1576",
+          "P1577",
+          "P1578"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:S2:P1578",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-08-09T22:00:00+00:00",
+          "origin_price": 65482.7,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1786500000,
+        "price": 63886.0,
+        "evidence_at": 1786525200,
+        "origin_time": "2026-08-11T12:00:00+00:00",
+        "origin_price": 64470.0,
+        "rebound_time": "2026-08-11T19:00:00+00:00",
+        "rebound_price": 63211.6,
+        "source_ids": [
+          "P1578",
+          "P1579",
+          "P1580"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:S2:P1580",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-08-11T12:00:00+00:00",
+          "origin_price": 64470.0,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "id": "1h:block:0:strokes:L1:E199:S3",
+        "label": "S3",
+        "level": 1,
+        "time": 1786500000,
+        "price": 63886.0,
+        "evidence_at": 1786525200,
+        "certainty": "stroke_structural",
+        "child_index": 1580,
+        "center_id": "1h:block:0:strokes:L1:E199",
+        "source_ids": [
+          "P1579",
+          "P1580"
+        ],
+        "details": {
+          "zd": 64111.0,
+          "zg": 65022.0,
+          "return_low": 63211.6,
+          "return_high": 63886.0,
+          "boundary_policy": "touch_is_return"
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1786514400,
+        "price": 63574.6,
+        "evidence_at": 1786546800,
+        "origin_time": "2026-08-11T19:00:00+00:00",
+        "origin_price": 63211.6,
+        "rebound_time": "2026-08-12T02:00:00+00:00",
+        "rebound_price": 63886.0,
+        "source_ids": [
+          "P1579",
+          "P1580",
+          "P1581"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:B2:P1581",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-08-11T19:00:00+00:00",
+          "origin_price": 63211.6,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1786597200,
+        "price": 63990.7,
+        "evidence_at": 1786726800,
+        "origin_time": "2026-08-12T12:00:00+00:00",
+        "origin_price": 64450.0,
+        "rebound_time": "2026-08-12T19:00:00+00:00",
+        "rebound_price": 63283.0,
+        "source_ids": [
+          "P1582",
+          "P1583",
+          "P1584"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:S2:P1584",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-08-12T12:00:00+00:00",
+          "origin_price": 64450.0,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1786896000,
+        "price": 63370.0,
+        "evidence_at": 1786928400,
+        "origin_time": "2026-08-13T05:00:00+00:00",
+        "origin_price": 63990.7,
+        "rebound_time": "2026-08-14T14:00:00+00:00",
+        "rebound_price": 62484.2,
+        "source_ids": [
+          "P1584",
+          "P1585",
+          "P1586"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:S2:P1586",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-08-13T05:00:00+00:00",
+          "origin_price": 63990.7,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "id": "1h:block:0:strokes:L1:E200:S3",
+        "label": "S3",
+        "level": 1,
+        "time": 1786896000,
+        "price": 63370.0,
+        "evidence_at": 1786928400,
+        "certainty": "stroke_structural",
+        "child_index": 1586,
+        "center_id": "1h:block:0:strokes:L1:E200",
+        "source_ids": [
+          "P1585",
+          "P1586"
+        ],
+        "details": {
+          "zd": 63574.6,
+          "zg": 63886.0,
+          "return_low": 62484.2,
+          "return_high": 63370.0,
+          "boundary_policy": "touch_is_return"
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1786917600,
+        "price": 62681.1,
+        "evidence_at": 1787079600,
+        "origin_time": "2026-08-14T14:00:00+00:00",
+        "origin_price": 62484.2,
+        "rebound_time": "2026-08-16T16:00:00+00:00",
+        "rebound_price": 63370.0,
+        "source_ids": [
+          "P1585",
+          "P1586",
+          "P1587"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:B2:P1587",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-08-14T14:00:00+00:00",
+          "origin_price": 62484.2,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1787119200,
+        "price": 64131.3,
+        "evidence_at": 1787328000,
+        "origin_time": "2026-08-16T22:00:00+00:00",
+        "origin_price": 62681.1,
+        "rebound_time": "2026-08-18T14:00:00+00:00",
+        "rebound_price": 65057.9,
+        "source_ids": [
+          "P1587",
+          "P1588",
+          "P1589"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:B2:P1589",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-08-16T22:00:00+00:00",
+          "origin_price": 62681.1,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "id": "1h:block:0:strokes:L1:E201:B3",
+        "label": "B3",
+        "level": 1,
+        "time": 1787119200,
+        "price": 64131.3,
+        "evidence_at": 1787328000,
+        "certainty": "stroke_structural",
+        "child_index": 1589,
+        "center_id": "1h:block:0:strokes:L1:E201",
+        "source_ids": [
+          "P1588",
+          "P1589"
+        ],
+        "details": {
+          "zd": 62681.1,
+          "zg": 63370.0,
+          "return_low": 64131.3,
+          "return_high": 65057.9,
+          "boundary_policy": "touch_is_return"
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1787461200,
+        "price": 75588.0,
+        "evidence_at": 1787533200,
+        "origin_time": "2026-08-19T06:00:00+00:00",
+        "origin_price": 64131.3,
+        "rebound_time": "2026-08-21T08:00:00+00:00",
+        "rebound_price": 79555.5,
+        "source_ids": [
+          "P1589",
+          "P1590",
+          "P1591"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:B2:P1591",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-08-19T06:00:00+00:00",
+          "origin_price": 64131.3,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1787518800,
+        "price": 78057.6,
+        "evidence_at": 1787558400,
+        "origin_time": "2026-08-21T08:00:00+00:00",
+        "origin_price": 79555.5,
+        "rebound_time": "2026-08-23T05:00:00+00:00",
+        "rebound_price": 75588.0,
+        "source_ids": [
+          "P1590",
+          "P1591",
+          "P1592"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:S2:P1592",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-08-21T08:00:00+00:00",
+          "origin_price": 79555.5,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1787544000,
+        "price": 76649.0,
+        "evidence_at": 1787637600,
+        "origin_time": "2026-08-23T05:00:00+00:00",
+        "origin_price": 75588.0,
+        "rebound_time": "2026-08-23T21:00:00+00:00",
+        "rebound_price": 78057.6,
+        "source_ids": [
+          "P1591",
+          "P1592",
+          "P1593"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:B2:P1593",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-08-23T05:00:00+00:00",
+          "origin_price": 75588.0,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1787691600,
+        "price": 77808.1,
+        "evidence_at": 1787724000,
+        "origin_time": "2026-08-24T04:00:00+00:00",
+        "origin_price": 76649.0,
+        "rebound_time": "2026-08-25T02:00:00+00:00",
+        "rebound_price": 81270.5,
+        "source_ids": [
+          "P1593",
+          "P1594",
+          "P1595"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:B2:P1595",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-08-24T04:00:00+00:00",
+          "origin_price": 76649.0,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1787709600,
+        "price": 79200.0,
+        "evidence_at": 1787770800,
+        "origin_time": "2026-08-25T02:00:00+00:00",
+        "origin_price": 81270.5,
+        "rebound_time": "2026-08-25T21:00:00+00:00",
+        "rebound_price": 77808.1,
+        "source_ids": [
+          "P1594",
+          "P1595",
+          "P1596"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:S2:P1596",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-08-25T02:00:00+00:00",
+          "origin_price": 81270.5,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1788030000,
+        "price": 78314.9,
+        "evidence_at": 1788094800,
+        "origin_time": "2026-08-28T01:00:00+00:00",
+        "origin_price": 81500.0,
+        "rebound_time": "2026-08-28T16:00:00+00:00",
+        "rebound_price": 76853.1,
+        "source_ids": [
+          "P1598",
+          "P1599",
+          "P1600"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:S2:P1600",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-08-28T01:00:00+00:00",
+          "origin_price": 81500.0,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1788084000,
+        "price": 77933.4,
+        "evidence_at": 1788120000,
+        "origin_time": "2026-08-28T16:00:00+00:00",
+        "origin_price": 76853.1,
+        "rebound_time": "2026-08-29T19:00:00+00:00",
+        "rebound_price": 78314.9,
+        "source_ids": [
+          "P1599",
+          "P1600",
+          "P1601"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:B2:P1601",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-08-28T16:00:00+00:00",
+          "origin_price": 76853.1,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1788202800,
+        "price": 79228.5,
+        "evidence_at": 1788303600,
+        "origin_time": "2026-08-30T16:00:00+00:00",
+        "origin_price": 79384.4,
+        "rebound_time": "2026-08-30T23:00:00+00:00",
+        "rebound_price": 76947.2,
+        "source_ids": [
+          "P1602",
+          "P1603",
+          "P1604"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:S2:P1604",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-08-30T16:00:00+00:00",
+          "origin_price": 79384.4,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1788318000,
+        "price": 77767.8,
+        "evidence_at": 1788354000,
+        "origin_time": "2026-08-31T19:00:00+00:00",
+        "origin_price": 79228.5,
+        "rebound_time": "2026-09-01T18:00:00+00:00",
+        "rebound_price": 76368.0,
+        "source_ids": [
+          "P1604",
+          "P1605",
+          "P1606"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:S2:P1606",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-08-31T19:00:00+00:00",
+          "origin_price": 79228.5,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1788530400,
+        "price": 78618.1,
+        "evidence_at": 1788638400,
+        "origin_time": "2026-09-02T10:00:00+00:00",
+        "origin_price": 76151.9,
+        "rebound_time": "2026-09-03T21:00:00+00:00",
+        "rebound_price": 82282.8,
+        "source_ids": [
+          "P1607",
+          "P1608",
+          "P1609"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:B2:P1609",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-09-02T10:00:00+00:00",
+          "origin_price": 76151.9,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "id": "1h:block:0:strokes:L1:E202:B3",
+        "label": "B3",
+        "level": 1,
+        "time": 1788530400,
+        "price": 78618.1,
+        "evidence_at": 1788638400,
+        "certainty": "stroke_structural",
+        "child_index": 1609,
+        "center_id": "1h:block:0:strokes:L1:E202",
+        "source_ids": [
+          "P1608",
+          "P1609"
+        ],
+        "details": {
+          "zd": 75588.0,
+          "zg": 78057.6,
+          "return_low": 78618.1,
+          "return_high": 82282.8,
+          "boundary_policy": "touch_is_return"
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1788624000,
+        "price": 80167.0,
+        "evidence_at": 1788717600,
+        "origin_time": "2026-09-03T21:00:00+00:00",
+        "origin_price": 82282.8,
+        "rebound_time": "2026-09-04T14:00:00+00:00",
+        "rebound_price": 78618.1,
+        "source_ids": [
+          "P1608",
+          "P1609",
+          "P1610"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:S2:P1610",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-09-03T21:00:00+00:00",
+          "origin_price": 82282.8,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1788703200,
+        "price": 79125.3,
+        "evidence_at": 1788753600,
+        "origin_time": "2026-09-04T14:00:00+00:00",
+        "origin_price": 78618.1,
+        "rebound_time": "2026-09-05T16:00:00+00:00",
+        "rebound_price": 80167.0,
+        "source_ids": [
+          "P1609",
+          "P1610",
+          "P1611"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:B2:P1611",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-09-04T14:00:00+00:00",
+          "origin_price": 78618.1,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1789560000,
+        "price": 76275.4,
+        "evidence_at": 1789592400,
+        "origin_time": "2026-09-06T23:00:00+00:00",
+        "origin_price": 80536.1,
+        "rebound_time": "2026-09-15T18:00:00+00:00",
+        "rebound_price": 74909.4,
+        "source_ids": [
+          "P1612",
+          "P1613",
+          "P1614"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:S2:P1614",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-09-06T23:00:00+00:00",
+          "origin_price": 80536.1,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "id": "1h:block:0:strokes:L1:E203:S3",
+        "label": "S3",
+        "level": 1,
+        "time": 1789560000,
+        "price": 76275.4,
+        "evidence_at": 1789592400,
+        "certainty": "stroke_structural",
+        "child_index": 1614,
+        "center_id": "1h:block:0:strokes:L1:E203",
+        "source_ids": [
+          "P1613",
+          "P1614"
+        ],
+        "details": {
+          "zd": 79125.3,
+          "zg": 80167.0,
+          "return_low": 74909.4,
+          "return_high": 76275.4,
+          "boundary_policy": "touch_is_return"
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1789581600,
+        "price": 75025.0,
+        "evidence_at": 1789840800,
+        "origin_time": "2026-09-15T18:00:00+00:00",
+        "origin_price": 74909.4,
+        "rebound_time": "2026-09-16T12:00:00+00:00",
+        "rebound_price": 76275.4,
+        "source_ids": [
+          "P1613",
+          "P1614",
+          "P1615"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:B2:P1615",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-09-15T18:00:00+00:00",
+          "origin_price": 74909.4,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1789873200,
+        "price": 80095.9,
+        "evidence_at": 1790038800,
+        "origin_time": "2026-09-16T18:00:00+00:00",
+        "origin_price": 75025.0,
+        "rebound_time": "2026-09-19T15:00:00+00:00",
+        "rebound_price": 81933.9,
+        "source_ids": [
+          "P1615",
+          "P1616",
+          "P1617"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:B2:P1617",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-09-16T18:00:00+00:00",
+          "origin_price": 75025.0,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "id": "1h:block:0:strokes:L1:E204:B3",
+        "label": "B3",
+        "level": 1,
+        "time": 1789873200,
+        "price": 80095.9,
+        "evidence_at": 1790038800,
+        "certainty": "stroke_structural",
+        "child_index": 1617,
+        "center_id": "1h:block:0:strokes:L1:E204",
+        "source_ids": [
+          "P1616",
+          "P1617"
+        ],
+        "details": {
+          "zd": 75025.0,
+          "zg": 76275.4,
+          "return_low": 80095.9,
+          "return_high": 81933.9,
+          "boundary_policy": "touch_is_return"
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1790053200,
+        "price": 85080.0,
+        "evidence_at": 1790146800,
+        "origin_time": "2026-09-20T03:00:00+00:00",
+        "origin_price": 80095.9,
+        "rebound_time": "2026-09-21T20:00:00+00:00",
+        "rebound_price": 87385.1,
+        "source_ids": [
+          "P1617",
+          "P1618",
+          "P1619"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:B2:P1619",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-09-20T03:00:00+00:00",
+          "origin_price": 80095.9,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1790136000,
+        "price": 87247.3,
+        "evidence_at": 1790190000,
+        "origin_time": "2026-09-21T20:00:00+00:00",
+        "origin_price": 87385.1,
+        "rebound_time": "2026-09-22T05:00:00+00:00",
+        "rebound_price": 85080.0,
+        "source_ids": [
+          "P1618",
+          "P1619",
+          "P1620"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:S2:P1620",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-09-21T20:00:00+00:00",
+          "origin_price": 87385.1,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1790200800,
+        "price": 84638.5,
+        "evidence_at": 1790258400,
+        "origin_time": "2026-09-23T04:00:00+00:00",
+        "origin_price": 87247.3,
+        "rebound_time": "2026-09-23T16:00:00+00:00",
+        "rebound_price": 83450.1,
+        "source_ids": [
+          "P1620",
+          "P1621",
+          "P1622"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:S2:P1622",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-09-23T04:00:00+00:00",
+          "origin_price": 87247.3,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "id": "1h:block:0:strokes:L1:E205:S3",
+        "label": "S3",
+        "level": 1,
+        "time": 1790200800,
+        "price": 84638.5,
+        "evidence_at": 1790258400,
+        "certainty": "stroke_structural",
+        "child_index": 1622,
+        "center_id": "1h:block:0:strokes:L1:E205",
+        "source_ids": [
+          "P1621",
+          "P1622"
+        ],
+        "details": {
+          "zd": 85080.0,
+          "zg": 87247.3,
+          "return_low": 83450.1,
+          "return_high": 84638.5,
+          "boundary_policy": "touch_is_return"
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1790841600,
+        "price": 83136.6,
+        "evidence_at": 1790956800,
+        "origin_time": "2026-09-28T14:00:00+00:00",
+        "origin_price": 82500.1,
+        "rebound_time": "2026-09-30T13:00:00+00:00",
+        "rebound_price": 85632.7,
+        "source_ids": [
+          "P1625",
+          "P1626",
+          "P1627"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:B2:P1627",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-09-28T14:00:00+00:00",
+          "origin_price": 82500.1,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1790964000,
+        "price": 83841.9,
+        "evidence_at": 1791172800,
+        "origin_time": "2026-10-01T08:00:00+00:00",
+        "origin_price": 83136.6,
+        "rebound_time": "2026-10-02T12:00:00+00:00",
+        "rebound_price": 87249.6,
+        "source_ids": [
+          "P1627",
+          "P1628",
+          "P1629"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:B2:P1629",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-10-01T08:00:00+00:00",
+          "origin_price": 83136.6,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1791162000,
+        "price": 86976.1,
+        "evidence_at": 1791226800,
+        "origin_time": "2026-10-02T12:00:00+00:00",
+        "origin_price": 87249.6,
+        "rebound_time": "2026-10-02T18:00:00+00:00",
+        "rebound_price": 83841.9,
+        "source_ids": [
+          "P1628",
+          "P1629",
+          "P1630"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:S2:P1630",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-10-02T12:00:00+00:00",
+          "origin_price": 87249.6,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1791216000,
+        "price": 84910.0,
+        "evidence_at": 1791255600,
+        "origin_time": "2026-10-02T18:00:00+00:00",
+        "origin_price": 83841.9,
+        "rebound_time": "2026-10-05T01:00:00+00:00",
+        "rebound_price": 86976.1,
+        "source_ids": [
+          "P1629",
+          "P1630",
+          "P1631"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:B2:P1631",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-10-02T18:00:00+00:00",
+          "origin_price": 83841.9,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "id": "1h:block:0:strokes:L1:E206:B3",
+        "label": "B3",
+        "level": 1,
+        "time": 1791216000,
+        "price": 84910.0,
+        "evidence_at": 1791255600,
+        "certainty": "stroke_structural",
+        "child_index": 1631,
+        "center_id": "1h:block:0:strokes:L1:E206",
+        "source_ids": [
+          "P1630",
+          "P1631"
+        ],
+        "details": {
+          "zd": 83450.1,
+          "zg": 84638.5,
+          "return_low": 84910.0,
+          "return_high": 86976.1,
+          "boundary_policy": "touch_is_return"
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "S2",
+        "level": 1,
+        "time": 1791241200,
+        "price": 86034.0,
+        "evidence_at": 1791277200,
+        "origin_time": "2026-10-05T01:00:00+00:00",
+        "origin_price": 86976.1,
+        "rebound_time": "2026-10-05T16:00:00+00:00",
+        "rebound_price": 84910.0,
+        "source_ids": [
+          "P1630",
+          "P1631",
+          "P1632"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:S2:P1632",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-10-05T01:00:00+00:00",
+          "origin_price": 86976.1,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      },
+      {
+        "label": "B2",
+        "level": 1,
+        "time": 1791266400,
+        "price": 85072.7,
+        "evidence_at": 1791309600,
+        "origin_time": "2026-10-05T16:00:00+00:00",
+        "origin_price": 84910.0,
+        "rebound_time": "2026-10-05T23:00:00+00:00",
+        "rebound_price": 86034.0,
+        "source_ids": [
+          "P1631",
+          "P1632",
+          "P1633"
+        ],
+        "certainty": "second_retest_geometry",
+        "first_point_required_for_scan": false,
+        "first_point_confirmed": false,
+        "pending": [
+          "origin_reversal_or_lower_level_divergence"
+        ],
+        "scope": "endpoint_location_only_not_confirmed_signal",
+        "id": "1h:block:0:strokes:retest:B2:P1633",
+        "center_id": null,
+        "details": {
+          "scope": "endpoint_location_only_not_confirmed_signal",
+          "pending": [
+            "origin_reversal_or_lower_level_divergence"
+          ],
+          "origin_time": "2026-10-05T16:00:00+00:00",
+          "origin_price": 84910.0,
+          "first_point_confirmed": false
+        },
+        "basis": "1h笔级"
+      }
+    ]
+  }
+}

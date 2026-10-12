@@ -1,0 +1,215 @@
+{
+  "passed": true,
+  "checks": {
+    "8h": {
+      "added": [],
+      "existing_signals_unchanged": true,
+      "completed_type_view_unchanged": true,
+      "centers_unchanged": true,
+      "lines_and_direct_break_marks_unchanged": true
+    },
+    "4h": {
+      "added": [
+        {
+          "id": "4h:block:0:strokes:pending:S2:P392",
+          "label": "S2",
+          "level": 1,
+          "time": 1791777600,
+          "price": 84340.2,
+          "evidence_at": 1791820800,
+          "observed_at": "2026-10-12T17:43:00+00:00",
+          "certainty": "pending_stroke_candidate",
+          "basis": "4h笔级",
+          "child_index": 392,
+          "center_id": null,
+          "source_ids": [
+            "P390",
+            "P391",
+            "P392"
+          ],
+          "actionable": false,
+          "higher_point_confirmed": false,
+          "details": {
+            "first_point_confirmed": false,
+            "origin_time": "2026-10-02T12:00:00+00:00",
+            "origin_price": 87249.6,
+            "policy": "first_retest_holds_origin",
+            "missing": "4h转折性质待证；不破极值只是二类候选位置",
+            "scope": "stable_tail_endpoint_candidate_only",
+            "candidate_policy": "entry_plan_period_candidates",
+            "endpoint_stable_at": "2026-10-12T16:00:00+00:00",
+            "stroke_completed": false,
+            "parent_invalidation": {
+              "price": 87249.6,
+              "comparison": "gt"
+            }
+          }
+        }
+      ],
+      "existing_signals_unchanged": true,
+      "completed_type_view_unchanged": true,
+      "centers_unchanged": true,
+      "lines_and_direct_break_marks_unchanged": true
+    },
+    "2h": {
+      "added": [
+        {
+          "id": "2h:block:0:strokes:pending:S2:P838",
+          "label": "S2",
+          "level": 1,
+          "time": 1791784800,
+          "price": 84340.2,
+          "evidence_at": 1791806400,
+          "observed_at": "2026-10-12T17:43:00+00:00",
+          "certainty": "pending_stroke_candidate",
+          "basis": "2h笔级",
+          "child_index": 838,
+          "center_id": null,
+          "source_ids": [
+            "P836",
+            "P837",
+            "P838"
+          ],
+          "actionable": false,
+          "higher_point_confirmed": false,
+          "details": {
+            "first_point_confirmed": false,
+            "origin_time": "2026-10-02T12:00:00+00:00",
+            "origin_price": 87249.6,
+            "policy": "first_retest_holds_origin",
+            "missing": "2h转折性质待证；不破极值只是二类候选位置",
+            "scope": "stable_tail_endpoint_candidate_only",
+            "candidate_policy": "entry_plan_period_candidates",
+            "endpoint_stable_at": "2026-10-12T12:00:00+00:00",
+            "stroke_completed": false,
+            "parent_invalidation": {
+              "price": 87249.6,
+              "comparison": "gt"
+            }
+          }
+        },
+        {
+          "id": "2h:block:0:strokes:pending:S3:P838",
+          "label": "S3",
+          "level": 1,
+          "time": 1791784800,
+          "price": 84340.2,
+          "evidence_at": 1791806400,
+          "observed_at": "2026-10-12T17:43:00+00:00",
+          "certainty": "pending_stroke_candidate",
+          "basis": "2h笔级",
+          "child_index": 838,
+          "center_id": "2h:block:0:strokes:L1:E106",
+          "source_ids": [
+            "P836",
+            "P837",
+            "P838"
+          ],
+          "actionable": false,
+          "higher_point_confirmed": false,
+          "details": {
+            "zd": 85080.0,
+            "zg": 87247.3,
+            "center_id": "L1:E106",
+            "boundary_policy": "touch_is_return",
+            "departure_start": "2026-10-02T12:00:00+00:00",
+            "missing": "2h首次回试尚未按完成走势确认",
+            "scope": "stable_tail_endpoint_candidate_only",
+            "candidate_policy": "entry_plan_period_candidates",
+            "endpoint_stable_at": "2026-10-12T12:00:00+00:00",
+            "stroke_completed": false,
+            "parent_invalidation": {
+              "price": 85080.0,
+              "comparison": "ge"
+            }
+          }
+        }
+      ],
+      "existing_signals_unchanged": true,
+      "completed_type_view_unchanged": true,
+      "centers_unchanged": true,
+      "lines_and_direct_break_marks_unchanged": true
+    },
+    "1h": {
+      "added": [
+        {
+          "id": "1h:block:0:strokes:pending:S2:P1636",
+          "label": "S2",
+          "level": 1,
+          "time": 1791784800,
+          "price": 84340.2,
+          "evidence_at": 1791799200,
+          "observed_at": "2026-10-12T17:43:00+00:00",
+          "certainty": "pending_stroke_candidate",
+          "basis": "1h笔级",
+          "child_index": 1636,
+          "center_id": null,
+          "source_ids": [
+            "P1634",
+            "P1635",
+            "P1636"
+          ],
+          "actionable": false,
+          "higher_point_confirmed": false,
+          "details": {
+            "first_point_confirmed": false,
+            "origin_time": "2026-10-06T15:00:00+00:00",
+            "origin_price": 86664.9,
+            "policy": "first_retest_holds_origin",
+            "missing": "1h转折性质待证；不破极值只是二类候选位置",
+            "scope": "stable_tail_endpoint_candidate_only",
+            "candidate_policy": "entry_plan_period_candidates",
+            "endpoint_stable_at": "2026-10-12T10:00:00+00:00",
+            "stroke_completed": false,
+            "parent_invalidation": {
+              "price": 86664.9,
+              "comparison": "gt"
+            }
+          }
+        },
+        {
+          "id": "1h:block:0:strokes:pending:S3:P1636",
+          "label": "S3",
+          "level": 1,
+          "time": 1791784800,
+          "price": 84340.2,
+          "evidence_at": 1791799200,
+          "observed_at": "2026-10-12T17:43:00+00:00",
+          "certainty": "pending_stroke_candidate",
+          "basis": "1h笔级",
+          "child_index": 1636,
+          "center_id": "1h:block:0:strokes:L1:E207",
+          "source_ids": [
+            "P1634",
+            "P1635",
+            "P1636"
+          ],
+          "actionable": false,
+          "higher_point_confirmed": false,
+          "details": {
+            "zd": 85072.7,
+            "zg": 86034.0,
+            "center_id": "L1:E207",
+            "boundary_policy": "touch_is_return",
+            "departure_start": "2026-10-06T15:00:00+00:00",
+            "missing": "1h首次回试尚未按完成走势确认",
+            "scope": "stable_tail_endpoint_candidate_only",
+            "candidate_policy": "entry_plan_period_candidates",
+            "endpoint_stable_at": "2026-10-12T10:00:00+00:00",
+            "stroke_completed": false,
+            "parent_invalidation": {
+              "price": 85072.7,
+              "comparison": "ge"
+            }
+          }
+        }
+      ],
+      "existing_signals_unchanged": true,
+      "completed_type_view_unchanged": true,
+      "centers_unchanged": true,
+      "lines_and_direct_break_marks_unchanged": true
+    }
+  },
+  "target_time_beijing": "2026-10-12 14:00",
+  "target_price": 84340.2
+}

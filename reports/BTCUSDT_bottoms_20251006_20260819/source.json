@@ -1,0 +1,269 @@
+{
+  "symbol": "BTCUSDT",
+  "market": "Binance USD-M perpetual",
+  "price_type": "trade_price",
+  "endpoint": "https://fapi.binance.com/fapi/v1/klines",
+  "start": "2025-10-05T16:00:00+00:00",
+  "end_exclusive": "2026-08-19T16:00:00+00:00",
+  "context_start": "2022-12-31T16:00:00+00:00",
+  "count": 31848,
+  "requests": [
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1672502400000&endTime=1676102399999&limit=1000",
+      "downloaded_at": "2026-09-25T15:04:00.321506+00:00",
+      "server_date": "Fri, 25 Sep 2026 15:04:00 GMT",
+      "sha256": "1f89866d2e4f619a0aa211b7fd1b7be52fb3f06e1ccd343ccdb4b2cb3cba59be",
+      "count": 1000,
+      "file": "raw_pages/1672502400000.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1676102400000&endTime=1679702399999&limit=1000",
+      "downloaded_at": "2026-09-25T15:04:00.407649+00:00",
+      "server_date": "Fri, 25 Sep 2026 15:04:00 GMT",
+      "sha256": "e146948d3cbc8e776589054a1e0217e411481c50cfc2e9e1dac7f5331e1119e5",
+      "count": 1000,
+      "file": "raw_pages/1676102400000.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1679702400000&endTime=1683302399999&limit=1000",
+      "downloaded_at": "2026-09-25T15:04:00.461860+00:00",
+      "server_date": "Fri, 25 Sep 2026 15:04:00 GMT",
+      "sha256": "ce92e48efb99a99758fcf04caec8febf5319b55a6910c3e64537f8d3270e4d84",
+      "count": 1000,
+      "file": "raw_pages/1679702400000.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1683302400000&endTime=1686902399999&limit=1000",
+      "downloaded_at": "2026-09-25T15:04:00.551240+00:00",
+      "server_date": "Fri, 25 Sep 2026 15:04:00 GMT",
+      "sha256": "b67cde077a5467c2309fe6d34ecbaadfcb911c5786854c580e66bbe1aa7a2b46",
+      "count": 1000,
+      "file": "raw_pages/1683302400000.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1686902400000&endTime=1690502399999&limit=1000",
+      "downloaded_at": "2026-09-25T15:04:00.628549+00:00",
+      "server_date": "Fri, 25 Sep 2026 15:04:00 GMT",
+      "sha256": "13262884322d00ba093819369b17b540f13e1aff36bb228027a61a047bed041f",
+      "count": 1000,
+      "file": "raw_pages/1686902400000.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1690502400000&endTime=1694102399999&limit=1000",
+      "downloaded_at": "2026-09-25T15:04:00.686617+00:00",
+      "server_date": "Fri, 25 Sep 2026 15:04:00 GMT",
+      "sha256": "072224027abfb4ed476366903769e56a9fc63b9bba89dbab3bb35d357b3409b9",
+      "count": 1000,
+      "file": "raw_pages/1690502400000.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1694102400000&endTime=1697702399999&limit=1000",
+      "downloaded_at": "2026-09-25T15:04:00.819391+00:00",
+      "server_date": "Fri, 25 Sep 2026 15:04:00 GMT",
+      "sha256": "d89534341079293c31a6ef573f0e9d1316c2fada2b1831ff49a1e471da5d25ee",
+      "count": 1000,
+      "file": "raw_pages/1694102400000.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1697702400000&endTime=1701302399999&limit=1000",
+      "downloaded_at": "2026-09-25T15:04:00.970240+00:00",
+      "server_date": "Fri, 25 Sep 2026 15:04:00 GMT",
+      "sha256": "38dbe9eeb11d9c16b811ccf936e29f0ff7cc56dce0ee857a60e55cba126ce907",
+      "count": 1000,
+      "file": "raw_pages/1697702400000.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1701302400000&endTime=1704902399999&limit=1000",
+      "downloaded_at": "2026-09-25T15:04:01.027715+00:00",
+      "server_date": "Fri, 25 Sep 2026 15:04:01 GMT",
+      "sha256": "648a16197375f968d3a2d2bfe92f86129c1d1bd9ca26ce396136029824452741",
+      "count": 1000,
+      "file": "raw_pages/1701302400000.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1704902400000&endTime=1708502399999&limit=1000",
+      "downloaded_at": "2026-09-25T15:04:01.119003+00:00",
+      "server_date": "Fri, 25 Sep 2026 15:04:01 GMT",
+      "sha256": "8743fc61a3b9295c45eec2bd94c367e8a7e832559e4f05413efb9138e834736f",
+      "count": 1000,
+      "file": "raw_pages/1704902400000.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1708502400000&endTime=1712102399999&limit=1000",
+      "downloaded_at": "2026-09-25T15:04:01.210300+00:00",
+      "server_date": "Fri, 25 Sep 2026 15:04:01 GMT",
+      "sha256": "f7e1110e35880e0fcd33999cd19bd2b221ffb9323223aacda699eafb9fa6ce20",
+      "count": 1000,
+      "file": "raw_pages/1708502400000.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1712102400000&endTime=1715702399999&limit=1000",
+      "downloaded_at": "2026-09-25T15:04:01.364821+00:00",
+      "server_date": "Fri, 25 Sep 2026 15:04:01 GMT",
+      "sha256": "b06ba59ed26886f4105b08e5cd61f73ef0dadff68f3a968a1af2404ca7ef99a6",
+      "count": 1000,
+      "file": "raw_pages/1712102400000.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1715702400000&endTime=1719302399999&limit=1000",
+      "downloaded_at": "2026-09-25T15:04:01.464612+00:00",
+      "server_date": "Fri, 25 Sep 2026 15:04:01 GMT",
+      "sha256": "fd1c8a716a11cd60e7a2807e60111d0ec05019d84a441abaefc545efe855e29a",
+      "count": 1000,
+      "file": "raw_pages/1715702400000.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1719302400000&endTime=1722902399999&limit=1000",
+      "downloaded_at": "2026-09-25T15:04:01.535207+00:00",
+      "server_date": "Fri, 25 Sep 2026 15:04:01 GMT",
+      "sha256": "9dc325c8e82b2673b35001f7ce8d46b15153889e415085013bb63b0909d1e819",
+      "count": 1000,
+      "file": "raw_pages/1719302400000.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1722902400000&endTime=1726502399999&limit=1000",
+      "downloaded_at": "2026-09-25T15:04:01.624677+00:00",
+      "server_date": "Fri, 25 Sep 2026 15:04:01 GMT",
+      "sha256": "af9da59f5b490be6ce1435c1f7e9d81ef5c83885c53126c8dbdfb8bd49b16265",
+      "count": 1000,
+      "file": "raw_pages/1722902400000.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1726502400000&endTime=1730102399999&limit=1000",
+      "downloaded_at": "2026-09-25T15:04:01.747326+00:00",
+      "server_date": "Fri, 25 Sep 2026 15:04:01 GMT",
+      "sha256": "b19c5c6286d15eb5059d780c6ad72c4bbedbb425491d6c4d34bcdd8025d43273",
+      "count": 1000,
+      "file": "raw_pages/1726502400000.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1730102400000&endTime=1733702399999&limit=1000",
+      "downloaded_at": "2026-09-25T15:04:01.830999+00:00",
+      "server_date": "Fri, 25 Sep 2026 15:04:01 GMT",
+      "sha256": "a146933f11f48d00878ef99707ad91f0d713e458c75ecfa618e0f24f91abf6fb",
+      "count": 1000,
+      "file": "raw_pages/1730102400000.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1733702400000&endTime=1737302399999&limit=1000",
+      "downloaded_at": "2026-09-25T15:04:01.951768+00:00",
+      "server_date": "Fri, 25 Sep 2026 15:04:01 GMT",
+      "sha256": "b210ec1f5883e517a298b844c3e6f77146ae8dba9c5fb3ec5fedd50f2d977bfc",
+      "count": 1000,
+      "file": "raw_pages/1733702400000.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1737302400000&endTime=1740902399999&limit=1000",
+      "downloaded_at": "2026-09-25T15:04:02.115650+00:00",
+      "server_date": "Fri, 25 Sep 2026 15:04:02 GMT",
+      "sha256": "4c5f3bddd5535075ce58cf6cb8109787afa40ccdb20506ab6078c49d8787d638",
+      "count": 1000,
+      "file": "raw_pages/1737302400000.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1740902400000&endTime=1744502399999&limit=1000",
+      "downloaded_at": "2026-09-25T15:04:02.195729+00:00",
+      "server_date": "Fri, 25 Sep 2026 15:04:02 GMT",
+      "sha256": "5739562f0e2e79c1acb54c746e6942e481df28936ff9b27d84841c22916fb554",
+      "count": 1000,
+      "file": "raw_pages/1740902400000.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1744502400000&endTime=1748102399999&limit=1000",
+      "downloaded_at": "2026-09-25T15:04:02.308407+00:00",
+      "server_date": "Fri, 25 Sep 2026 15:04:02 GMT",
+      "sha256": "a49aa1ddd2e66340bc750984c8c5a969def67f9b59beff43c0a1f7bc5dc74784",
+      "count": 1000,
+      "file": "raw_pages/1744502400000.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1748102400000&endTime=1751702399999&limit=1000",
+      "downloaded_at": "2026-09-25T15:04:02.407042+00:00",
+      "server_date": "Fri, 25 Sep 2026 15:04:02 GMT",
+      "sha256": "3c8116a90079cf8584e3e1680d784c689f41c7ed51df9a20dd97629f8c2de459",
+      "count": 1000,
+      "file": "raw_pages/1748102400000.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1751702400000&endTime=1755302399999&limit=1000",
+      "downloaded_at": "2026-09-25T15:04:02.571421+00:00",
+      "server_date": "Fri, 25 Sep 2026 15:04:02 GMT",
+      "sha256": "15e4b1bfbc59aafa253952486779f27df1d33b4528c5e9412505347ea6e537c8",
+      "count": 1000,
+      "file": "raw_pages/1751702400000.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1755302400000&endTime=1758902399999&limit=1000",
+      "downloaded_at": "2026-09-25T15:04:02.655560+00:00",
+      "server_date": "Fri, 25 Sep 2026 15:04:02 GMT",
+      "sha256": "9da40b8c9825d8b87edbe77230461ad7e9caaa2669090837c830204bbe334ffb",
+      "count": 1000,
+      "file": "raw_pages/1755302400000.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1758902400000&endTime=1762502399999&limit=1000",
+      "downloaded_at": "2026-09-25T15:04:02.741195+00:00",
+      "server_date": "Fri, 25 Sep 2026 15:04:02 GMT",
+      "sha256": "45bfb0da5515e3ac056ef96dd0e0d68169c16b914a9d838806c576b2213c985a",
+      "count": 1000,
+      "file": "raw_pages/1758902400000.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1762502400000&endTime=1766102399999&limit=1000",
+      "downloaded_at": "2026-09-25T15:04:02.849727+00:00",
+      "server_date": "Fri, 25 Sep 2026 15:04:02 GMT",
+      "sha256": "6fdf4fc8764426831f3f03d5901ea76e1d79f9ea1b317d7ef1c0d5c60b5e2f9b",
+      "count": 1000,
+      "file": "raw_pages/1762502400000.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1766102400000&endTime=1769702399999&limit=1000",
+      "downloaded_at": "2026-09-25T15:04:02.904859+00:00",
+      "server_date": "Fri, 25 Sep 2026 15:04:02 GMT",
+      "sha256": "be09a35913b24654c723110034ed37f5ff82d6780590cd2c590246e683388f84",
+      "count": 1000,
+      "file": "raw_pages/1766102400000.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1769702400000&endTime=1773302399999&limit=1000",
+      "downloaded_at": "2026-09-25T15:04:03.011810+00:00",
+      "server_date": "Fri, 25 Sep 2026 15:04:02 GMT",
+      "sha256": "61770d0d3db49b299b807e820ffb9eb68237f2fbfc716764bb11bbdac12ea54f",
+      "count": 1000,
+      "file": "raw_pages/1769702400000.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1773302400000&endTime=1776902399999&limit=1000",
+      "downloaded_at": "2026-09-25T15:04:03.074428+00:00",
+      "server_date": "Fri, 25 Sep 2026 15:04:03 GMT",
+      "sha256": "1634d8a7581c2f457de48ae4382c55cf3d6bf1d0c7c839ac653a410f711051e9",
+      "count": 1000,
+      "file": "raw_pages/1773302400000.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1776902400000&endTime=1780502399999&limit=1000",
+      "downloaded_at": "2026-09-25T15:04:03.129877+00:00",
+      "server_date": "Fri, 25 Sep 2026 15:04:03 GMT",
+      "sha256": "d841bc87b47e294e2342196c7afca90490e4c5ea7c149b84e9820fd0a873debf",
+      "count": 1000,
+      "file": "raw_pages/1776902400000.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1780502400000&endTime=1784102399999&limit=1000",
+      "downloaded_at": "2026-09-25T15:04:03.182225+00:00",
+      "server_date": "Fri, 25 Sep 2026 15:04:03 GMT",
+      "sha256": "c39f53e1d49c68f3af2d8a6007fef670f57b5c148bd618e98484d29bdf4d5dee",
+      "count": 1000,
+      "file": "raw_pages/1780502400000.json"
+    },
+    {
+      "url": "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1784102400000&endTime=1787155199999&limit=1000",
+      "downloaded_at": "2026-09-25T15:04:03.233326+00:00",
+      "server_date": "Fri, 25 Sep 2026 15:04:03 GMT",
+      "sha256": "f1e2f5e6335856cda1dde19a2f95613d3c48e71a5d659eae462c1dde95da7627",
+      "count": 848,
+      "file": "raw_pages/1784102400000.json"
+    }
+  ],
+  "csv_sha256": "5ab86bf9cc90e13ba44a72cd83b53f3248e6b0afcc8b9213876d6bd089c8ebf2"
+}

@@ -1,0 +1,6 @@
+{
+  "url": "https://fapi.binance.com/fapi/v1/ticker/24hr?symbol=STRKUSDT",
+  "downloaded_at": "2026-10-12T11:42:06.176456+00:00",
+  "server_date": "Mon, 12 Oct 2026 11:42:06 GMT",
+  "sha256": "4108f527d0d8af2b95d40276a8bce3849d02bad06acf53b9a7734b40be09b130"
+}
