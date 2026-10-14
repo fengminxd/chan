@@ -265,7 +265,7 @@ class DivergenceAuditTests(unittest.TestCase):
             a, A, b, B, c, inner, third, waves = original
             result = audit_divergence(replace(a, level=0), replace(A, level=1),
                                       replace(b, level=0), replace(B, level=1),
-                                      replace(c, level=0), [], replace(third, level=1), waves)
+                                      replace(c, level=0, center_ids=()), [], replace(third, level=1), waves)
             self.assertEqual(result['state'], 'pending')
             self.assertEqual([x['rule'] for x in result['checks'] if x['state'] == 'fail'], [])
             self.assertEqual(sum(x['state'] == 'pending' for x in result['checks']), 3)

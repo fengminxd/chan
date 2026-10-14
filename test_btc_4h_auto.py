@@ -19,6 +19,17 @@ from test_theory import movements, TREND
 
 
 class PendingStrokeCandidateTests(unittest.TestCase):
+    def test_publishing_rejects_artificial_blocks_and_broken_links(self):
+        bars, report, end = self.fixture([10,20,12,18,8,11])
+        split = deepcopy(report)
+        split['blocks'].append(deepcopy(split['blocks'][0]))
+        with self.assertRaisesRegex(ValueError, '人工结构断点'):
+            automatic_views(split,bars,bars[0].time,end,period_hours=1)
+        broken = deepcopy(report)
+        del broken['blocks'][0]['strokes'][1]
+        with self.assertRaisesRegex(ValueError, '笔链不连续'):
+            automatic_views(broken,bars,bars[0].time,end,period_hours=1)
+
     def fixture(self, points):
         """Real OHLC input with spaced turns and a stable right neighbour."""
         side = 1 if points[1] > points[0] else -1
@@ -33,6 +44,24 @@ class PendingStrokeCandidateTests(unittest.TestCase):
 
     def candidates(self, bars, report, end):
         return pending_stroke_candidates(report['blocks'][-1],bars,end,'1h:block:0:strokes',1)
+
+    def test_quarter_hour_candidates_use_minute_period_and_close_times(self):
+        hourly, _, _ = self.fixture([10,20,12,18,8,11])
+        bars = [replace(c,time=BASE+timedelta(minutes=15*i)) for i,c in enumerate(hourly)]
+        report = analyze(bars,0.25)
+        end = bars[-1].time+timedelta(minutes=15)
+        view = automatic_views(report,bars,bars[0].time,end,period_hours=0.25)
+        self.assertEqual(view['analysis_period'],'15m')
+        candidates = [s for s in view['views']['strokes']['signals']
+                      if s['certainty']=='pending_stroke_candidate']
+        self.assertEqual({s['label'] for s in candidates},{'S2','S3'})
+        for s in candidates:
+            self.assertEqual(s['basis'],'15m笔级')
+            self.assertTrue(s['id'].startswith('15m:'))
+            self.assertGreater(s['evidence_at'],s['time'])
+            self.assertLessEqual(s['evidence_at'],end)
+        self.assertEqual(pending_stroke_candidates(report['blocks'][-1],bars,
+            end-timedelta(minutes=15),'15m:block:0:strokes',0.25),[])
 
     def test_stable_tail_exports_both_classes_without_completing_structure(self):
         for mirror,prefix in ((False,'S'),(True,'B')):

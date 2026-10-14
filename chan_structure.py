@@ -120,14 +120,18 @@ def _turn_evidence(strokes, start: int, turn: int, audit: dict | None = None):
     """检验一个假设转折；证据仅取该转折被价格越过之前的前缀。
 
     左侧标准序列和转折后的序列分别去包含，禁止跨假设边界吞并。
-    第一笔直接破坏旧段时，单独处理第 71 课的包含型三笔破坏。
+    第一反向笔触及旧元素近端边界即破坏，不要求包含整个旧元素；
+    按第 71 课等待严格越过首笔终点，或先越过首笔起点使假设失效。
     """
     direction = strokes[start].direction
     reverse = "down" if direction == "up" else "up"
     before = standardize_features([_feature(strokes, i) for i in range(start + 1, turn, 2)], direction)
     left, middle = before[-1], _feature(strokes, turn)
     gap = middle.low > left.high if direction == "up" else middle.high < left.low
-    direct = middle.low < left.low if direction == "up" else middle.high > left.high
+    # 上段反向下笔比较旧元素高点，下段反向上笔比较旧元素低点。
+    # 如 0→8→4→10→6，6<=8 已破坏，不必跌破 4 才算。
+    # 触及该边界可触发破坏；后续确认仍须严格越过首笔终点。
+    direct = middle.low <= left.high if direction == "up" else middle.high >= left.low
     if audit is not None:
         audit.update(turn_stroke=turn, gap=gap, direct_break=direct,
                      first_pattern_found=False, reverse_pattern_found=False,
@@ -153,11 +157,17 @@ def _turn_evidence(strokes, start: int, turn: int, audit: dict | None = None):
             # 分型尚未确认时仍按旧段特征序列处理最初的包含。
             # 提前使用反向方向会抹去第二元素的顶/底，导致本应确认的分型消失。
             _append_feature(primary, _feature(strokes, i), direction)
+            if not direct:
+                # 首笔未破坏才进入有缺口的双序列分支。标准化继续跟踪
+                # 缺口；首笔已破坏的情形不能被后续包含改成第二类。
+                gap = primary[0].low > left.high if direction == "up" else primary[0].high < left.low
+                if audit is not None:
+                    audit['gap'] = gap
             if len(primary) >= 2 and _fractal(left, primary[0], primary[1], direction):
                 first_pattern = (left.source_indices, primary[0].source_indices, primary[1].source_indices)
-            # 破坏笔包含前一特征元素时不能把两者合并。第三笔缩在第一笔内则等待。
+            # 已破坏后，普通表面分型不能替代首笔区间的严格突破。
             breaks_first = s.low < middle.low if direction == "up" else s.high > middle.high
-            if not gap and direct and reverse_span_ready and breaks_first:
+            if direct and reverse_span_ready and breaks_first:
                 if audit is not None:
                     # 该分支在下面的通用状态同步之前返回；必须记录本笔刚刚
                     # 建立的反向跨度，不能沿用上一轮的 False。
@@ -174,19 +184,10 @@ def _turn_evidence(strokes, start: int, turn: int, audit: dict | None = None):
             audit.update(first_pattern_found=first_pattern is not None,
                          reverse_pattern_found=second_pattern is not None,
                          reverse_span_ready=reverse_span_ready)
-        if first_pattern is not None and reverse_span_ready:
-            if not gap:
-                # 首笔已直接破坏旧段时，第 71 课的等待规则优先；包含合并
-                # 后的表面分型不能代替“后续第三笔越过首笔终点”。
-                if not direct:
-                    if audit is not None:
-                        audit.update(reason="confirmed_no_gap", evidence_stroke=i)
-                    return i, "no_gap", first_pattern, ()
-            if second_pattern is not None:
-                if gap:
-                    if audit is not None:
-                        audit.update(reason="confirmed_gap", evidence_stroke=i)
-                    return i, "gap_reverse_fractal", first_pattern, second_pattern
+        if not direct and gap and first_pattern is not None and reverse_span_ready and second_pattern is not None:
+            if audit is not None:
+                audit.update(reason="confirmed_gap", evidence_stroke=i)
+            return i, "gap_reverse_fractal", first_pattern, second_pattern
     if audit is not None:
         audit["reason"] = ("waiting_reverse_valid_span" if first_pattern and not reverse_span_ready else
                            "waiting_direct_break_resolution" if direct and not gap else

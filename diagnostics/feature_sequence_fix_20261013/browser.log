@@ -1,0 +1,3 @@
+Error: [1013/114803.413338:FATAL:content/browser/sandbox_host_linux.cc:41] Check failed: . shutdown: Operation not permitted (1)
+
+    at file:///root/chan/verify_btc_tradingview.mjs:17:80

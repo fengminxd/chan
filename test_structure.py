@@ -18,6 +18,47 @@ def segment_fixture(prices):
 
 
 class SegmentTests(unittest.TestCase):
+    def test_equal_boundary_inclusion_confirms_only_after_strict_third_break(self):
+        for sign in (1, -1):
+            for endpoint in (3.99, 4, 4.01):
+                with self.subTest(sign=sign, endpoint=endpoint):
+                    seq = strokes([sign*p for p in [0, 8, 4, 10, endpoint, 9, 3]])
+                    self.assertEqual(build_segments(seq[:-1]).segments, [])
+                    result = build_segments(seq)
+                    self.assertEqual([(s.start.price, s.end.price, s.evidence_stroke)
+                                      for s in result.segments], [(0, sign*10, 5)])
+                    if endpoint == 4:
+                        self.assertEqual(result.direct_breaks[0]['turn_stroke'], 3)
+                        self.assertEqual(result.direct_breaks[0]['reason'], 'confirmed_direct_break')
+            # 第一反向笔触及旧边界已标记，但第三笔仅触及首笔终点仍等待。
+            waiting = build_segments(strokes([sign*p for p in [0, 8, 4, 10, 4, 9, 4]]))
+            self.assertEqual(waiting.segments, [])
+            self.assertEqual(waiting.direct_breaks[0]['turn_stroke'], 3)
+            self.assertEqual(waiting.direct_breaks[0]['reason'], 'waiting_direct_break_resolution')
+
+    def test_first_break_cannot_be_reclassified_by_later_containment(self):
+        prices = [0, 8, 4, 14, 6, 13, 9, 12, 8, 11, 5]
+        for sign in (1, -1):
+            with self.subTest(sign=sign):
+                seq = strokes([sign*p for p in prices])
+                # 14→6 已满足 6<=8，不能因包含后的 [9,14] 改判第二类。
+                self.assertEqual(build_segments(seq[:-1]).segments, [])
+                result = build_segments(seq)
+                audit = next(a for a in result.direct_breaks if a['turn_stroke'] == 3)
+                self.assertFalse(audit['gap'])
+                self.assertTrue(audit['direct_break'])
+                self.assertFalse(audit['reverse_pattern_found'])
+                self.assertTrue(audit['reverse_span_ready'])
+                self.assertEqual(audit['reason'], 'confirmed_direct_break')
+                first = result.segments[0]
+                self.assertEqual((first.start.price, first.end.price, first.evidence_stroke),
+                                 (0, sign*14, 9))
+                self.assertEqual(first.confirmation, 'no_gap')
+                self.assertEqual(first.reverse_feature_indices, ())
+                # 后来的第二序列不应推迟已经取得的确认证据。
+                extended = strokes([sign*p for p in prices + [10, 4, 11, 6, 12]])
+                self.assertEqual(build_segments(extended).segments[0], first)
+
     def test_contained_reverse_extreme_does_not_lock_an_unbuildable_next_segment(self):
         prices = [0,4,2,10,6,12,7,11,9,10,8,15,12,16,11,14,12,17,13,18,14,19]
         for sign in (1, -1):

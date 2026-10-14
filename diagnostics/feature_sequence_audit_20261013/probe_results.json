@@ -1,0 +1,637 @@
+{
+  "production_sha256": "2ff167641c64cc5537f2c64cc186a137120aa44b6f553682d8093eab9c831597",
+  "boundary_cases": [
+    {
+      "prices": [
+        0,
+        8,
+        4,
+        10,
+        3.99,
+        9,
+        3
+      ],
+      "production": [
+        [
+          0,
+          2,
+          5,
+          "no_gap"
+        ]
+      ],
+      "inclusive_trial": [
+        [
+          0,
+          2,
+          5,
+          "no_gap"
+        ]
+      ]
+    },
+    {
+      "prices": [
+        0,
+        8,
+        4,
+        10,
+        4,
+        9,
+        3
+      ],
+      "production": [],
+      "inclusive_trial": [
+        [
+          0,
+          2,
+          5,
+          "no_gap"
+        ]
+      ]
+    },
+    {
+      "prices": [
+        0,
+        8,
+        4,
+        10,
+        4.01,
+        9,
+        3
+      ],
+      "production": [
+        [
+          0,
+          2,
+          5,
+          "no_gap"
+        ]
+      ],
+      "inclusive_trial": [
+        [
+          0,
+          2,
+          5,
+          "no_gap"
+        ]
+      ]
+    },
+    {
+      "prices": [
+        0,
+        -8,
+        -4,
+        -10,
+        -3.99,
+        -9,
+        -3
+      ],
+      "production": [
+        [
+          0,
+          2,
+          5,
+          "no_gap"
+        ]
+      ],
+      "inclusive_trial": [
+        [
+          0,
+          2,
+          5,
+          "no_gap"
+        ]
+      ]
+    },
+    {
+      "prices": [
+        0,
+        -8,
+        -4,
+        -10,
+        -4,
+        -9,
+        -3
+      ],
+      "production": [],
+      "inclusive_trial": [
+        [
+          0,
+          2,
+          5,
+          "no_gap"
+        ]
+      ]
+    },
+    {
+      "prices": [
+        0,
+        -8,
+        -4,
+        -10,
+        -4.01,
+        -9,
+        -3
+      ],
+      "production": [
+        [
+          0,
+          2,
+          5,
+          "no_gap"
+        ]
+      ],
+      "inclusive_trial": [
+        [
+          0,
+          2,
+          5,
+          "no_gap"
+        ]
+      ]
+    }
+  ],
+  "periods": {
+    "8h": {
+      "production_segments": 26,
+      "trial_segments": 26,
+      "same_geometry_and_evidence": true,
+      "production_direct_marks": 17,
+      "trial_direct_marks": 17,
+      "first_differences": []
+    },
+    "4h": {
+      "production_segments": 48,
+      "trial_segments": 48,
+      "same_geometry_and_evidence": true,
+      "production_direct_marks": 42,
+      "trial_direct_marks": 42,
+      "first_differences": []
+    },
+    "2h": {
+      "production_segments": 97,
+      "trial_segments": 97,
+      "same_geometry_and_evidence": true,
+      "production_direct_marks": 72,
+      "trial_direct_marks": 73,
+      "first_differences": []
+    },
+    "1h": {
+      "production_segments": 179,
+      "trial_segments": 179,
+      "same_geometry_and_evidence": true,
+      "production_direct_marks": 141,
+      "trial_direct_marks": 141,
+      "first_differences": []
+    },
+    "15m": {
+      "production_segments": 146,
+      "trial_segments": 146,
+      "same_geometry_and_evidence": true,
+      "production_direct_marks": 112,
+      "trial_direct_marks": 112,
+      "first_differences": []
+    }
+  },
+  "user_window_segments": [
+    {
+      "start": {
+        "index": 22660,
+        "kind": "bottom",
+        "price": 62484.2,
+        "time": "2026-08-14T14:00:00+00:00"
+      },
+      "end": {
+        "index": 22836,
+        "kind": "top",
+        "price": 81270.5,
+        "time": "2026-08-25T02:00:00+00:00"
+      },
+      "first_stroke": 1586,
+      "last_stroke": 1594,
+      "confirmed": true,
+      "confirmation": "no_gap",
+      "evidence_stroke": 1597,
+      "evidence_at": "2026-08-27T04:00:00+00:00",
+      "feature_indices": [
+        [
+          1591,
+          1593
+        ],
+        [
+          1595
+        ],
+        [
+          1597
+        ]
+      ],
+      "reverse_feature_indices": [],
+      "range_low": 62484.2,
+      "range_high": 81270.5,
+      "local_evidence_stroke": 1597
+    },
+    {
+      "start": {
+        "index": 22836,
+        "kind": "top",
+        "price": 81270.5,
+        "time": "2026-08-25T02:00:00+00:00"
+      },
+      "end": {
+        "index": 22900,
+        "kind": "bottom",
+        "price": 76853.1,
+        "time": "2026-08-28T16:00:00+00:00"
+      },
+      "first_stroke": 1595,
+      "last_stroke": 1599,
+      "confirmed": true,
+      "confirmation": "no_gap",
+      "evidence_stroke": 1602,
+      "evidence_at": "2026-08-31T00:00:00+00:00",
+      "feature_indices": [
+        [
+          1596,
+          1598
+        ],
+        [
+          1600
+        ],
+        [
+          1602
+        ]
+      ],
+      "reverse_feature_indices": [],
+      "range_low": 76853.1,
+      "range_high": 81500.0,
+      "local_evidence_stroke": 1602
+    },
+    {
+      "start": {
+        "index": 22900,
+        "kind": "bottom",
+        "price": 76853.1,
+        "time": "2026-08-28T16:00:00+00:00"
+      },
+      "end": {
+        "index": 22934,
+        "kind": "top",
+        "price": 79384.4,
+        "time": "2026-08-30T16:00:00+00:00"
+      },
+      "first_stroke": 1600,
+      "last_stroke": 1602,
+      "confirmed": true,
+      "confirmation": "no_gap",
+      "evidence_stroke": 1605,
+      "evidence_at": "2026-09-02T06:00:00+00:00",
+      "feature_indices": [
+        [
+          1601
+        ],
+        [
+          1603
+        ],
+        [
+          1605
+        ]
+      ],
+      "reverse_feature_indices": [],
+      "range_low": 76853.1,
+      "range_high": 79384.4,
+      "local_evidence_stroke": 1605
+    },
+    {
+      "start": {
+        "index": 22934,
+        "kind": "top",
+        "price": 79384.4,
+        "time": "2026-08-30T16:00:00+00:00"
+      },
+      "end": {
+        "index": 23208,
+        "kind": "bottom",
+        "price": 74909.4,
+        "time": "2026-09-15T18:00:00+00:00"
+      },
+      "first_stroke": 1603,
+      "last_stroke": 1613,
+      "confirmed": true,
+      "confirmation": "gap_reverse_fractal",
+      "evidence_stroke": 1621,
+      "evidence_at": "2026-09-24T02:00:00+00:00",
+      "feature_indices": [
+        [
+          1612
+        ],
+        [
+          1614
+        ],
+        [
+          1616
+        ]
+      ],
+      "reverse_feature_indices": [
+        [
+          1617
+        ],
+        [
+          1619
+        ],
+        [
+          1621
+        ]
+      ],
+      "range_low": 74909.4,
+      "range_high": 82282.8,
+      "local_evidence_stroke": 1621
+    }
+  ],
+  "user_window_trial_segments": [
+    {
+      "start": {
+        "index": 22660,
+        "kind": "bottom",
+        "price": 62484.2,
+        "time": "2026-08-14T14:00:00+00:00"
+      },
+      "end": {
+        "index": 22836,
+        "kind": "top",
+        "price": 81270.5,
+        "time": "2026-08-25T02:00:00+00:00"
+      },
+      "first_stroke": 1586,
+      "last_stroke": 1594,
+      "confirmed": true,
+      "confirmation": "no_gap",
+      "evidence_stroke": 1597,
+      "evidence_at": "2026-08-27T04:00:00+00:00",
+      "feature_indices": [
+        [
+          1591,
+          1593
+        ],
+        [
+          1595
+        ],
+        [
+          1597
+        ]
+      ],
+      "reverse_feature_indices": [],
+      "range_low": 62484.2,
+      "range_high": 81270.5,
+      "local_evidence_stroke": 1597
+    },
+    {
+      "start": {
+        "index": 22836,
+        "kind": "top",
+        "price": 81270.5,
+        "time": "2026-08-25T02:00:00+00:00"
+      },
+      "end": {
+        "index": 22900,
+        "kind": "bottom",
+        "price": 76853.1,
+        "time": "2026-08-28T16:00:00+00:00"
+      },
+      "first_stroke": 1595,
+      "last_stroke": 1599,
+      "confirmed": true,
+      "confirmation": "no_gap",
+      "evidence_stroke": 1602,
+      "evidence_at": "2026-08-31T00:00:00+00:00",
+      "feature_indices": [
+        [
+          1596,
+          1598
+        ],
+        [
+          1600
+        ],
+        [
+          1602
+        ]
+      ],
+      "reverse_feature_indices": [],
+      "range_low": 76853.1,
+      "range_high": 81500.0,
+      "local_evidence_stroke": 1602
+    },
+    {
+      "start": {
+        "index": 22900,
+        "kind": "bottom",
+        "price": 76853.1,
+        "time": "2026-08-28T16:00:00+00:00"
+      },
+      "end": {
+        "index": 22934,
+        "kind": "top",
+        "price": 79384.4,
+        "time": "2026-08-30T16:00:00+00:00"
+      },
+      "first_stroke": 1600,
+      "last_stroke": 1602,
+      "confirmed": true,
+      "confirmation": "no_gap",
+      "evidence_stroke": 1605,
+      "evidence_at": "2026-09-02T06:00:00+00:00",
+      "feature_indices": [
+        [
+          1601
+        ],
+        [
+          1603
+        ],
+        [
+          1605
+        ]
+      ],
+      "reverse_feature_indices": [],
+      "range_low": 76853.1,
+      "range_high": 79384.4,
+      "local_evidence_stroke": 1605
+    },
+    {
+      "start": {
+        "index": 22934,
+        "kind": "top",
+        "price": 79384.4,
+        "time": "2026-08-30T16:00:00+00:00"
+      },
+      "end": {
+        "index": 23208,
+        "kind": "bottom",
+        "price": 74909.4,
+        "time": "2026-09-15T18:00:00+00:00"
+      },
+      "first_stroke": 1603,
+      "last_stroke": 1613,
+      "confirmed": true,
+      "confirmation": "gap_reverse_fractal",
+      "evidence_stroke": 1621,
+      "evidence_at": "2026-09-24T02:00:00+00:00",
+      "feature_indices": [
+        [
+          1612
+        ],
+        [
+          1614
+        ],
+        [
+          1616
+        ]
+      ],
+      "reverse_feature_indices": [
+        [
+          1617
+        ],
+        [
+          1619
+        ],
+        [
+          1621
+        ]
+      ],
+      "range_low": 74909.4,
+      "range_high": 82282.8,
+      "local_evidence_stroke": 1621
+    }
+  ],
+  "user_window_turns": [
+    {
+      "start": "2026-08-14T14:00:00+00:00",
+      "end": "2026-08-25T02:00:00+00:00",
+      "audit": {
+        "turn_stroke": 1595,
+        "gap": false,
+        "direct_break": false,
+        "first_pattern_found": true,
+        "reverse_pattern_found": false,
+        "reverse_span_ready": true,
+        "reason": "confirmed_no_gap",
+        "evidence_stroke": 1597
+      },
+      "evidence": [
+        1597,
+        "no_gap",
+        [
+          [
+            1591,
+            1593
+          ],
+          [
+            1595
+          ],
+          [
+            1597
+          ]
+        ],
+        []
+      ]
+    },
+    {
+      "start": "2026-08-25T02:00:00+00:00",
+      "end": "2026-08-28T16:00:00+00:00",
+      "audit": {
+        "turn_stroke": 1600,
+        "gap": false,
+        "direct_break": false,
+        "first_pattern_found": true,
+        "reverse_pattern_found": false,
+        "reverse_span_ready": true,
+        "reason": "confirmed_no_gap",
+        "evidence_stroke": 1602
+      },
+      "evidence": [
+        1602,
+        "no_gap",
+        [
+          [
+            1596,
+            1598
+          ],
+          [
+            1600
+          ],
+          [
+            1602
+          ]
+        ],
+        []
+      ]
+    },
+    {
+      "start": "2026-08-28T16:00:00+00:00",
+      "end": "2026-08-30T16:00:00+00:00",
+      "audit": {
+        "turn_stroke": 1603,
+        "gap": false,
+        "direct_break": true,
+        "first_pattern_found": false,
+        "reverse_pattern_found": false,
+        "reverse_span_ready": true,
+        "reason": "confirmed_direct_break",
+        "evidence_stroke": 1605
+      },
+      "evidence": [
+        1605,
+        "no_gap",
+        [
+          [
+            1601
+          ],
+          [
+            1603
+          ],
+          [
+            1605
+          ]
+        ],
+        []
+      ]
+    },
+    {
+      "start": "2026-08-30T16:00:00+00:00",
+      "end": "2026-09-15T18:00:00+00:00",
+      "audit": {
+        "turn_stroke": 1614,
+        "gap": true,
+        "direct_break": false,
+        "first_pattern_found": true,
+        "reverse_pattern_found": true,
+        "reverse_span_ready": true,
+        "reason": "confirmed_gap",
+        "evidence_stroke": 1621
+      },
+      "evidence": [
+        1621,
+        "gap_reverse_fractal",
+        [
+          [
+            1612
+          ],
+          [
+            1614
+          ],
+          [
+            1616
+          ]
+        ],
+        [
+          [
+            1617
+          ],
+          [
+            1619
+          ],
+          [
+            1621
+          ]
+        ]
+      ]
+    }
+  ]
+}

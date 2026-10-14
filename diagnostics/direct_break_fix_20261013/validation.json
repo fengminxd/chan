@@ -1,0 +1,286 @@
+{
+  "passed": true,
+  "periods": {
+    "8h": {
+      "old_segments": 26,
+      "new_segments": 26,
+      "old_marks": 17,
+      "new_marks": 40,
+      "displayed_segment_states": {
+        "completed": 3,
+        "pending": 1
+      },
+      "displayed_marks": 5,
+      "confirmations": {
+        "first_break_confirmations": 22,
+        "dual_sequence_confirmations": 4
+      },
+      "changed_confirmation_prefix_checks": 0,
+      "strokes_unchanged": true,
+      "macd_unchanged": true,
+      "discontinuities": 0
+    },
+    "4h": {
+      "old_segments": 46,
+      "new_segments": 48,
+      "old_marks": 40,
+      "new_marks": 80,
+      "displayed_segment_states": {
+        "completed": 3,
+        "pending": 1
+      },
+      "displayed_marks": 5,
+      "confirmations": {
+        "first_break_confirmations": 40,
+        "dual_sequence_confirmations": 8
+      },
+      "changed_confirmation_prefix_checks": 6,
+      "strokes_unchanged": true,
+      "macd_unchanged": true,
+      "discontinuities": 0
+    },
+    "2h": {
+      "old_segments": 95,
+      "new_segments": 97,
+      "old_marks": 72,
+      "new_marks": 163,
+      "displayed_segment_states": {
+        "completed": 8,
+        "pending": 1
+      },
+      "displayed_marks": 14,
+      "confirmations": {
+        "first_break_confirmations": 80,
+        "dual_sequence_confirmations": 17
+      },
+      "changed_confirmation_prefix_checks": 12,
+      "strokes_unchanged": true,
+      "macd_unchanged": true,
+      "discontinuities": 0
+    },
+    "1h": {
+      "old_segments": 177,
+      "new_segments": 179,
+      "old_marks": 140,
+      "new_marks": 320,
+      "displayed_segment_states": {
+        "completed": 16,
+        "pending": 1
+      },
+      "displayed_marks": 26,
+      "confirmations": {
+        "first_break_confirmations": 153,
+        "dual_sequence_confirmations": 26
+      },
+      "changed_confirmation_prefix_checks": 8,
+      "strokes_unchanged": true,
+      "macd_unchanged": true,
+      "discontinuities": 0
+    },
+    "15m": {
+      "old_segments": 144,
+      "new_segments": 146,
+      "old_marks": 110,
+      "new_marks": 257,
+      "displayed_segment_states": {
+        "completed": 70,
+        "pending": 1
+      },
+      "displayed_marks": 126,
+      "confirmations": {
+        "first_break_confirmations": 125,
+        "dual_sequence_confirmations": 21
+      },
+      "changed_confirmation_prefix_checks": 16,
+      "strokes_unchanged": true,
+      "macd_unchanged": true,
+      "discontinuities": 0
+    }
+  },
+  "raw_prefixes": [
+    {
+      "asof": "2026-06-07T10:30:00+00:00",
+      "turn": "2026-06-06T03:15:00+08:00",
+      "confirmed": false
+    },
+    {
+      "asof": "2026-06-07T10:45:00+00:00",
+      "turn": "2026-06-06T03:15:00+08:00",
+      "confirmed": true
+    },
+    {
+      "asof": "2026-06-12T09:00:00+00:00",
+      "turn": "2026-06-12T03:30:00+08:00",
+      "confirmed": false
+    },
+    {
+      "asof": "2026-06-12T09:15:00+00:00",
+      "turn": "2026-06-12T03:30:00+08:00",
+      "confirmed": true
+    },
+    {
+      "asof": "2026-06-27T18:00:00+00:00",
+      "turn": "2026-06-25T21:45:00+08:00",
+      "confirmed": false
+    },
+    {
+      "asof": "2026-06-27T18:15:00+00:00",
+      "turn": "2026-06-25T21:45:00+08:00",
+      "confirmed": true
+    }
+  ],
+  "user_window": [
+    {
+      "start": {
+        "index": 22660,
+        "kind": "bottom",
+        "price": 62484.2,
+        "time": "2026-08-14T14:00:00+00:00"
+      },
+      "end": {
+        "index": 22836,
+        "kind": "top",
+        "price": 81270.5,
+        "time": "2026-08-25T02:00:00+00:00"
+      },
+      "first_stroke": 1586,
+      "last_stroke": 1594,
+      "confirmed": true,
+      "confirmation": "no_gap",
+      "evidence_stroke": 1597,
+      "evidence_at": "2026-08-27T04:00:00+00:00",
+      "feature_indices": [
+        [
+          1591,
+          1593
+        ],
+        [
+          1595
+        ],
+        [
+          1597
+        ]
+      ],
+      "reverse_feature_indices": [],
+      "range_low": 62484.2,
+      "range_high": 81270.5,
+      "local_evidence_stroke": 1597
+    },
+    {
+      "start": {
+        "index": 22836,
+        "kind": "top",
+        "price": 81270.5,
+        "time": "2026-08-25T02:00:00+00:00"
+      },
+      "end": {
+        "index": 22900,
+        "kind": "bottom",
+        "price": 76853.1,
+        "time": "2026-08-28T16:00:00+00:00"
+      },
+      "first_stroke": 1595,
+      "last_stroke": 1599,
+      "confirmed": true,
+      "confirmation": "no_gap",
+      "evidence_stroke": 1602,
+      "evidence_at": "2026-08-31T00:00:00+00:00",
+      "feature_indices": [
+        [
+          1596,
+          1598
+        ],
+        [
+          1600
+        ],
+        [
+          1602
+        ]
+      ],
+      "reverse_feature_indices": [],
+      "range_low": 76853.1,
+      "range_high": 81500.0,
+      "local_evidence_stroke": 1602
+    },
+    {
+      "start": {
+        "index": 22900,
+        "kind": "bottom",
+        "price": 76853.1,
+        "time": "2026-08-28T16:00:00+00:00"
+      },
+      "end": {
+        "index": 22934,
+        "kind": "top",
+        "price": 79384.4,
+        "time": "2026-08-30T16:00:00+00:00"
+      },
+      "first_stroke": 1600,
+      "last_stroke": 1602,
+      "confirmed": true,
+      "confirmation": "no_gap",
+      "evidence_stroke": 1605,
+      "evidence_at": "2026-09-02T06:00:00+00:00",
+      "feature_indices": [
+        [
+          1601
+        ],
+        [
+          1603
+        ],
+        [
+          1605
+        ]
+      ],
+      "reverse_feature_indices": [],
+      "range_low": 76853.1,
+      "range_high": 79384.4,
+      "local_evidence_stroke": 1605
+    },
+    {
+      "start": {
+        "index": 22934,
+        "kind": "top",
+        "price": 79384.4,
+        "time": "2026-08-30T16:00:00+00:00"
+      },
+      "end": {
+        "index": 23208,
+        "kind": "bottom",
+        "price": 74909.4,
+        "time": "2026-09-15T18:00:00+00:00"
+      },
+      "first_stroke": 1603,
+      "last_stroke": 1613,
+      "confirmed": true,
+      "confirmation": "gap_reverse_fractal",
+      "evidence_stroke": 1621,
+      "evidence_at": "2026-09-24T02:00:00+00:00",
+      "feature_indices": [
+        [
+          1612
+        ],
+        [
+          1614
+        ],
+        [
+          1616
+        ]
+      ],
+      "reverse_feature_indices": [
+        [
+          1617
+        ],
+        [
+          1619
+        ],
+        [
+          1621
+        ]
+      ],
+      "range_low": 74909.4,
+      "range_high": 82282.8,
+      "local_evidence_stroke": 1621
+    }
+  ]
+}

@@ -31,6 +31,8 @@ def make_block(seq):
 class CausalStructureTests(unittest.TestCase):
     def test_later_segment_waits_for_its_start_boundary(self):
         for sign in (1, -1):
+            # 首反向上笔终点 99>=92 已破坏，后续到 103 才严格突破 99。
+            # 第二段局部证据更早，但必须等待这条前段的发布。
             seq = strokes([sign*x for x in [125,101,102,92,105,83,99,98,99,87,89,84,103]])
             full = build_segments(seq).segments
             self.assertEqual(build_segments(seq[:-1]).segments, [])
@@ -38,6 +40,25 @@ class CausalStructureTests(unittest.TestCase):
                              [(0,4,11), (5,7,11)])
             self.assertEqual(full[1].local_evidence_stroke, 10)
             self.assertEqual(full[0].evidence_at, full[1].evidence_at)
+
+    def test_first_break_and_genuine_gap_keep_distinct_confirmation_requirements(self):
+        for sign in (1, -1):
+            for old_low in (89, 90, 92, 100):
+                with self.subTest(sign=sign, old_low=old_low):
+                    seq = strokes([sign*x for x in
+                                   [125,101,102,old_low,105,83,99,98,99,87,89,84,103]])
+                    result = build_segments(seq)
+                    if old_low <= 99:  # 原始首反向笔已进入旧元素区间。
+                        self.assertEqual([(s.first_stroke,s.last_stroke,s.evidence_stroke)
+                                          for s in result.segments], [(0,4,11),(5,7,11)])
+                        self.assertEqual(build_segments(seq[:-1]).segments, [])
+                    else:
+                        self.assertEqual(result.segments, [])
+                        audit = next(a for a in result.tail_diagnostics['candidate_turns']
+                                     if a['turn_stroke'] == 5)
+                        self.assertTrue(audit['gap'])
+                        self.assertFalse(audit['reverse_pattern_found'])
+                        self.assertEqual(audit['reason'], 'waiting_reverse_feature_fractal')
 
     def test_extendable_origin_survives_non_extreme_third_stroke(self):
         for sign in (1, -1):
@@ -87,6 +108,15 @@ class CausalStructureTests(unittest.TestCase):
 
 
 class BreakDisplayTests(unittest.TestCase):
+    def test_partial_overlap_marks_only_attacking_stroke_before_confirmation(self):
+        for sign in (1, -1):
+            block = make_block(strokes([sign*p for p in [0,8,4,10,6,9,6]]))
+            self.assertEqual(block['segments'], [])
+            self.assertEqual(set(direct_break_marks(block)), {3})
+            nodes = structure_lines(block, 'equal')
+            self.assertEqual({n['id'] for n in nodes if n.get('direct_break')},
+                             {'equal:stroke:3'})
+
     def test_historical_attacking_stroke_survives_extension_and_export(self):
         for sign in (1,-1):
             seq = strokes([sign*x for x in [0,8,4,10,-2,9,7,8,6,11,5,10,4]])
@@ -101,7 +131,7 @@ class BreakDisplayTests(unittest.TestCase):
 
     def test_svg_and_fallback_keep_color_dash_and_only_bold_attacker(self):
         for provisional in (False,True):
-            block = make_block(strokes([0,8,4,10,2,7,1]))
+            block = make_block(strokes([0,8,4,10,6,7,5]))
             if provisional:
                 # 显示状态独立于事件；验证虚线不会被加粗逻辑覆盖。
                 block['strokes'][3] = replace(block['strokes'][3],provisional=True)

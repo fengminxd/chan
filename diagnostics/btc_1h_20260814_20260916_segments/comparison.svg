@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 950">
+<rect width="1280" height="950" fill="#0b1020"/>
+<g font-family="WenQuanYi Zen Hei,Microsoft YaHei,sans-serif" fill="#e2e8f0">
+<text x="50" y="38" font-size="24">BTCUSDT 1h：同一组 28 笔上的两种分段对照</text>
+<text x="50" y="67" font-size="15">2026-08-14 22:00 → 09-16 02:00（北京时间）；横轴按笔端点等距，不是等时间 K 线图。</text>
+<text x="50" y="120" font-size="19">当前 v8：四段；逐个采用最先完成确认的转折</text>
+<path d="M75 408.3333333333333 H1205" stroke="#25304a"/><text x="12" y="413.3333333333333" font-size="12">64000</text>
+<path d="M75 355.0 H1205" stroke="#25304a"/><text x="12" y="360.0" font-size="12">68000</text>
+<path d="M75 301.6666666666667 H1205" stroke="#25304a"/><text x="12" y="306.6666666666667" font-size="12">72000</text>
+<path d="M75 248.33333333333334 H1205" stroke="#25304a"/><text x="12" y="253.33333333333334" font-size="12">76000</text>
+<path d="M75 195.0 H1205" stroke="#25304a"/><text x="12" y="200.0" font-size="12">80000</text>
+<path d="M75 168.33333333333337 H1205" stroke="#25304a"/><text x="12" y="173.33333333333337" font-size="12">82000</text>
+<path d="M75 428.54400000000004 L115 416.73333333333335" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1586: 2026-08-14 22:00 62484.2 → 2026-08-17 00:00 63370.0; direct_break=False</title></path>
+<path d="M115 416.73333333333335 L155 425.9186666666667" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1587: 2026-08-17 00:00 63370.0 → 2026-08-17 06:00 62681.1; direct_break=False</title></path>
+<path d="M155 425.9186666666667 L195 394.22799999999995" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1588: 2026-08-17 06:00 62681.1 → 2026-08-18 22:00 65057.9; direct_break=False</title></path>
+<path d="M195 394.22799999999995 L235 406.5826666666666" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1589: 2026-08-18 22:00 65057.9 → 2026-08-19 14:00 64131.3; direct_break=False</title></path>
+<path d="M235 406.5826666666666 L275 200.92666666666668" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1590: 2026-08-19 14:00 64131.3 → 2026-08-21 16:00 79555.5; direct_break=False</title></path>
+<path d="M275 200.92666666666668 L315 253.82666666666665" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1591: 2026-08-21 16:00 79555.5 → 2026-08-23 13:00 75588.0; direct_break=False</title></path>
+<path d="M315 253.82666666666665 L355 220.89866666666657" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1592: 2026-08-23 13:00 75588.0 → 2026-08-24 05:00 78057.6; direct_break=False</title></path>
+<path d="M355 220.89866666666657 L395 239.67999999999998" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1593: 2026-08-24 05:00 78057.6 → 2026-08-24 12:00 76649.0; direct_break=False</title></path>
+<path d="M395 239.67999999999998 L435 178.06" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1594: 2026-08-24 12:00 76649.0 → 2026-08-25 10:00 81270.5; direct_break=False</title></path>
+<path d="M435 178.06 L475 224.22533333333325" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1595: 2026-08-25 10:00 81270.5 → 2026-08-26 05:00 77808.1; direct_break=False</title></path>
+<path d="M475 224.22533333333325 L515 205.66666666666669" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1596: 2026-08-26 05:00 77808.1 → 2026-08-26 10:00 79200.0; direct_break=False</title></path>
+<path d="M515 205.66666666666669 L555 227.0" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1597: 2026-08-26 10:00 79200.0 → 2026-08-26 23:00 77600.0; direct_break=False</title></path>
+<path d="M555 227.0 L595 175.0" stroke="#4c9aff" stroke-width="3.2" fill="none"><title>P1598: 2026-08-26 23:00 77600.0 → 2026-08-28 09:00 81500.0; direct_break=True</title></path>
+<path d="M595 175.0 L635 236.9586666666666" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1599: 2026-08-28 09:00 81500.0 → 2026-08-29 00:00 76853.1; direct_break=False</title></path>
+<path d="M635 236.9586666666666 L675 217.46800000000007" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1600: 2026-08-29 00:00 76853.1 → 2026-08-30 03:00 78314.9; direct_break=False</title></path>
+<path d="M675 217.46800000000007 L715 222.55466666666675" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1601: 2026-08-30 03:00 78314.9 → 2026-08-30 18:00 77933.4; direct_break=False</title></path>
+<path d="M715 222.55466666666675 L755 203.20800000000008" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1602: 2026-08-30 18:00 77933.4 → 2026-08-31 00:00 79384.4; direct_break=False</title></path>
+<path d="M755 203.20800000000008 L795 235.70400000000006" stroke="#4c9aff" stroke-width="3.2" fill="none"><title>P1603: 2026-08-31 00:00 79384.4 → 2026-08-31 07:00 76947.2; direct_break=True</title></path>
+<path d="M795 235.70400000000006 L835 205.2866666666667" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1604: 2026-08-31 07:00 76947.2 → 2026-09-01 03:00 79228.5; direct_break=False</title></path>
+<path d="M835 205.2866666666667 L875 243.42666666666665" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1605: 2026-09-01 03:00 79228.5 → 2026-09-02 02:00 76368.0; direct_break=False</title></path>
+<path d="M875 243.42666666666665 L915 224.76266666666663" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1606: 2026-09-02 02:00 76368.0 → 2026-09-02 11:00 77767.8; direct_break=False</title></path>
+<path d="M915 224.76266666666663 L955 246.30800000000008" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1607: 2026-09-02 11:00 77767.8 → 2026-09-02 18:00 76151.9; direct_break=False</title></path>
+<path d="M955 246.30800000000008 L995 164.56266666666664" stroke="#4c9aff" stroke-width="3.2" fill="none"><title>P1608: 2026-09-02 18:00 76151.9 → 2026-09-04 05:00 82282.8; direct_break=True</title></path>
+<path d="M995 164.56266666666664 L1035 213.42533333333327" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1609: 2026-09-04 05:00 82282.8 → 2026-09-04 22:00 78618.1; direct_break=False</title></path>
+<path d="M1035 213.42533333333327 L1075 192.7733333333333" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1610: 2026-09-04 22:00 78618.1 → 2026-09-06 00:00 80167.0; direct_break=False</title></path>
+<path d="M1075 192.7733333333333 L1115 206.66266666666664" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1611: 2026-09-06 00:00 80167.0 → 2026-09-06 22:00 79125.3; direct_break=False</title></path>
+<path d="M1115 206.66266666666664 L1155 187.85199999999992" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1612: 2026-09-06 22:00 79125.3 → 2026-09-07 07:00 80536.1; direct_break=False</title></path>
+<path d="M1155 187.85199999999992 L1195 262.8746666666667" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1613: 2026-09-07 07:00 80536.1 → 2026-09-16 02:00 74909.4; direct_break=False</title></path>
+<path d="M75 428.54400000000004 L435 178.06" stroke="#ffad45" stroke-width="2.2" fill="none"/>
+<path d="M435 178.06 L635 236.9586666666666" stroke="#ffad45" stroke-width="2.2" fill="none"/>
+<path d="M635 236.9586666666666 L755 203.20800000000008" stroke="#ffad45" stroke-width="2.2" fill="none"/>
+<path d="M755 203.20800000000008 L1195 262.8746666666667" stroke="#ffad45" stroke-width="2.2" fill="none"/>
+<circle cx="75" cy="428.54400000000004" r="3" fill="#ffad45"/>
+<text x="75" y="453.54400000000004" text-anchor="start" font-size="13">08-14 22:00</text>
+<text x="75" y="469.54400000000004" text-anchor="start" font-size="13">62,484.2</text>
+<circle cx="435" cy="178.06" r="3" fill="#ffad45"/>
+<text x="435" y="154.06" text-anchor="middle" font-size="13">08-25 10:00</text>
+<text x="435" y="170.06" text-anchor="middle" font-size="13">81,270.5</text>
+<circle cx="635" cy="236.9586666666666" r="3" fill="#ffad45"/>
+<text x="635" y="261.9586666666666" text-anchor="middle" font-size="13">08-29 00:00</text>
+<text x="635" y="277.9586666666666" text-anchor="middle" font-size="13">76,853.1</text>
+<circle cx="755" cy="203.20800000000008" r="3" fill="#ffad45"/>
+<text x="755" y="179.20800000000008" text-anchor="middle" font-size="13">08-31 00:00</text>
+<text x="755" y="195.20800000000008" text-anchor="middle" font-size="13">79,384.4</text>
+<circle cx="995" cy="164.56266666666664" r="3" fill="#4c9aff"/>
+<text x="995" y="140.56266666666664" text-anchor="middle" font-size="13">09-04 05:00</text>
+<text x="995" y="156.56266666666664" text-anchor="middle" font-size="13">82,282.8</text>
+<circle cx="1195" cy="262.8746666666667" r="3" fill="#ffad45"/>
+<text x="1195" y="287.8746666666667" text-anchor="end" font-size="13">09-16 02:00</text>
+<text x="1195" y="303.8746666666667" text-anchor="end" font-size="13">74,909.4</text>
+<text x="75" y="485" font-size="14">蓝线为当前笔；发起 direct_break 的笔宽 3.2，颜色和实线状态保持。彩色连线表示该面板的分段方案。</text>
+<text x="50" y="535" font-size="19">用户两段方案：局部候选可取得证据，但跨越了更早已成立的分界</text>
+<path d="M75 823.3333333333334 H1205" stroke="#25304a"/><text x="12" y="828.3333333333334" font-size="12">64000</text>
+<path d="M75 770.0 H1205" stroke="#25304a"/><text x="12" y="775.0" font-size="12">68000</text>
+<path d="M75 716.6666666666667 H1205" stroke="#25304a"/><text x="12" y="721.6666666666667" font-size="12">72000</text>
+<path d="M75 663.3333333333334 H1205" stroke="#25304a"/><text x="12" y="668.3333333333334" font-size="12">76000</text>
+<path d="M75 610.0 H1205" stroke="#25304a"/><text x="12" y="615.0" font-size="12">80000</text>
+<path d="M75 583.3333333333334 H1205" stroke="#25304a"/><text x="12" y="588.3333333333334" font-size="12">82000</text>
+<path d="M75 843.5440000000001 L115 831.7333333333333" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1586: 2026-08-14 22:00 62484.2 → 2026-08-17 00:00 63370.0; direct_break=False</title></path>
+<path d="M115 831.7333333333333 L155 840.9186666666667" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1587: 2026-08-17 00:00 63370.0 → 2026-08-17 06:00 62681.1; direct_break=False</title></path>
+<path d="M155 840.9186666666667 L195 809.228" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1588: 2026-08-17 06:00 62681.1 → 2026-08-18 22:00 65057.9; direct_break=False</title></path>
+<path d="M195 809.228 L235 821.5826666666667" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1589: 2026-08-18 22:00 65057.9 → 2026-08-19 14:00 64131.3; direct_break=False</title></path>
+<path d="M235 821.5826666666667 L275 615.9266666666667" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1590: 2026-08-19 14:00 64131.3 → 2026-08-21 16:00 79555.5; direct_break=False</title></path>
+<path d="M275 615.9266666666667 L315 668.8266666666666" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1591: 2026-08-21 16:00 79555.5 → 2026-08-23 13:00 75588.0; direct_break=False</title></path>
+<path d="M315 668.8266666666666 L355 635.8986666666666" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1592: 2026-08-23 13:00 75588.0 → 2026-08-24 05:00 78057.6; direct_break=False</title></path>
+<path d="M355 635.8986666666666 L395 654.68" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1593: 2026-08-24 05:00 78057.6 → 2026-08-24 12:00 76649.0; direct_break=False</title></path>
+<path d="M395 654.68 L435 593.06" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1594: 2026-08-24 12:00 76649.0 → 2026-08-25 10:00 81270.5; direct_break=False</title></path>
+<path d="M435 593.06 L475 639.2253333333333" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1595: 2026-08-25 10:00 81270.5 → 2026-08-26 05:00 77808.1; direct_break=False</title></path>
+<path d="M475 639.2253333333333 L515 620.6666666666667" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1596: 2026-08-26 05:00 77808.1 → 2026-08-26 10:00 79200.0; direct_break=False</title></path>
+<path d="M515 620.6666666666667 L555 642.0" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1597: 2026-08-26 10:00 79200.0 → 2026-08-26 23:00 77600.0; direct_break=False</title></path>
+<path d="M555 642.0 L595 590.0" stroke="#4c9aff" stroke-width="3.2" fill="none"><title>P1598: 2026-08-26 23:00 77600.0 → 2026-08-28 09:00 81500.0; direct_break=True</title></path>
+<path d="M595 590.0 L635 651.9586666666667" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1599: 2026-08-28 09:00 81500.0 → 2026-08-29 00:00 76853.1; direct_break=False</title></path>
+<path d="M635 651.9586666666667 L675 632.4680000000001" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1600: 2026-08-29 00:00 76853.1 → 2026-08-30 03:00 78314.9; direct_break=False</title></path>
+<path d="M675 632.4680000000001 L715 637.5546666666668" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1601: 2026-08-30 03:00 78314.9 → 2026-08-30 18:00 77933.4; direct_break=False</title></path>
+<path d="M715 637.5546666666668 L755 618.2080000000001" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1602: 2026-08-30 18:00 77933.4 → 2026-08-31 00:00 79384.4; direct_break=False</title></path>
+<path d="M755 618.2080000000001 L795 650.7040000000001" stroke="#4c9aff" stroke-width="3.2" fill="none"><title>P1603: 2026-08-31 00:00 79384.4 → 2026-08-31 07:00 76947.2; direct_break=True</title></path>
+<path d="M795 650.7040000000001 L835 620.2866666666666" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1604: 2026-08-31 07:00 76947.2 → 2026-09-01 03:00 79228.5; direct_break=False</title></path>
+<path d="M835 620.2866666666666 L875 658.4266666666666" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1605: 2026-09-01 03:00 79228.5 → 2026-09-02 02:00 76368.0; direct_break=False</title></path>
+<path d="M875 658.4266666666666 L915 639.7626666666666" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1606: 2026-09-02 02:00 76368.0 → 2026-09-02 11:00 77767.8; direct_break=False</title></path>
+<path d="M915 639.7626666666666 L955 661.3080000000001" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1607: 2026-09-02 11:00 77767.8 → 2026-09-02 18:00 76151.9; direct_break=False</title></path>
+<path d="M955 661.3080000000001 L995 579.5626666666667" stroke="#4c9aff" stroke-width="3.2" fill="none"><title>P1608: 2026-09-02 18:00 76151.9 → 2026-09-04 05:00 82282.8; direct_break=True</title></path>
+<path d="M995 579.5626666666667 L1035 628.4253333333332" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1609: 2026-09-04 05:00 82282.8 → 2026-09-04 22:00 78618.1; direct_break=False</title></path>
+<path d="M1035 628.4253333333332 L1075 607.7733333333333" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1610: 2026-09-04 22:00 78618.1 → 2026-09-06 00:00 80167.0; direct_break=False</title></path>
+<path d="M1075 607.7733333333333 L1115 621.6626666666666" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1611: 2026-09-06 00:00 80167.0 → 2026-09-06 22:00 79125.3; direct_break=False</title></path>
+<path d="M1115 621.6626666666666 L1155 602.8519999999999" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1612: 2026-09-06 22:00 79125.3 → 2026-09-07 07:00 80536.1; direct_break=False</title></path>
+<path d="M1155 602.8519999999999 L1195 677.8746666666667" stroke="#4c9aff" stroke-width="1.15" fill="none"><title>P1613: 2026-09-07 07:00 80536.1 → 2026-09-16 02:00 74909.4; direct_break=False</title></path>
+<path d="M75 843.5440000000001 L995 579.5626666666667" stroke="#db92ff" stroke-width="2.2" fill="none"/>
+<path d="M995 579.5626666666667 L1195 677.8746666666667" stroke="#db92ff" stroke-width="2.2" fill="none"/>
+<circle cx="75" cy="843.5440000000001" r="3" fill="#db92ff"/>
+<text x="75" y="868.5440000000001" text-anchor="start" font-size="13">08-14 22:00</text>
+<text x="75" y="884.5440000000001" text-anchor="start" font-size="13">62,484.2</text>
+<circle cx="435" cy="593.06" r="3" fill="#4c9aff"/>
+<text x="435" y="569.06" text-anchor="middle" font-size="13">08-25 10:00</text>
+<text x="435" y="585.06" text-anchor="middle" font-size="13">81,270.5</text>
+<circle cx="635" cy="651.9586666666667" r="3" fill="#4c9aff"/>
+<text x="635" y="676.9586666666667" text-anchor="middle" font-size="13">08-29 00:00</text>
+<text x="635" y="692.9586666666667" text-anchor="middle" font-size="13">76,853.1</text>
+<circle cx="755" cy="618.2080000000001" r="3" fill="#4c9aff"/>
+<text x="755" y="594.2080000000001" text-anchor="middle" font-size="13">08-31 00:00</text>
+<text x="755" y="610.2080000000001" text-anchor="middle" font-size="13">79,384.4</text>
+<circle cx="995" cy="579.5626666666667" r="3" fill="#db92ff"/>
+<text x="995" y="555.5626666666667" text-anchor="middle" font-size="13">09-04 05:00</text>
+<text x="995" y="571.5626666666667" text-anchor="middle" font-size="13">82,282.8</text>
+<circle cx="1195" cy="677.8746666666667" r="3" fill="#db92ff"/>
+<text x="1195" y="702.8746666666667" text-anchor="end" font-size="13">09-16 02:00</text>
+<text x="1195" y="718.8746666666667" text-anchor="end" font-size="13">74,909.4</text>
+<text x="75" y="900" font-size="14">蓝线为当前笔；发起 direct_break 的笔宽 3.2，颜色和实线状态保持。彩色连线表示该面板的分段方案。</text>
+<text x="50" y="928" font-size="14">两段对照仅用于解释分歧，未写入生产图表；四段的完整确认依赖 09-24 10:00 前的后续行情。</text>
+</g></svg>

@@ -1,0 +1,46 @@
+{
+  "hypothesis": "Treat 2026-08-12 03:00 to 20:00 rebound as one stroke, not current max-edge path; comparison only, no production change",
+  "collapsed_original_indices": [
+    1580,
+    1581,
+    1582
+  ],
+  "segments": [
+    {
+      "start": {
+        "index": 22578,
+        "kind": "top",
+        "price": 65482.7,
+        "time": "2026-08-09T22:00:00+00:00"
+      },
+      "end": {
+        "index": 22660,
+        "kind": "bottom",
+        "price": 62484.2,
+        "time": "2026-08-14T14:00:00+00:00"
+      },
+      "first_stroke": 1577,
+      "last_stroke": 1583,
+      "confirmed": true,
+      "confirmation": "no_gap",
+      "evidence_stroke": 1586,
+      "evidence_at": "2026-08-19T12:00:00+00:00",
+      "feature_indices": [
+        [
+          1580,
+          1582
+        ],
+        [
+          1584
+        ],
+        [
+          1586
+        ]
+      ],
+      "reverse_feature_indices": [],
+      "range_low": 62484.2,
+      "range_high": 65482.7,
+      "local_evidence_stroke": 1586
+    }
+  ]
+}

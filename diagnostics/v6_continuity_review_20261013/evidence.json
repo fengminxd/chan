@@ -1,0 +1,4626 @@
+{
+  "acceptance": "continuous source requires connected strokes and segments; closed structural blocks must not leave live pending segments",
+  "reports": {
+    "old": {
+      "html_sha256": "6877e831740106f5e32d877854cd46362926d743865bf214184af2b69ee351ea",
+      "embedded_equals_chart_data": true,
+      "periods": {
+        "8h": {
+          "source_gap_count": 0,
+          "displayed_candle_gaps": [],
+          "stroke_count": 26,
+          "stroke_discontinuities": [],
+          "segment_states": {
+            "completed": 3,
+            "pending": 1
+          },
+          "segment_discontinuities": [],
+          "closed_block_pending_segments": [],
+          "structure_break_count_including_pre_chart_context": 0
+        },
+        "4h": {
+          "source_gap_count": 0,
+          "displayed_candle_gaps": [],
+          "stroke_count": 34,
+          "stroke_discontinuities": [],
+          "segment_states": {
+            "completed": 3,
+            "pending": 1
+          },
+          "segment_discontinuities": [],
+          "closed_block_pending_segments": [],
+          "structure_break_count_including_pre_chart_context": 0
+        },
+        "2h": {
+          "source_gap_count": 0,
+          "displayed_candle_gaps": [],
+          "stroke_count": 69,
+          "stroke_discontinuities": [],
+          "segment_states": {
+            "completed": 8,
+            "pending": 1
+          },
+          "segment_discontinuities": [],
+          "closed_block_pending_segments": [],
+          "structure_break_count_including_pre_chart_context": 0
+        },
+        "1h": {
+          "source_gap_count": 0,
+          "displayed_candle_gaps": [],
+          "stroke_count": 135,
+          "stroke_discontinuities": [],
+          "segment_states": {
+            "completed": 16,
+            "pending": 1
+          },
+          "segment_discontinuities": [],
+          "closed_block_pending_segments": [],
+          "structure_break_count_including_pre_chart_context": 0
+        },
+        "15m": {
+          "source_gap_count": 0,
+          "displayed_candle_gaps": [],
+          "stroke_count": 675,
+          "stroke_discontinuities": [],
+          "segment_states": {
+            "completed": 70,
+            "pending": 1
+          },
+          "segment_discontinuities": [],
+          "closed_block_pending_segments": [],
+          "structure_break_count_including_pre_chart_context": 0
+        }
+      }
+    },
+    "v6": {
+      "html_sha256": "292f1d5e4a12ea828aca419338205c7185494cfccc0b6347d558427cda86a6db",
+      "embedded_equals_chart_data": true,
+      "periods": {
+        "8h": {
+          "source_gap_count": 0,
+          "displayed_candle_gaps": [],
+          "stroke_count": 26,
+          "stroke_discontinuities": [
+            {
+              "previous": {
+                "id": "8h:block:5:stroke:77",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1788451200,
+                "end": 1789113600,
+                "start_price": 82282.8,
+                "end_price": 76000.3,
+                "state": "completed",
+                "evidence_at": "2026-09-15T16:00:00+00:00",
+                "direct_break": true,
+                "direct_break_reason": "waiting_direct_break_resolution"
+              },
+              "following": {
+                "id": "8h:block:6:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1789862400,
+                "end": 1790006400,
+                "start_price": 80095.9,
+                "end_price": 87385.1,
+                "state": "completed",
+                "evidence_at": "2026-09-25T08:00:00+00:00"
+              },
+              "hours": 208.0
+            },
+            {
+              "previous": {
+                "id": "8h:block:6:stroke:1",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1790006400,
+                "end": 1790236800,
+                "start_price": 87385.1,
+                "end_price": 82832.0,
+                "state": "completed",
+                "evidence_at": "2026-09-28T16:00:00+00:00"
+              },
+              "following": {
+                "id": "8h:block:7:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1790956800,
+                "end": 1791158400,
+                "start_price": 83841.9,
+                "end_price": 86976.1,
+                "state": "completed",
+                "evidence_at": "2026-10-09T16:00:00+00:00"
+              },
+              "hours": 200.0
+            }
+          ],
+          "segment_states": {
+            "completed": 3,
+            "pending": 1
+          },
+          "segment_discontinuities": [],
+          "closed_block_pending_segments": [
+            {
+              "block": 5,
+              "closed_at": "2026-09-20T08:00:00+00:00",
+              "pending": {
+                "start": {
+                  "index": 2699,
+                  "kind": "bottom",
+                  "price": 62228.8,
+                  "time": "2026-08-01T16:00:00+00:00"
+                },
+                "end": {
+                  "index": 2763,
+                  "kind": "top",
+                  "price": 82282.8,
+                  "time": "2026-09-03T16:00:00+00:00"
+                },
+                "first_stroke": 72,
+                "last_stroke": 76,
+                "confirmed": false,
+                "confirmation": "pending",
+                "evidence_stroke": null,
+                "evidence_at": null,
+                "feature_indices": [],
+                "reverse_feature_indices": [],
+                "range_low": 62228.8,
+                "range_high": 82282.8,
+                "local_evidence_stroke": null
+              },
+              "diagnostics": {
+                "skipped_prefix_strokes": 0,
+                "unassigned_from": 72,
+                "usable_stroke_count": 78,
+                "tail": {
+                  "unassigned_completed_strokes": 6,
+                  "candidate_turns": [
+                    {
+                      "segment_start_stroke": 72,
+                      "turn_stroke": 75,
+                      "gap": true,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "turn_extreme_exceeded",
+                      "evidence_stroke": 76
+                    },
+                    {
+                      "segment_start_stroke": 72,
+                      "turn_stroke": 77,
+                      "gap": false,
+                      "direct_break": true,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "waiting_direct_break_resolution"
+                    }
+                  ],
+                  "status": "waiting_confirmation",
+                  "last_completed_stroke_end": "2026-09-11T08:00:00+00:00"
+                }
+              }
+            }
+          ],
+          "structure_break_count_including_pre_chart_context": 7
+        },
+        "4h": {
+          "source_gap_count": 0,
+          "displayed_candle_gaps": [],
+          "stroke_count": 35,
+          "stroke_discontinuities": [
+            {
+              "previous": {
+                "id": "4h:block:16:stroke:42",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1781078400,
+                "end": 1781380800,
+                "start_price": 60691.9,
+                "end_price": 64738.0,
+                "state": "completed",
+                "evidence_at": "2026-06-15T04:00:00+00:00"
+              },
+              "following": {
+                "id": "4h:block:17:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1781712000,
+                "end": 1781784000,
+                "start_price": 66419.2,
+                "end_price": 62232.1,
+                "state": "completed",
+                "evidence_at": "2026-06-20T20:00:00+00:00"
+              },
+              "hours": 92.0
+            },
+            {
+              "previous": {
+                "id": "4h:block:17:stroke:19",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1787457600,
+                "end": 1787616000,
+                "start_price": 75588.0,
+                "end_price": 81270.5,
+                "state": "completed",
+                "evidence_at": "2026-08-26T12:00:00+00:00"
+              },
+              "following": {
+                "id": "4h:block:18:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1788120000,
+                "end": 1788192000,
+                "start_price": 76947.2,
+                "end_price": 79228.5,
+                "state": "completed",
+                "evidence_at": "2026-09-02T12:00:00+00:00"
+              },
+              "hours": 140.0
+            }
+          ],
+          "segment_states": {
+            "pending": 3,
+            "completed": 3
+          },
+          "segment_discontinuities": [
+            {
+              "previous": {
+                "id": "4h:block:16:segment:6",
+                "kind": "segment",
+                "level": 0,
+                "start": 1778054400,
+                "end": 1780675200,
+                "start_price": 82828.7,
+                "end_price": 59080.0,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "following": {
+                "id": "4h:block:17:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1781712000,
+                "end": 1782388800,
+                "start_price": 66419.2,
+                "end_price": 58030.0,
+                "state": "completed",
+                "evidence_at": "2026-08-03T08:00:00+00:00"
+              },
+              "hours": 288.0
+            },
+            {
+              "previous": {
+                "id": "4h:block:17:segment:3",
+                "kind": "segment",
+                "level": 0,
+                "start": 1785600000,
+                "end": 1787616000,
+                "start_price": 62228.8,
+                "end_price": 81270.5,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "following": {
+                "id": "4h:block:18:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1788120000,
+                "end": 1790020800,
+                "start_price": 76947.2,
+                "end_price": 87385.1,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "hours": 140.0
+            }
+          ],
+          "closed_block_pending_segments": [
+            {
+              "block": 16,
+              "closed_at": "2026-06-19T04:00:00+00:00",
+              "pending": {
+                "start": {
+                  "index": 4931,
+                  "kind": "top",
+                  "price": 82828.7,
+                  "time": "2026-05-06T08:00:00+00:00"
+                },
+                "end": {
+                  "index": 5051,
+                  "kind": "bottom",
+                  "price": 59080.0,
+                  "time": "2026-06-05T16:00:00+00:00"
+                },
+                "first_stroke": 29,
+                "last_stroke": 39,
+                "confirmed": false,
+                "confirmation": "pending",
+                "evidence_stroke": null,
+                "evidence_at": null,
+                "feature_indices": [],
+                "reverse_feature_indices": [],
+                "range_low": 59080.0,
+                "range_high": 82828.7,
+                "local_evidence_stroke": null
+              },
+              "diagnostics": {
+                "skipped_prefix_strokes": 1,
+                "unassigned_from": 29,
+                "usable_stroke_count": 43,
+                "tail": {
+                  "unassigned_completed_strokes": 14,
+                  "candidate_turns": [
+                    {
+                      "segment_start_stroke": 29,
+                      "turn_stroke": 32,
+                      "gap": true,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "turn_extreme_exceeded",
+                      "evidence_stroke": 33
+                    },
+                    {
+                      "segment_start_stroke": 29,
+                      "turn_stroke": 34,
+                      "gap": false,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "turn_extreme_exceeded",
+                      "evidence_stroke": 35
+                    },
+                    {
+                      "segment_start_stroke": 29,
+                      "turn_stroke": 36,
+                      "gap": false,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "turn_extreme_exceeded",
+                      "evidence_stroke": 37
+                    },
+                    {
+                      "segment_start_stroke": 29,
+                      "turn_stroke": 38,
+                      "gap": false,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "turn_extreme_exceeded",
+                      "evidence_stroke": 39
+                    },
+                    {
+                      "segment_start_stroke": 29,
+                      "turn_stroke": 40,
+                      "gap": true,
+                      "direct_break": false,
+                      "first_pattern_found": true,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": true,
+                      "reason": "waiting_reverse_feature_fractal"
+                    }
+                  ],
+                  "status": "waiting_confirmation",
+                  "last_completed_stroke_end": "2026-06-13T20:00:00+00:00"
+                }
+              }
+            },
+            {
+              "block": 17,
+              "closed_at": "2026-08-29T08:00:00+00:00",
+              "pending": {
+                "start": {
+                  "index": 5269,
+                  "kind": "bottom",
+                  "price": 62228.8,
+                  "time": "2026-08-01T16:00:00+00:00"
+                },
+                "end": {
+                  "index": 5367,
+                  "kind": "top",
+                  "price": 81270.5,
+                  "time": "2026-08-25T00:00:00+00:00"
+                },
+                "first_stroke": 15,
+                "last_stroke": 19,
+                "confirmed": false,
+                "confirmation": "pending",
+                "evidence_stroke": null,
+                "evidence_at": null,
+                "feature_indices": [],
+                "reverse_feature_indices": [],
+                "range_low": 62228.8,
+                "range_high": 81270.5,
+                "local_evidence_stroke": null
+              },
+              "diagnostics": {
+                "skipped_prefix_strokes": 0,
+                "unassigned_from": 15,
+                "usable_stroke_count": 20,
+                "tail": {
+                  "unassigned_completed_strokes": 5,
+                  "candidate_turns": [
+                    {
+                      "segment_start_stroke": 15,
+                      "turn_stroke": 18,
+                      "gap": true,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "turn_extreme_exceeded",
+                      "evidence_stroke": 19
+                    }
+                  ],
+                  "status": "waiting_confirmation",
+                  "last_completed_stroke_end": "2026-08-25T00:00:00+00:00"
+                }
+              }
+            }
+          ],
+          "structure_break_count_including_pre_chart_context": 18
+        },
+        "2h": {
+          "source_gap_count": 0,
+          "displayed_candle_gaps": [],
+          "stroke_count": 77,
+          "stroke_discontinuities": [
+            {
+              "previous": {
+                "id": "2h:block:47:stroke:27",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1784426400,
+                "end": 1784462400,
+                "start_price": 64948.8,
+                "end_price": 64259.5,
+                "state": "completed",
+                "evidence_at": "2026-07-20T08:00:00+00:00"
+              },
+              "following": {
+                "id": "2h:block:48:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1784577600,
+                "end": 1784642400,
+                "start_price": 65030.2,
+                "end_price": 66924.1,
+                "state": "completed",
+                "evidence_at": "2026-07-22T14:00:00+00:00"
+              },
+              "hours": 32.0
+            },
+            {
+              "previous": {
+                "id": "2h:block:48:stroke:26",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1787932800,
+                "end": 1788026400,
+                "start_price": 76853.1,
+                "end_price": 78314.9,
+                "state": "completed",
+                "evidence_at": "2026-08-30T18:00:00+00:00"
+              },
+              "following": {
+                "id": "2h:block:49:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1788127200,
+                "end": 1788199200,
+                "start_price": 76947.2,
+                "end_price": 79228.5,
+                "state": "completed",
+                "evidence_at": "2026-09-01T08:00:00+00:00"
+              },
+              "hours": 28.0
+            },
+            {
+              "previous": {
+                "id": "2h:block:49:stroke:1",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1788199200,
+                "end": 1788285600,
+                "start_price": 79228.5,
+                "end_price": 76368.0,
+                "state": "completed",
+                "evidence_at": "2026-09-02T12:00:00+00:00"
+              },
+              "following": {
+                "id": "2h:block:50:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1788429600,
+                "end": 1788465600,
+                "start_price": 77422.8,
+                "end_price": 82282.8,
+                "state": "completed",
+                "evidence_at": "2026-09-04T14:00:00+00:00"
+              },
+              "hours": 40.0
+            },
+            {
+              "previous": {
+                "id": "2h:block:50:stroke:2",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1788530400,
+                "end": 1788624000,
+                "start_price": 78618.1,
+                "end_price": 80167.0,
+                "state": "completed",
+                "evidence_at": "2026-09-06T12:00:00+00:00"
+              },
+              "following": {
+                "id": "2h:block:51:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1788832800,
+                "end": 1788868800,
+                "start_price": 79476.0,
+                "end_price": 77600.1,
+                "state": "completed",
+                "evidence_at": "2026-09-09T14:00:00+00:00"
+              },
+              "hours": 58.0
+            },
+            {
+              "previous": {
+                "id": "2h:block:51:stroke:1",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1788868800,
+                "end": 1788940800,
+                "start_price": 77600.1,
+                "end_price": 79737.3,
+                "state": "completed",
+                "evidence_at": "2026-09-10T04:00:00+00:00"
+              },
+              "following": {
+                "id": "2h:block:52:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1789185600,
+                "end": 1789221600,
+                "start_price": 77129.0,
+                "end_price": 77477.4,
+                "state": "completed",
+                "evidence_at": "2026-09-15T20:00:00+00:00"
+              },
+              "hours": 68.0
+            }
+          ],
+          "segment_states": {
+            "pending": 3,
+            "completed": 2
+          },
+          "segment_discontinuities": [
+            {
+              "previous": {
+                "id": "2h:block:47:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1780185600,
+                "end": 1782388800,
+                "start_price": 74250.0,
+                "end_price": 58030.0,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "following": {
+                "id": "2h:block:48:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1784577600,
+                "end": 1787875200,
+                "start_price": 65030.2,
+                "end_price": 81500.0,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "hours": 608.0
+            },
+            {
+              "previous": {
+                "id": "2h:block:48:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1784577600,
+                "end": 1787875200,
+                "start_price": 65030.2,
+                "end_price": 81500.0,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "following": {
+                "id": "2h:block:52:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1789185600,
+                "end": 1790020800,
+                "start_price": 77129.0,
+                "end_price": 87385.1,
+                "state": "completed",
+                "evidence_at": "2026-10-07T10:00:00+00:00"
+              },
+              "hours": 364.0
+            }
+          ],
+          "closed_block_pending_segments": [
+            {
+              "block": 47,
+              "closed_at": "2026-07-21T02:00:00+00:00",
+              "pending": {
+                "start": {
+                  "index": 10431,
+                  "kind": "top",
+                  "price": 74250.0,
+                  "time": "2026-05-31T00:00:00+00:00"
+                },
+                "end": {
+                  "index": 10651,
+                  "kind": "bottom",
+                  "price": 58030.0,
+                  "time": "2026-06-25T12:00:00+00:00"
+                },
+                "first_stroke": 1,
+                "last_stroke": 15,
+                "confirmed": false,
+                "confirmation": "pending",
+                "evidence_stroke": null,
+                "evidence_at": null,
+                "feature_indices": [],
+                "reverse_feature_indices": [],
+                "range_low": 58030.0,
+                "range_high": 74250.0,
+                "local_evidence_stroke": null
+              },
+              "diagnostics": {
+                "skipped_prefix_strokes": 1,
+                "unassigned_from": 1,
+                "usable_stroke_count": 28,
+                "tail": {
+                  "unassigned_completed_strokes": 27,
+                  "candidate_turns": [
+                    {
+                      "segment_start_stroke": 1,
+                      "turn_stroke": 16,
+                      "gap": true,
+                      "direct_break": false,
+                      "first_pattern_found": true,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": true,
+                      "reason": "waiting_reverse_feature_fractal"
+                    }
+                  ],
+                  "status": "waiting_confirmation",
+                  "last_completed_stroke_end": "2026-07-19T12:00:00+00:00"
+                }
+              }
+            },
+            {
+              "block": 48,
+              "closed_at": "2026-08-31T08:00:00+00:00",
+              "pending": {
+                "start": {
+                  "index": 10855,
+                  "kind": "bottom",
+                  "price": 65030.2,
+                  "time": "2026-07-20T20:00:00+00:00"
+                },
+                "end": {
+                  "index": 11176,
+                  "kind": "top",
+                  "price": 81500.0,
+                  "time": "2026-08-28T00:00:00+00:00"
+                },
+                "first_stroke": 0,
+                "last_stroke": 24,
+                "confirmed": false,
+                "confirmation": "pending",
+                "evidence_stroke": null,
+                "evidence_at": null,
+                "feature_indices": [],
+                "reverse_feature_indices": [],
+                "range_low": 62228.8,
+                "range_high": 81500.0,
+                "local_evidence_stroke": null
+              },
+              "diagnostics": {
+                "skipped_prefix_strokes": 0,
+                "unassigned_from": 0,
+                "usable_stroke_count": 27,
+                "tail": {
+                  "unassigned_completed_strokes": 27,
+                  "candidate_turns": [
+                    {
+                      "segment_start_stroke": 0,
+                      "turn_stroke": 21,
+                      "gap": true,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "turn_extreme_exceeded",
+                      "evidence_stroke": 22
+                    },
+                    {
+                      "segment_start_stroke": 0,
+                      "turn_stroke": 23,
+                      "gap": false,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "turn_extreme_exceeded",
+                      "evidence_stroke": 24
+                    },
+                    {
+                      "segment_start_stroke": 0,
+                      "turn_stroke": 25,
+                      "gap": false,
+                      "direct_break": true,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "waiting_direct_break_resolution"
+                    }
+                  ],
+                  "status": "waiting_confirmation",
+                  "last_completed_stroke_end": "2026-08-29T18:00:00+00:00"
+                }
+              }
+            }
+          ],
+          "structure_break_count_including_pre_chart_context": 52
+        },
+        "1h": {
+          "source_gap_count": 0,
+          "displayed_candle_gaps": [],
+          "stroke_count": 154,
+          "stroke_discontinuities": [
+            {
+              "previous": {
+                "id": "1h:block:86:stroke:5",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1780686000,
+                "end": 1780819200,
+                "start_price": 59080.0,
+                "end_price": 62942.4,
+                "state": "completed",
+                "evidence_at": "2026-06-07T23:00:00+00:00"
+              },
+              "following": {
+                "id": "1h:block:87:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1780869600,
+                "end": 1780894800,
+                "start_price": 64250.0,
+                "end_price": 62377.0,
+                "state": "completed",
+                "evidence_at": "2026-06-09T19:00:00+00:00"
+              },
+              "hours": 14.0
+            },
+            {
+              "previous": {
+                "id": "1h:block:87:stroke:40",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1783191600,
+                "end": 1783216800,
+                "start_price": 63450.0,
+                "end_price": 62549.6,
+                "state": "completed",
+                "evidence_at": "2026-07-05T12:00:00+00:00"
+              },
+              "following": {
+                "id": "1h:block:88:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1783270800,
+                "end": 1783292400,
+                "start_price": 62564.4,
+                "end_price": 63990.7,
+                "state": "completed",
+                "evidence_at": "2026-07-06T12:00:00+00:00"
+              },
+              "hours": 15.0
+            },
+            {
+              "previous": {
+                "id": "1h:block:88:stroke:3",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1783371600,
+                "end": 1783400400,
+                "start_price": 64691.9,
+                "end_price": 62745.6,
+                "state": "completed",
+                "evidence_at": "2026-07-07T13:00:00+00:00"
+              },
+              "following": {
+                "id": "1h:block:89:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1783530000,
+                "end": 1783562400,
+                "start_price": 62372.7,
+                "end_price": 61666.0,
+                "state": "completed",
+                "evidence_at": "2026-07-09T12:00:00+00:00"
+              },
+              "hours": 36.0
+            },
+            {
+              "previous": {
+                "id": "1h:block:89:stroke:12",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1784426400,
+                "end": 1784462400,
+                "start_price": 64948.8,
+                "end_price": 64259.5,
+                "state": "completed",
+                "evidence_at": "2026-07-20T06:00:00+00:00"
+              },
+              "following": {
+                "id": "1h:block:90:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1784653200,
+                "end": 1784678400,
+                "start_price": 65939.0,
+                "end_price": 66711.0,
+                "state": "completed",
+                "evidence_at": "2026-07-22T13:00:00+00:00"
+              },
+              "hours": 53.0
+            },
+            {
+              "previous": {
+                "id": "1h:block:90:stroke:61",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1789009200,
+                "end": 1789081200,
+                "start_price": 78543.9,
+                "end_price": 76402.9,
+                "state": "completed",
+                "evidence_at": "2026-09-11T12:00:00+00:00"
+              },
+              "following": {
+                "id": "1h:block:91:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1789174800,
+                "end": 1789189200,
+                "start_price": 77346.8,
+                "end_price": 77129.0,
+                "state": "completed",
+                "evidence_at": "2026-09-12T18:00:00+00:00"
+              },
+              "hours": 26.0
+            },
+            {
+              "previous": {
+                "id": "1h:block:91:stroke:4",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1789261200,
+                "end": 1789297200,
+                "start_price": 77321.0,
+                "end_price": 76458.9,
+                "state": "completed",
+                "evidence_at": "2026-09-13T22:00:00+00:00"
+              },
+              "following": {
+                "id": "1h:block:92:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1789390800,
+                "end": 1789416000,
+                "start_price": 77441.6,
+                "end_price": 79570.9,
+                "state": "completed",
+                "evidence_at": "2026-09-15T11:00:00+00:00"
+              },
+              "hours": 26.0
+            },
+            {
+              "previous": {
+                "id": "1h:block:92:stroke:13",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1790334000,
+                "end": 1790586000,
+                "start_price": 85224.0,
+                "end_price": 82551.6,
+                "state": "completed",
+                "evidence_at": "2026-09-28T17:00:00+00:00"
+              },
+              "following": {
+                "id": "1h:block:93:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1790629200,
+                "end": 1790643600,
+                "start_price": 83625.0,
+                "end_price": 82724.3,
+                "state": "completed",
+                "evidence_at": "2026-09-29T11:00:00+00:00"
+              },
+              "hours": 12.0
+            }
+          ],
+          "segment_states": {
+            "pending": 7,
+            "completed": 11
+          },
+          "segment_discontinuities": [
+            {
+              "previous": {
+                "id": "1h:block:86:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1780088400,
+                "end": 1780686000,
+                "start_price": 73829.2,
+                "end_price": 59080.0,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "following": {
+                "id": "1h:block:87:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1780869600,
+                "end": 1781082000,
+                "start_price": 64250.0,
+                "end_price": 60691.9,
+                "state": "completed",
+                "evidence_at": "2026-06-12T10:00:00+00:00"
+              },
+              "hours": 51.0
+            },
+            {
+              "previous": {
+                "id": "1h:block:87:segment:3",
+                "kind": "segment",
+                "level": 0,
+                "start": 1782867600,
+                "end": 1783191600,
+                "start_price": 57758.6,
+                "end_price": 63450.0,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "following": {
+                "id": "1h:block:88:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1783270800,
+                "end": 1783371600,
+                "start_price": 62564.4,
+                "end_price": 64691.9,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "hours": 22.0
+            },
+            {
+              "previous": {
+                "id": "1h:block:88:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1783270800,
+                "end": 1783371600,
+                "start_price": 62564.4,
+                "end_price": 64691.9,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "following": {
+                "id": "1h:block:89:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1783562400,
+                "end": 1784127600,
+                "start_price": 61666.0,
+                "end_price": 65589.7,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "hours": 53.0
+            },
+            {
+              "previous": {
+                "id": "1h:block:89:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1783562400,
+                "end": 1784127600,
+                "start_price": 61666.0,
+                "end_price": 65589.7,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "following": {
+                "id": "1h:block:90:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1784678400,
+                "end": 1785243600,
+                "start_price": 66711.0,
+                "end_price": 62660.1,
+                "state": "completed",
+                "evidence_at": "2026-07-31T08:00:00+00:00"
+              },
+              "hours": 153.0
+            },
+            {
+              "previous": {
+                "id": "1h:block:90:segment:8",
+                "kind": "segment",
+                "level": 0,
+                "start": 1788105600,
+                "end": 1788343200,
+                "start_price": 79384.4,
+                "end_price": 76151.9,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "following": {
+                "id": "1h:block:91:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1789174800,
+                "end": 1789297200,
+                "start_price": 77346.8,
+                "end_price": 76458.9,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "hours": 231.0
+            },
+            {
+              "previous": {
+                "id": "1h:block:91:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1789174800,
+                "end": 1789297200,
+                "start_price": 77346.8,
+                "end_price": 76458.9,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "following": {
+                "id": "1h:block:93:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1790629200,
+                "end": 1791478800,
+                "start_price": 83625.0,
+                "end_price": 80344.8,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "hours": 370.0
+            }
+          ],
+          "closed_block_pending_segments": [
+            {
+              "block": 86,
+              "closed_at": "2026-06-09T19:00:00+00:00",
+              "pending": {
+                "start": {
+                  "index": 21341,
+                  "kind": "top",
+                  "price": 73829.2,
+                  "time": "2026-05-29T21:00:00+00:00"
+                },
+                "end": {
+                  "index": 21469,
+                  "kind": "bottom",
+                  "price": 59080.0,
+                  "time": "2026-06-05T19:00:00+00:00"
+                },
+                "first_stroke": 0,
+                "last_stroke": 4,
+                "confirmed": false,
+                "confirmation": "pending",
+                "evidence_stroke": null,
+                "evidence_at": null,
+                "feature_indices": [],
+                "reverse_feature_indices": [],
+                "range_low": 59080.0,
+                "range_high": 74250.0,
+                "local_evidence_stroke": null
+              },
+              "diagnostics": {
+                "skipped_prefix_strokes": 0,
+                "unassigned_from": 0,
+                "usable_stroke_count": 6,
+                "tail": {
+                  "unassigned_completed_strokes": 6,
+                  "candidate_turns": [
+                    {
+                      "segment_start_stroke": 0,
+                      "turn_stroke": 5,
+                      "gap": true,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "waiting_first_feature_fractal"
+                    }
+                  ],
+                  "status": "waiting_confirmation",
+                  "last_completed_stroke_end": "2026-06-07T08:00:00+00:00"
+                }
+              }
+            },
+            {
+              "block": 87,
+              "closed_at": "2026-07-06T02:00:00+00:00",
+              "pending": {
+                "start": {
+                  "index": 21897,
+                  "kind": "bottom",
+                  "price": 57758.6,
+                  "time": "2026-07-01T01:00:00+00:00"
+                },
+                "end": {
+                  "index": 21962,
+                  "kind": "top",
+                  "price": 63450.0,
+                  "time": "2026-07-04T19:00:00+00:00"
+                },
+                "first_stroke": 37,
+                "last_stroke": 39,
+                "confirmed": false,
+                "confirmation": "pending",
+                "evidence_stroke": null,
+                "evidence_at": null,
+                "feature_indices": [],
+                "reverse_feature_indices": [],
+                "range_low": 57758.6,
+                "range_high": 63450.0,
+                "local_evidence_stroke": null
+              },
+              "diagnostics": {
+                "skipped_prefix_strokes": 0,
+                "unassigned_from": 37,
+                "usable_stroke_count": 41,
+                "tail": {
+                  "unassigned_completed_strokes": 4,
+                  "candidate_turns": [
+                    {
+                      "segment_start_stroke": 37,
+                      "turn_stroke": 40,
+                      "gap": false,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "waiting_first_feature_fractal"
+                    }
+                  ],
+                  "status": "waiting_confirmation",
+                  "last_completed_stroke_end": "2026-07-05T02:00:00+00:00"
+                }
+              }
+            },
+            {
+              "block": 88,
+              "closed_at": "2026-07-07T20:00:00+00:00",
+              "pending": {
+                "start": {
+                  "index": 21978,
+                  "kind": "bottom",
+                  "price": 62564.4,
+                  "time": "2026-07-05T17:00:00+00:00"
+                },
+                "end": {
+                  "index": 22001,
+                  "kind": "top",
+                  "price": 64691.9,
+                  "time": "2026-07-06T21:00:00+00:00"
+                },
+                "first_stroke": 0,
+                "last_stroke": 2,
+                "confirmed": false,
+                "confirmation": "pending",
+                "evidence_stroke": null,
+                "evidence_at": null,
+                "feature_indices": [],
+                "reverse_feature_indices": [],
+                "range_low": 61297.0,
+                "range_high": 64691.9,
+                "local_evidence_stroke": null
+              },
+              "diagnostics": {
+                "skipped_prefix_strokes": 0,
+                "unassigned_from": 0,
+                "usable_stroke_count": 4,
+                "tail": {
+                  "unassigned_completed_strokes": 4,
+                  "candidate_turns": [
+                    {
+                      "segment_start_stroke": 0,
+                      "turn_stroke": 3,
+                      "gap": false,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "waiting_first_feature_fractal"
+                    }
+                  ],
+                  "status": "waiting_confirmation",
+                  "last_completed_stroke_end": "2026-07-07T05:00:00+00:00"
+                }
+              }
+            },
+            {
+              "block": 89,
+              "closed_at": "2026-07-20T21:00:00+00:00",
+              "pending": {
+                "start": {
+                  "index": 22044,
+                  "kind": "bottom",
+                  "price": 61666.0,
+                  "time": "2026-07-09T02:00:00+00:00"
+                },
+                "end": {
+                  "index": 22148,
+                  "kind": "top",
+                  "price": 65589.7,
+                  "time": "2026-07-15T15:00:00+00:00"
+                },
+                "first_stroke": 1,
+                "last_stroke": 7,
+                "confirmed": false,
+                "confirmation": "pending",
+                "evidence_stroke": null,
+                "evidence_at": null,
+                "feature_indices": [],
+                "reverse_feature_indices": [],
+                "range_low": 61666.0,
+                "range_high": 65589.7,
+                "local_evidence_stroke": null
+              },
+              "diagnostics": {
+                "skipped_prefix_strokes": 1,
+                "unassigned_from": 1,
+                "usable_stroke_count": 13,
+                "tail": {
+                  "unassigned_completed_strokes": 12,
+                  "candidate_turns": [
+                    {
+                      "segment_start_stroke": 1,
+                      "turn_stroke": 8,
+                      "gap": false,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "waiting_first_feature_fractal"
+                    }
+                  ],
+                  "status": "waiting_confirmation",
+                  "last_completed_stroke_end": "2026-07-19T12:00:00+00:00"
+                }
+              }
+            },
+            {
+              "block": 90,
+              "closed_at": "2026-09-11T19:00:00+00:00",
+              "pending": {
+                "start": {
+                  "index": 22934,
+                  "kind": "top",
+                  "price": 79384.4,
+                  "time": "2026-08-30T16:00:00+00:00"
+                },
+                "end": {
+                  "index": 22984,
+                  "kind": "bottom",
+                  "price": 76151.9,
+                  "time": "2026-09-02T10:00:00+00:00"
+                },
+                "first_stroke": 45,
+                "last_stroke": 49,
+                "confirmed": false,
+                "confirmation": "pending",
+                "evidence_stroke": null,
+                "evidence_at": null,
+                "feature_indices": [],
+                "reverse_feature_indices": [],
+                "range_low": 76151.9,
+                "range_high": 79384.4,
+                "local_evidence_stroke": null
+              },
+              "diagnostics": {
+                "skipped_prefix_strokes": 1,
+                "unassigned_from": 45,
+                "usable_stroke_count": 62,
+                "tail": {
+                  "unassigned_completed_strokes": 17,
+                  "candidate_turns": [
+                    {
+                      "segment_start_stroke": 45,
+                      "turn_stroke": 48,
+                      "gap": false,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "turn_extreme_exceeded",
+                      "evidence_stroke": 49
+                    },
+                    {
+                      "segment_start_stroke": 45,
+                      "turn_stroke": 50,
+                      "gap": false,
+                      "direct_break": true,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": true,
+                      "reverse_span_ready": false,
+                      "reason": "waiting_direct_break_resolution"
+                    }
+                  ],
+                  "status": "waiting_confirmation",
+                  "last_completed_stroke_end": "2026-09-10T23:00:00+00:00"
+                }
+              }
+            },
+            {
+              "block": 91,
+              "closed_at": "2026-09-14T08:00:00+00:00",
+              "pending": {
+                "start": {
+                  "index": 23150,
+                  "kind": "top",
+                  "price": 77346.8,
+                  "time": "2026-09-12T01:00:00+00:00"
+                },
+                "end": {
+                  "index": 23172,
+                  "kind": "bottom",
+                  "price": 76458.9,
+                  "time": "2026-09-13T11:00:00+00:00"
+                },
+                "first_stroke": 0,
+                "last_stroke": 4,
+                "confirmed": false,
+                "confirmation": "pending",
+                "evidence_stroke": null,
+                "evidence_at": null,
+                "feature_indices": [],
+                "reverse_feature_indices": [],
+                "range_low": 76458.9,
+                "range_high": 77477.4,
+                "local_evidence_stroke": null
+              },
+              "diagnostics": {
+                "skipped_prefix_strokes": 0,
+                "unassigned_from": 0,
+                "usable_stroke_count": 5,
+                "tail": {
+                  "unassigned_completed_strokes": 5,
+                  "candidate_turns": [
+                    {
+                      "segment_start_stroke": 0,
+                      "turn_stroke": 3,
+                      "gap": false,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "turn_extreme_exceeded",
+                      "evidence_stroke": 4
+                    }
+                  ],
+                  "status": "waiting_confirmation",
+                  "last_completed_stroke_end": "2026-09-13T11:00:00+00:00"
+                }
+              }
+            }
+          ],
+          "structure_break_count_including_pre_chart_context": 93
+        },
+        "15m": {
+          "source_gap_count": 0,
+          "displayed_candle_gaps": [],
+          "stroke_count": 686,
+          "stroke_discontinuities": [
+            {
+              "previous": {
+                "id": "15m:block:31:stroke:86",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1780896600,
+                "end": 1780910100,
+                "start_price": 62377.0,
+                "end_price": 63554.7,
+                "state": "completed",
+                "evidence_at": "2026-06-08T11:00:00+00:00",
+                "direct_break": true,
+                "direct_break_reason": "waiting_direct_break_resolution"
+              },
+              "following": {
+                "id": "15m:block:32:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1780925400,
+                "end": 1780931700,
+                "start_price": 63330.4,
+                "end_price": 64179.5,
+                "state": "completed",
+                "evidence_at": "2026-06-08T17:45:00+00:00"
+              },
+              "hours": 4.25
+            },
+            {
+              "previous": {
+                "id": "15m:block:32:stroke:48",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1781637300,
+                "end": 1781643600,
+                "start_price": 65529.0,
+                "end_price": 65908.4,
+                "state": "completed",
+                "evidence_at": "2026-06-17T01:15:00+00:00"
+              },
+              "following": {
+                "id": "15m:block:33:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1781666100,
+                "end": 1781671500,
+                "start_price": 65671.8,
+                "end_price": 66019.0,
+                "state": "completed",
+                "evidence_at": "2026-06-17T09:30:00+00:00"
+              },
+              "hours": 6.25
+            },
+            {
+              "previous": {
+                "id": "15m:block:33:stroke:42",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1782270900,
+                "end": 1782279000,
+                "start_price": 62402.8,
+                "end_price": 63053.5,
+                "state": "completed",
+                "evidence_at": "2026-06-24T08:45:00+00:00"
+              },
+              "following": {
+                "id": "15m:block:34:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1782317700,
+                "end": 1782323100,
+                "start_price": 60649.1,
+                "end_price": 59060.0,
+                "state": "completed",
+                "evidence_at": "2026-06-24T21:45:00+00:00"
+              },
+              "hours": 10.75
+            },
+            {
+              "previous": {
+                "id": "15m:block:34:stroke:55",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1783666800,
+                "end": 1783684800,
+                "start_price": 63765.5,
+                "end_price": 64587.9,
+                "state": "completed",
+                "evidence_at": "2026-07-10T14:00:00+00:00"
+              },
+              "following": {
+                "id": "15m:block:35:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1783693800,
+                "end": 1783701900,
+                "start_price": 63768.0,
+                "end_price": 64208.1,
+                "state": "completed",
+                "evidence_at": "2026-07-10T19:45:00+00:00"
+              },
+              "hours": 2.5
+            },
+            {
+              "previous": {
+                "id": "15m:block:35:stroke:6",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1783836900,
+                "end": 1783857600,
+                "start_price": 63602.8,
+                "end_price": 64118.5,
+                "state": "completed",
+                "evidence_at": "2026-07-12T15:00:00+00:00"
+              },
+              "following": {
+                "id": "15m:block:36:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1783867500,
+                "end": 1783878300,
+                "start_price": 64271.9,
+                "end_price": 63983.1,
+                "state": "completed",
+                "evidence_at": "2026-07-12T23:15:00+00:00"
+              },
+              "hours": 2.75
+            },
+            {
+              "previous": {
+                "id": "15m:block:36:stroke:18",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1784088000,
+                "end": 1784091600,
+                "start_price": 64868.0,
+                "end_price": 64580.0,
+                "state": "completed",
+                "evidence_at": "2026-07-15T07:15:00+00:00"
+              },
+              "following": {
+                "id": "15m:block:37:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1784099700,
+                "end": 1784106900,
+                "start_price": 64450.9,
+                "end_price": 64899.9,
+                "state": "completed",
+                "evidence_at": "2026-07-15T14:00:00+00:00"
+              },
+              "hours": 2.25
+            },
+            {
+              "previous": {
+                "id": "15m:block:37:stroke:9",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1784214900,
+                "end": 1784268900,
+                "start_price": 64874.7,
+                "end_price": 62655.0,
+                "state": "completed",
+                "evidence_at": "2026-07-17T08:15:00+00:00"
+              },
+              "following": {
+                "id": "15m:block:38:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1784277000,
+                "end": 1784288700,
+                "start_price": 62611.0,
+                "end_price": 63337.4,
+                "state": "completed",
+                "evidence_at": "2026-07-17T14:15:00+00:00"
+              },
+              "hours": 2.25
+            },
+            {
+              "previous": {
+                "id": "15m:block:38:stroke:10",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1784463300,
+                "end": 1784472300,
+                "start_price": 64259.5,
+                "end_price": 64633.0,
+                "state": "completed",
+                "evidence_at": "2026-07-19T17:45:00+00:00"
+              },
+              "following": {
+                "id": "15m:block:39:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1784511900,
+                "end": 1784515500,
+                "start_price": 64470.0,
+                "end_price": 64940.0,
+                "state": "completed",
+                "evidence_at": "2026-07-20T05:00:00+00:00"
+              },
+              "hours": 11.0
+            },
+            {
+              "previous": {
+                "id": "15m:block:39:stroke:16",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1784746800,
+                "end": 1784756700,
+                "start_price": 65650.2,
+                "end_price": 66103.1,
+                "state": "completed",
+                "evidence_at": "2026-07-23T00:15:00+00:00"
+              },
+              "following": {
+                "id": "15m:block:40:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1784774700,
+                "end": 1784782800,
+                "start_price": 65806.9,
+                "end_price": 65543.1,
+                "state": "completed",
+                "evidence_at": "2026-07-23T08:15:00+00:00"
+              },
+              "hours": 5.0
+            },
+            {
+              "previous": {
+                "id": "15m:block:40:stroke:2",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1784789100,
+                "end": 1784824200,
+                "start_price": 65793.7,
+                "end_price": 64688.0,
+                "state": "completed",
+                "evidence_at": "2026-07-23T18:30:00+00:00"
+              },
+              "following": {
+                "id": "15m:block:41:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1784835900,
+                "end": 1784845800,
+                "start_price": 64670.0,
+                "end_price": 65193.5,
+                "state": "completed",
+                "evidence_at": "2026-07-24T01:15:00+00:00"
+              },
+              "hours": 3.25
+            },
+            {
+              "previous": {
+                "id": "15m:block:41:stroke:29",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1785221100,
+                "end": 1785233700,
+                "start_price": 63642.2,
+                "end_price": 63263.5,
+                "state": "completed",
+                "evidence_at": "2026-07-28T12:45:00+00:00"
+              },
+              "following": {
+                "id": "15m:block:42:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1785270600,
+                "end": 1785275100,
+                "start_price": 63853.4,
+                "end_price": 64047.9,
+                "state": "completed",
+                "evidence_at": "2026-07-29T00:00:00+00:00"
+              },
+              "hours": 10.25
+            },
+            {
+              "previous": {
+                "id": "15m:block:42:stroke:30",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1785758400,
+                "end": 1785777300,
+                "start_price": 62400.0,
+                "end_price": 64049.5,
+                "state": "completed",
+                "evidence_at": "2026-08-03T19:30:00+00:00"
+              },
+              "following": {
+                "id": "15m:block:43:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1785807000,
+                "end": 1785813300,
+                "start_price": 63911.6,
+                "end_price": 63624.1,
+                "state": "completed",
+                "evidence_at": "2026-08-04T05:30:00+00:00"
+              },
+              "hours": 8.25
+            },
+            {
+              "previous": {
+                "id": "15m:block:43:stroke:10",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1785906900,
+                "end": 1785915000,
+                "start_price": 64500.0,
+                "end_price": 63962.4,
+                "state": "completed",
+                "evidence_at": "2026-08-05T13:15:00+00:00"
+              },
+              "following": {
+                "id": "15m:block:44:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1785954600,
+                "end": 1785960900,
+                "start_price": 64641.0,
+                "end_price": 65022.0,
+                "state": "completed",
+                "evidence_at": "2026-08-06T00:00:00+00:00"
+              },
+              "hours": 11.0
+            },
+            {
+              "previous": {
+                "id": "15m:block:44:stroke:20",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1786245300,
+                "end": 1786257900,
+                "start_price": 64700.0,
+                "end_price": 64835.0,
+                "state": "completed",
+                "evidence_at": "2026-08-09T08:30:00+00:00"
+              },
+              "following": {
+                "id": "15m:block:45:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1786276800,
+                "end": 1786286700,
+                "start_price": 64884.3,
+                "end_price": 65279.9,
+                "state": "completed",
+                "evidence_at": "2026-08-09T21:00:00+00:00"
+              },
+              "hours": 5.25
+            },
+            {
+              "previous": {
+                "id": "15m:block:45:stroke:110",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1787911200,
+                "end": 1787915700,
+                "start_price": 78961.5,
+                "end_price": 79733.7,
+                "state": "completed",
+                "evidence_at": "2026-08-28T14:30:00+00:00"
+              },
+              "following": {
+                "id": "15m:block:46:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1787947200,
+                "end": 1787953500,
+                "start_price": 77591.0,
+                "end_price": 77210.8,
+                "state": "completed",
+                "evidence_at": "2026-08-29T00:15:00+00:00"
+              },
+              "hours": 8.75
+            },
+            {
+              "previous": {
+                "id": "15m:block:46:stroke:2",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1787962500,
+                "end": 1787975100,
+                "start_price": 77920.0,
+                "end_price": 77470.6,
+                "state": "completed",
+                "evidence_at": "2026-08-29T06:15:00+00:00"
+              },
+              "following": {
+                "id": "15m:block:47:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1787984100,
+                "end": 1787995800,
+                "start_price": 77353.0,
+                "end_price": 77728.9,
+                "state": "completed",
+                "evidence_at": "2026-08-29T13:30:00+00:00"
+              },
+              "hours": 2.5
+            },
+            {
+              "previous": {
+                "id": "15m:block:47:stroke:16",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1788257700,
+                "end": 1788262200,
+                "start_price": 77710.4,
+                "end_price": 78166.7,
+                "state": "completed",
+                "evidence_at": "2026-09-01T14:00:00+00:00"
+              },
+              "following": {
+                "id": "15m:block:48:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1788283800,
+                "end": 1788288300,
+                "start_price": 77695.3,
+                "end_price": 76368.0,
+                "state": "completed",
+                "evidence_at": "2026-09-01T22:00:00+00:00"
+              },
+              "hours": 6.0
+            },
+            {
+              "previous": {
+                "id": "15m:block:48:stroke:11",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1788412500,
+                "end": 1788464700,
+                "start_price": 77053.8,
+                "end_price": 81771.7,
+                "state": "completed",
+                "evidence_at": "2026-09-03T21:45:00+00:00"
+              },
+              "following": {
+                "id": "15m:block:49:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1788471000,
+                "end": 1788474600,
+                "start_price": 82282.8,
+                "end_price": 80861.1,
+                "state": "completed",
+                "evidence_at": "2026-09-04T01:15:00+00:00"
+              },
+              "hours": 1.75
+            },
+            {
+              "previous": {
+                "id": "15m:block:49:stroke:21",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1788649200,
+                "end": 1788666300,
+                "start_price": 79677.5,
+                "end_price": 80080.4,
+                "state": "completed",
+                "evidence_at": "2026-09-06T06:15:00+00:00"
+              },
+              "following": {
+                "id": "15m:block:50:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1788672600,
+                "end": 1788678000,
+                "start_price": 80085.2,
+                "end_price": 79523.6,
+                "state": "completed",
+                "evidence_at": "2026-09-06T10:15:00+00:00"
+              },
+              "hours": 1.75
+            },
+            {
+              "previous": {
+                "id": "15m:block:50:stroke:37",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1789081200,
+                "end": 1789106400,
+                "start_price": 76402.9,
+                "end_price": 77400.0,
+                "state": "completed",
+                "evidence_at": "2026-09-11T08:45:00+00:00"
+              },
+              "following": {
+                "id": "15m:block:51:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1789115400,
+                "end": 1789125300,
+                "start_price": 77469.3,
+                "end_price": 76699.1,
+                "state": "completed",
+                "evidence_at": "2026-09-11T15:00:00+00:00"
+              },
+              "hours": 2.5
+            },
+            {
+              "previous": {
+                "id": "15m:block:51:stroke:11",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1789241400,
+                "end": 1789250400,
+                "start_price": 77025.1,
+                "end_price": 77275.7,
+                "state": "completed",
+                "evidence_at": "2026-09-13T01:15:00+00:00"
+              },
+              "following": {
+                "id": "15m:block:52:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1789263900,
+                "end": 1789271100,
+                "start_price": 77290.0,
+                "end_price": 77150.9,
+                "state": "completed",
+                "evidence_at": "2026-09-13T09:30:00+00:00"
+              },
+              "hours": 3.75
+            },
+            {
+              "previous": {
+                "id": "15m:block:52:stroke:7",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1789344900,
+                "end": 1789355700,
+                "start_price": 76350.1,
+                "end_price": 77840.7,
+                "state": "completed",
+                "evidence_at": "2026-09-14T06:30:00+00:00"
+              },
+              "following": {
+                "id": "15m:block:53:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1789367400,
+                "end": 1789379100,
+                "start_price": 77334.5,
+                "end_price": 78343.8,
+                "state": "completed",
+                "evidence_at": "2026-09-14T12:30:00+00:00"
+              },
+              "hours": 3.25
+            },
+            {
+              "previous": {
+                "id": "15m:block:53:stroke:5",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1789470000,
+                "end": 1789483500,
+                "start_price": 77188.0,
+                "end_price": 75560.0,
+                "state": "completed",
+                "evidence_at": "2026-09-15T18:45:00+00:00"
+              },
+              "following": {
+                "id": "15m:block:54:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1789505100,
+                "end": 1789510500,
+                "start_price": 75981.0,
+                "end_price": 75089.1,
+                "state": "completed",
+                "evidence_at": "2026-09-18T05:00:00+00:00"
+              },
+              "hours": 6.0
+            },
+            {
+              "previous": {
+                "id": "15m:block:54:stroke:31",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1790055000,
+                "end": 1790066700,
+                "start_price": 85080.0,
+                "end_price": 86365.5,
+                "state": "completed",
+                "evidence_at": "2026-09-22T14:15:00+00:00"
+              },
+              "following": {
+                "id": "15m:block:55:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1790087400,
+                "end": 1790091900,
+                "start_price": 85405.9,
+                "end_price": 86699.9,
+                "state": "completed",
+                "evidence_at": "2026-09-22T23:30:00+00:00"
+              },
+              "hours": 5.75
+            },
+            {
+              "previous": {
+                "id": "15m:block:55:stroke:6",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1790179200,
+                "end": 1790192700,
+                "start_price": 83450.1,
+                "end_price": 84524.0,
+                "state": "completed",
+                "evidence_at": "2026-09-23T21:45:00+00:00"
+              },
+              "following": {
+                "id": "15m:block:56:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1790218800,
+                "end": 1790223300,
+                "start_price": 84451.7,
+                "end_price": 83742.0,
+                "state": "completed",
+                "evidence_at": "2026-09-24T08:45:00+00:00"
+              },
+              "hours": 7.25
+            },
+            {
+              "previous": {
+                "id": "15m:block:56:stroke:13",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1790484300,
+                "end": 1790504100,
+                "start_price": 84259.2,
+                "end_price": 85095.0,
+                "state": "completed",
+                "evidence_at": "2026-09-27T13:45:00+00:00"
+              },
+              "following": {
+                "id": "15m:block:57:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1790515800,
+                "end": 1790521200,
+                "start_price": 85146.4,
+                "end_price": 84266.0,
+                "state": "completed",
+                "evidence_at": "2026-09-27T17:30:00+00:00"
+              },
+              "hours": 3.25
+            },
+            {
+              "previous": {
+                "id": "15m:block:57:stroke:33",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1791117900,
+                "end": 1791155700,
+                "start_price": 85044.7,
+                "end_price": 86770.0,
+                "state": "completed",
+                "evidence_at": "2026-10-05T01:30:00+00:00"
+              },
+              "following": {
+                "id": "15m:block:58:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1791162900,
+                "end": 1791177300,
+                "start_price": 86976.1,
+                "end_price": 85369.0,
+                "state": "completed",
+                "evidence_at": "2026-10-05T07:00:00+00:00"
+              },
+              "hours": 2.0
+            },
+            {
+              "previous": {
+                "id": "15m:block:58:stroke:3",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1791191700,
+                "end": 1791199800,
+                "start_price": 85708.3,
+                "end_price": 86228.4,
+                "state": "completed",
+                "evidence_at": "2026-10-05T14:15:00+00:00"
+              },
+              "following": {
+                "id": "15m:block:59:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1791243900,
+                "end": 1791248400,
+                "start_price": 85679.9,
+                "end_price": 86098.1,
+                "state": "completed",
+                "evidence_at": "2026-10-06T03:30:00+00:00"
+              },
+              "hours": 12.25
+            },
+            {
+              "previous": {
+                "id": "15m:block:59:stroke:4",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1791267300,
+                "end": 1791288900,
+                "start_price": 85072.7,
+                "end_price": 86371.7,
+                "state": "completed",
+                "evidence_at": "2026-10-06T14:00:00+00:00"
+              },
+              "following": {
+                "id": "15m:block:60:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1791330300,
+                "end": 1791338400,
+                "start_price": 85585.0,
+                "end_price": 83500.0,
+                "state": "completed",
+                "evidence_at": "2026-10-07T04:30:00+00:00"
+              },
+              "hours": 11.5
+            },
+            {
+              "previous": {
+                "id": "15m:block:60:stroke:29",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1791753300,
+                "end": 1791781200,
+                "start_price": 83228.5,
+                "end_price": 84250.0,
+                "state": "completed",
+                "evidence_at": "2026-10-12T07:00:00+00:00"
+              },
+              "following": {
+                "id": "15m:block:61:stroke:0",
+                "kind": "stroke",
+                "level": -1,
+                "start": 1791801900,
+                "end": 1791816300,
+                "start_price": 83591.5,
+                "end_price": 82349.1,
+                "state": "completed",
+                "evidence_at": "2026-10-12T17:00:00+00:00"
+              },
+              "hours": 5.75
+            }
+          ],
+          "segment_states": {
+            "completed": 48,
+            "pending": 27
+          },
+          "segment_discontinuities": [
+            {
+              "previous": {
+                "id": "15m:block:31:segment:10",
+                "kind": "segment",
+                "level": 0,
+                "start": 1780870500,
+                "end": 1780896600,
+                "start_price": 64250.0,
+                "end_price": 62377.0,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "following": {
+                "id": "15m:block:32:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1780925400,
+                "end": 1781386200,
+                "start_price": 63330.4,
+                "end_price": 64738.0,
+                "state": "completed",
+                "evidence_at": "2026-06-14T09:00:00+00:00"
+              },
+              "hours": 8.0
+            },
+            {
+              "previous": {
+                "id": "15m:block:32:segment:2",
+                "kind": "segment",
+                "level": 0,
+                "start": 1781420400,
+                "end": 1781538300,
+                "start_price": 64186.5,
+                "end_price": 67255.4,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "following": {
+                "id": "15m:block:33:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1781666100,
+                "end": 1781712900,
+                "start_price": 65671.8,
+                "end_price": 66419.2,
+                "state": "completed",
+                "evidence_at": "2026-06-18T07:30:00+00:00"
+              },
+              "hours": 35.5
+            },
+            {
+              "previous": {
+                "id": "15m:block:33:segment:5",
+                "kind": "segment",
+                "level": 0,
+                "start": 1782136800,
+                "end": 1782202500,
+                "start_price": 65597.2,
+                "end_price": 61870.0,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "following": {
+                "id": "15m:block:34:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1782317700,
+                "end": 1782867600,
+                "start_price": 60649.1,
+                "end_price": 57758.6,
+                "state": "completed",
+                "evidence_at": "2026-07-04T09:45:00+00:00"
+              },
+              "hours": 32.0
+            },
+            {
+              "previous": {
+                "id": "15m:block:34:segment:5",
+                "kind": "segment",
+                "level": 0,
+                "start": 1783523700,
+                "end": 1783684800,
+                "start_price": 61520.0,
+                "end_price": 64587.9,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "following": {
+                "id": "15m:block:35:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1783693800,
+                "end": 1783780200,
+                "start_price": 63768.0,
+                "end_price": 64497.4,
+                "state": "completed",
+                "evidence_at": "2026-07-12T09:15:00+00:00"
+              },
+              "hours": 2.5
+            },
+            {
+              "previous": {
+                "id": "15m:block:35:segment:1",
+                "kind": "segment",
+                "level": 0,
+                "start": 1783780200,
+                "end": 1783836900,
+                "start_price": 64497.4,
+                "end_price": 63602.8,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "following": {
+                "id": "15m:block:36:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1783867500,
+                "end": 1783966500,
+                "start_price": 64271.9,
+                "end_price": 61806.0,
+                "state": "completed",
+                "evidence_at": "2026-07-14T04:00:00+00:00"
+              },
+              "hours": 8.5
+            },
+            {
+              "previous": {
+                "id": "15m:block:36:segment:1",
+                "kind": "segment",
+                "level": 0,
+                "start": 1783966500,
+                "end": 1784067300,
+                "start_price": 61806.0,
+                "end_price": 65130.0,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "following": {
+                "id": "15m:block:37:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1784099700,
+                "end": 1784130300,
+                "start_price": 64450.9,
+                "end_price": 65589.7,
+                "state": "completed",
+                "evidence_at": "2026-07-16T06:30:00+00:00"
+              },
+              "hours": 9.0
+            },
+            {
+              "previous": {
+                "id": "15m:block:37:segment:1",
+                "kind": "segment",
+                "level": 0,
+                "start": 1784130300,
+                "end": 1784268900,
+                "start_price": 65589.7,
+                "end_price": 62655.0,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "following": {
+                "id": "15m:block:38:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1784277000,
+                "end": 1784428200,
+                "start_price": 62611.0,
+                "end_price": 64928.0,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "hours": 2.25
+            },
+            {
+              "previous": {
+                "id": "15m:block:38:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1784277000,
+                "end": 1784428200,
+                "start_price": 62611.0,
+                "end_price": 64928.0,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "following": {
+                "id": "15m:block:39:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1784511900,
+                "end": 1784642400,
+                "start_price": 64470.0,
+                "end_price": 66924.1,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "hours": 23.25
+            },
+            {
+              "previous": {
+                "id": "15m:block:39:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1784511900,
+                "end": 1784642400,
+                "start_price": 64470.0,
+                "end_price": 66924.1,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "following": {
+                "id": "15m:block:40:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1784774700,
+                "end": 1784824200,
+                "start_price": 65806.9,
+                "end_price": 64688.0,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "hours": 36.75
+            },
+            {
+              "previous": {
+                "id": "15m:block:40:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1784774700,
+                "end": 1784824200,
+                "start_price": 65806.9,
+                "end_price": 64688.0,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "following": {
+                "id": "15m:block:41:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1784835900,
+                "end": 1784877300,
+                "start_price": 64670.0,
+                "end_price": 65780.0,
+                "state": "completed",
+                "evidence_at": "2026-07-28T06:00:00+00:00"
+              },
+              "hours": 3.25
+            },
+            {
+              "previous": {
+                "id": "15m:block:41:segment:1",
+                "kind": "segment",
+                "level": 0,
+                "start": 1784877300,
+                "end": 1785200400,
+                "start_price": 65780.0,
+                "end_price": 63021.0,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "following": {
+                "id": "15m:block:42:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1785270600,
+                "end": 1785459600,
+                "start_price": 63853.4,
+                "end_price": 65391.3,
+                "state": "completed",
+                "evidence_at": "2026-07-31T11:45:00+00:00"
+              },
+              "hours": 19.5
+            },
+            {
+              "previous": {
+                "id": "15m:block:42:segment:4",
+                "kind": "segment",
+                "level": 0,
+                "start": 1785745800,
+                "end": 1785777300,
+                "start_price": 62268.2,
+                "end_price": 64049.5,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "following": {
+                "id": "15m:block:43:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1785807000,
+                "end": 1785838500,
+                "start_price": 63911.6,
+                "end_price": 63428.8,
+                "state": "completed",
+                "evidence_at": "2026-08-04T22:45:00+00:00"
+              },
+              "hours": 8.25
+            },
+            {
+              "previous": {
+                "id": "15m:block:43:segment:1",
+                "kind": "segment",
+                "level": 0,
+                "start": 1785838500,
+                "end": 1785885300,
+                "start_price": 63428.8,
+                "end_price": 64512.9,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "following": {
+                "id": "15m:block:44:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1785954600,
+                "end": 1786106700,
+                "start_price": 64641.0,
+                "end_price": 65358.0,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "hours": 19.25
+            },
+            {
+              "previous": {
+                "id": "15m:block:44:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1785954600,
+                "end": 1786106700,
+                "start_price": 64641.0,
+                "end_price": 65358.0,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "following": {
+                "id": "15m:block:45:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1786276800,
+                "end": 1786312800,
+                "start_price": 64884.3,
+                "end_price": 65482.7,
+                "state": "completed",
+                "evidence_at": "2026-08-11T22:15:00+00:00"
+              },
+              "hours": 47.25
+            },
+            {
+              "previous": {
+                "id": "15m:block:45:segment:13",
+                "kind": "segment",
+                "level": 0,
+                "start": 1787880600,
+                "end": 1787911200,
+                "start_price": 81500.0,
+                "end_price": 78961.5,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "following": {
+                "id": "15m:block:47:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1787984100,
+                "end": 1788108300,
+                "start_price": 77353.0,
+                "end_price": 79384.4,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "hours": 20.25
+            },
+            {
+              "previous": {
+                "id": "15m:block:47:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1787984100,
+                "end": 1788108300,
+                "start_price": 77353.0,
+                "end_price": 79384.4,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "following": {
+                "id": "15m:block:48:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1788283800,
+                "end": 1788345900,
+                "start_price": 77695.3,
+                "end_price": 76151.9,
+                "state": "completed",
+                "evidence_at": "2026-09-03T05:15:00+00:00"
+              },
+              "hours": 48.75
+            },
+            {
+              "previous": {
+                "id": "15m:block:48:segment:1",
+                "kind": "segment",
+                "level": 0,
+                "start": 1788345900,
+                "end": 1788464700,
+                "start_price": 76151.9,
+                "end_price": 81771.7,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "following": {
+                "id": "15m:block:49:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1788471000,
+                "end": 1788533100,
+                "start_price": 82282.8,
+                "end_price": 78618.1,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "hours": 1.75
+            },
+            {
+              "previous": {
+                "id": "15m:block:49:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1788471000,
+                "end": 1788533100,
+                "start_price": 82282.8,
+                "end_price": 78618.1,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "following": {
+                "id": "15m:block:50:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1788672600,
+                "end": 1788705000,
+                "start_price": 80085.2,
+                "end_price": 79125.3,
+                "state": "completed",
+                "evidence_at": "2026-09-06T23:00:00+00:00"
+              },
+              "hours": 38.75
+            },
+            {
+              "previous": {
+                "id": "15m:block:50:segment:6",
+                "kind": "segment",
+                "level": 0,
+                "start": 1788942600,
+                "end": 1789081200,
+                "start_price": 79737.3,
+                "end_price": 76402.9,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "following": {
+                "id": "15m:block:52:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1789263900,
+                "end": 1789297200,
+                "start_price": 77290.0,
+                "end_price": 76458.9,
+                "state": "completed",
+                "evidence_at": "2026-09-14T00:00:00+00:00"
+              },
+              "hours": 50.75
+            },
+            {
+              "previous": {
+                "id": "15m:block:52:segment:1",
+                "kind": "segment",
+                "level": 0,
+                "start": 1789297200,
+                "end": 1789355700,
+                "start_price": 76458.9,
+                "end_price": 77840.7,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "following": {
+                "id": "15m:block:53:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1789367400,
+                "end": 1789416900,
+                "start_price": 77334.5,
+                "end_price": 79570.9,
+                "state": "completed",
+                "evidence_at": "2026-09-15T18:45:00+00:00"
+              },
+              "hours": 3.25
+            },
+            {
+              "previous": {
+                "id": "15m:block:53:segment:1",
+                "kind": "segment",
+                "level": 0,
+                "start": 1789416900,
+                "end": 1789483500,
+                "start_price": 79570.9,
+                "end_price": 75560.0,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "following": {
+                "id": "15m:block:55:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1790087400,
+                "end": 1790137800,
+                "start_price": 85405.9,
+                "end_price": 87247.3,
+                "state": "completed",
+                "evidence_at": "2026-09-23T18:30:00+00:00"
+              },
+              "hours": 167.75
+            },
+            {
+              "previous": {
+                "id": "15m:block:55:segment:1",
+                "kind": "segment",
+                "level": 0,
+                "start": 1790137800,
+                "end": 1790179200,
+                "start_price": 87247.3,
+                "end_price": 83450.1,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "following": {
+                "id": "15m:block:56:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1790218800,
+                "end": 1790242200,
+                "start_price": 84451.7,
+                "end_price": 82832.0,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "hours": 11.0
+            },
+            {
+              "previous": {
+                "id": "15m:block:56:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1790218800,
+                "end": 1790242200,
+                "start_price": 84451.7,
+                "end_price": 82832.0,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "following": {
+                "id": "15m:block:57:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1790515800,
+                "end": 1790606700,
+                "start_price": 85146.4,
+                "end_price": 82500.1,
+                "state": "completed",
+                "evidence_at": "2026-09-29T17:00:00+00:00"
+              },
+              "hours": 76.0
+            },
+            {
+              "previous": {
+                "id": "15m:block:57:segment:1",
+                "kind": "segment",
+                "level": 0,
+                "start": 1790606700,
+                "end": 1790944200,
+                "start_price": 82500.1,
+                "end_price": 87249.6,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "following": {
+                "id": "15m:block:59:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1791243900,
+                "end": 1791288900,
+                "start_price": 85679.9,
+                "end_price": 86371.7,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "hours": 83.25
+            },
+            {
+              "previous": {
+                "id": "15m:block:59:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1791243900,
+                "end": 1791288900,
+                "start_price": 85679.9,
+                "end_price": 86371.7,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "following": {
+                "id": "15m:block:60:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1791330300,
+                "end": 1791479700,
+                "start_price": 85585.0,
+                "end_price": 80344.8,
+                "state": "completed",
+                "evidence_at": "2026-10-10T18:30:00+00:00"
+              },
+              "hours": 11.5
+            },
+            {
+              "previous": {
+                "id": "15m:block:60:segment:1",
+                "kind": "segment",
+                "level": 0,
+                "start": 1791479700,
+                "end": 1791781200,
+                "start_price": 80344.8,
+                "end_price": 84250.0,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "following": {
+                "id": "15m:block:61:segment:0",
+                "kind": "segment",
+                "level": 0,
+                "start": 1791801900,
+                "end": 1791830700,
+                "start_price": 83591.5,
+                "end_price": 82244.0,
+                "state": "pending",
+                "evidence_at": null
+              },
+              "hours": 5.75
+            }
+          ],
+          "closed_block_pending_segments": [
+            {
+              "block": 31,
+              "closed_at": "2026-06-08T13:00:00+00:00",
+              "pending": {
+                "start": {
+                  "index": 8548,
+                  "kind": "top",
+                  "price": 64250.0,
+                  "time": "2026-06-07T22:15:00+00:00"
+                },
+                "end": {
+                  "index": 8567,
+                  "kind": "bottom",
+                  "price": 62377.0,
+                  "time": "2026-06-08T05:30:00+00:00"
+                },
+                "first_stroke": 83,
+                "last_stroke": 85,
+                "confirmed": false,
+                "confirmation": "pending",
+                "evidence_stroke": null,
+                "evidence_at": null,
+                "feature_indices": [],
+                "reverse_feature_indices": [],
+                "range_low": 62377.0,
+                "range_high": 64250.0,
+                "local_evidence_stroke": null
+              },
+              "diagnostics": {
+                "skipped_prefix_strokes": 1,
+                "unassigned_from": 83,
+                "usable_stroke_count": 87,
+                "tail": {
+                  "unassigned_completed_strokes": 4,
+                  "candidate_turns": [
+                    {
+                      "segment_start_stroke": 83,
+                      "turn_stroke": 86,
+                      "gap": false,
+                      "direct_break": true,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "waiting_direct_break_resolution"
+                    }
+                  ],
+                  "status": "waiting_confirmation",
+                  "last_completed_stroke_end": "2026-06-08T09:15:00+00:00"
+                }
+              }
+            },
+            {
+              "block": 32,
+              "closed_at": "2026-06-17T09:30:00+00:00",
+              "pending": {
+                "start": {
+                  "index": 8994,
+                  "kind": "bottom",
+                  "price": 64186.5,
+                  "time": "2026-06-14T07:00:00+00:00"
+                },
+                "end": {
+                  "index": 9094,
+                  "kind": "top",
+                  "price": 67255.4,
+                  "time": "2026-06-15T15:45:00+00:00"
+                },
+                "first_stroke": 32,
+                "last_stroke": 40,
+                "confirmed": false,
+                "confirmation": "pending",
+                "evidence_stroke": null,
+                "evidence_at": null,
+                "feature_indices": [],
+                "reverse_feature_indices": [],
+                "range_low": 63650.0,
+                "range_high": 67255.4,
+                "local_evidence_stroke": null
+              },
+              "diagnostics": {
+                "skipped_prefix_strokes": 0,
+                "unassigned_from": 32,
+                "usable_stroke_count": 49,
+                "tail": {
+                  "unassigned_completed_strokes": 17,
+                  "candidate_turns": [
+                    {
+                      "segment_start_stroke": 32,
+                      "turn_stroke": 35,
+                      "gap": false,
+                      "direct_break": true,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "turn_extreme_exceeded",
+                      "evidence_stroke": 36
+                    },
+                    {
+                      "segment_start_stroke": 32,
+                      "turn_stroke": 37,
+                      "gap": true,
+                      "direct_break": false,
+                      "first_pattern_found": true,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": true,
+                      "reason": "turn_extreme_exceeded",
+                      "evidence_stroke": 40
+                    },
+                    {
+                      "segment_start_stroke": 32,
+                      "turn_stroke": 41,
+                      "gap": true,
+                      "direct_break": false,
+                      "first_pattern_found": true,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": true,
+                      "reason": "waiting_reverse_feature_fractal"
+                    }
+                  ],
+                  "status": "waiting_confirmation",
+                  "last_completed_stroke_end": "2026-06-16T21:00:00+00:00"
+                }
+              }
+            },
+            {
+              "block": 33,
+              "closed_at": "2026-06-24T15:00:00+00:00",
+              "pending": {
+                "start": {
+                  "index": 9560,
+                  "kind": "top",
+                  "price": 65597.2,
+                  "time": "2026-06-22T14:00:00+00:00"
+                },
+                "end": {
+                  "index": 9615,
+                  "kind": "bottom",
+                  "price": 61870.0,
+                  "time": "2026-06-23T08:15:00+00:00"
+                },
+                "first_stroke": 35,
+                "last_stroke": 37,
+                "confirmed": false,
+                "confirmation": "pending",
+                "evidence_stroke": null,
+                "evidence_at": null,
+                "feature_indices": [],
+                "reverse_feature_indices": [],
+                "range_low": 61870.0,
+                "range_high": 65597.2,
+                "local_evidence_stroke": null
+              },
+              "diagnostics": {
+                "skipped_prefix_strokes": 0,
+                "unassigned_from": 35,
+                "usable_stroke_count": 43,
+                "tail": {
+                  "unassigned_completed_strokes": 8,
+                  "candidate_turns": [
+                    {
+                      "segment_start_stroke": 35,
+                      "turn_stroke": 38,
+                      "gap": true,
+                      "direct_break": false,
+                      "first_pattern_found": true,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": true,
+                      "reason": "waiting_reverse_feature_fractal"
+                    }
+                  ],
+                  "status": "waiting_confirmation",
+                  "last_completed_stroke_end": "2026-06-24T05:30:00+00:00"
+                }
+              }
+            },
+            {
+              "block": 34,
+              "closed_at": "2026-07-10T15:45:00+00:00",
+              "pending": {
+                "start": {
+                  "index": 10677,
+                  "kind": "bottom",
+                  "price": 61520.0,
+                  "time": "2026-07-08T15:15:00+00:00"
+                },
+                "end": {
+                  "index": 10812,
+                  "kind": "top",
+                  "price": 64587.9,
+                  "time": "2026-07-10T12:00:00+00:00"
+                },
+                "first_stroke": 45,
+                "last_stroke": 55,
+                "confirmed": false,
+                "confirmation": "pending",
+                "evidence_stroke": null,
+                "evidence_at": null,
+                "feature_indices": [],
+                "reverse_feature_indices": [],
+                "range_low": 61520.0,
+                "range_high": 64587.9,
+                "local_evidence_stroke": null
+              },
+              "diagnostics": {
+                "skipped_prefix_strokes": 0,
+                "unassigned_from": 45,
+                "usable_stroke_count": 56,
+                "tail": {
+                  "unassigned_completed_strokes": 11,
+                  "candidate_turns": [
+                    {
+                      "segment_start_stroke": 45,
+                      "turn_stroke": 48,
+                      "gap": false,
+                      "direct_break": true,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "turn_extreme_exceeded",
+                      "evidence_stroke": 49
+                    },
+                    {
+                      "segment_start_stroke": 45,
+                      "turn_stroke": 50,
+                      "gap": false,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "turn_extreme_exceeded",
+                      "evidence_stroke": 51
+                    },
+                    {
+                      "segment_start_stroke": 45,
+                      "turn_stroke": 52,
+                      "gap": false,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "turn_extreme_exceeded",
+                      "evidence_stroke": 53
+                    },
+                    {
+                      "segment_start_stroke": 45,
+                      "turn_stroke": 54,
+                      "gap": true,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "turn_extreme_exceeded",
+                      "evidence_stroke": 55
+                    }
+                  ],
+                  "status": "waiting_confirmation",
+                  "last_completed_stroke_end": "2026-07-10T12:00:00+00:00"
+                }
+              }
+            },
+            {
+              "block": 35,
+              "closed_at": "2026-07-12T23:15:00+00:00",
+              "pending": {
+                "start": {
+                  "index": 10890,
+                  "kind": "top",
+                  "price": 64497.4,
+                  "time": "2026-07-11T14:30:00+00:00"
+                },
+                "end": {
+                  "index": 10935,
+                  "kind": "bottom",
+                  "price": 63602.8,
+                  "time": "2026-07-12T06:15:00+00:00"
+                },
+                "first_stroke": 3,
+                "last_stroke": 5,
+                "confirmed": false,
+                "confirmation": "pending",
+                "evidence_stroke": null,
+                "evidence_at": null,
+                "feature_indices": [],
+                "reverse_feature_indices": [],
+                "range_low": 63602.8,
+                "range_high": 64497.4,
+                "local_evidence_stroke": null
+              },
+              "diagnostics": {
+                "skipped_prefix_strokes": 0,
+                "unassigned_from": 3,
+                "usable_stroke_count": 7,
+                "tail": {
+                  "unassigned_completed_strokes": 4,
+                  "candidate_turns": [
+                    {
+                      "segment_start_stroke": 3,
+                      "turn_stroke": 6,
+                      "gap": false,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "waiting_first_feature_fractal"
+                    }
+                  ],
+                  "status": "waiting_confirmation",
+                  "last_completed_stroke_end": "2026-07-12T12:00:00+00:00"
+                }
+              }
+            },
+            {
+              "block": 36,
+              "closed_at": "2026-07-15T14:00:00+00:00",
+              "pending": {
+                "start": {
+                  "index": 11034,
+                  "kind": "bottom",
+                  "price": 61806.0,
+                  "time": "2026-07-13T18:15:00+00:00"
+                },
+                "end": {
+                  "index": 11122,
+                  "kind": "top",
+                  "price": 65130.0,
+                  "time": "2026-07-14T22:15:00+00:00"
+                },
+                "first_stroke": 9,
+                "last_stroke": 15,
+                "confirmed": false,
+                "confirmation": "pending",
+                "evidence_stroke": null,
+                "evidence_at": null,
+                "feature_indices": [],
+                "reverse_feature_indices": [],
+                "range_low": 61806.0,
+                "range_high": 65130.0,
+                "local_evidence_stroke": null
+              },
+              "diagnostics": {
+                "skipped_prefix_strokes": 0,
+                "unassigned_from": 9,
+                "usable_stroke_count": 19,
+                "tail": {
+                  "unassigned_completed_strokes": 10,
+                  "candidate_turns": [
+                    {
+                      "segment_start_stroke": 9,
+                      "turn_stroke": 12,
+                      "gap": false,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "turn_extreme_exceeded",
+                      "evidence_stroke": 13
+                    },
+                    {
+                      "segment_start_stroke": 9,
+                      "turn_stroke": 14,
+                      "gap": false,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "turn_extreme_exceeded",
+                      "evidence_stroke": 15
+                    },
+                    {
+                      "segment_start_stroke": 9,
+                      "turn_stroke": 16,
+                      "gap": true,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "waiting_first_feature_fractal"
+                    }
+                  ],
+                  "status": "waiting_confirmation",
+                  "last_completed_stroke_end": "2026-07-15T05:00:00+00:00"
+                }
+              }
+            },
+            {
+              "block": 37,
+              "closed_at": "2026-07-17T11:45:00+00:00",
+              "pending": {
+                "start": {
+                  "index": 11170,
+                  "kind": "top",
+                  "price": 65589.7,
+                  "time": "2026-07-15T15:45:00+00:00"
+                },
+                "end": {
+                  "index": 11295,
+                  "kind": "bottom",
+                  "price": 62655.0,
+                  "time": "2026-07-17T06:15:00+00:00"
+                },
+                "first_stroke": 3,
+                "last_stroke": 9,
+                "confirmed": false,
+                "confirmation": "pending",
+                "evidence_stroke": null,
+                "evidence_at": null,
+                "feature_indices": [],
+                "reverse_feature_indices": [],
+                "range_low": 62655.0,
+                "range_high": 65589.7,
+                "local_evidence_stroke": null
+              },
+              "diagnostics": {
+                "skipped_prefix_strokes": 0,
+                "unassigned_from": 3,
+                "usable_stroke_count": 10,
+                "tail": {
+                  "unassigned_completed_strokes": 7,
+                  "candidate_turns": [
+                    {
+                      "segment_start_stroke": 3,
+                      "turn_stroke": 6,
+                      "gap": false,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "turn_extreme_exceeded",
+                      "evidence_stroke": 7
+                    },
+                    {
+                      "segment_start_stroke": 3,
+                      "turn_stroke": 8,
+                      "gap": false,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "turn_extreme_exceeded",
+                      "evidence_stroke": 9
+                    }
+                  ],
+                  "status": "waiting_confirmation",
+                  "last_completed_stroke_end": "2026-07-17T06:15:00+00:00"
+                }
+              }
+            },
+            {
+              "block": 38,
+              "closed_at": "2026-07-19T19:30:00+00:00",
+              "pending": {
+                "start": {
+                  "index": 11302,
+                  "kind": "bottom",
+                  "price": 62611.0,
+                  "time": "2026-07-17T08:30:00+00:00"
+                },
+                "end": {
+                  "index": 11421,
+                  "kind": "top",
+                  "price": 64928.0,
+                  "time": "2026-07-19T02:30:00+00:00"
+                },
+                "first_stroke": 0,
+                "last_stroke": 8,
+                "confirmed": false,
+                "confirmation": "pending",
+                "evidence_stroke": null,
+                "evidence_at": null,
+                "feature_indices": [],
+                "reverse_feature_indices": [],
+                "range_low": 62505.1,
+                "range_high": 64928.0,
+                "local_evidence_stroke": null
+              },
+              "diagnostics": {
+                "skipped_prefix_strokes": 0,
+                "unassigned_from": 0,
+                "usable_stroke_count": 11,
+                "tail": {
+                  "unassigned_completed_strokes": 11,
+                  "candidate_turns": [
+                    {
+                      "segment_start_stroke": 0,
+                      "turn_stroke": 3,
+                      "gap": true,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "turn_extreme_exceeded",
+                      "evidence_stroke": 8
+                    },
+                    {
+                      "segment_start_stroke": 0,
+                      "turn_stroke": 9,
+                      "gap": false,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "waiting_first_feature_fractal"
+                    }
+                  ],
+                  "status": "waiting_confirmation",
+                  "last_completed_stroke_end": "2026-07-19T14:45:00+00:00"
+                }
+              }
+            },
+            {
+              "block": 39,
+              "closed_at": "2026-07-23T03:00:00+00:00",
+              "pending": {
+                "start": {
+                  "index": 11485,
+                  "kind": "bottom",
+                  "price": 64470.0,
+                  "time": "2026-07-20T01:45:00+00:00"
+                },
+                "end": {
+                  "index": 11590,
+                  "kind": "top",
+                  "price": 66924.1,
+                  "time": "2026-07-21T14:00:00+00:00"
+                },
+                "first_stroke": 0,
+                "last_stroke": 8,
+                "confirmed": false,
+                "confirmation": "pending",
+                "evidence_stroke": null,
+                "evidence_at": null,
+                "feature_indices": [],
+                "reverse_feature_indices": [],
+                "range_low": 63736.1,
+                "range_high": 66924.1,
+                "local_evidence_stroke": null
+              },
+              "diagnostics": {
+                "skipped_prefix_strokes": 0,
+                "unassigned_from": 0,
+                "usable_stroke_count": 17,
+                "tail": {
+                  "unassigned_completed_strokes": 17,
+                  "candidate_turns": [
+                    {
+                      "segment_start_stroke": 0,
+                      "turn_stroke": 3,
+                      "gap": false,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "turn_extreme_exceeded",
+                      "evidence_stroke": 4
+                    },
+                    {
+                      "segment_start_stroke": 0,
+                      "turn_stroke": 5,
+                      "gap": false,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "turn_extreme_exceeded",
+                      "evidence_stroke": 8
+                    },
+                    {
+                      "segment_start_stroke": 0,
+                      "turn_stroke": 9,
+                      "gap": true,
+                      "direct_break": false,
+                      "first_pattern_found": true,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": true,
+                      "reason": "waiting_reverse_feature_fractal"
+                    }
+                  ],
+                  "status": "waiting_confirmation",
+                  "last_completed_stroke_end": "2026-07-22T21:45:00+00:00"
+                }
+              }
+            },
+            {
+              "block": 40,
+              "closed_at": "2026-07-23T20:00:00+00:00",
+              "pending": {
+                "start": {
+                  "index": 11699,
+                  "kind": "top",
+                  "price": 65806.9,
+                  "time": "2026-07-23T02:45:00+00:00"
+                },
+                "end": {
+                  "index": 11742,
+                  "kind": "bottom",
+                  "price": 64688.0,
+                  "time": "2026-07-23T16:30:00+00:00"
+                },
+                "first_stroke": 0,
+                "last_stroke": 2,
+                "confirmed": false,
+                "confirmation": "pending",
+                "evidence_stroke": null,
+                "evidence_at": null,
+                "feature_indices": [],
+                "reverse_feature_indices": [],
+                "range_low": 64688.0,
+                "range_high": 65806.9,
+                "local_evidence_stroke": null
+              },
+              "diagnostics": {
+                "skipped_prefix_strokes": 0,
+                "unassigned_from": 0,
+                "usable_stroke_count": 3,
+                "tail": {
+                  "unassigned_completed_strokes": 3,
+                  "candidate_turns": [],
+                  "status": "waiting_future_strokes",
+                  "last_completed_stroke_end": "2026-07-23T16:30:00+00:00"
+                }
+              }
+            },
+            {
+              "block": 41,
+              "closed_at": "2026-07-28T16:45:00+00:00",
+              "pending": {
+                "start": {
+                  "index": 11783,
+                  "kind": "top",
+                  "price": 65780.0,
+                  "time": "2026-07-24T07:15:00+00:00"
+                },
+                "end": {
+                  "index": 12037,
+                  "kind": "bottom",
+                  "price": 63021.0,
+                  "time": "2026-07-28T01:00:00+00:00"
+                },
+                "first_stroke": 3,
+                "last_stroke": 27,
+                "confirmed": false,
+                "confirmation": "pending",
+                "evidence_stroke": null,
+                "evidence_at": null,
+                "feature_indices": [],
+                "reverse_feature_indices": [],
+                "range_low": 63021.0,
+                "range_high": 65780.0,
+                "local_evidence_stroke": null
+              },
+              "diagnostics": {
+                "skipped_prefix_strokes": 0,
+                "unassigned_from": 3,
+                "usable_stroke_count": 30,
+                "tail": {
+                  "unassigned_completed_strokes": 27,
+                  "candidate_turns": [
+                    {
+                      "segment_start_stroke": 3,
+                      "turn_stroke": 28,
+                      "gap": true,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "waiting_first_feature_fractal"
+                    }
+                  ],
+                  "status": "waiting_confirmation",
+                  "last_completed_stroke_end": "2026-07-28T10:15:00+00:00"
+                }
+              }
+            },
+            {
+              "block": 42,
+              "closed_at": "2026-08-03T22:45:00+00:00",
+              "pending": {
+                "start": {
+                  "index": 12471,
+                  "kind": "bottom",
+                  "price": 62268.2,
+                  "time": "2026-08-03T08:30:00+00:00"
+                },
+                "end": {
+                  "index": 12500,
+                  "kind": "top",
+                  "price": 64049.5,
+                  "time": "2026-08-03T17:15:00+00:00"
+                },
+                "first_stroke": 28,
+                "last_stroke": 30,
+                "confirmed": false,
+                "confirmation": "pending",
+                "evidence_stroke": null,
+                "evidence_at": null,
+                "feature_indices": [],
+                "reverse_feature_indices": [],
+                "range_low": 62268.2,
+                "range_high": 64049.5,
+                "local_evidence_stroke": null
+              },
+              "diagnostics": {
+                "skipped_prefix_strokes": 0,
+                "unassigned_from": 28,
+                "usable_stroke_count": 31,
+                "tail": {
+                  "unassigned_completed_strokes": 3,
+                  "candidate_turns": [],
+                  "status": "waiting_future_strokes",
+                  "last_completed_stroke_end": "2026-08-03T17:15:00+00:00"
+                }
+              }
+            },
+            {
+              "block": 43,
+              "closed_at": "2026-08-05T16:15:00+00:00",
+              "pending": {
+                "start": {
+                  "index": 12553,
+                  "kind": "bottom",
+                  "price": 63428.8,
+                  "time": "2026-08-04T10:15:00+00:00"
+                },
+                "end": {
+                  "index": 12586,
+                  "kind": "top",
+                  "price": 64512.9,
+                  "time": "2026-08-04T23:15:00+00:00"
+                },
+                "first_stroke": 3,
+                "last_stroke": 7,
+                "confirmed": false,
+                "confirmation": "pending",
+                "evidence_stroke": null,
+                "evidence_at": null,
+                "feature_indices": [],
+                "reverse_feature_indices": [],
+                "range_low": 63428.8,
+                "range_high": 64512.9,
+                "local_evidence_stroke": null
+              },
+              "diagnostics": {
+                "skipped_prefix_strokes": 0,
+                "unassigned_from": 3,
+                "usable_stroke_count": 11,
+                "tail": {
+                  "unassigned_completed_strokes": 8,
+                  "candidate_turns": [
+                    {
+                      "segment_start_stroke": 3,
+                      "turn_stroke": 6,
+                      "gap": false,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "turn_extreme_exceeded",
+                      "evidence_stroke": 7
+                    },
+                    {
+                      "segment_start_stroke": 3,
+                      "turn_stroke": 8,
+                      "gap": false,
+                      "direct_break": true,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "waiting_direct_break_resolution"
+                    }
+                  ],
+                  "status": "waiting_confirmation",
+                  "last_completed_stroke_end": "2026-08-05T07:30:00+00:00"
+                }
+              }
+            },
+            {
+              "block": 44,
+              "closed_at": "2026-08-09T09:30:00+00:00",
+              "pending": {
+                "start": {
+                  "index": 12643,
+                  "kind": "bottom",
+                  "price": 64641.0,
+                  "time": "2026-08-05T18:30:00+00:00"
+                },
+                "end": {
+                  "index": 12769,
+                  "kind": "top",
+                  "price": 65358.0,
+                  "time": "2026-08-07T12:45:00+00:00"
+                },
+                "first_stroke": 0,
+                "last_stroke": 8,
+                "confirmed": false,
+                "confirmation": "pending",
+                "evidence_stroke": null,
+                "evidence_at": null,
+                "feature_indices": [],
+                "reverse_feature_indices": [],
+                "range_low": 64111.0,
+                "range_high": 65358.0,
+                "local_evidence_stroke": null
+              },
+              "diagnostics": {
+                "skipped_prefix_strokes": 0,
+                "unassigned_from": 0,
+                "usable_stroke_count": 21,
+                "tail": {
+                  "unassigned_completed_strokes": 21,
+                  "candidate_turns": [
+                    {
+                      "segment_start_stroke": 0,
+                      "turn_stroke": 9,
+                      "gap": false,
+                      "direct_break": false,
+                      "first_pattern_found": true,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "waiting_reverse_valid_span"
+                    }
+                  ],
+                  "status": "waiting_confirmation",
+                  "last_completed_stroke_end": "2026-08-09T06:45:00+00:00"
+                }
+              }
+            },
+            {
+              "block": 45,
+              "closed_at": "2026-08-28T17:00:00+00:00",
+              "pending": {
+                "start": {
+                  "index": 14172,
+                  "kind": "top",
+                  "price": 81500.0,
+                  "time": "2026-08-28T01:30:00+00:00"
+                },
+                "end": {
+                  "index": 14196,
+                  "kind": "bottom",
+                  "price": 78961.5,
+                  "time": "2026-08-28T10:00:00+00:00"
+                },
+                "first_stroke": 107,
+                "last_stroke": 109,
+                "confirmed": false,
+                "confirmation": "pending",
+                "evidence_stroke": null,
+                "evidence_at": null,
+                "feature_indices": [],
+                "reverse_feature_indices": [],
+                "range_low": 78961.5,
+                "range_high": 81500.0,
+                "local_evidence_stroke": null
+              },
+              "diagnostics": {
+                "skipped_prefix_strokes": 0,
+                "unassigned_from": 107,
+                "usable_stroke_count": 111,
+                "tail": {
+                  "unassigned_completed_strokes": 4,
+                  "candidate_turns": [
+                    {
+                      "segment_start_stroke": 107,
+                      "turn_stroke": 110,
+                      "gap": false,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "waiting_first_feature_fractal"
+                    }
+                  ],
+                  "status": "waiting_confirmation",
+                  "last_completed_stroke_end": "2026-08-28T11:15:00+00:00"
+                }
+              }
+            },
+            {
+              "block": 47,
+              "closed_at": "2026-09-01T17:30:00+00:00",
+              "pending": {
+                "start": {
+                  "index": 14259,
+                  "kind": "bottom",
+                  "price": 77353.0,
+                  "time": "2026-08-29T06:15:00+00:00"
+                },
+                "end": {
+                  "index": 14353,
+                  "kind": "top",
+                  "price": 79384.4,
+                  "time": "2026-08-30T16:45:00+00:00"
+                },
+                "first_stroke": 0,
+                "last_stroke": 8,
+                "confirmed": false,
+                "confirmation": "pending",
+                "evidence_stroke": null,
+                "evidence_at": null,
+                "feature_indices": [],
+                "reverse_feature_indices": [],
+                "range_low": 77353.0,
+                "range_high": 79384.4,
+                "local_evidence_stroke": null
+              },
+              "diagnostics": {
+                "skipped_prefix_strokes": 0,
+                "unassigned_from": 0,
+                "usable_stroke_count": 17,
+                "tail": {
+                  "unassigned_completed_strokes": 17,
+                  "candidate_turns": [
+                    {
+                      "segment_start_stroke": 0,
+                      "turn_stroke": 3,
+                      "gap": true,
+                      "direct_break": false,
+                      "first_pattern_found": true,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": true,
+                      "reason": "turn_extreme_exceeded",
+                      "evidence_stroke": 8
+                    },
+                    {
+                      "segment_start_stroke": 0,
+                      "turn_stroke": 9,
+                      "gap": false,
+                      "direct_break": true,
+                      "first_pattern_found": true,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "waiting_reverse_valid_span"
+                    }
+                  ],
+                  "status": "waiting_confirmation",
+                  "last_completed_stroke_end": "2026-09-01T11:30:00+00:00"
+                }
+              }
+            },
+            {
+              "block": 48,
+              "closed_at": "2026-09-03T23:30:00+00:00",
+              "pending": {
+                "start": {
+                  "index": 14548,
+                  "kind": "bottom",
+                  "price": 76151.9,
+                  "time": "2026-09-02T10:45:00+00:00"
+                },
+                "end": {
+                  "index": 14646,
+                  "kind": "top",
+                  "price": 81771.7,
+                  "time": "2026-09-03T19:45:00+00:00"
+                },
+                "first_stroke": 5,
+                "last_stroke": 11,
+                "confirmed": false,
+                "confirmation": "pending",
+                "evidence_stroke": null,
+                "evidence_at": null,
+                "feature_indices": [],
+                "reverse_feature_indices": [],
+                "range_low": 76151.9,
+                "range_high": 81771.7,
+                "local_evidence_stroke": null
+              },
+              "diagnostics": {
+                "skipped_prefix_strokes": 0,
+                "unassigned_from": 5,
+                "usable_stroke_count": 12,
+                "tail": {
+                  "unassigned_completed_strokes": 7,
+                  "candidate_turns": [
+                    {
+                      "segment_start_stroke": 5,
+                      "turn_stroke": 10,
+                      "gap": false,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "turn_extreme_exceeded",
+                      "evidence_stroke": 11
+                    }
+                  ],
+                  "status": "waiting_confirmation",
+                  "last_completed_stroke_end": "2026-09-03T19:45:00+00:00"
+                }
+              }
+            },
+            {
+              "block": 49,
+              "closed_at": "2026-09-06T07:45:00+00:00",
+              "pending": {
+                "start": {
+                  "index": 14652,
+                  "kind": "top",
+                  "price": 82282.8,
+                  "time": "2026-09-03T21:30:00+00:00"
+                },
+                "end": {
+                  "index": 14701,
+                  "kind": "bottom",
+                  "price": 78618.1,
+                  "time": "2026-09-04T14:45:00+00:00"
+                },
+                "first_stroke": 0,
+                "last_stroke": 6,
+                "confirmed": false,
+                "confirmation": "pending",
+                "evidence_stroke": null,
+                "evidence_at": null,
+                "feature_indices": [],
+                "reverse_feature_indices": [],
+                "range_low": 78618.1,
+                "range_high": 82282.8,
+                "local_evidence_stroke": null
+              },
+              "diagnostics": {
+                "skipped_prefix_strokes": 0,
+                "unassigned_from": 0,
+                "usable_stroke_count": 22,
+                "tail": {
+                  "unassigned_completed_strokes": 22,
+                  "candidate_turns": [
+                    {
+                      "segment_start_stroke": 0,
+                      "turn_stroke": 3,
+                      "gap": false,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "turn_extreme_exceeded",
+                      "evidence_stroke": 4
+                    },
+                    {
+                      "segment_start_stroke": 0,
+                      "turn_stroke": 5,
+                      "gap": false,
+                      "direct_break": true,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "turn_extreme_exceeded",
+                      "evidence_stroke": 6
+                    },
+                    {
+                      "segment_start_stroke": 0,
+                      "turn_stroke": 7,
+                      "gap": true,
+                      "direct_break": false,
+                      "first_pattern_found": true,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": true,
+                      "reason": "waiting_reverse_feature_fractal"
+                    }
+                  ],
+                  "status": "waiting_confirmation",
+                  "last_completed_stroke_end": "2026-09-06T03:45:00+00:00"
+                }
+              }
+            },
+            {
+              "block": 50,
+              "closed_at": "2026-09-11T10:45:00+00:00",
+              "pending": {
+                "start": {
+                  "index": 15042,
+                  "kind": "top",
+                  "price": 79737.3,
+                  "time": "2026-09-09T08:30:00+00:00"
+                },
+                "end": {
+                  "index": 15153,
+                  "kind": "bottom",
+                  "price": 76402.9,
+                  "time": "2026-09-10T23:00:00+00:00"
+                },
+                "first_stroke": 26,
+                "last_stroke": 36,
+                "confirmed": false,
+                "confirmation": "pending",
+                "evidence_stroke": null,
+                "evidence_at": null,
+                "feature_indices": [],
+                "reverse_feature_indices": [],
+                "range_low": 76402.9,
+                "range_high": 79737.3,
+                "local_evidence_stroke": null
+              },
+              "diagnostics": {
+                "skipped_prefix_strokes": 0,
+                "unassigned_from": 26,
+                "usable_stroke_count": 38,
+                "tail": {
+                  "unassigned_completed_strokes": 12,
+                  "candidate_turns": [
+                    {
+                      "segment_start_stroke": 26,
+                      "turn_stroke": 29,
+                      "gap": true,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "turn_extreme_exceeded",
+                      "evidence_stroke": 32
+                    },
+                    {
+                      "segment_start_stroke": 26,
+                      "turn_stroke": 33,
+                      "gap": true,
+                      "direct_break": false,
+                      "first_pattern_found": true,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": true,
+                      "reason": "turn_extreme_exceeded",
+                      "evidence_stroke": 36
+                    },
+                    {
+                      "segment_start_stroke": 26,
+                      "turn_stroke": 37,
+                      "gap": false,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "waiting_first_feature_fractal"
+                    }
+                  ],
+                  "status": "waiting_confirmation",
+                  "last_completed_stroke_end": "2026-09-11T06:00:00+00:00"
+                }
+              }
+            },
+            {
+              "block": 52,
+              "closed_at": "2026-09-14T07:45:00+00:00",
+              "pending": {
+                "start": {
+                  "index": 15329,
+                  "kind": "bottom",
+                  "price": 76458.9,
+                  "time": "2026-09-13T11:00:00+00:00"
+                },
+                "end": {
+                  "index": 15376,
+                  "kind": "top",
+                  "price": 77840.7,
+                  "time": "2026-09-14T03:15:00+00:00"
+                },
+                "first_stroke": 3,
+                "last_stroke": 7,
+                "confirmed": false,
+                "confirmation": "pending",
+                "evidence_stroke": null,
+                "evidence_at": null,
+                "feature_indices": [],
+                "reverse_feature_indices": [],
+                "range_low": 76350.1,
+                "range_high": 77840.7,
+                "local_evidence_stroke": null
+              },
+              "diagnostics": {
+                "skipped_prefix_strokes": 0,
+                "unassigned_from": 3,
+                "usable_stroke_count": 8,
+                "tail": {
+                  "unassigned_completed_strokes": 5,
+                  "candidate_turns": [
+                    {
+                      "segment_start_stroke": 3,
+                      "turn_stroke": 6,
+                      "gap": false,
+                      "direct_break": true,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "turn_extreme_exceeded",
+                      "evidence_stroke": 7
+                    }
+                  ],
+                  "status": "waiting_confirmation",
+                  "last_completed_stroke_end": "2026-09-14T03:15:00+00:00"
+                }
+              }
+            },
+            {
+              "block": 53,
+              "closed_at": "2026-09-18T05:00:00+00:00",
+              "pending": {
+                "start": {
+                  "index": 15423,
+                  "kind": "top",
+                  "price": 79570.9,
+                  "time": "2026-09-14T20:15:00+00:00"
+                },
+                "end": {
+                  "index": 15474,
+                  "kind": "bottom",
+                  "price": 75560.0,
+                  "time": "2026-09-15T14:45:00+00:00"
+                },
+                "first_stroke": 3,
+                "last_stroke": 5,
+                "confirmed": false,
+                "confirmation": "pending",
+                "evidence_stroke": null,
+                "evidence_at": null,
+                "feature_indices": [],
+                "reverse_feature_indices": [],
+                "range_low": 75560.0,
+                "range_high": 79570.9,
+                "local_evidence_stroke": null
+              },
+              "diagnostics": {
+                "skipped_prefix_strokes": 0,
+                "unassigned_from": 3,
+                "usable_stroke_count": 6,
+                "tail": {
+                  "unassigned_completed_strokes": 3,
+                  "candidate_turns": [],
+                  "status": "waiting_future_strokes",
+                  "last_completed_stroke_end": "2026-09-15T14:45:00+00:00"
+                }
+              }
+            },
+            {
+              "block": 55,
+              "closed_at": "2026-09-24T01:30:00+00:00",
+              "pending": {
+                "start": {
+                  "index": 16011,
+                  "kind": "top",
+                  "price": 87247.3,
+                  "time": "2026-09-23T04:30:00+00:00"
+                },
+                "end": {
+                  "index": 16043,
+                  "kind": "bottom",
+                  "price": 83450.1,
+                  "time": "2026-09-23T16:00:00+00:00"
+                },
+                "first_stroke": 3,
+                "last_stroke": 5,
+                "confirmed": false,
+                "confirmation": "pending",
+                "evidence_stroke": null,
+                "evidence_at": null,
+                "feature_indices": [],
+                "reverse_feature_indices": [],
+                "range_low": 83450.1,
+                "range_high": 87247.3,
+                "local_evidence_stroke": null
+              },
+              "diagnostics": {
+                "skipped_prefix_strokes": 0,
+                "unassigned_from": 3,
+                "usable_stroke_count": 7,
+                "tail": {
+                  "unassigned_completed_strokes": 4,
+                  "candidate_turns": [
+                    {
+                      "segment_start_stroke": 3,
+                      "turn_stroke": 6,
+                      "gap": true,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "waiting_first_feature_fractal"
+                    }
+                  ],
+                  "status": "waiting_confirmation",
+                  "last_completed_stroke_end": "2026-09-23T19:45:00+00:00"
+                }
+              }
+            },
+            {
+              "block": 56,
+              "closed_at": "2026-09-27T16:00:00+00:00",
+              "pending": {
+                "start": {
+                  "index": 16077,
+                  "kind": "top",
+                  "price": 84451.7,
+                  "time": "2026-09-24T03:00:00+00:00"
+                },
+                "end": {
+                  "index": 16098,
+                  "kind": "bottom",
+                  "price": 82832.0,
+                  "time": "2026-09-24T09:30:00+00:00"
+                },
+                "first_stroke": 0,
+                "last_stroke": 2,
+                "confirmed": false,
+                "confirmation": "pending",
+                "evidence_stroke": null,
+                "evidence_at": null,
+                "feature_indices": [],
+                "reverse_feature_indices": [],
+                "range_low": 82832.0,
+                "range_high": 84584.6,
+                "local_evidence_stroke": null
+              },
+              "diagnostics": {
+                "skipped_prefix_strokes": 0,
+                "unassigned_from": 0,
+                "usable_stroke_count": 14,
+                "tail": {
+                  "unassigned_completed_strokes": 14,
+                  "candidate_turns": [
+                    {
+                      "segment_start_stroke": 0,
+                      "turn_stroke": 3,
+                      "gap": false,
+                      "direct_break": true,
+                      "first_pattern_found": true,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "waiting_reverse_valid_span"
+                    }
+                  ],
+                  "status": "waiting_confirmation",
+                  "last_completed_stroke_end": "2026-09-27T10:15:00+00:00"
+                }
+              }
+            },
+            {
+              "block": 57,
+              "closed_at": "2026-10-05T06:00:00+00:00",
+              "pending": {
+                "start": {
+                  "index": 16395,
+                  "kind": "bottom",
+                  "price": 82500.1,
+                  "time": "2026-09-28T14:45:00+00:00"
+                },
+                "end": {
+                  "index": 16670,
+                  "kind": "top",
+                  "price": 87249.6,
+                  "time": "2026-10-02T12:30:00+00:00"
+                },
+                "first_stroke": 7,
+                "last_stroke": 27,
+                "confirmed": false,
+                "confirmation": "pending",
+                "evidence_stroke": null,
+                "evidence_at": null,
+                "feature_indices": [],
+                "reverse_feature_indices": [],
+                "range_low": 82500.1,
+                "range_high": 87249.6,
+                "local_evidence_stroke": null
+              },
+              "diagnostics": {
+                "skipped_prefix_strokes": 0,
+                "unassigned_from": 7,
+                "usable_stroke_count": 34,
+                "tail": {
+                  "unassigned_completed_strokes": 27,
+                  "candidate_turns": [
+                    {
+                      "segment_start_stroke": 7,
+                      "turn_stroke": 12,
+                      "gap": false,
+                      "direct_break": false,
+                      "first_pattern_found": true,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "turn_extreme_exceeded",
+                      "evidence_stroke": 19
+                    },
+                    {
+                      "segment_start_stroke": 7,
+                      "turn_stroke": 20,
+                      "gap": false,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "turn_extreme_exceeded",
+                      "evidence_stroke": 25
+                    },
+                    {
+                      "segment_start_stroke": 7,
+                      "turn_stroke": 26,
+                      "gap": true,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "turn_extreme_exceeded",
+                      "evidence_stroke": 27
+                    },
+                    {
+                      "segment_start_stroke": 7,
+                      "turn_stroke": 28,
+                      "gap": false,
+                      "direct_break": true,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "waiting_direct_break_resolution"
+                    }
+                  ],
+                  "status": "waiting_confirmation",
+                  "last_completed_stroke_end": "2026-10-04T23:15:00+00:00"
+                }
+              }
+            },
+            {
+              "block": 59,
+              "closed_at": "2026-10-06T15:00:00+00:00",
+              "pending": {
+                "start": {
+                  "index": 16894,
+                  "kind": "bottom",
+                  "price": 85679.9,
+                  "time": "2026-10-05T23:45:00+00:00"
+                },
+                "end": {
+                  "index": 16929,
+                  "kind": "top",
+                  "price": 86371.7,
+                  "time": "2026-10-06T12:15:00+00:00"
+                },
+                "first_stroke": 0,
+                "last_stroke": 4,
+                "confirmed": false,
+                "confirmation": "pending",
+                "evidence_stroke": null,
+                "evidence_at": null,
+                "feature_indices": [],
+                "reverse_feature_indices": [],
+                "range_low": 85072.7,
+                "range_high": 86371.7,
+                "local_evidence_stroke": null
+              },
+              "diagnostics": {
+                "skipped_prefix_strokes": 0,
+                "unassigned_from": 0,
+                "usable_stroke_count": 5,
+                "tail": {
+                  "unassigned_completed_strokes": 5,
+                  "candidate_turns": [],
+                  "status": "waiting_future_strokes",
+                  "last_completed_stroke_end": "2026-10-06T12:15:00+00:00"
+                }
+              }
+            },
+            {
+              "block": 60,
+              "closed_at": "2026-10-12T09:00:00+00:00",
+              "pending": {
+                "start": {
+                  "index": 17082,
+                  "kind": "bottom",
+                  "price": 80344.8,
+                  "time": "2026-10-08T17:15:00+00:00"
+                },
+                "end": {
+                  "index": 17318,
+                  "kind": "top",
+                  "price": 84250.0,
+                  "time": "2026-10-12T05:00:00+00:00"
+                },
+                "first_stroke": 7,
+                "last_stroke": 29,
+                "confirmed": false,
+                "confirmation": "pending",
+                "evidence_stroke": null,
+                "evidence_at": null,
+                "feature_indices": [],
+                "reverse_feature_indices": [],
+                "range_low": 80344.8,
+                "range_high": 84250.0,
+                "local_evidence_stroke": null
+              },
+              "diagnostics": {
+                "skipped_prefix_strokes": 0,
+                "unassigned_from": 7,
+                "usable_stroke_count": 30,
+                "tail": {
+                  "unassigned_completed_strokes": 23,
+                  "candidate_turns": [
+                    {
+                      "segment_start_stroke": 7,
+                      "turn_stroke": 10,
+                      "gap": true,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "turn_extreme_exceeded",
+                      "evidence_stroke": 11
+                    },
+                    {
+                      "segment_start_stroke": 7,
+                      "turn_stroke": 12,
+                      "gap": false,
+                      "direct_break": true,
+                      "first_pattern_found": true,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "turn_extreme_exceeded",
+                      "evidence_stroke": 27
+                    },
+                    {
+                      "segment_start_stroke": 7,
+                      "turn_stroke": 28,
+                      "gap": false,
+                      "direct_break": false,
+                      "first_pattern_found": false,
+                      "reverse_pattern_found": false,
+                      "reverse_span_ready": false,
+                      "reason": "turn_extreme_exceeded",
+                      "evidence_stroke": 29
+                    }
+                  ],
+                  "status": "waiting_confirmation",
+                  "last_completed_stroke_end": "2026-10-12T05:00:00+00:00"
+                }
+              }
+            }
+          ],
+          "structure_break_count_including_pre_chart_context": 61
+        }
+      }
+    }
+  },
+  "same_source_data": {
+    "history_1h.csv": true,
+    "history_15m.csv": true
+  },
+  "combined_local_strokes_rejected_by_segment_engine": "笔必须首尾相连、方向交替",
+  "macd_reinitialization_examples": [
+    {
+      "beijing_time": "2026-09-12T09:00:00+08:00",
+      "actual": {
+        "time": "2026-09-12T01:00:00+00:00",
+        "dif": 0.0,
+        "dea": 0.0,
+        "histogram": 0.0,
+        "warmed_up": false
+      },
+      "continuous_source_expected": {
+        "time": "2026-09-12T01:00:00+00:00",
+        "dif": -71.28228082478745,
+        "dea": -32.78543175442751,
+        "histogram": -76.99369814071987,
+        "warmed_up": true
+      }
+    },
+    {
+      "beijing_time": "2026-09-14T21:00:00+08:00",
+      "actual": {
+        "time": "2026-09-14T13:00:00+00:00",
+        "dif": 0.0,
+        "dea": 0.0,
+        "histogram": 0.0,
+        "warmed_up": false
+      },
+      "continuous_source_expected": {
+        "time": "2026-09-14T13:00:00+00:00",
+        "dif": 213.09684848843608,
+        "dea": 159.79953859266666,
+        "histogram": 106.59461979153883,
+        "warmed_up": true
+      }
+    }
+  ],
+  "local_strokes": [
+    {
+      "id": "1h:block:90:stroke:55",
+      "kind": "stroke",
+      "level": -1,
+      "start": 1788735600,
+      "end": 1788793200,
+      "start_price": 80536.1,
+      "end_price": 78636.0,
+      "state": "completed",
+      "evidence_at": "2026-09-08T05:00:00+00:00"
+    },
+    {
+      "id": "1h:block:90:stroke:56",
+      "kind": "stroke",
+      "level": -1,
+      "start": 1788793200,
+      "end": 1788832800,
+      "start_price": 78636.0,
+      "end_price": 79476.0,
+      "state": "completed",
+      "evidence_at": "2026-09-08T11:00:00+00:00"
+    },
+    {
+      "id": "1h:block:90:stroke:57",
+      "kind": "stroke",
+      "level": -1,
+      "start": 1788832800,
+      "end": 1788872400,
+      "start_price": 79476.0,
+      "end_price": 77600.1,
+      "state": "completed",
+      "evidence_at": "2026-09-09T11:00:00+00:00"
+    },
+    {
+      "id": "1h:block:90:stroke:58",
+      "kind": "stroke",
+      "level": -1,
+      "start": 1788872400,
+      "end": 1788940800,
+      "start_price": 77600.1,
+      "end_price": 79737.3,
+      "state": "completed",
+      "evidence_at": "2026-09-09T23:00:00+00:00"
+    },
+    {
+      "id": "1h:block:90:stroke:59",
+      "kind": "stroke",
+      "level": -1,
+      "start": 1788940800,
+      "end": 1788991200,
+      "start_price": 79737.3,
+      "end_price": 77706.1,
+      "state": "completed",
+      "evidence_at": "2026-09-10T07:00:00+00:00"
+    },
+    {
+      "id": "1h:block:90:stroke:60",
+      "kind": "stroke",
+      "level": -1,
+      "start": 1788991200,
+      "end": 1789009200,
+      "start_price": 77706.1,
+      "end_price": 78543.9,
+      "state": "completed",
+      "evidence_at": "2026-09-10T17:00:00+00:00"
+    },
+    {
+      "id": "1h:block:90:stroke:61",
+      "kind": "stroke",
+      "level": -1,
+      "start": 1789009200,
+      "end": 1789081200,
+      "start_price": 78543.9,
+      "end_price": 76402.9,
+      "state": "completed",
+      "evidence_at": "2026-09-11T12:00:00+00:00"
+    },
+    {
+      "id": "1h:block:91:stroke:0",
+      "kind": "stroke",
+      "level": -1,
+      "start": 1789174800,
+      "end": 1789189200,
+      "start_price": 77346.8,
+      "end_price": 77129.0,
+      "state": "completed",
+      "evidence_at": "2026-09-12T18:00:00+00:00"
+    },
+    {
+      "id": "1h:block:91:stroke:1",
+      "kind": "stroke",
+      "level": -1,
+      "start": 1789189200,
+      "end": 1789221600,
+      "start_price": 77129.0,
+      "end_price": 77477.4,
+      "state": "completed",
+      "evidence_at": "2026-09-12T22:00:00+00:00"
+    },
+    {
+      "id": "1h:block:91:stroke:2",
+      "kind": "stroke",
+      "level": -1,
+      "start": 1789221600,
+      "end": 1789239600,
+      "start_price": 77477.4,
+      "end_price": 77025.1,
+      "state": "completed",
+      "evidence_at": "2026-09-13T06:00:00+00:00"
+    },
+    {
+      "id": "1h:block:91:stroke:3",
+      "kind": "stroke",
+      "level": -1,
+      "start": 1789239600,
+      "end": 1789261200,
+      "start_price": 77025.1,
+      "end_price": 77321.0,
+      "state": "completed",
+      "evidence_at": "2026-09-13T15:00:00+00:00"
+    },
+    {
+      "id": "1h:block:91:stroke:4",
+      "kind": "stroke",
+      "level": -1,
+      "start": 1789261200,
+      "end": 1789297200,
+      "start_price": 77321.0,
+      "end_price": 76458.9,
+      "state": "completed",
+      "evidence_at": "2026-09-13T22:00:00+00:00"
+    },
+    {
+      "id": "1h:block:92:stroke:0",
+      "kind": "stroke",
+      "level": -1,
+      "start": 1789390800,
+      "end": 1789416000,
+      "start_price": 77441.6,
+      "end_price": 79570.9,
+      "state": "completed",
+      "evidence_at": "2026-09-15T11:00:00+00:00"
+    },
+    {
+      "id": "1h:block:92:stroke:1",
+      "kind": "stroke",
+      "level": -1,
+      "start": 1789416000,
+      "end": 1789495200,
+      "start_price": 79570.9,
+      "end_price": 74909.4,
+      "state": "completed",
+      "evidence_at": "2026-09-16T15:00:00+00:00"
+    }
+  ],
+  "local_segments": [
+    {
+      "id": "1h:block:91:segment:0",
+      "kind": "segment",
+      "level": 0,
+      "start": 1789174800,
+      "end": 1789297200,
+      "start_price": 77346.8,
+      "end_price": 76458.9,
+      "state": "pending",
+      "evidence_at": null
+    }
+  ],
+  "accepted": false,
+  "violations": [
+    "8h: 2 broken stroke links",
+    "8h: 1 pending segments in closed blocks",
+    "4h: 2 broken stroke links",
+    "4h: 2 pending segments in closed blocks",
+    "2h: 5 broken stroke links",
+    "2h: 2 pending segments in closed blocks",
+    "1h: 7 broken stroke links",
+    "1h: 6 pending segments in closed blocks",
+    "15m: 30 broken stroke links",
+    "15m: 26 pending segments in closed blocks"
+  ],
+  "source_hashes": {
+    "chan_strokes.py": "e973394cd195a103440a0b26e3f7ebac206394a2ba980d19fcbc1f535a2323d8",
+    "chan.py": "b9f6297027f8bcab9942d51d88ab89b4769674e099a0e62984968171d17e1094",
+    "chan_structure.py": "2ff167641c64cc5537f2c64cc186a137120aa44b6f553682d8093eab9c831597",
+    "report_btc_4h_auto.py": "ab85d594bac4231ec0e35568d75bacc4a98d006c5fc092caef0bf825871c5d2b",
+    "btc_multiperiod_tradingview_template.html": "a912355250928783b1ec12a3993edcbdceb635c4f4d394cbfe3229999fc42751",
+    "test_causal_strokes.py": "009f7b3ccce977cc27effd6e112311f2e5d1e9ae7e4b74c9828031dfef626007"
+  }
+}

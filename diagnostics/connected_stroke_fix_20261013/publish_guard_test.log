@@ -1,0 +1,6 @@
+test_publishing_rejects_artificial_blocks_and_broken_links (test_btc_4h_auto.PendingStrokeCandidateTests.test_publishing_rejects_artificial_blocks_and_broken_links) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.007s
+
+OK

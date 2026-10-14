@@ -1,0 +1,18 @@
+8h {'strokes': 26, 'stroke_discontinuities': 0, 'segment_discontinuities': 0, 'segment_states': {'completed': 3, 'pending': 1}, 'macd_matches_complete_source': True, 'historical_revisions': 5}
+4h {'strokes': 34, 'stroke_discontinuities': 0, 'segment_discontinuities': 0, 'segment_states': {'completed': 3, 'pending': 1}, 'macd_matches_complete_source': True, 'historical_revisions': 4}
+2h {'strokes': 69, 'stroke_discontinuities': 0, 'segment_discontinuities': 0, 'segment_states': {'completed': 8, 'pending': 1}, 'macd_matches_complete_source': True, 'historical_revisions': 13}
+1h {'strokes': 135, 'stroke_discontinuities': 0, 'segment_discontinuities': 0, 'segment_states': {'completed': 16, 'pending': 1}, 'macd_matches_complete_source': True, 'historical_revisions': 14}
+15m {'strokes': 675, 'stroke_discontinuities': 0, 'segment_discontinuities': 0, 'segment_states': {'completed': 70, 'pending': 1}, 'macd_matches_complete_source': True, 'historical_revisions': 79}
+raw prefix 2026-09-06 23:00:00+00:00 PASS
+raw prefix 2026-09-07 23:00:00+00:00 PASS
+raw prefix 2026-09-08 23:00:00+00:00 PASS
+raw prefix 2026-09-09 23:00:00+00:00 PASS
+raw prefix 2026-09-10 23:00:00+00:00 PASS
+raw prefix 2026-09-11 12:00:00+00:00 PASS
+raw prefix 2026-09-11 15:00:00+00:00 PASS
+raw prefix 2026-09-11 23:00:00+00:00 PASS
+raw prefix 2026-09-12 23:00:00+00:00 PASS
+raw prefix 2026-09-14 23:00:00+00:00 PASS
+raw prefix 2026-09-15 23:00:00+00:00 PASS
+raw prefix 2026-09-17 14:00:00+00:00 PASS
+PASS: five periods, continuous pens/segments, full-source MACD, 12 raw prefixes

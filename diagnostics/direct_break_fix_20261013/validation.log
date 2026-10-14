@@ -1,0 +1,12 @@
+8h {'old_segments': 26, 'new_segments': 26, 'old_marks': 17, 'new_marks': 40, 'displayed_segment_states': {'completed': 3, 'pending': 1}, 'displayed_marks': 5, 'confirmations': {'first_break_confirmations': 22, 'dual_sequence_confirmations': 4}, 'changed_confirmation_prefix_checks': 0, 'strokes_unchanged': True, 'macd_unchanged': True, 'discontinuities': 0}
+4h {'old_segments': 46, 'new_segments': 48, 'old_marks': 40, 'new_marks': 80, 'displayed_segment_states': {'completed': 3, 'pending': 1}, 'displayed_marks': 5, 'confirmations': {'first_break_confirmations': 40, 'dual_sequence_confirmations': 8}, 'changed_confirmation_prefix_checks': 6, 'strokes_unchanged': True, 'macd_unchanged': True, 'discontinuities': 0}
+2h {'old_segments': 95, 'new_segments': 97, 'old_marks': 72, 'new_marks': 163, 'displayed_segment_states': {'completed': 8, 'pending': 1}, 'displayed_marks': 14, 'confirmations': {'first_break_confirmations': 80, 'dual_sequence_confirmations': 17}, 'changed_confirmation_prefix_checks': 12, 'strokes_unchanged': True, 'macd_unchanged': True, 'discontinuities': 0}
+1h {'old_segments': 177, 'new_segments': 179, 'old_marks': 140, 'new_marks': 320, 'displayed_segment_states': {'completed': 16, 'pending': 1}, 'displayed_marks': 26, 'confirmations': {'first_break_confirmations': 153, 'dual_sequence_confirmations': 26}, 'changed_confirmation_prefix_checks': 8, 'strokes_unchanged': True, 'macd_unchanged': True, 'discontinuities': 0}
+15m {'old_segments': 144, 'new_segments': 146, 'old_marks': 110, 'new_marks': 257, 'displayed_segment_states': {'completed': 70, 'pending': 1}, 'displayed_marks': 126, 'confirmations': {'first_break_confirmations': 125, 'dual_sequence_confirmations': 21}, 'changed_confirmation_prefix_checks': 16, 'strokes_unchanged': True, 'macd_unchanged': True, 'discontinuities': 0}
+raw 15m 2026-06-07 10:30:00+00:00 turn confirmed False
+raw 15m 2026-06-07 10:45:00+00:00 turn confirmed True
+raw 15m 2026-06-12 09:00:00+00:00 turn confirmed False
+raw 15m 2026-06-12 09:15:00+00:00 turn confirmed True
+raw 15m 2026-06-27 18:00:00+00:00 turn confirmed False
+raw 15m 2026-06-27 18:15:00+00:00 turn confirmed True
+PASS: source hashes, all break resolutions, changed prefixes, raw cutoffs and chart chains.

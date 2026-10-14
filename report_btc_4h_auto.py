@@ -10,6 +10,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urlencode
 from urllib.request import urlopen
+from chan_time import period_name
 
 from chan import (Candle, analyze, find_fractals, json_default, merge_inclusions,
                   parse_time, read_csv, validate_candles)
@@ -171,10 +172,16 @@ def pending_stroke_candidates(block, candles, asof, prefix, period_hours=4, init
     if not closed:
         return []
     tail = strokes[-1]
-    merged = merge_inclusions(closed, initial_direction)
-    if tail.end not in find_fractals(merged[:-1]):
-        return []
-    stable_at = merged[tail.end.index+2].start+duration
+    diag = block.get('stroke_diagnostics', {})
+    if diag.get('policy') == 'connected_strict_revision_events_v1':
+        stable_at = diag.get('tail_endpoint_stable_at')
+        if not stable_at or diag.get('closed_at'):
+            return []
+    else:
+        merged = merge_inclusions(closed, initial_direction)
+        if tail.end not in find_fractals(merged[:-1]):
+            return []
+        stable_at = merged[tail.end.index+2].start+duration
     evidence = max([stable_at, *[s.confirmed_at or s.end.time for s in strokes[:-1]]])
     if evidence > asof:
         return []
@@ -195,14 +202,14 @@ def pending_stroke_candidates(block, candles, asof, prefix, period_hours=4, init
                          low=min(c.low for c in part),high=max(c.high for c in part),
                          focus_time=s.end.time,focus_price=s.end.price))
     result = []
-    for c in period_candidates(block,legs,asof,f'{period_hours}h'):
+    for c in period_candidates(block,legs,asof,period_name(period_hours)):
         if c['label'] not in ('B2','S2','B3','S3'):
             continue
         center = c['details'].get('center_id')
         result.append(dict(id=f'{prefix}:pending:{c["label"]}:P{len(strokes)-1}',
             label=c['label'],level=1,time=tail.end.time,price=tail.end.price,
             evidence_at=evidence,observed_at=asof,certainty='pending_stroke_candidate',
-            basis=f'{period_hours}h笔级',child_index=len(strokes)-1,
+            basis=f'{period_name(period_hours)}笔级',child_index=len(strokes)-1,
             center_id=f'{prefix}:{center}' if center else None,
             source_ids=[f'P{i}' for i in range(max(0,len(strokes)-3),len(strokes))],
             actionable=False,higher_point_confirmed=False,
@@ -214,7 +221,16 @@ def pending_stroke_candidates(block, candles, asof, prefix, period_hours=4, init
 
 
 def automatic_views(report, candles, start, asof, partial=None, period_hours=4):
-    period = f'{period_hours}h'
+    expected_blocks = report['gap_count']+1 if report['bar_count'] else 0
+    if len(report['blocks']) != expected_blocks:
+        raise ValueError('连续行情存在人工结构断点，拒绝发布图表')
+    for block in report['blocks']:
+        for kind, items in [('笔', block['strokes']), ('段', block['segments'] +
+                ([block['pending_segment']] if block['pending_segment'] else []))]:
+            for previous, following in zip(items, items[1:]):
+                if previous.end != following.start or previous.direction == following.direction:
+                    raise ValueError(f'{kind}链不连续，拒绝发布图表')
+    period = period_name(period_hours)
     lines = []
     accumulated = {k: dict(centers=[], signals=[], divergences=[]) for k in ('strokes', 'types')}
     for bi, b in enumerate(report['blocks']):
@@ -259,7 +275,17 @@ def automatic_views(report, candles, start, asof, partial=None, period_hours=4):
     visible = [asdict(c) for c in candles if c.time+timedelta(hours=period_hours) > start]
     if partial:
         visible.append(partial)
-    return dict(start=start, asof=asof, bars=visible, views=views,
+    breaks = []
+    for i,b in enumerate(report['blocks']):
+        diag = b.get('stroke_diagnostics', {})
+        when = diag.get('closed_at')
+        if when and start <= when <= asof:
+            following = report['blocks'][i+1] if i+1 < len(report['blocks']) else None
+            breaks.append(dict(observed_at=when,
+                start=b['strokes'][-1].end.time if b['strokes'] else b['end'],
+                end=following['start'] if following else when,
+                reason='已完成笔保留；短间距急转无法合法衔接，后续结构独立起算'))
+    return dict(start=start, asof=asof, bars=visible, views=views, continuity_breaks=breaks,
                 analysis_period=period, manual_annotations=[], rule_manifest=report['rule_manifest'],
                 chart_signal_policy='completed_inputs_plus_stable_pending_stroke_candidates_v1')
 

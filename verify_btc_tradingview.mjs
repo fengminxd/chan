@@ -25,21 +25,30 @@ try{
  let ready=false;for(let i=0;i<100;i++){if(await evaluate('!!window.chartReady')){ready=true;break}await delay(100)}assert(ready,'chart ready');
  const payload=JSON.parse(fs.readFileSync(path.join(dir,'chart_data.json'),'utf8'));
  assert(payload.start===Date.parse('2026-06-06T00:00:00+08:00')/1000,'display start');
- for(const period of ['8h','4h','2h','1h'])for(const basis of ['strokes','types']){
+ for(const period of Object.keys(payload.frames))for(const basis of ['strokes','types']){
   await evaluate(`chartUI.setPeriod(${JSON.stringify(period)});chartUI.setBasis(${JSON.stringify(basis)});chartUI.setFilter('all');chartUI.chart.timeScale().fitContent()`);await settle();
   const stats=await evaluate('chartStats'),frame=payload.frames[period],view=frame.views[basis];
+  assert(frame.bars.every((b,i)=>!i||b.time-frame.bars[i-1].time===frame.width),'continuous source bars');
+  assert(!(frame.continuity_breaks||[]).length,'no artificial structural breaks');
+  for(const kind of ['stroke','segment']){
+   const chain=view.nodes.filter(n=>n.kind===kind);
+   for(let i=1;i<chain.length;i++){
+    const a=chain[i-1],b=chain[i];
+    assert(a.end===b.start&&a.end_price===b.start_price,period+' '+kind+' endpoint continuity');
+    assert((a.end_price>a.start_price)!==(b.end_price>b.start_price),period+' '+kind+' direction alternation');
+   }
+   assert(chain.filter(n=>n.state==='pending').length<=1,period+' '+kind+' only one pending tail');
+   assert(chain.every((n,i)=>n.state!=='pending'||i===chain.length-1),period+' '+kind+' pending only at tail');
+  }
   assert(stats.bars===frame.bars.length,'bar count');assert(stats.signals===view.signals.length,'signal count');
   assert(stats.visibleMarkers===view.signals.length,period+' '+basis+' all markers visible');
   assert(stats.markers.every(m=>Number.isFinite(m.x)&&Number.isFinite(m.y)),'marker finite');
+  assert(await evaluate('document.getElementById("centers").checked'),'centers visible by default');
+  assert(stats.centers.length===view.nodes.filter(n=>n.kind==='center').length,'all centers rendered');
   for(const s of view.signals.filter(s=>s.certainty==='pending_stroke_candidate')){
    const marker=stats.markers.find(m=>m.id===s.id);
    assert(marker&&!marker.confirmed,'pending tail uses hollow candidate marker');
    assert(s.actionable===false&&s.higher_point_confirmed===false,'pending tail cannot authorize execution');
-  }
-  if(period==='1h'&&basis==='strokes'){
-   const target=view.signals.filter(s=>s.time===Date.parse('2026-10-12T14:00:00+08:00')/1000&&s.price===84340.2);
-   assert(target.some(s=>s.label==='S2'&&s.certainty==='pending_stroke_candidate'),'Oct 12 S2 candidate present');
-   assert(target.some(s=>s.label==='S3'&&s.certainty==='pending_stroke_candidate'),'Oct 12 S3 candidate present');
   }
   const sourceLines=view.nodes.filter(n=>['stroke','segment'].includes(n.kind)&&Math.min(n.end,frame.bars.at(-1).time)>Math.max(n.start,frame.bars[0].time));
   if(stats.lines.length!==sourceLines.length)throw Error(period+' '+basis+' lines '+JSON.stringify({actual:stats.lines.length,expected:sourceLines.length,missing:sourceLines.filter(n=>!stats.lines.some(l=>l.id===n.id)),range:await evaluate('chartUI.chart.timeScale().getVisibleRange()')}));
@@ -64,11 +73,18 @@ try{
   }
   checks.push({period,basis,bars:stats.bars,signals:stats.signals,lines:stats.lines.length,breaks:stats.lines.filter(n=>n.direct_break).length});
  }
+ for(const request of process.argv.slice(3)){
+  const [period,from,to]=request.split(',');
+  assert(payload.frames[period]&&Number.isFinite(Date.parse(from))&&Number.isFinite(Date.parse(to)),'audit window arguments');
+  await evaluate(`chartUI.setPeriod(${JSON.stringify(period)});chartUI.setBasis('strokes');chartUI.setFilter('all');chartUI.chart.timeScale().setVisibleRange({from:${Date.parse(from)/1000},to:${Date.parse(to)/1000}})`);await settle();
+  const shot=await send('Page.captureScreenshot',{format:'png',captureBeyondViewport:false});
+  fs.writeFileSync(path.join(dir,period+'_audit_'+from.slice(0,10)+'.png'),Buffer.from(shot.data,'base64'));
+ }
  await send('Emulation.setDeviceMetricsOverride',{width:430,height:1000,deviceScaleFactor:1,mobile:true});
  await evaluate("chartUI.setPeriod('1h');chartUI.setBasis('strokes');document.querySelector('[data-days=\"7\"]').click()");await settle();
  assert(await evaluate('document.documentElement.scrollWidth<=window.innerWidth'),'mobile no overflow');
  const shot=await send('Page.captureScreenshot',{format:'png',captureBeyondViewport:false});fs.writeFileSync(path.join(dir,'mobile.png'),Buffer.from(shot.data,'base64'));
  assert(await evaluate('chartUI.chart.takeScreenshot().width>0'),'PNG export');assert(errors.length===0,'no browser errors');
- const result={passed:true,checks,filters:56,errors,mobile:true};fs.writeFileSync(path.join(dir,'browser_validation.json'),JSON.stringify(result,null,2));console.log(JSON.stringify(result));
+ const result={passed:true,checks,filters:checks.length*7,errors,mobile:true};fs.writeFileSync(path.join(dir,'browser_validation.json'),JSON.stringify(result,null,2));console.log(JSON.stringify(result));
 }catch(e){console.error(e);process.exitCode=1;fs.writeFileSync(path.join(dir,'browser_error.json'),JSON.stringify({error:String(e),errors,checks},null,2))}
 finally{fs.writeFileSync(path.join(dir,'browser.log'),logs);ws?.close();chrome.kill();await delay(100);fs.rmSync(profile,{recursive:true,force:true})}

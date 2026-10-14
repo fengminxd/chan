@@ -216,7 +216,7 @@ def find_fractals(bars: Sequence[MergedBar]) -> list[Fractal]:
 
 def build_strokes(fractals: Sequence[Fractal], bars: Sequence[MergedBar],
                   min_span: int = 4, diagnostics: dict | None = None) -> list[Stroke]:
-    """保留合法端点备选的有向图选笔，不因未成笔的短波动删除历史。
+    """旧 snapshot 政策：全局合法端点图，仅供历史结果对照。
 
     每条边仍须满足原有间距、方向和全跨度极值约束。采用明确的选择政策：
     最早可成笔起点、从该起点可达的最新终点；同一起点/终点选择笔数最多
@@ -327,9 +327,9 @@ def price_position(price: float, center: Center) -> str:
 def analyze(candles: Sequence[Candle], hours: int, min_span: int = 4,
             initial_direction: str = "up", mode: str = "strict", max_levels: int = 5,
             zero_axis_ratio: float = 0.2, strength_fast: int = 5,
-            strength_slow: int = 10) -> dict:
+            strength_slow: int = 10, stroke_policy: str = "connected") -> dict:
     policy = AnalysisPolicy(min_span, initial_direction, mode, max_levels,
-                            zero_axis_ratio, strength_fast, strength_slow)
+                            zero_axis_ratio, strength_fast, strength_slow, stroke_policy)
     validate_candles(candles)
     period_minutes(hours)
     if min_span < 4:
@@ -348,32 +348,39 @@ def analyze(candles: Sequence[Candle], hours: int, min_span: int = 4,
         merged = merge_inclusions(run, initial_direction)
         # 最后一根去包含 K 线仍可能被之后的 K 线合并，不用于确认分型。
         fractals = find_fractals(merged[:-1])
-        stroke_diagnostics = {}
-        strokes = build_strokes(fractals, merged, min_span, stroke_diagnostics)
-        # 下一笔端点的分型已有稳定右邻，才把前一笔作为结构输入。
-        # 这是当前选笔快照的证据时刻，不承诺未来不会因撤笔而修订。
-        # 证明块首根原始 K 线收盘时，右邻已稳定；后续包含不能推迟既有证据。
-        strokes = [replace(s, confirmed_at=merged[strokes[i + 1].end.index + 2].start + period_delta(hours))
-                   if not s.provisional else s for i, s in enumerate(strokes)]
-        block = {"start": run[0].time, "end": run[-1].time,
-                 "bar_count": len(run), "merged_count": len(merged),
-                 "fractals": fractals, "strokes": strokes, "stroke_diagnostics": stroke_diagnostics}
-        if mode == "strict":
-            structure = build_segments(strokes)
-            hierarchy = build_hierarchy(structure.segments, max_levels)
-            centers = [z for layer in hierarchy["levels"] for z in layer["centers"]]
-            block.update(segments=structure.segments, pending_segment=structure.pending,
-                         direct_breaks=structure.direct_breaks,
-                         segment_diagnostics={"skipped_prefix_strokes": structure.skipped_prefix_strokes,
-                                              "unassigned_from": structure.unassigned_from,
-                                              "usable_stroke_count": structure.usable_stroke_count,
-                                              "tail": structure.tail_diagnostics},
-                         hierarchy=hierarchy, theory=analyze_theory(hierarchy, run, zero_axis_ratio,
-                                                                  hours, max_levels, strength_fast, strength_slow))
+        if policy.stroke_policy == 'connected':
+            from chan_strokes import connected_stroke_runs
+            stroke_runs = connected_stroke_runs(fractals, merged, min_span, period_delta(hours))
         else:
-            centers = find_centers(strokes)
-        block["centers"] = centers
-        blocks.append(block)
+            diag = {}
+            selected = build_strokes(fractals, merged, min_span, diag)
+            selected = [replace(s, confirmed_at=merged[selected[i+1].end.index+2].start+period_delta(hours))
+                        if not s.provisional else s for i,s in enumerate(selected)]
+            stroke_runs = [dict(strokes=selected, stroke_diagnostics=diag)]
+        if len(stroke_runs) != 1:
+            raise ValueError('连续行情不能拆成不相连的笔链')
+        for chunk in stroke_runs:
+            strokes, diag = chunk['strokes'], chunk['stroke_diagnostics']
+            # Only a real source-data gap resets structures and price indicators.
+            block = dict(start=run[0].time, end=run[-1].time, bar_count=len(run),
+                         merged_count=len(merged), fractals=fractals, strokes=strokes,
+                         stroke_diagnostics=diag, context_start=run[0].time)
+            if mode == "strict":
+                structure = build_segments(strokes)
+                hierarchy = build_hierarchy(structure.segments, max_levels)
+                centers = [z for layer in hierarchy["levels"] for z in layer["centers"]]
+                block.update(segments=structure.segments, pending_segment=structure.pending,
+                             direct_breaks=structure.direct_breaks,
+                             segment_diagnostics={"skipped_prefix_strokes": structure.skipped_prefix_strokes,
+                                                  "unassigned_from": structure.unassigned_from,
+                                                  "usable_stroke_count": structure.usable_stroke_count,
+                                                  "tail": structure.tail_diagnostics},
+                             hierarchy=hierarchy, theory=analyze_theory(hierarchy, run, zero_axis_ratio,
+                                                                      hours, max_levels, strength_fast, strength_slow))
+            else:
+                centers = find_centers(strokes)
+            block["centers"] = centers
+            blocks.append(block)
     recent = blocks[-1]["centers"] if blocks else []
     # 默认位置摘要对应最低结构层 L1；高层各自提供摘要，不覆盖低层。
     basic = [z for z in recent if getattr(z, "level", 1) == 1]
@@ -387,6 +394,7 @@ def analyze(candles: Sequence[Candle], hours: int, min_span: int = 4,
             "rule_manifest": policy.manifest(), "decision_layers": decision_layers(blocks),
             "volume_price": volume_price(runs[-1] if runs else [], hours),
             "bar_count": len(candles), "gap_count": max(0, len(runs) - 1),
+            "structure_break_count": sum(bool(b["stroke_diagnostics"].get("closed_at")) for b in blocks),
             "has_center": any(b["centers"] for b in blocks),
             "latest_block_has_center": latest is not None,
             "last_close": candles[-1].close if candles else None,
@@ -587,6 +595,8 @@ def main() -> None:
     parser.add_argument("--zero-axis-ratio", type=float, default=0.2, help="MACD 回零辅助阈值；非原文精确定义")
     parser.add_argument("--strength-fast", type=int, default=5, help="吻间面积的短期 SMA 窗口，默认 5")
     parser.add_argument("--strength-slow", type=int, default=10, help="吻间面积的长期 SMA 窗口，默认 10")
+    parser.add_argument("--stroke-policy", choices=("connected", "causal", "snapshot"), default="connected",
+                        help="connected连续严格选笔并记录修订；causal兼容别名；snapshot旧快照对照")
     parser.add_argument("--output-dir", type=Path, default=Path("output"))
     args = parser.parse_args()
     try:
@@ -607,7 +617,7 @@ def main() -> None:
             as_of = parse_time(args.as_of) if args.as_of else (candles[-1].time + timedelta(minutes=1) if args.demo else datetime.now(UTC))
             previous = json.loads(args.previous_entry_plan.read_text()) if args.previous_entry_plan else None
             policy = AnalysisPolicy(args.min_span, args.initial_direction, args.mode, args.max_levels,
-                                    args.zero_axis_ratio, args.strength_fast, args.strength_slow)
+                                    args.zero_axis_ratio, args.strength_fast, args.strength_slow, args.stroke_policy)
             report = analyze_entries(candles, as_of, previous, policy,
                                      EntryPolicy(args.entry_trigger_buffer, args.entry_stop_buffer, args.entry_max_wait, args.entry_profile))
             report["data_origin"] = "synthetic_demo" if args.demo else {"csv": args.csv, "context_csv": args.context_csv}
@@ -623,7 +633,7 @@ def main() -> None:
             context = read_csv(args.context_csv) if args.context_csv else []
             as_of = parse_time(args.as_of) if args.as_of else (candles[-1].time+period_delta(PERIODS["1m"]) if args.demo else datetime.now(UTC))
             policy = AnalysisPolicy(args.min_span, args.initial_direction, args.mode, args.max_levels,
-                                    args.zero_axis_ratio, args.strength_fast, args.strength_slow)
+                                    args.zero_axis_ratio, args.strength_fast, args.strength_slow, args.stroke_policy)
             report = analyze_unified(candles, as_of, parse_time(args.start) if args.start else None,
                                      args.periods, context, args.anchor_hour, policy,
                                      HistoryPolicy(args.min_context_bars, args.required_level))
@@ -647,7 +657,7 @@ def main() -> None:
             bars, quality = resample(candles, source_hours, PERIODS[period], as_of, args.anchor_hour)
             results[period] = analyze(bars, PERIODS[period], args.min_span, args.initial_direction,
                                       args.mode, args.max_levels, args.zero_axis_ratio,
-                                      args.strength_fast, args.strength_slow)
+                                      args.strength_fast, args.strength_slow, args.stroke_policy)
             results[period]["data_quality"] = quality
             series[period] = bars
         report = {"schema_version": 4, "as_of": as_of, "source_period": args.source_period,
@@ -656,7 +666,7 @@ def main() -> None:
                                  "initial_direction": args.initial_direction, "mode": args.mode,
                                  "max_levels": args.max_levels, "zero_axis_ratio": args.zero_axis_ratio,
                                  "strength_policy": "cross_kiss_sma", "strength_fast": args.strength_fast,
-                                 "strength_slow": args.strength_slow},
+                                 "strength_slow": args.strength_slow, "stroke_policy": args.stroke_policy},
                   "scope": ("特征序列线段、已完成走势递归/重新分解、背驰结构审计及指定均线力度策略确认；MACD 辅助另列"
                             if args.mode == "strict" else "旧三笔重叠近似"),
                   "results": results}

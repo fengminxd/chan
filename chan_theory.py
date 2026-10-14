@@ -343,9 +343,13 @@ def divergence_candidates(moves: Sequence[Movement], center_view: dict, points: 
             trend = zi > 0 and center_relation(centers[zi - 1], z) == side
             # 两中枢相离且方向相同，才允许标为趋势背驰辅助候选。
             kind = "trend" if trend else "consolidation"
-            evidence = max(z.evidence_at, a.evidence_at, c.evidence_at)
-            if trend:
-                evidence = max(evidence, centers[zi - 1].updated_at, z.updated_at)
+            # 两种分类都依赖当前中枢状态；降为盘整时不能丢掉导致降级
+            # 的延伸证据。关闭后的范围经过回算，还须等待关闭证据。
+            context = centers[max(0, zi - 1):zi + 1]
+            evidence = max(a.evidence_at, c.evidence_at,
+                           *(t for center in context for t in
+                             (center.evidence_at, center.updated_at, center.closed_at)
+                             if t is not None))
             result.append({"id": f"{z.id}:D:{ci}", "kind": kind, "level": z.level,
                            "side": side, "center_id": z.id, "a_id": a.id, "c_id": c.id,
                            "a_index": ai, "c_index": ci, "start": c.start.time, "end": c.end.time,

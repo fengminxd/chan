@@ -1,0 +1,71 @@
+{
+  "random_seed_count": 200,
+  "prefix_checks": 6400,
+  "frozen_samples": {
+    "8h": {
+      "sample_bars": 1200,
+      "source": "history_1h.csv resampled",
+      "start": "2025-09-08T00:00:00+00:00",
+      "end": "2026-10-12T16:00:00+00:00",
+      "blocks": 1,
+      "completed_strokes": 70,
+      "segments": 10,
+      "direct_breaks": 18,
+      "canonical_centers": 2,
+      "divergence_audits": 0,
+      "confirmed_divergences": 0
+    },
+    "4h": {
+      "sample_bars": 1200,
+      "source": "history_1h.csv resampled",
+      "start": "2026-03-27T00:00:00+00:00",
+      "end": "2026-10-12T20:00:00+00:00",
+      "blocks": 1,
+      "completed_strokes": 54,
+      "segments": 4,
+      "direct_breaks": 12,
+      "canonical_centers": 1,
+      "divergence_audits": 0,
+      "confirmed_divergences": 0
+    },
+    "2h": {
+      "sample_bars": 1200,
+      "source": "history_1h.csv resampled",
+      "start": "2026-07-05T02:00:00+00:00",
+      "end": "2026-10-13T00:00:00+00:00",
+      "blocks": 1,
+      "completed_strokes": 47,
+      "segments": 5,
+      "direct_breaks": 12,
+      "canonical_centers": 1,
+      "divergence_audits": 0,
+      "confirmed_divergences": 0
+    },
+    "1h": {
+      "sample_bars": 1200,
+      "source": "history_1h.csv",
+      "start": "2026-08-24T02:00:00+00:00",
+      "end": "2026-10-13T01:00:00+00:00",
+      "blocks": 1,
+      "completed_strokes": 43,
+      "segments": 5,
+      "direct_breaks": 6,
+      "canonical_centers": 1,
+      "divergence_audits": 0,
+      "confirmed_divergences": 0
+    },
+    "15m": {
+      "sample_bars": 1200,
+      "source": "history_15m.csv",
+      "start": "2026-09-30T14:00:00+00:00",
+      "end": "2026-10-13T01:45:00+00:00",
+      "blocks": 1,
+      "completed_strokes": 55,
+      "segments": 3,
+      "direct_breaks": 8,
+      "canonical_centers": 0,
+      "divergence_audits": 0,
+      "confirmed_divergences": 0
+    }
+  }
+}

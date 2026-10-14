@@ -1,0 +1,41 @@
+test_changed_divergence_classification_carries_new_evidence (test_findings.AuditFindings.test_changed_divergence_classification_carries_new_evidence) ... FAIL
+test_internal_center_must_finish_inside_c (test_findings.AuditFindings.test_internal_center_must_finish_inside_c) ... FAIL
+test_internal_center_price_range_must_be_inside_c (test_findings.AuditFindings.test_internal_center_price_range_must_be_inside_c) ... FAIL
+test_internal_centers_must_match_c_declared_lineage (test_findings.AuditFindings.test_internal_centers_must_match_c_declared_lineage) ... FAIL
+
+======================================================================
+FAIL: test_changed_divergence_classification_carries_new_evidence (test_findings.AuditFindings.test_changed_divergence_classification_carries_new_evidence)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/root/chan/diagnostics/full_logic_audit_20261014/test_findings.py", line 32, in test_changed_divergence_classification_carries_new_evidence
+    self.assertGreaterEqual(results[-1]['evidence_at'], seq[-1].evidence_at)
+AssertionError: datetime.datetime(2024, 1, 2, 13, 0, tzinfo=datetime.timezone.utc) not greater than or equal to datetime.datetime(2024, 1, 2, 17, 0, tzinfo=datetime.timezone.utc)
+
+======================================================================
+FAIL: test_internal_center_must_finish_inside_c (test_findings.AuditFindings.test_internal_center_must_finish_inside_c)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/root/chan/diagnostics/full_logic_audit_20261014/test_findings.py", line 40, in test_internal_center_must_finish_inside_c
+    self.assertFalse(result['strict_divergence_confirmed'])
+AssertionError: True is not false
+
+======================================================================
+FAIL: test_internal_center_price_range_must_be_inside_c (test_findings.AuditFindings.test_internal_center_price_range_must_be_inside_c)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/root/chan/diagnostics/full_logic_audit_20261014/test_findings.py", line 48, in test_internal_center_price_range_must_be_inside_c
+    self.assertFalse(result['strict_divergence_confirmed'])
+AssertionError: True is not false
+
+======================================================================
+FAIL: test_internal_centers_must_match_c_declared_lineage (test_findings.AuditFindings.test_internal_centers_must_match_c_declared_lineage)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/root/chan/diagnostics/full_logic_audit_20261014/test_findings.py", line 55, in test_internal_centers_must_match_c_declared_lineage
+    self.assertFalse(result['strict_divergence_confirmed'])
+AssertionError: True is not false
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.005s
+
+FAILED (failures=4)

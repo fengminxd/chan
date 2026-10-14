@@ -1,0 +1,12 @@
+2026-08-27 11:00 confirmed target segments 0
+2026-08-27 12:00 confirmed target segments 1
+2026-08-31 07:00 confirmed target segments 1
+2026-08-31 08:00 confirmed target segments 2
+2026-09-02 13:00 confirmed target segments 2
+2026-09-02 14:00 confirmed target segments 3
+2026-09-04 13:00 confirmed target segments 3
+2026-09-16 02:00 confirmed target segments 3
+2026-09-16 23:00 confirmed target segments 3
+2026-09-24 09:00 confirmed target segments 3
+2026-09-24 10:00 confirmed target segments 4
+PASS: 4 boundaries, OHLC pen geometry, alternatives and 11 independent raw cutoffs.

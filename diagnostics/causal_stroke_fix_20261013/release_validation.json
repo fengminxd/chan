@@ -1,0 +1,191 @@
+{
+  "passed": true,
+  "old_seven_completed_stroke_geometries_retained": true,
+  "causal_confirmation_times_recomputed": [
+    {
+      "start": "2026-09-06T23:00:00+00:00",
+      "end": "2026-09-07T15:00:00+00:00",
+      "old": "2026-09-08T05:00:00+00:00",
+      "new": "2026-09-08T05:00:00+00:00"
+    },
+    {
+      "start": "2026-09-07T15:00:00+00:00",
+      "end": "2026-09-08T02:00:00+00:00",
+      "old": "2026-09-08T16:00:00+00:00",
+      "new": "2026-09-08T11:00:00+00:00"
+    },
+    {
+      "start": "2026-09-08T02:00:00+00:00",
+      "end": "2026-09-08T13:00:00+00:00",
+      "old": "2026-09-09T11:00:00+00:00",
+      "new": "2026-09-09T11:00:00+00:00"
+    },
+    {
+      "start": "2026-09-08T13:00:00+00:00",
+      "end": "2026-09-09T08:00:00+00:00",
+      "old": "2026-09-10T01:00:00+00:00",
+      "new": "2026-09-09T23:00:00+00:00"
+    },
+    {
+      "start": "2026-09-09T08:00:00+00:00",
+      "end": "2026-09-09T22:00:00+00:00",
+      "old": "2026-09-10T07:00:00+00:00",
+      "new": "2026-09-10T07:00:00+00:00"
+    },
+    {
+      "start": "2026-09-09T22:00:00+00:00",
+      "end": "2026-09-10T03:00:00+00:00",
+      "old": "2026-09-11T02:00:00+00:00",
+      "new": "2026-09-10T17:00:00+00:00"
+    },
+    {
+      "start": "2026-09-10T03:00:00+00:00",
+      "end": "2026-09-10T23:00:00+00:00",
+      "old": "2026-09-11T12:00:00+00:00",
+      "new": "2026-09-11T12:00:00+00:00"
+    }
+  ],
+  "same_source_data": true,
+  "current_code_hashes_verified": true,
+  "python_tests": 250,
+  "hourly_prefixes": 256,
+  "raw_prefix_cross_checks": 12,
+  "browser_checks": {
+    "passed": true,
+    "checks": [
+      {
+        "period": "8h",
+        "basis": "strokes",
+        "bars": 389,
+        "signals": 15,
+        "lines": 29,
+        "breaks": 1
+      },
+      {
+        "period": "8h",
+        "basis": "types",
+        "bars": 389,
+        "signals": 2,
+        "lines": 29,
+        "breaks": 1
+      },
+      {
+        "period": "4h",
+        "basis": "strokes",
+        "bars": 777,
+        "signals": 18,
+        "lines": 39,
+        "breaks": 1
+      },
+      {
+        "period": "4h",
+        "basis": "types",
+        "bars": 777,
+        "signals": 0,
+        "lines": 39,
+        "breaks": 1
+      },
+      {
+        "period": "2h",
+        "basis": "strokes",
+        "bars": 1554,
+        "signals": 38,
+        "lines": 82,
+        "breaks": 4
+      },
+      {
+        "period": "2h",
+        "basis": "types",
+        "bars": 1554,
+        "signals": 0,
+        "lines": 82,
+        "breaks": 4
+      },
+      {
+        "period": "1h",
+        "basis": "strokes",
+        "bars": 3107,
+        "signals": 88,
+        "lines": 172,
+        "breaks": 9
+      },
+      {
+        "period": "1h",
+        "basis": "types",
+        "bars": 3107,
+        "signals": 3,
+        "lines": 172,
+        "breaks": 9
+      },
+      {
+        "period": "15m",
+        "basis": "strokes",
+        "bars": 12425,
+        "signals": 408,
+        "lines": 761,
+        "breaks": 40
+      },
+      {
+        "period": "15m",
+        "basis": "types",
+        "bars": 12425,
+        "signals": 14,
+        "lines": 761,
+        "breaks": 40
+      }
+    ],
+    "filters": 70,
+    "errors": [],
+    "mobile": true
+  },
+  "rule_manifest": {
+    "version": "chan-rules-v6",
+    "parameters": {
+      "min_span": 4,
+      "initial_direction": "up",
+      "mode": "strict",
+      "max_levels": 5,
+      "zero_axis_ratio": 0.2,
+      "strength_fast": 5,
+      "strength_slow": 10,
+      "stroke_policy": "causal"
+    },
+    "inclusion": "directional_high_low_merge; stable_right_neighbor",
+    "stroke": "causal_locked_prefix_explicit_breaks_v1",
+    "stroke_continuity": "explicit_structural_runs; never_bridge_invalid_short_reversal",
+    "stroke_evidence": "stable_right_neighbor_witness_first_raw_close",
+    "segment": "feature_sequence_no_gap_or_reverse_fractal; reverse_valid_span_required",
+    "segment_origin": "earliest_overlapping_first_three; retain_extendable_origin",
+    "segment_evidence": "local_pattern_plus_predecessor_publication; max_input_prefix_availability",
+    "direct_break": "retain_attacking_stroke_events_across_segment_extension",
+    "recursive_center": "same_level_earliest_triple; full_child_range; zd<=zg",
+    "completed_type": "opposite_third_point_or_incompatible_center; completed_children_only",
+    "completed_type_boundary": "directional_extreme_ranked_legal_prefix; latest_equal_extreme",
+    "signal_structure": "completed_type_center_registry; legacy_signals_ineligible",
+    "center_ranges": "independent_observation_range; preserve_parent_decomposition_members",
+    "third_signal_history": "seed_identity; causal_prefix_publication; retain_closed_center_evidence",
+    "third_retry": "new_departure_after_return_to_center; consume_first_success",
+    "base_divergence": "missing_L0_internal_centers_is_pending",
+    "macd": {
+      "metric": "same_direction_histogram_sum",
+      "parameters": [
+        12,
+        26,
+        9
+      ],
+      "histogram_multiplier": 2,
+      "interval": "[start,end)",
+      "units": "price_bars",
+      "scope": "auxiliary_only"
+    },
+    "strength": {
+      "metric": "cross_kiss_sma",
+      "units": "price_hours",
+      "scope": "complete_aligned_waves_only"
+    },
+    "confirmation": "causal_strokes_frozen_for_append_only_OHLC; derived_signal_lifecycle_separate",
+    "scope": "explicit_engineering_policy_not_unique_canonical_decomposition",
+    "fingerprint": "24af0132bb8c45d1fdae172daf52faafbf4a225779fbb8c288e01de0d656f48b"
+  },
+  "new_report": "reports/BTCUSDT_20260606_20261013_causal_v6"
+}

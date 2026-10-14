@@ -1,0 +1,83 @@
+﻿index,kind,local_time,price,selected,reachable_from_09_07,can_reach_09_16_low,classification,incoming_indices
+23062,top,2026-09-07 07:00,80536.1,True,True,True,selected,[]
+23065,bottom,2026-09-07 12:00,79500.8,False,False,False,no_admissible_incoming_edge_within_window,[]
+23066,top,2026-09-07 13:00,79892.9,False,False,True,no_admissible_incoming_edge_within_window,[]
+23068,bottom,2026-09-07 15:00,78938.7,False,True,False,reachable_branch_cannot_rejoin_09_16_low,[23062]
+23069,top,2026-09-07 17:00,79517.5,False,False,False,no_admissible_incoming_edge_within_window,[]
+23070,bottom,2026-09-07 19:00,79230.0,False,False,False,no_admissible_incoming_edge_within_window,[]
+23071,top,2026-09-07 21:00,79613.8,False,False,False,no_admissible_incoming_edge_within_window,[]
+23073,bottom,2026-09-07 23:00,78636.0,False,True,False,reachable_branch_cannot_rejoin_09_16_low,"[23062, 23066]"
+23076,top,2026-09-08 03:00,79391.4,False,False,False,no_admissible_incoming_edge_within_window,[]
+23078,bottom,2026-09-08 06:00,78737.9,False,False,False,no_admissible_incoming_edge_within_window,[]
+23080,top,2026-09-08 10:00,79476.0,False,True,False,reachable_branch_cannot_rejoin_09_16_low,[23073]
+23085,bottom,2026-09-08 15:00,78133.0,False,True,False,reachable_branch_cannot_rejoin_09_16_low,"[23062, 23066, 23071, 23080]"
+23087,top,2026-09-08 18:00,78969.6,False,False,False,no_admissible_incoming_edge_within_window,[]
+23089,bottom,2026-09-08 21:00,77600.1,False,True,False,reachable_branch_cannot_rejoin_09_16_low,"[23062, 23066, 23071, 23080]"
+23092,top,2026-09-09 00:00,78966.0,False,False,False,no_admissible_incoming_edge_within_window,[]
+23094,bottom,2026-09-09 02:00,78230.5,False,False,False,no_admissible_incoming_edge_within_window,[]
+23095,top,2026-09-09 04:00,78595.7,False,False,False,no_admissible_incoming_edge_within_window,[]
+23096,bottom,2026-09-09 05:00,78360.2,False,False,False,no_admissible_incoming_edge_within_window,[]
+23097,top,2026-09-09 06:00,78658.6,False,False,False,no_admissible_incoming_edge_within_window,[]
+23098,bottom,2026-09-09 07:00,78375.8,False,False,False,no_admissible_incoming_edge_within_window,[]
+23101,top,2026-09-09 10:00,78899.0,False,False,False,different_local_root,"[23094, 23096]"
+23102,bottom,2026-09-09 11:00,78502.0,False,False,False,no_admissible_incoming_edge_within_window,[]
+23106,top,2026-09-09 16:00,79737.3,False,True,False,reachable_branch_cannot_rejoin_09_16_low,"[23089, 23094, 23096, 23098, 23102]"
+23108,bottom,2026-09-09 19:00,78690.3,False,False,False,no_admissible_incoming_edge_within_window,[]
+23109,top,2026-09-09 21:00,79648.1,False,False,False,no_admissible_incoming_edge_within_window,[]
+23112,bottom,2026-09-10 04:00,77884.7,False,True,False,reachable_branch_cannot_rejoin_09_16_low,[23106]
+23113,top,2026-09-10 05:00,78307.7,False,False,False,no_admissible_incoming_edge_within_window,[]
+23114,bottom,2026-09-10 06:00,77706.1,False,True,False,reachable_branch_cannot_rejoin_09_16_low,"[23106, 23109]"
+23116,top,2026-09-10 09:00,78482.6,False,False,False,no_admissible_incoming_edge_within_window,[]
+23117,bottom,2026-09-10 10:00,77951.5,False,False,False,no_admissible_incoming_edge_within_window,[]
+23118,top,2026-09-10 11:00,78543.9,False,True,False,reachable_branch_cannot_rejoin_09_16_low,[23114]
+23121,bottom,2026-09-10 15:00,77867.5,False,False,False,no_admissible_incoming_edge_within_window,[]
+23122,top,2026-09-10 17:00,78195.7,False,False,False,no_admissible_incoming_edge_within_window,[]
+23124,bottom,2026-09-10 20:00,76634.3,False,True,False,reachable_branch_cannot_rejoin_09_16_low,"[23062, 23066, 23106, 23109, 23118]"
+23125,top,2026-09-10 22:00,77393.9,False,False,False,no_admissible_incoming_edge_within_window,[]
+23126,bottom,2026-09-11 00:00,76760.0,False,False,False,no_admissible_incoming_edge_within_window,[]
+23127,top,2026-09-11 01:00,77518.6,False,False,False,no_admissible_incoming_edge_within_window,[]
+23128,bottom,2026-09-11 02:00,76942.6,False,False,False,no_admissible_incoming_edge_within_window,[]
+23129,top,2026-09-11 04:00,77316.0,False,False,False,no_admissible_incoming_edge_within_window,[]
+23132,bottom,2026-09-11 07:00,76402.9,False,True,False,reachable_branch_cannot_rejoin_09_16_low,"[23062, 23066, 23106, 23109, 23118, 23122, 23127]"
+23135,top,2026-09-11 10:00,76988.0,False,False,False,no_admissible_incoming_edge_within_window,[]
+23136,bottom,2026-09-11 11:00,76667.0,False,False,False,no_admissible_incoming_edge_within_window,[]
+23139,top,2026-09-11 16:00,77469.3,False,True,False,reachable_branch_cannot_rejoin_09_16_low,[23132]
+23141,bottom,2026-09-11 20:00,76000.3,False,True,False,reachable_branch_cannot_rejoin_09_16_low,"[23062, 23066, 23106, 23109, 23118, 23122, 23127]"
+23143,top,2026-09-11 22:00,79859.8,False,False,True,no_admissible_incoming_edge_within_window,[]
+23145,bottom,2026-09-12 02:00,76837.8,False,False,False,no_admissible_incoming_edge_within_window,[]
+23146,top,2026-09-12 04:00,77495.3,False,False,True,no_admissible_incoming_edge_within_window,[]
+23148,bottom,2026-09-12 06:00,76942.7,False,False,True,no_admissible_incoming_edge_within_window,[]
+23150,top,2026-09-12 09:00,77346.8,False,False,True,no_admissible_incoming_edge_within_window,[]
+23151,bottom,2026-09-12 10:00,77176.5,False,False,False,no_admissible_incoming_edge_within_window,[]
+23152,top,2026-09-12 11:00,77315.0,False,False,False,no_admissible_incoming_edge_within_window,[]
+23154,bottom,2026-09-12 13:00,77129.0,False,False,True,different_local_root,[23150]
+23156,top,2026-09-12 18:00,77369.3,False,False,False,different_local_root,[23148]
+23157,bottom,2026-09-12 21:00,77208.0,False,False,False,no_admissible_incoming_edge_within_window,[]
+23158,top,2026-09-12 22:00,77477.4,False,False,True,different_local_root,"[23148, 23154]"
+23162,bottom,2026-09-13 03:00,77025.1,False,False,False,different_local_root,[23158]
+23165,top,2026-09-13 06:00,77275.7,False,False,False,no_admissible_incoming_edge_within_window,[]
+23166,bottom,2026-09-13 08:00,77110.7,False,False,False,no_admissible_incoming_edge_within_window,[]
+23167,top,2026-09-13 09:00,77321.0,False,False,False,different_local_root,[23162]
+23168,bottom,2026-09-13 11:00,77150.9,False,False,False,no_admissible_incoming_edge_within_window,[]
+23169,top,2026-09-13 14:00,77291.2,False,False,False,no_admissible_incoming_edge_within_window,[]
+23172,bottom,2026-09-13 19:00,76458.9,False,False,False,different_local_root,"[23143, 23146, 23158, 23167]"
+23176,top,2026-09-14 01:00,77387.0,False,False,False,different_local_root,[23172]
+23177,bottom,2026-09-14 03:00,77186.3,False,False,False,no_admissible_incoming_edge_within_window,[]
+23178,top,2026-09-14 05:00,77427.4,False,False,False,different_local_root,[23172]
+23180,bottom,2026-09-14 08:00,76350.1,False,False,True,different_local_root,"[23143, 23146, 23158]"
+23183,top,2026-09-14 11:00,77840.7,False,False,False,no_admissible_incoming_edge_within_window,[]
+23184,bottom,2026-09-14 14:00,77334.5,False,False,True,no_admissible_incoming_edge_within_window,[]
+23186,top,2026-09-14 17:00,78343.8,False,False,False,different_local_root,[23180]
+23187,bottom,2026-09-14 21:00,77441.6,False,False,True,no_admissible_incoming_edge_within_window,[]
+23192,top,2026-09-15 04:00,79570.9,False,False,True,different_local_root,"[23180, 23184, 23187]"
+23202,bottom,2026-09-15 16:00,76667.3,False,False,False,different_local_root,[23192]
+23204,top,2026-09-15 19:00,77188.0,False,False,False,no_admissible_incoming_edge_within_window,[]
+23206,bottom,2026-09-15 22:00,75560.0,False,True,False,reachable_branch_cannot_rejoin_09_16_low,"[23062, 23066, 23143, 23192]"
+23207,top,2026-09-16 01:00,77323.6,False,False,False,no_admissible_incoming_edge_within_window,[]
+23208,bottom,2026-09-16 02:00,74909.4,True,True,True,selected,"[23062, 23066, 23143, 23192]"
+23209,top,2026-09-16 10:00,76096.4,False,False,False,no_admissible_incoming_edge_within_window,[]
+23210,bottom,2026-09-16 13:00,75633.7,False,False,False,no_admissible_incoming_edge_within_window,[]
+23211,top,2026-09-16 15:00,76067.1,False,False,False,no_admissible_incoming_edge_within_window,[]
+23212,bottom,2026-09-16 16:00,75308.4,False,False,False,no_admissible_incoming_edge_within_window,[]
+23214,top,2026-09-16 20:00,76275.4,True,True,False,selected,[23208]
+23216,bottom,2026-09-16 22:00,75386.0,False,False,False,no_admissible_incoming_edge_within_window,[]

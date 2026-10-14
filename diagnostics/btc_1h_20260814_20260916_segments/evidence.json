@@ -1,0 +1,4185 @@
+{
+  "source": "2026-10-13T02:10:00+00:00",
+  "rule_manifest": {
+    "version": "chan-rules-v8",
+    "parameters": {
+      "min_span": 4,
+      "initial_direction": "up",
+      "mode": "strict",
+      "max_levels": 5,
+      "zero_axis_ratio": 0.2,
+      "strength_fast": 5,
+      "strength_slow": 10,
+      "stroke_policy": "connected"
+    },
+    "inclusion": "directional_high_low_merge; stable_right_neighbor",
+    "stroke": "connected_strict_revision_events_v1",
+    "stroke_continuity": "one_connected_chain_per_source_run; revisions_instead_of_structural_breaks",
+    "stroke_evidence": "stable_right_neighbor_witness_first_raw_close",
+    "segment": "feature_sequence_no_gap_or_reverse_fractal; reverse_valid_span_required",
+    "segment_gap": "classify_standardized_features_after_containment; direct_break_special_case",
+    "segment_direct_break": "inclusive_old_feature_boundary; strict_break_of_first_reverse_endpoint",
+    "segment_origin": "earliest_overlapping_first_three; retain_extendable_origin",
+    "segment_evidence": "local_pattern_plus_predecessor_publication; max_input_prefix_availability",
+    "direct_break": "retain_attacking_stroke_events_across_segment_extension",
+    "recursive_center": "same_level_earliest_triple; full_child_range; zd<=zg",
+    "completed_type": "opposite_third_point_or_incompatible_center; completed_children_only",
+    "completed_type_boundary": "directional_extreme_ranked_legal_prefix; latest_equal_extreme",
+    "signal_structure": "completed_type_center_registry; legacy_signals_ineligible",
+    "center_ranges": "independent_observation_range; preserve_parent_decomposition_members",
+    "third_signal_history": "seed_identity; causal_prefix_publication; retain_closed_center_evidence",
+    "third_retry": "new_departure_after_return_to_center; consume_first_success",
+    "base_divergence": "missing_L0_internal_centers_is_pending",
+    "macd": {
+      "metric": "same_direction_histogram_sum",
+      "parameters": [
+        12,
+        26,
+        9
+      ],
+      "histogram_multiplier": 2,
+      "interval": "[start,end)",
+      "units": "price_bars",
+      "scope": "auxiliary_only"
+    },
+    "strength": {
+      "metric": "cross_kiss_sma",
+      "units": "price_hours",
+      "scope": "complete_aligned_waves_only"
+    },
+    "confirmation": "causal_publication_with_explicit_suffix_revisions; completion_is_snapshot_relative",
+    "scope": "explicit_engineering_policy_not_unique_canonical_decomposition",
+    "fingerprint": "61fe8f25f874d253ebe9ec72f1574205091422ce29be0f5d66ee97121c955597"
+  },
+  "source_sha256": "dc304895f0a80ef5017cbb322f63e7d4bee90b912cc2fc4a64c6629950c997ae",
+  "algorithm_sha256": "73afc9f8fe4b2addfc57172aa9d9496d9c0c90c2309c7eaa64c07079d6a958f4",
+  "segments": [
+    {
+      "start": {
+        "index": 22660,
+        "kind": "bottom",
+        "price": 62484.2,
+        "time": "2026-08-14T14:00:00+00:00"
+      },
+      "end": {
+        "index": 22836,
+        "kind": "top",
+        "price": 81270.5,
+        "time": "2026-08-25T02:00:00+00:00"
+      },
+      "first_stroke": 1586,
+      "last_stroke": 1594,
+      "confirmed": true,
+      "confirmation": "no_gap",
+      "evidence_stroke": 1597,
+      "evidence_at": "2026-08-27T04:00:00+00:00",
+      "feature_indices": [
+        [
+          1591,
+          1593
+        ],
+        [
+          1595
+        ],
+        [
+          1597
+        ]
+      ],
+      "reverse_feature_indices": [],
+      "range_low": 62484.2,
+      "range_high": 81270.5,
+      "local_evidence_stroke": 1597
+    },
+    {
+      "start": {
+        "index": 22836,
+        "kind": "top",
+        "price": 81270.5,
+        "time": "2026-08-25T02:00:00+00:00"
+      },
+      "end": {
+        "index": 22900,
+        "kind": "bottom",
+        "price": 76853.1,
+        "time": "2026-08-28T16:00:00+00:00"
+      },
+      "first_stroke": 1595,
+      "last_stroke": 1599,
+      "confirmed": true,
+      "confirmation": "no_gap",
+      "evidence_stroke": 1602,
+      "evidence_at": "2026-08-31T00:00:00+00:00",
+      "feature_indices": [
+        [
+          1596,
+          1598
+        ],
+        [
+          1600
+        ],
+        [
+          1602
+        ]
+      ],
+      "reverse_feature_indices": [],
+      "range_low": 76853.1,
+      "range_high": 81500.0,
+      "local_evidence_stroke": 1602
+    },
+    {
+      "start": {
+        "index": 22900,
+        "kind": "bottom",
+        "price": 76853.1,
+        "time": "2026-08-28T16:00:00+00:00"
+      },
+      "end": {
+        "index": 22934,
+        "kind": "top",
+        "price": 79384.4,
+        "time": "2026-08-30T16:00:00+00:00"
+      },
+      "first_stroke": 1600,
+      "last_stroke": 1602,
+      "confirmed": true,
+      "confirmation": "no_gap",
+      "evidence_stroke": 1605,
+      "evidence_at": "2026-09-02T06:00:00+00:00",
+      "feature_indices": [
+        [
+          1601
+        ],
+        [
+          1603
+        ],
+        [
+          1605
+        ]
+      ],
+      "reverse_feature_indices": [],
+      "range_low": 76853.1,
+      "range_high": 79384.4,
+      "local_evidence_stroke": 1605
+    },
+    {
+      "start": {
+        "index": 22934,
+        "kind": "top",
+        "price": 79384.4,
+        "time": "2026-08-30T16:00:00+00:00"
+      },
+      "end": {
+        "index": 23208,
+        "kind": "bottom",
+        "price": 74909.4,
+        "time": "2026-09-15T18:00:00+00:00"
+      },
+      "first_stroke": 1603,
+      "last_stroke": 1613,
+      "confirmed": true,
+      "confirmation": "gap_reverse_fractal",
+      "evidence_stroke": 1621,
+      "evidence_at": "2026-09-24T02:00:00+00:00",
+      "feature_indices": [
+        [
+          1612
+        ],
+        [
+          1614
+        ],
+        [
+          1616
+        ]
+      ],
+      "reverse_feature_indices": [
+        [
+          1617
+        ],
+        [
+          1619
+        ],
+        [
+          1621
+        ]
+      ],
+      "range_low": 74909.4,
+      "range_high": 82282.8,
+      "local_evidence_stroke": 1621
+    }
+  ],
+  "turns": [
+    {
+      "start": 1586,
+      "turn": 1595,
+      "turn_time": "2026-08-25 10:00",
+      "span": {
+        "first_stroke": 1586,
+        "last_stroke": 1594,
+        "count": 9,
+        "valid": true,
+        "first_three_overlap": [
+          62681.1,
+          63370.0
+        ],
+        "range_low": 62484.2,
+        "range_high": 81270.5
+      },
+      "audit": {
+        "turn_stroke": 1595,
+        "gap": false,
+        "direct_break": false,
+        "first_pattern_found": true,
+        "reverse_pattern_found": false,
+        "reverse_span_ready": true,
+        "reason": "confirmed_no_gap",
+        "evidence_stroke": 1597
+      },
+      "evidence": [
+        1597,
+        "no_gap",
+        [
+          [
+            1591,
+            1593
+          ],
+          [
+            1595
+          ],
+          [
+            1597
+          ]
+        ],
+        []
+      ],
+      "left_standard": [
+        {
+          "low": 62681.1,
+          "high": 63370.0,
+          "source_indices": [
+            1587
+          ]
+        },
+        {
+          "low": 64131.3,
+          "high": 65057.9,
+          "source_indices": [
+            1589
+          ]
+        },
+        {
+          "low": 76649.0,
+          "high": 79555.5,
+          "source_indices": [
+            1591,
+            1593
+          ]
+        }
+      ],
+      "primary": [
+        {
+          "low": 77808.1,
+          "high": 81270.5,
+          "source_indices": [
+            1595
+          ]
+        },
+        {
+          "low": 77600.0,
+          "high": 79200.0,
+          "source_indices": [
+            1597
+          ]
+        }
+      ],
+      "secondary": [
+        {
+          "low": 77808.1,
+          "high": 79200.0,
+          "source_indices": [
+            1596
+          ]
+        }
+      ],
+      "input_evidence_at": "2026-08-27 12:00"
+    },
+    {
+      "start": 1595,
+      "turn": 1600,
+      "turn_time": "2026-08-29 00:00",
+      "span": {
+        "first_stroke": 1595,
+        "last_stroke": 1599,
+        "count": 5,
+        "valid": true,
+        "first_three_overlap": [
+          77808.1,
+          79200.0
+        ],
+        "range_low": 76853.1,
+        "range_high": 81500.0
+      },
+      "audit": {
+        "turn_stroke": 1600,
+        "gap": false,
+        "direct_break": false,
+        "first_pattern_found": true,
+        "reverse_pattern_found": false,
+        "reverse_span_ready": true,
+        "reason": "confirmed_no_gap",
+        "evidence_stroke": 1602
+      },
+      "evidence": [
+        1602,
+        "no_gap",
+        [
+          [
+            1596,
+            1598
+          ],
+          [
+            1600
+          ],
+          [
+            1602
+          ]
+        ],
+        []
+      ],
+      "left_standard": [
+        {
+          "low": 77600.0,
+          "high": 79200.0,
+          "source_indices": [
+            1596,
+            1598
+          ]
+        }
+      ],
+      "primary": [
+        {
+          "low": 76853.1,
+          "high": 78314.9,
+          "source_indices": [
+            1600
+          ]
+        },
+        {
+          "low": 77933.4,
+          "high": 79384.4,
+          "source_indices": [
+            1602
+          ]
+        }
+      ],
+      "secondary": [
+        {
+          "low": 77933.4,
+          "high": 78314.9,
+          "source_indices": [
+            1601
+          ]
+        }
+      ],
+      "input_evidence_at": "2026-08-31 08:00"
+    },
+    {
+      "start": 1600,
+      "turn": 1603,
+      "turn_time": "2026-08-31 00:00",
+      "span": {
+        "first_stroke": 1600,
+        "last_stroke": 1602,
+        "count": 3,
+        "valid": true,
+        "first_three_overlap": [
+          77933.4,
+          78314.9
+        ],
+        "range_low": 76853.1,
+        "range_high": 79384.4
+      },
+      "audit": {
+        "turn_stroke": 1603,
+        "gap": false,
+        "direct_break": true,
+        "first_pattern_found": false,
+        "reverse_pattern_found": false,
+        "reverse_span_ready": true,
+        "reason": "confirmed_direct_break",
+        "evidence_stroke": 1605
+      },
+      "evidence": [
+        1605,
+        "no_gap",
+        [
+          [
+            1601
+          ],
+          [
+            1603
+          ],
+          [
+            1605
+          ]
+        ],
+        []
+      ],
+      "left_standard": [
+        {
+          "low": 77933.4,
+          "high": 78314.9,
+          "source_indices": [
+            1601
+          ]
+        }
+      ],
+      "primary": [
+        {
+          "low": 76947.2,
+          "high": 79384.4,
+          "source_indices": [
+            1603
+          ]
+        },
+        {
+          "low": 76368.0,
+          "high": 79228.5,
+          "source_indices": [
+            1605
+          ]
+        }
+      ],
+      "secondary": [
+        {
+          "low": 76947.2,
+          "high": 79228.5,
+          "source_indices": [
+            1604
+          ]
+        }
+      ],
+      "input_evidence_at": "2026-09-02 14:00"
+    },
+    {
+      "start": 1603,
+      "turn": 1614,
+      "turn_time": "2026-09-16 02:00",
+      "span": {
+        "first_stroke": 1603,
+        "last_stroke": 1613,
+        "count": 11,
+        "valid": true,
+        "first_three_overlap": [
+          76947.2,
+          79228.5
+        ],
+        "range_low": 74909.4,
+        "range_high": 82282.8
+      },
+      "audit": {
+        "turn_stroke": 1614,
+        "gap": true,
+        "direct_break": false,
+        "first_pattern_found": true,
+        "reverse_pattern_found": true,
+        "reverse_span_ready": true,
+        "reason": "confirmed_gap",
+        "evidence_stroke": 1621
+      },
+      "evidence": [
+        1621,
+        "gap_reverse_fractal",
+        [
+          [
+            1612
+          ],
+          [
+            1614
+          ],
+          [
+            1616
+          ]
+        ],
+        [
+          [
+            1617
+          ],
+          [
+            1619
+          ],
+          [
+            1621
+          ]
+        ]
+      ],
+      "left_standard": [
+        {
+          "low": 76947.2,
+          "high": 79228.5,
+          "source_indices": [
+            1604
+          ]
+        },
+        {
+          "low": 76151.9,
+          "high": 77767.8,
+          "source_indices": [
+            1606,
+            1608
+          ]
+        },
+        {
+          "low": 78618.1,
+          "high": 80167.0,
+          "source_indices": [
+            1610
+          ]
+        },
+        {
+          "low": 79125.3,
+          "high": 80536.1,
+          "source_indices": [
+            1612
+          ]
+        }
+      ],
+      "primary": [
+        {
+          "low": 74909.4,
+          "high": 76275.4,
+          "source_indices": [
+            1614
+          ]
+        },
+        {
+          "low": 75025.0,
+          "high": 81933.9,
+          "source_indices": [
+            1616
+          ]
+        },
+        {
+          "low": 85080.0,
+          "high": 87385.1,
+          "source_indices": [
+            1618,
+            1620
+          ]
+        }
+      ],
+      "secondary": [
+        {
+          "low": 75025.0,
+          "high": 76275.4,
+          "source_indices": [
+            1615
+          ]
+        },
+        {
+          "low": 80095.9,
+          "high": 81933.9,
+          "source_indices": [
+            1617
+          ]
+        },
+        {
+          "low": 85080.0,
+          "high": 87385.1,
+          "source_indices": [
+            1619
+          ]
+        },
+        {
+          "low": 83450.1,
+          "high": 87247.3,
+          "source_indices": [
+            1621
+          ]
+        }
+      ],
+      "input_evidence_at": "2026-09-24 10:00"
+    }
+  ],
+  "rejected_local_turns": [
+    {
+      "start": 1595,
+      "turn": 1598,
+      "turn_time": "2026-08-26 23:00",
+      "span": {
+        "first_stroke": 1595,
+        "last_stroke": 1597,
+        "count": 3,
+        "valid": true,
+        "first_three_overlap": [
+          77808.1,
+          79200.0
+        ],
+        "range_low": 77600.0,
+        "range_high": 81270.5
+      },
+      "audit": {
+        "turn_stroke": 1598,
+        "gap": false,
+        "direct_break": true,
+        "first_pattern_found": false,
+        "reverse_pattern_found": false,
+        "reverse_span_ready": false,
+        "reason": "turn_extreme_exceeded",
+        "evidence_stroke": 1599
+      },
+      "evidence": null,
+      "left_standard": [
+        {
+          "low": 77808.1,
+          "high": 79200.0,
+          "source_indices": [
+            1596
+          ]
+        }
+      ],
+      "primary": [
+        {
+          "low": 77600.0,
+          "high": 81500.0,
+          "source_indices": [
+            1598
+          ]
+        }
+      ],
+      "secondary": [
+        {
+          "low": 76853.1,
+          "high": 81500.0,
+          "source_indices": [
+            1599
+          ]
+        }
+      ],
+      "input_evidence_at": "2026-08-30 06:00"
+    },
+    {
+      "start": 1603,
+      "turn": 1606,
+      "turn_time": "2026-09-02 02:00",
+      "span": {
+        "first_stroke": 1603,
+        "last_stroke": 1605,
+        "count": 3,
+        "valid": true,
+        "first_three_overlap": [
+          76947.2,
+          79228.5
+        ],
+        "range_low": 76368.0,
+        "range_high": 79384.4
+      },
+      "audit": {
+        "turn_stroke": 1606,
+        "gap": false,
+        "direct_break": false,
+        "first_pattern_found": false,
+        "reverse_pattern_found": false,
+        "reverse_span_ready": false,
+        "reason": "turn_extreme_exceeded",
+        "evidence_stroke": 1607
+      },
+      "evidence": null,
+      "left_standard": [
+        {
+          "low": 76947.2,
+          "high": 79228.5,
+          "source_indices": [
+            1604
+          ]
+        }
+      ],
+      "primary": [
+        {
+          "low": 76368.0,
+          "high": 77767.8,
+          "source_indices": [
+            1606
+          ]
+        }
+      ],
+      "secondary": [
+        {
+          "low": 76151.9,
+          "high": 77767.8,
+          "source_indices": [
+            1607
+          ]
+        }
+      ],
+      "input_evidence_at": "2026-09-03 03:00"
+    },
+    {
+      "start": 1603,
+      "turn": 1608,
+      "turn_time": "2026-09-02 18:00",
+      "span": {
+        "first_stroke": 1603,
+        "last_stroke": 1607,
+        "count": 5,
+        "valid": true,
+        "first_three_overlap": [
+          76947.2,
+          79228.5
+        ],
+        "range_low": 76151.9,
+        "range_high": 79384.4
+      },
+      "audit": {
+        "turn_stroke": 1608,
+        "gap": false,
+        "direct_break": true,
+        "first_pattern_found": false,
+        "reverse_pattern_found": false,
+        "reverse_span_ready": false,
+        "reason": "turn_extreme_exceeded",
+        "evidence_stroke": 1613
+      },
+      "evidence": null,
+      "left_standard": [
+        {
+          "low": 76947.2,
+          "high": 79228.5,
+          "source_indices": [
+            1604
+          ]
+        },
+        {
+          "low": 76368.0,
+          "high": 77767.8,
+          "source_indices": [
+            1606
+          ]
+        }
+      ],
+      "primary": [
+        {
+          "low": 76151.9,
+          "high": 80167.0,
+          "source_indices": [
+            1608,
+            1610
+          ]
+        },
+        {
+          "low": 79125.3,
+          "high": 80536.1,
+          "source_indices": [
+            1612
+          ]
+        }
+      ],
+      "secondary": [
+        {
+          "low": 79125.3,
+          "high": 82282.8,
+          "source_indices": [
+            1609,
+            1611
+          ]
+        },
+        {
+          "low": 74909.4,
+          "high": 80536.1,
+          "source_indices": [
+            1613
+          ]
+        }
+      ],
+      "input_evidence_at": "2026-09-16 23:00"
+    }
+  ],
+  "alternative": [
+    {
+      "start": 1586,
+      "turn": 1609,
+      "turn_time": "2026-09-04 05:00",
+      "span": {
+        "first_stroke": 1586,
+        "last_stroke": 1608,
+        "count": 23,
+        "valid": true,
+        "first_three_overlap": [
+          62681.1,
+          63370.0
+        ],
+        "range_low": 62484.2,
+        "range_high": 82282.8
+      },
+      "audit": {
+        "turn_stroke": 1609,
+        "gap": true,
+        "direct_break": false,
+        "first_pattern_found": true,
+        "reverse_pattern_found": true,
+        "reverse_span_ready": true,
+        "reason": "confirmed_gap",
+        "evidence_stroke": 1616
+      },
+      "evidence": [
+        1616,
+        "gap_reverse_fractal",
+        [
+          [
+            1607
+          ],
+          [
+            1609,
+            1611
+          ],
+          [
+            1613,
+            1615
+          ]
+        ],
+        [
+          [
+            1612
+          ],
+          [
+            1614
+          ],
+          [
+            1616
+          ]
+        ]
+      ],
+      "left_standard": [
+        {
+          "low": 62681.1,
+          "high": 63370.0,
+          "source_indices": [
+            1587
+          ]
+        },
+        {
+          "low": 64131.3,
+          "high": 65057.9,
+          "source_indices": [
+            1589
+          ]
+        },
+        {
+          "low": 76649.0,
+          "high": 79555.5,
+          "source_indices": [
+            1591,
+            1593
+          ]
+        },
+        {
+          "low": 77808.1,
+          "high": 81270.5,
+          "source_indices": [
+            1595
+          ]
+        },
+        {
+          "low": 76853.1,
+          "high": 78314.9,
+          "source_indices": [
+            1597,
+            1599,
+            1601
+          ]
+        },
+        {
+          "low": 76947.2,
+          "high": 79384.4,
+          "source_indices": [
+            1603
+          ]
+        },
+        {
+          "low": 76368.0,
+          "high": 79228.5,
+          "source_indices": [
+            1605
+          ]
+        },
+        {
+          "low": 76151.9,
+          "high": 77767.8,
+          "source_indices": [
+            1607
+          ]
+        }
+      ],
+      "primary": [
+        {
+          "low": 79125.3,
+          "high": 82282.8,
+          "source_indices": [
+            1609,
+            1611
+          ]
+        },
+        {
+          "low": 74909.4,
+          "high": 76275.4,
+          "source_indices": [
+            1613,
+            1615
+          ]
+        }
+      ],
+      "secondary": [
+        {
+          "low": 78618.1,
+          "high": 80167.0,
+          "source_indices": [
+            1610
+          ]
+        },
+        {
+          "low": 79125.3,
+          "high": 80536.1,
+          "source_indices": [
+            1612
+          ]
+        },
+        {
+          "low": 74909.4,
+          "high": 76275.4,
+          "source_indices": [
+            1614
+          ]
+        },
+        {
+          "low": 75025.0,
+          "high": 81933.9,
+          "source_indices": [
+            1616
+          ]
+        }
+      ],
+      "input_evidence_at": "2026-09-20 08:00"
+    },
+    {
+      "start": 1609,
+      "turn": 1614,
+      "turn_time": "2026-09-16 02:00",
+      "span": {
+        "first_stroke": 1609,
+        "last_stroke": 1613,
+        "count": 5,
+        "valid": true,
+        "first_three_overlap": [
+          79125.3,
+          80167.0
+        ],
+        "range_low": 74909.4,
+        "range_high": 82282.8
+      },
+      "audit": {
+        "turn_stroke": 1614,
+        "gap": true,
+        "direct_break": false,
+        "first_pattern_found": true,
+        "reverse_pattern_found": true,
+        "reverse_span_ready": true,
+        "reason": "confirmed_gap",
+        "evidence_stroke": 1621
+      },
+      "evidence": [
+        1621,
+        "gap_reverse_fractal",
+        [
+          [
+            1612
+          ],
+          [
+            1614
+          ],
+          [
+            1616
+          ]
+        ],
+        [
+          [
+            1617
+          ],
+          [
+            1619
+          ],
+          [
+            1621
+          ]
+        ]
+      ],
+      "left_standard": [
+        {
+          "low": 78618.1,
+          "high": 80167.0,
+          "source_indices": [
+            1610
+          ]
+        },
+        {
+          "low": 79125.3,
+          "high": 80536.1,
+          "source_indices": [
+            1612
+          ]
+        }
+      ],
+      "primary": [
+        {
+          "low": 74909.4,
+          "high": 76275.4,
+          "source_indices": [
+            1614
+          ]
+        },
+        {
+          "low": 75025.0,
+          "high": 81933.9,
+          "source_indices": [
+            1616
+          ]
+        },
+        {
+          "low": 85080.0,
+          "high": 87385.1,
+          "source_indices": [
+            1618,
+            1620
+          ]
+        }
+      ],
+      "secondary": [
+        {
+          "low": 75025.0,
+          "high": 76275.4,
+          "source_indices": [
+            1615
+          ]
+        },
+        {
+          "low": 80095.9,
+          "high": 81933.9,
+          "source_indices": [
+            1617
+          ]
+        },
+        {
+          "low": 85080.0,
+          "high": 87385.1,
+          "source_indices": [
+            1619
+          ]
+        },
+        {
+          "low": 83450.1,
+          "high": 87247.3,
+          "source_indices": [
+            1621
+          ]
+        }
+      ],
+      "input_evidence_at": "2026-09-24 10:00"
+    }
+  ],
+  "first_origin_candidates": [
+    {
+      "start": 1586,
+      "turn": 1589,
+      "turn_time": "2026-08-18 22:00",
+      "span": {
+        "first_stroke": 1586,
+        "last_stroke": 1588,
+        "count": 3,
+        "valid": true,
+        "first_three_overlap": [
+          62681.1,
+          63370.0
+        ],
+        "range_low": 62484.2,
+        "range_high": 65057.9
+      },
+      "audit": {
+        "turn_stroke": 1589,
+        "gap": true,
+        "direct_break": false,
+        "first_pattern_found": false,
+        "reverse_pattern_found": false,
+        "reverse_span_ready": false,
+        "reason": "turn_extreme_exceeded",
+        "evidence_stroke": 1590
+      },
+      "evidence": null,
+      "left_standard": [
+        {
+          "low": 62681.1,
+          "high": 63370.0,
+          "source_indices": [
+            1587
+          ]
+        }
+      ],
+      "primary": [
+        {
+          "low": 64131.3,
+          "high": 65057.9,
+          "source_indices": [
+            1589
+          ]
+        }
+      ],
+      "secondary": [
+        {
+          "low": 64131.3,
+          "high": 79555.5,
+          "source_indices": [
+            1590
+          ]
+        }
+      ],
+      "input_evidence_at": "2026-08-23 19:00"
+    },
+    {
+      "start": 1586,
+      "turn": 1591,
+      "turn_time": "2026-08-21 16:00",
+      "span": {
+        "first_stroke": 1586,
+        "last_stroke": 1590,
+        "count": 5,
+        "valid": true,
+        "first_three_overlap": [
+          62681.1,
+          63370.0
+        ],
+        "range_low": 62484.2,
+        "range_high": 79555.5
+      },
+      "audit": {
+        "turn_stroke": 1591,
+        "gap": true,
+        "direct_break": false,
+        "first_pattern_found": false,
+        "reverse_pattern_found": false,
+        "reverse_span_ready": false,
+        "reason": "turn_extreme_exceeded",
+        "evidence_stroke": 1594
+      },
+      "evidence": null,
+      "left_standard": [
+        {
+          "low": 62681.1,
+          "high": 63370.0,
+          "source_indices": [
+            1587
+          ]
+        },
+        {
+          "low": 64131.3,
+          "high": 65057.9,
+          "source_indices": [
+            1589
+          ]
+        }
+      ],
+      "primary": [
+        {
+          "low": 76649.0,
+          "high": 79555.5,
+          "source_indices": [
+            1591,
+            1593
+          ]
+        }
+      ],
+      "secondary": [
+        {
+          "low": 75588.0,
+          "high": 78057.6,
+          "source_indices": [
+            1592
+          ]
+        },
+        {
+          "low": 76649.0,
+          "high": 81270.5,
+          "source_indices": [
+            1594
+          ]
+        }
+      ],
+      "input_evidence_at": "2026-08-25 21:00"
+    },
+    {
+      "first_stroke": 1586,
+      "last_stroke": 1592,
+      "count": 7,
+      "valid": false,
+      "first_three_overlap": [
+        62681.1,
+        63370.0
+      ],
+      "range_low": 62484.2,
+      "range_high": 79555.5
+    },
+    {
+      "start": 1586,
+      "turn": 1595,
+      "turn_time": "2026-08-25 10:00",
+      "span": {
+        "first_stroke": 1586,
+        "last_stroke": 1594,
+        "count": 9,
+        "valid": true,
+        "first_three_overlap": [
+          62681.1,
+          63370.0
+        ],
+        "range_low": 62484.2,
+        "range_high": 81270.5
+      },
+      "audit": {
+        "turn_stroke": 1595,
+        "gap": false,
+        "direct_break": false,
+        "first_pattern_found": true,
+        "reverse_pattern_found": false,
+        "reverse_span_ready": true,
+        "reason": "confirmed_no_gap",
+        "evidence_stroke": 1597
+      },
+      "evidence": [
+        1597,
+        "no_gap",
+        [
+          [
+            1591,
+            1593
+          ],
+          [
+            1595
+          ],
+          [
+            1597
+          ]
+        ],
+        []
+      ],
+      "left_standard": [
+        {
+          "low": 62681.1,
+          "high": 63370.0,
+          "source_indices": [
+            1587
+          ]
+        },
+        {
+          "low": 64131.3,
+          "high": 65057.9,
+          "source_indices": [
+            1589
+          ]
+        },
+        {
+          "low": 76649.0,
+          "high": 79555.5,
+          "source_indices": [
+            1591,
+            1593
+          ]
+        }
+      ],
+      "primary": [
+        {
+          "low": 77808.1,
+          "high": 81270.5,
+          "source_indices": [
+            1595
+          ]
+        },
+        {
+          "low": 77600.0,
+          "high": 79200.0,
+          "source_indices": [
+            1597
+          ]
+        }
+      ],
+      "secondary": [
+        {
+          "low": 77808.1,
+          "high": 79200.0,
+          "source_indices": [
+            1596
+          ]
+        }
+      ],
+      "input_evidence_at": "2026-08-27 12:00"
+    },
+    {
+      "first_stroke": 1586,
+      "last_stroke": 1596,
+      "count": 11,
+      "valid": false,
+      "first_three_overlap": [
+        62681.1,
+        63370.0
+      ],
+      "range_low": 62484.2,
+      "range_high": 81270.5
+    },
+    {
+      "start": 1586,
+      "turn": 1599,
+      "turn_time": "2026-08-28 09:00",
+      "span": {
+        "first_stroke": 1586,
+        "last_stroke": 1598,
+        "count": 13,
+        "valid": true,
+        "first_three_overlap": [
+          62681.1,
+          63370.0
+        ],
+        "range_low": 62484.2,
+        "range_high": 81500.0
+      },
+      "audit": {
+        "turn_stroke": 1599,
+        "gap": false,
+        "direct_break": true,
+        "first_pattern_found": true,
+        "reverse_pattern_found": false,
+        "reverse_span_ready": true,
+        "reason": "confirmed_direct_break",
+        "evidence_stroke": 1605
+      },
+      "evidence": [
+        1605,
+        "no_gap",
+        [
+          [
+            1597
+          ],
+          [
+            1599
+          ],
+          [
+            1605
+          ]
+        ],
+        []
+      ],
+      "left_standard": [
+        {
+          "low": 62681.1,
+          "high": 63370.0,
+          "source_indices": [
+            1587
+          ]
+        },
+        {
+          "low": 64131.3,
+          "high": 65057.9,
+          "source_indices": [
+            1589
+          ]
+        },
+        {
+          "low": 76649.0,
+          "high": 79555.5,
+          "source_indices": [
+            1591,
+            1593
+          ]
+        },
+        {
+          "low": 77808.1,
+          "high": 81270.5,
+          "source_indices": [
+            1595
+          ]
+        },
+        {
+          "low": 77600.0,
+          "high": 79200.0,
+          "source_indices": [
+            1597
+          ]
+        }
+      ],
+      "primary": [
+        {
+          "low": 77933.4,
+          "high": 81500.0,
+          "source_indices": [
+            1599,
+            1601
+          ]
+        },
+        {
+          "low": 76947.2,
+          "high": 79384.4,
+          "source_indices": [
+            1603
+          ]
+        },
+        {
+          "low": 76368.0,
+          "high": 79228.5,
+          "source_indices": [
+            1605
+          ]
+        }
+      ],
+      "secondary": [
+        {
+          "low": 76853.1,
+          "high": 78314.9,
+          "source_indices": [
+            1600
+          ]
+        },
+        {
+          "low": 77933.4,
+          "high": 79384.4,
+          "source_indices": [
+            1602
+          ]
+        },
+        {
+          "low": 76947.2,
+          "high": 79228.5,
+          "source_indices": [
+            1604
+          ]
+        }
+      ],
+      "input_evidence_at": "2026-09-02 14:00"
+    },
+    {
+      "first_stroke": 1586,
+      "last_stroke": 1600,
+      "count": 15,
+      "valid": false,
+      "first_three_overlap": [
+        62681.1,
+        63370.0
+      ],
+      "range_low": 62484.2,
+      "range_high": 81500.0
+    },
+    {
+      "first_stroke": 1586,
+      "last_stroke": 1602,
+      "count": 17,
+      "valid": false,
+      "first_three_overlap": [
+        62681.1,
+        63370.0
+      ],
+      "range_low": 62484.2,
+      "range_high": 81500.0
+    },
+    {
+      "first_stroke": 1586,
+      "last_stroke": 1604,
+      "count": 19,
+      "valid": false,
+      "first_three_overlap": [
+        62681.1,
+        63370.0
+      ],
+      "range_low": 62484.2,
+      "range_high": 81500.0
+    },
+    {
+      "first_stroke": 1586,
+      "last_stroke": 1606,
+      "count": 21,
+      "valid": false,
+      "first_three_overlap": [
+        62681.1,
+        63370.0
+      ],
+      "range_low": 62484.2,
+      "range_high": 81500.0
+    },
+    {
+      "start": 1586,
+      "turn": 1609,
+      "turn_time": "2026-09-04 05:00",
+      "span": {
+        "first_stroke": 1586,
+        "last_stroke": 1608,
+        "count": 23,
+        "valid": true,
+        "first_three_overlap": [
+          62681.1,
+          63370.0
+        ],
+        "range_low": 62484.2,
+        "range_high": 82282.8
+      },
+      "audit": {
+        "turn_stroke": 1609,
+        "gap": true,
+        "direct_break": false,
+        "first_pattern_found": true,
+        "reverse_pattern_found": true,
+        "reverse_span_ready": true,
+        "reason": "confirmed_gap",
+        "evidence_stroke": 1616
+      },
+      "evidence": [
+        1616,
+        "gap_reverse_fractal",
+        [
+          [
+            1607
+          ],
+          [
+            1609,
+            1611
+          ],
+          [
+            1613,
+            1615
+          ]
+        ],
+        [
+          [
+            1612
+          ],
+          [
+            1614
+          ],
+          [
+            1616
+          ]
+        ]
+      ],
+      "left_standard": [
+        {
+          "low": 62681.1,
+          "high": 63370.0,
+          "source_indices": [
+            1587
+          ]
+        },
+        {
+          "low": 64131.3,
+          "high": 65057.9,
+          "source_indices": [
+            1589
+          ]
+        },
+        {
+          "low": 76649.0,
+          "high": 79555.5,
+          "source_indices": [
+            1591,
+            1593
+          ]
+        },
+        {
+          "low": 77808.1,
+          "high": 81270.5,
+          "source_indices": [
+            1595
+          ]
+        },
+        {
+          "low": 76853.1,
+          "high": 78314.9,
+          "source_indices": [
+            1597,
+            1599,
+            1601
+          ]
+        },
+        {
+          "low": 76947.2,
+          "high": 79384.4,
+          "source_indices": [
+            1603
+          ]
+        },
+        {
+          "low": 76368.0,
+          "high": 79228.5,
+          "source_indices": [
+            1605
+          ]
+        },
+        {
+          "low": 76151.9,
+          "high": 77767.8,
+          "source_indices": [
+            1607
+          ]
+        }
+      ],
+      "primary": [
+        {
+          "low": 79125.3,
+          "high": 82282.8,
+          "source_indices": [
+            1609,
+            1611
+          ]
+        },
+        {
+          "low": 74909.4,
+          "high": 76275.4,
+          "source_indices": [
+            1613,
+            1615
+          ]
+        }
+      ],
+      "secondary": [
+        {
+          "low": 78618.1,
+          "high": 80167.0,
+          "source_indices": [
+            1610
+          ]
+        },
+        {
+          "low": 79125.3,
+          "high": 80536.1,
+          "source_indices": [
+            1612
+          ]
+        },
+        {
+          "low": 74909.4,
+          "high": 76275.4,
+          "source_indices": [
+            1614
+          ]
+        },
+        {
+          "low": 75025.0,
+          "high": 81933.9,
+          "source_indices": [
+            1616
+          ]
+        }
+      ],
+      "input_evidence_at": "2026-09-20 08:00"
+    }
+  ],
+  "strokes": [
+    {
+      "index": 1586,
+      "start": "2026-08-14 22:00",
+      "end": "2026-08-17 00:00",
+      "start_price": 62484.2,
+      "end_price": 63370.0,
+      "confirmed_at": "2026-08-17 09:00",
+      "merged_candle_count": 39,
+      "direct_break": false
+    },
+    {
+      "index": 1587,
+      "start": "2026-08-17 00:00",
+      "end": "2026-08-17 06:00",
+      "start_price": 63370.0,
+      "end_price": 62681.1,
+      "confirmed_at": "2026-08-17 18:00",
+      "merged_candle_count": 5,
+      "direct_break": false
+    },
+    {
+      "index": 1588,
+      "start": "2026-08-17 06:00",
+      "end": "2026-08-18 22:00",
+      "start_price": 62681.1,
+      "end_price": 65057.9,
+      "confirmed_at": "2026-08-19 09:00",
+      "merged_candle_count": 28,
+      "direct_break": false
+    },
+    {
+      "index": 1589,
+      "start": "2026-08-18 22:00",
+      "end": "2026-08-19 14:00",
+      "start_price": 65057.9,
+      "end_price": 64131.3,
+      "confirmed_at": "2026-08-20 04:00",
+      "merged_candle_count": 11,
+      "direct_break": false
+    },
+    {
+      "index": 1590,
+      "start": "2026-08-19 14:00",
+      "end": "2026-08-21 16:00",
+      "start_price": 64131.3,
+      "end_price": 79555.5,
+      "confirmed_at": "2026-08-23 19:00",
+      "merged_candle_count": 36,
+      "direct_break": false
+    },
+    {
+      "index": 1591,
+      "start": "2026-08-21 16:00",
+      "end": "2026-08-23 13:00",
+      "start_price": 79555.5,
+      "end_price": 75588.0,
+      "confirmed_at": "2026-08-24 01:00",
+      "merged_candle_count": 31,
+      "direct_break": false
+    },
+    {
+      "index": 1592,
+      "start": "2026-08-23 13:00",
+      "end": "2026-08-24 05:00",
+      "start_price": 75588.0,
+      "end_price": 78057.6,
+      "confirmed_at": "2026-08-24 16:00",
+      "merged_candle_count": 12,
+      "direct_break": false
+    },
+    {
+      "index": 1593,
+      "start": "2026-08-24 05:00",
+      "end": "2026-08-24 12:00",
+      "start_price": 78057.6,
+      "end_price": 76649.0,
+      "confirmed_at": "2026-08-25 04:00",
+      "merged_candle_count": 6,
+      "direct_break": false
+    },
+    {
+      "index": 1594,
+      "start": "2026-08-24 12:00",
+      "end": "2026-08-25 10:00",
+      "start_price": 76649.0,
+      "end_price": 81270.5,
+      "confirmed_at": "2026-08-25 21:00",
+      "merged_candle_count": 17,
+      "direct_break": false
+    },
+    {
+      "index": 1595,
+      "start": "2026-08-25 10:00",
+      "end": "2026-08-26 05:00",
+      "start_price": 81270.5,
+      "end_price": 77808.1,
+      "confirmed_at": "2026-08-26 14:00",
+      "merged_candle_count": 16,
+      "direct_break": false
+    },
+    {
+      "index": 1596,
+      "start": "2026-08-26 05:00",
+      "end": "2026-08-26 10:00",
+      "start_price": 77808.1,
+      "end_price": 79200.0,
+      "confirmed_at": "2026-08-26 21:00",
+      "merged_candle_count": 6,
+      "direct_break": false
+    },
+    {
+      "index": 1597,
+      "start": "2026-08-26 10:00",
+      "end": "2026-08-26 23:00",
+      "start_price": 79200.0,
+      "end_price": 77600.0,
+      "confirmed_at": "2026-08-27 12:00",
+      "merged_candle_count": 10,
+      "direct_break": false
+    },
+    {
+      "index": 1598,
+      "start": "2026-08-26 23:00",
+      "end": "2026-08-28 09:00",
+      "start_price": 77600.0,
+      "end_price": 81500.0,
+      "confirmed_at": "2026-08-28 21:00",
+      "merged_candle_count": 25,
+      "direct_break": true
+    },
+    {
+      "index": 1599,
+      "start": "2026-08-28 09:00",
+      "end": "2026-08-29 00:00",
+      "start_price": 81500.0,
+      "end_price": 76853.1,
+      "confirmed_at": "2026-08-30 06:00",
+      "merged_candle_count": 12,
+      "direct_break": false
+    },
+    {
+      "index": 1600,
+      "start": "2026-08-29 00:00",
+      "end": "2026-08-30 03:00",
+      "start_price": 76853.1,
+      "end_price": 78314.9,
+      "confirmed_at": "2026-08-31 04:00",
+      "merged_candle_count": 18,
+      "direct_break": false
+    },
+    {
+      "index": 1601,
+      "start": "2026-08-30 03:00",
+      "end": "2026-08-30 18:00",
+      "start_price": 78314.9,
+      "end_price": 77933.4,
+      "confirmed_at": "2026-08-31 04:00",
+      "merged_candle_count": 13,
+      "direct_break": false
+    },
+    {
+      "index": 1602,
+      "start": "2026-08-30 18:00",
+      "end": "2026-08-31 00:00",
+      "start_price": 77933.4,
+      "end_price": 79384.4,
+      "confirmed_at": "2026-08-31 08:00",
+      "merged_candle_count": 6,
+      "direct_break": false
+    },
+    {
+      "index": 1603,
+      "start": "2026-08-31 00:00",
+      "end": "2026-08-31 07:00",
+      "start_price": 79384.4,
+      "end_price": 76947.2,
+      "confirmed_at": "2026-08-31 20:00",
+      "merged_candle_count": 7,
+      "direct_break": true
+    },
+    {
+      "index": 1604,
+      "start": "2026-08-31 07:00",
+      "end": "2026-09-01 03:00",
+      "start_price": 76947.2,
+      "end_price": 79228.5,
+      "confirmed_at": "2026-09-01 10:00",
+      "merged_candle_count": 14,
+      "direct_break": false
+    },
+    {
+      "index": 1605,
+      "start": "2026-09-01 03:00",
+      "end": "2026-09-02 02:00",
+      "start_price": 79228.5,
+      "end_price": 76368.0,
+      "confirmed_at": "2026-09-02 14:00",
+      "merged_candle_count": 21,
+      "direct_break": false
+    },
+    {
+      "index": 1606,
+      "start": "2026-09-02 02:00",
+      "end": "2026-09-02 11:00",
+      "start_price": 76368.0,
+      "end_price": 77767.8,
+      "confirmed_at": "2026-09-02 21:00",
+      "merged_candle_count": 7,
+      "direct_break": false
+    },
+    {
+      "index": 1607,
+      "start": "2026-09-02 11:00",
+      "end": "2026-09-02 18:00",
+      "start_price": 77767.8,
+      "end_price": 76151.9,
+      "confirmed_at": "2026-09-03 03:00",
+      "merged_candle_count": 6,
+      "direct_break": false
+    },
+    {
+      "index": 1608,
+      "start": "2026-09-02 18:00",
+      "end": "2026-09-04 05:00",
+      "start_price": 76151.9,
+      "end_price": 82282.8,
+      "confirmed_at": "2026-09-04 13:00",
+      "merged_candle_count": 24,
+      "direct_break": true
+    },
+    {
+      "index": 1609,
+      "start": "2026-09-04 05:00",
+      "end": "2026-09-04 22:00",
+      "start_price": 82282.8,
+      "end_price": 78618.1,
+      "confirmed_at": "2026-09-06 04:00",
+      "merged_candle_count": 14,
+      "direct_break": false
+    },
+    {
+      "index": 1610,
+      "start": "2026-09-04 22:00",
+      "end": "2026-09-06 00:00",
+      "start_price": 78618.1,
+      "end_price": 80167.0,
+      "confirmed_at": "2026-09-06 18:00",
+      "merged_candle_count": 19,
+      "direct_break": false
+    },
+    {
+      "index": 1611,
+      "start": "2026-09-06 00:00",
+      "end": "2026-09-06 22:00",
+      "start_price": 80167.0,
+      "end_price": 79125.3,
+      "confirmed_at": "2026-09-07 12:00",
+      "merged_candle_count": 19,
+      "direct_break": false
+    },
+    {
+      "index": 1612,
+      "start": "2026-09-06 22:00",
+      "end": "2026-09-07 07:00",
+      "start_price": 79125.3,
+      "end_price": 80536.1,
+      "confirmed_at": "2026-09-07 20:00",
+      "merged_candle_count": 7,
+      "direct_break": false
+    },
+    {
+      "index": 1613,
+      "start": "2026-09-07 07:00",
+      "end": "2026-09-16 02:00",
+      "start_price": 80536.1,
+      "end_price": 74909.4,
+      "confirmed_at": "2026-09-16 23:00",
+      "merged_candle_count": 147,
+      "direct_break": false
+    },
+    {
+      "index": 1614,
+      "start": "2026-09-16 02:00",
+      "end": "2026-09-16 20:00",
+      "start_price": 74909.4,
+      "end_price": 76275.4,
+      "confirmed_at": "2026-09-17 12:00",
+      "merged_candle_count": 7,
+      "direct_break": false
+    },
+    {
+      "index": 1615,
+      "start": "2026-09-16 20:00",
+      "end": "2026-09-17 02:00",
+      "start_price": 76275.4,
+      "end_price": 75025.0,
+      "confirmed_at": "2026-09-17 12:00",
+      "merged_candle_count": 5,
+      "direct_break": false
+    },
+    {
+      "index": 1616,
+      "start": "2026-09-17 02:00",
+      "end": "2026-09-19 23:00",
+      "start_price": 75025.0,
+      "end_price": 81933.9,
+      "confirmed_at": "2026-09-20 08:00",
+      "merged_candle_count": 53,
+      "direct_break": false
+    },
+    {
+      "index": 1617,
+      "start": "2026-09-19 23:00",
+      "end": "2026-09-20 11:00",
+      "start_price": 81933.9,
+      "end_price": 80095.9,
+      "confirmed_at": "2026-09-21 06:00",
+      "merged_candle_count": 13,
+      "direct_break": false
+    },
+    {
+      "index": 1618,
+      "start": "2026-09-20 11:00",
+      "end": "2026-09-22 04:00",
+      "start_price": 80095.9,
+      "end_price": 87385.1,
+      "confirmed_at": "2026-09-22 22:00",
+      "merged_candle_count": 27,
+      "direct_break": false
+    },
+    {
+      "index": 1619,
+      "start": "2026-09-22 04:00",
+      "end": "2026-09-22 13:00",
+      "start_price": 87385.1,
+      "end_price": 85080.0,
+      "confirmed_at": "2026-09-23 15:00",
+      "merged_candle_count": 7,
+      "direct_break": false
+    },
+    {
+      "index": 1620,
+      "start": "2026-09-22 13:00",
+      "end": "2026-09-23 12:00",
+      "start_price": 85080.0,
+      "end_price": 87247.3,
+      "confirmed_at": "2026-09-24 00:00",
+      "merged_candle_count": 15,
+      "direct_break": false
+    },
+    {
+      "index": 1621,
+      "start": "2026-09-23 12:00",
+      "end": "2026-09-24 00:00",
+      "start_price": 87247.3,
+      "end_price": 83450.1,
+      "confirmed_at": "2026-09-24 10:00",
+      "merged_candle_count": 10,
+      "direct_break": false
+    }
+  ],
+  "raw_replays": [
+    {
+      "asof": "2026-08-27 11:00",
+      "closed_candles": 32027,
+      "confirmed_segments": [],
+      "pending_segment": {
+        "start": {
+          "index": 22660,
+          "kind": "bottom",
+          "price": 62484.2,
+          "time": "2026-08-14T14:00:00+00:00"
+        },
+        "end": {
+          "index": 22836,
+          "kind": "top",
+          "price": 81270.5,
+          "time": "2026-08-25T02:00:00+00:00"
+        },
+        "first_stroke": 1586,
+        "last_stroke": 1594,
+        "confirmed": false,
+        "confirmation": "pending",
+        "evidence_stroke": null,
+        "evidence_at": null,
+        "feature_indices": [],
+        "reverse_feature_indices": [],
+        "range_low": 62484.2,
+        "range_high": 81270.5,
+        "local_evidence_stroke": null
+      },
+      "last_strokes": [
+        {
+          "start": {
+            "index": 22815,
+            "kind": "top",
+            "price": 78057.6,
+            "time": "2026-08-23T21:00:00+00:00"
+          },
+          "end": {
+            "index": 22820,
+            "kind": "bottom",
+            "price": 76649.0,
+            "time": "2026-08-24T04:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-08-24T20:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 22820,
+            "kind": "bottom",
+            "price": 76649.0,
+            "time": "2026-08-24T04:00:00+00:00"
+          },
+          "end": {
+            "index": 22836,
+            "kind": "top",
+            "price": 81270.5,
+            "time": "2026-08-25T02:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-08-25T13:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 22836,
+            "kind": "top",
+            "price": 81270.5,
+            "time": "2026-08-25T02:00:00+00:00"
+          },
+          "end": {
+            "index": 22851,
+            "kind": "bottom",
+            "price": 77808.1,
+            "time": "2026-08-25T21:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-08-26T06:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 22851,
+            "kind": "bottom",
+            "price": 77808.1,
+            "time": "2026-08-25T21:00:00+00:00"
+          },
+          "end": {
+            "index": 22856,
+            "kind": "top",
+            "price": 79200.0,
+            "time": "2026-08-26T02:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-08-26T13:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 22856,
+            "kind": "top",
+            "price": 79200.0,
+            "time": "2026-08-26T02:00:00+00:00"
+          },
+          "end": {
+            "index": 22865,
+            "kind": "bottom",
+            "price": 77600.0,
+            "time": "2026-08-26T15:00:00+00:00"
+          },
+          "provisional": true,
+          "confirmed_at": null
+        }
+      ]
+    },
+    {
+      "asof": "2026-08-27 12:00",
+      "closed_candles": 32028,
+      "confirmed_segments": [
+        {
+          "start": {
+            "index": 22660,
+            "kind": "bottom",
+            "price": 62484.2,
+            "time": "2026-08-14T14:00:00+00:00"
+          },
+          "end": {
+            "index": 22836,
+            "kind": "top",
+            "price": 81270.5,
+            "time": "2026-08-25T02:00:00+00:00"
+          },
+          "first_stroke": 1586,
+          "last_stroke": 1594,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1597,
+          "evidence_at": "2026-08-27T04:00:00+00:00",
+          "feature_indices": [
+            [
+              1591,
+              1593
+            ],
+            [
+              1595
+            ],
+            [
+              1597
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 62484.2,
+          "range_high": 81270.5,
+          "local_evidence_stroke": 1597
+        }
+      ],
+      "pending_segment": {
+        "start": {
+          "index": 22836,
+          "kind": "top",
+          "price": 81270.5,
+          "time": "2026-08-25T02:00:00+00:00"
+        },
+        "end": {
+          "index": 22865,
+          "kind": "bottom",
+          "price": 77600.0,
+          "time": "2026-08-26T15:00:00+00:00"
+        },
+        "first_stroke": 1595,
+        "last_stroke": 1597,
+        "confirmed": false,
+        "confirmation": "pending",
+        "evidence_stroke": null,
+        "evidence_at": null,
+        "feature_indices": [],
+        "reverse_feature_indices": [],
+        "range_low": 77600.0,
+        "range_high": 81270.5,
+        "local_evidence_stroke": null
+      },
+      "last_strokes": [
+        {
+          "start": {
+            "index": 22820,
+            "kind": "bottom",
+            "price": 76649.0,
+            "time": "2026-08-24T04:00:00+00:00"
+          },
+          "end": {
+            "index": 22836,
+            "kind": "top",
+            "price": 81270.5,
+            "time": "2026-08-25T02:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-08-25T13:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 22836,
+            "kind": "top",
+            "price": 81270.5,
+            "time": "2026-08-25T02:00:00+00:00"
+          },
+          "end": {
+            "index": 22851,
+            "kind": "bottom",
+            "price": 77808.1,
+            "time": "2026-08-25T21:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-08-26T06:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 22851,
+            "kind": "bottom",
+            "price": 77808.1,
+            "time": "2026-08-25T21:00:00+00:00"
+          },
+          "end": {
+            "index": 22856,
+            "kind": "top",
+            "price": 79200.0,
+            "time": "2026-08-26T02:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-08-26T13:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 22856,
+            "kind": "top",
+            "price": 79200.0,
+            "time": "2026-08-26T02:00:00+00:00"
+          },
+          "end": {
+            "index": 22865,
+            "kind": "bottom",
+            "price": 77600.0,
+            "time": "2026-08-26T15:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-08-27T04:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 22865,
+            "kind": "bottom",
+            "price": 77600.0,
+            "time": "2026-08-26T15:00:00+00:00"
+          },
+          "end": {
+            "index": 22871,
+            "kind": "top",
+            "price": 79138.7,
+            "time": "2026-08-26T23:00:00+00:00"
+          },
+          "provisional": true,
+          "confirmed_at": null
+        }
+      ]
+    },
+    {
+      "asof": "2026-08-31 07:00",
+      "closed_candles": 32119,
+      "confirmed_segments": [
+        {
+          "start": {
+            "index": 22660,
+            "kind": "bottom",
+            "price": 62484.2,
+            "time": "2026-08-14T14:00:00+00:00"
+          },
+          "end": {
+            "index": 22836,
+            "kind": "top",
+            "price": 81270.5,
+            "time": "2026-08-25T02:00:00+00:00"
+          },
+          "first_stroke": 1586,
+          "last_stroke": 1594,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1597,
+          "evidence_at": "2026-08-27T04:00:00+00:00",
+          "feature_indices": [
+            [
+              1591,
+              1593
+            ],
+            [
+              1595
+            ],
+            [
+              1597
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 62484.2,
+          "range_high": 81270.5,
+          "local_evidence_stroke": 1597
+        }
+      ],
+      "pending_segment": {
+        "start": {
+          "index": 22836,
+          "kind": "top",
+          "price": 81270.5,
+          "time": "2026-08-25T02:00:00+00:00"
+        },
+        "end": {
+          "index": 22900,
+          "kind": "bottom",
+          "price": 76853.1,
+          "time": "2026-08-28T16:00:00+00:00"
+        },
+        "first_stroke": 1595,
+        "last_stroke": 1599,
+        "confirmed": false,
+        "confirmation": "pending",
+        "evidence_stroke": null,
+        "evidence_at": null,
+        "feature_indices": [],
+        "reverse_feature_indices": [],
+        "range_low": 76853.1,
+        "range_high": 81500.0,
+        "local_evidence_stroke": null
+      },
+      "last_strokes": [
+        {
+          "start": {
+            "index": 22865,
+            "kind": "bottom",
+            "price": 77600.0,
+            "time": "2026-08-26T15:00:00+00:00"
+          },
+          "end": {
+            "index": 22889,
+            "kind": "top",
+            "price": 81500.0,
+            "time": "2026-08-28T01:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-08-28T13:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 22889,
+            "kind": "top",
+            "price": 81500.0,
+            "time": "2026-08-28T01:00:00+00:00"
+          },
+          "end": {
+            "index": 22900,
+            "kind": "bottom",
+            "price": 76853.1,
+            "time": "2026-08-28T16:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-08-29T22:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 22900,
+            "kind": "bottom",
+            "price": 76853.1,
+            "time": "2026-08-28T16:00:00+00:00"
+          },
+          "end": {
+            "index": 22917,
+            "kind": "top",
+            "price": 78314.9,
+            "time": "2026-08-29T19:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-08-30T20:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 22917,
+            "kind": "top",
+            "price": 78314.9,
+            "time": "2026-08-29T19:00:00+00:00"
+          },
+          "end": {
+            "index": 22929,
+            "kind": "bottom",
+            "price": 77933.4,
+            "time": "2026-08-30T10:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-08-30T20:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 22929,
+            "kind": "bottom",
+            "price": 77933.4,
+            "time": "2026-08-30T10:00:00+00:00"
+          },
+          "end": {
+            "index": 22934,
+            "kind": "top",
+            "price": 79384.4,
+            "time": "2026-08-30T16:00:00+00:00"
+          },
+          "provisional": true,
+          "confirmed_at": null
+        }
+      ]
+    },
+    {
+      "asof": "2026-08-31 08:00",
+      "closed_candles": 32120,
+      "confirmed_segments": [
+        {
+          "start": {
+            "index": 22660,
+            "kind": "bottom",
+            "price": 62484.2,
+            "time": "2026-08-14T14:00:00+00:00"
+          },
+          "end": {
+            "index": 22836,
+            "kind": "top",
+            "price": 81270.5,
+            "time": "2026-08-25T02:00:00+00:00"
+          },
+          "first_stroke": 1586,
+          "last_stroke": 1594,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1597,
+          "evidence_at": "2026-08-27T04:00:00+00:00",
+          "feature_indices": [
+            [
+              1591,
+              1593
+            ],
+            [
+              1595
+            ],
+            [
+              1597
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 62484.2,
+          "range_high": 81270.5,
+          "local_evidence_stroke": 1597
+        },
+        {
+          "start": {
+            "index": 22836,
+            "kind": "top",
+            "price": 81270.5,
+            "time": "2026-08-25T02:00:00+00:00"
+          },
+          "end": {
+            "index": 22900,
+            "kind": "bottom",
+            "price": 76853.1,
+            "time": "2026-08-28T16:00:00+00:00"
+          },
+          "first_stroke": 1595,
+          "last_stroke": 1599,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1602,
+          "evidence_at": "2026-08-31T00:00:00+00:00",
+          "feature_indices": [
+            [
+              1596,
+              1598
+            ],
+            [
+              1600
+            ],
+            [
+              1602
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 76853.1,
+          "range_high": 81500.0,
+          "local_evidence_stroke": 1602
+        }
+      ],
+      "pending_segment": {
+        "start": {
+          "index": 22900,
+          "kind": "bottom",
+          "price": 76853.1,
+          "time": "2026-08-28T16:00:00+00:00"
+        },
+        "end": {
+          "index": 22934,
+          "kind": "top",
+          "price": 79384.4,
+          "time": "2026-08-30T16:00:00+00:00"
+        },
+        "first_stroke": 1600,
+        "last_stroke": 1602,
+        "confirmed": false,
+        "confirmation": "pending",
+        "evidence_stroke": null,
+        "evidence_at": null,
+        "feature_indices": [],
+        "reverse_feature_indices": [],
+        "range_low": 76853.1,
+        "range_high": 79384.4,
+        "local_evidence_stroke": null
+      },
+      "last_strokes": [
+        {
+          "start": {
+            "index": 22889,
+            "kind": "top",
+            "price": 81500.0,
+            "time": "2026-08-28T01:00:00+00:00"
+          },
+          "end": {
+            "index": 22900,
+            "kind": "bottom",
+            "price": 76853.1,
+            "time": "2026-08-28T16:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-08-29T22:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 22900,
+            "kind": "bottom",
+            "price": 76853.1,
+            "time": "2026-08-28T16:00:00+00:00"
+          },
+          "end": {
+            "index": 22917,
+            "kind": "top",
+            "price": 78314.9,
+            "time": "2026-08-29T19:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-08-30T20:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 22917,
+            "kind": "top",
+            "price": 78314.9,
+            "time": "2026-08-29T19:00:00+00:00"
+          },
+          "end": {
+            "index": 22929,
+            "kind": "bottom",
+            "price": 77933.4,
+            "time": "2026-08-30T10:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-08-30T20:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 22929,
+            "kind": "bottom",
+            "price": 77933.4,
+            "time": "2026-08-30T10:00:00+00:00"
+          },
+          "end": {
+            "index": 22934,
+            "kind": "top",
+            "price": 79384.4,
+            "time": "2026-08-30T16:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-08-31T00:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 22934,
+            "kind": "top",
+            "price": 79384.4,
+            "time": "2026-08-30T16:00:00+00:00"
+          },
+          "end": {
+            "index": 22938,
+            "kind": "bottom",
+            "price": 78174.8,
+            "time": "2026-08-30T21:00:00+00:00"
+          },
+          "provisional": true,
+          "confirmed_at": null
+        }
+      ]
+    },
+    {
+      "asof": "2026-09-02 13:00",
+      "closed_candles": 32173,
+      "confirmed_segments": [
+        {
+          "start": {
+            "index": 22660,
+            "kind": "bottom",
+            "price": 62484.2,
+            "time": "2026-08-14T14:00:00+00:00"
+          },
+          "end": {
+            "index": 22836,
+            "kind": "top",
+            "price": 81270.5,
+            "time": "2026-08-25T02:00:00+00:00"
+          },
+          "first_stroke": 1586,
+          "last_stroke": 1594,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1597,
+          "evidence_at": "2026-08-27T04:00:00+00:00",
+          "feature_indices": [
+            [
+              1591,
+              1593
+            ],
+            [
+              1595
+            ],
+            [
+              1597
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 62484.2,
+          "range_high": 81270.5,
+          "local_evidence_stroke": 1597
+        },
+        {
+          "start": {
+            "index": 22836,
+            "kind": "top",
+            "price": 81270.5,
+            "time": "2026-08-25T02:00:00+00:00"
+          },
+          "end": {
+            "index": 22900,
+            "kind": "bottom",
+            "price": 76853.1,
+            "time": "2026-08-28T16:00:00+00:00"
+          },
+          "first_stroke": 1595,
+          "last_stroke": 1599,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1602,
+          "evidence_at": "2026-08-31T00:00:00+00:00",
+          "feature_indices": [
+            [
+              1596,
+              1598
+            ],
+            [
+              1600
+            ],
+            [
+              1602
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 76853.1,
+          "range_high": 81500.0,
+          "local_evidence_stroke": 1602
+        }
+      ],
+      "pending_segment": {
+        "start": {
+          "index": 22900,
+          "kind": "bottom",
+          "price": 76853.1,
+          "time": "2026-08-28T16:00:00+00:00"
+        },
+        "end": {
+          "index": 22934,
+          "kind": "top",
+          "price": 79384.4,
+          "time": "2026-08-30T16:00:00+00:00"
+        },
+        "first_stroke": 1600,
+        "last_stroke": 1602,
+        "confirmed": false,
+        "confirmation": "pending",
+        "evidence_stroke": null,
+        "evidence_at": null,
+        "feature_indices": [],
+        "reverse_feature_indices": [],
+        "range_low": 76853.1,
+        "range_high": 79384.4,
+        "local_evidence_stroke": null
+      },
+      "last_strokes": [
+        {
+          "start": {
+            "index": 22917,
+            "kind": "top",
+            "price": 78314.9,
+            "time": "2026-08-29T19:00:00+00:00"
+          },
+          "end": {
+            "index": 22929,
+            "kind": "bottom",
+            "price": 77933.4,
+            "time": "2026-08-30T10:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-08-30T20:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 22929,
+            "kind": "bottom",
+            "price": 77933.4,
+            "time": "2026-08-30T10:00:00+00:00"
+          },
+          "end": {
+            "index": 22934,
+            "kind": "top",
+            "price": 79384.4,
+            "time": "2026-08-30T16:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-08-31T00:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 22934,
+            "kind": "top",
+            "price": 79384.4,
+            "time": "2026-08-30T16:00:00+00:00"
+          },
+          "end": {
+            "index": 22940,
+            "kind": "bottom",
+            "price": 76947.2,
+            "time": "2026-08-30T23:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-08-31T12:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 22940,
+            "kind": "bottom",
+            "price": 76947.2,
+            "time": "2026-08-30T23:00:00+00:00"
+          },
+          "end": {
+            "index": 22953,
+            "kind": "top",
+            "price": 79228.5,
+            "time": "2026-08-31T19:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-01T02:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 22953,
+            "kind": "top",
+            "price": 79228.5,
+            "time": "2026-08-31T19:00:00+00:00"
+          },
+          "end": {
+            "index": 22973,
+            "kind": "bottom",
+            "price": 76368.0,
+            "time": "2026-09-01T18:00:00+00:00"
+          },
+          "provisional": true,
+          "confirmed_at": null
+        }
+      ]
+    },
+    {
+      "asof": "2026-09-02 14:00",
+      "closed_candles": 32174,
+      "confirmed_segments": [
+        {
+          "start": {
+            "index": 22660,
+            "kind": "bottom",
+            "price": 62484.2,
+            "time": "2026-08-14T14:00:00+00:00"
+          },
+          "end": {
+            "index": 22836,
+            "kind": "top",
+            "price": 81270.5,
+            "time": "2026-08-25T02:00:00+00:00"
+          },
+          "first_stroke": 1586,
+          "last_stroke": 1594,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1597,
+          "evidence_at": "2026-08-27T04:00:00+00:00",
+          "feature_indices": [
+            [
+              1591,
+              1593
+            ],
+            [
+              1595
+            ],
+            [
+              1597
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 62484.2,
+          "range_high": 81270.5,
+          "local_evidence_stroke": 1597
+        },
+        {
+          "start": {
+            "index": 22836,
+            "kind": "top",
+            "price": 81270.5,
+            "time": "2026-08-25T02:00:00+00:00"
+          },
+          "end": {
+            "index": 22900,
+            "kind": "bottom",
+            "price": 76853.1,
+            "time": "2026-08-28T16:00:00+00:00"
+          },
+          "first_stroke": 1595,
+          "last_stroke": 1599,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1602,
+          "evidence_at": "2026-08-31T00:00:00+00:00",
+          "feature_indices": [
+            [
+              1596,
+              1598
+            ],
+            [
+              1600
+            ],
+            [
+              1602
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 76853.1,
+          "range_high": 81500.0,
+          "local_evidence_stroke": 1602
+        },
+        {
+          "start": {
+            "index": 22900,
+            "kind": "bottom",
+            "price": 76853.1,
+            "time": "2026-08-28T16:00:00+00:00"
+          },
+          "end": {
+            "index": 22934,
+            "kind": "top",
+            "price": 79384.4,
+            "time": "2026-08-30T16:00:00+00:00"
+          },
+          "first_stroke": 1600,
+          "last_stroke": 1602,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1605,
+          "evidence_at": "2026-09-02T06:00:00+00:00",
+          "feature_indices": [
+            [
+              1601
+            ],
+            [
+              1603
+            ],
+            [
+              1605
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 76853.1,
+          "range_high": 79384.4,
+          "local_evidence_stroke": 1605
+        }
+      ],
+      "pending_segment": {
+        "start": {
+          "index": 22934,
+          "kind": "top",
+          "price": 79384.4,
+          "time": "2026-08-30T16:00:00+00:00"
+        },
+        "end": {
+          "index": 22973,
+          "kind": "bottom",
+          "price": 76368.0,
+          "time": "2026-09-01T18:00:00+00:00"
+        },
+        "first_stroke": 1603,
+        "last_stroke": 1605,
+        "confirmed": false,
+        "confirmation": "pending",
+        "evidence_stroke": null,
+        "evidence_at": null,
+        "feature_indices": [],
+        "reverse_feature_indices": [],
+        "range_low": 76368.0,
+        "range_high": 79384.4,
+        "local_evidence_stroke": null
+      },
+      "last_strokes": [
+        {
+          "start": {
+            "index": 22929,
+            "kind": "bottom",
+            "price": 77933.4,
+            "time": "2026-08-30T10:00:00+00:00"
+          },
+          "end": {
+            "index": 22934,
+            "kind": "top",
+            "price": 79384.4,
+            "time": "2026-08-30T16:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-08-31T00:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 22934,
+            "kind": "top",
+            "price": 79384.4,
+            "time": "2026-08-30T16:00:00+00:00"
+          },
+          "end": {
+            "index": 22940,
+            "kind": "bottom",
+            "price": 76947.2,
+            "time": "2026-08-30T23:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-08-31T12:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 22940,
+            "kind": "bottom",
+            "price": 76947.2,
+            "time": "2026-08-30T23:00:00+00:00"
+          },
+          "end": {
+            "index": 22953,
+            "kind": "top",
+            "price": 79228.5,
+            "time": "2026-08-31T19:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-01T02:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 22953,
+            "kind": "top",
+            "price": 79228.5,
+            "time": "2026-08-31T19:00:00+00:00"
+          },
+          "end": {
+            "index": 22973,
+            "kind": "bottom",
+            "price": 76368.0,
+            "time": "2026-09-01T18:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-02T06:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 22973,
+            "kind": "bottom",
+            "price": 76368.0,
+            "time": "2026-09-01T18:00:00+00:00"
+          },
+          "end": {
+            "index": 22979,
+            "kind": "top",
+            "price": 77767.8,
+            "time": "2026-09-02T03:00:00+00:00"
+          },
+          "provisional": true,
+          "confirmed_at": null
+        }
+      ]
+    },
+    {
+      "asof": "2026-09-04 13:00",
+      "closed_candles": 32221,
+      "confirmed_segments": [
+        {
+          "start": {
+            "index": 22660,
+            "kind": "bottom",
+            "price": 62484.2,
+            "time": "2026-08-14T14:00:00+00:00"
+          },
+          "end": {
+            "index": 22836,
+            "kind": "top",
+            "price": 81270.5,
+            "time": "2026-08-25T02:00:00+00:00"
+          },
+          "first_stroke": 1586,
+          "last_stroke": 1594,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1597,
+          "evidence_at": "2026-08-27T04:00:00+00:00",
+          "feature_indices": [
+            [
+              1591,
+              1593
+            ],
+            [
+              1595
+            ],
+            [
+              1597
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 62484.2,
+          "range_high": 81270.5,
+          "local_evidence_stroke": 1597
+        },
+        {
+          "start": {
+            "index": 22836,
+            "kind": "top",
+            "price": 81270.5,
+            "time": "2026-08-25T02:00:00+00:00"
+          },
+          "end": {
+            "index": 22900,
+            "kind": "bottom",
+            "price": 76853.1,
+            "time": "2026-08-28T16:00:00+00:00"
+          },
+          "first_stroke": 1595,
+          "last_stroke": 1599,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1602,
+          "evidence_at": "2026-08-31T00:00:00+00:00",
+          "feature_indices": [
+            [
+              1596,
+              1598
+            ],
+            [
+              1600
+            ],
+            [
+              1602
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 76853.1,
+          "range_high": 81500.0,
+          "local_evidence_stroke": 1602
+        },
+        {
+          "start": {
+            "index": 22900,
+            "kind": "bottom",
+            "price": 76853.1,
+            "time": "2026-08-28T16:00:00+00:00"
+          },
+          "end": {
+            "index": 22934,
+            "kind": "top",
+            "price": 79384.4,
+            "time": "2026-08-30T16:00:00+00:00"
+          },
+          "first_stroke": 1600,
+          "last_stroke": 1602,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1605,
+          "evidence_at": "2026-09-02T06:00:00+00:00",
+          "feature_indices": [
+            [
+              1601
+            ],
+            [
+              1603
+            ],
+            [
+              1605
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 76853.1,
+          "range_high": 79384.4,
+          "local_evidence_stroke": 1605
+        }
+      ],
+      "pending_segment": {
+        "start": {
+          "index": 22934,
+          "kind": "top",
+          "price": 79384.4,
+          "time": "2026-08-30T16:00:00+00:00"
+        },
+        "end": {
+          "index": 22984,
+          "kind": "bottom",
+          "price": 76151.9,
+          "time": "2026-09-02T10:00:00+00:00"
+        },
+        "first_stroke": 1603,
+        "last_stroke": 1607,
+        "confirmed": false,
+        "confirmation": "pending",
+        "evidence_stroke": null,
+        "evidence_at": null,
+        "feature_indices": [],
+        "reverse_feature_indices": [],
+        "range_low": 76151.9,
+        "range_high": 79384.4,
+        "local_evidence_stroke": null
+      },
+      "last_strokes": [
+        {
+          "start": {
+            "index": 22953,
+            "kind": "top",
+            "price": 79228.5,
+            "time": "2026-08-31T19:00:00+00:00"
+          },
+          "end": {
+            "index": 22973,
+            "kind": "bottom",
+            "price": 76368.0,
+            "time": "2026-09-01T18:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-02T06:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 22973,
+            "kind": "bottom",
+            "price": 76368.0,
+            "time": "2026-09-01T18:00:00+00:00"
+          },
+          "end": {
+            "index": 22979,
+            "kind": "top",
+            "price": 77767.8,
+            "time": "2026-09-02T03:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-02T13:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 22979,
+            "kind": "top",
+            "price": 77767.8,
+            "time": "2026-09-02T03:00:00+00:00"
+          },
+          "end": {
+            "index": 22984,
+            "kind": "bottom",
+            "price": 76151.9,
+            "time": "2026-09-02T10:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-02T19:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 22984,
+            "kind": "bottom",
+            "price": 76151.9,
+            "time": "2026-09-02T10:00:00+00:00"
+          },
+          "end": {
+            "index": 23007,
+            "kind": "top",
+            "price": 82282.8,
+            "time": "2026-09-03T21:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-04T05:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23007,
+            "kind": "top",
+            "price": 82282.8,
+            "time": "2026-09-03T21:00:00+00:00"
+          },
+          "end": {
+            "index": 23011,
+            "kind": "bottom",
+            "price": 80614.0,
+            "time": "2026-09-04T02:00:00+00:00"
+          },
+          "provisional": true,
+          "confirmed_at": null
+        }
+      ]
+    },
+    {
+      "asof": "2026-09-16 02:00",
+      "closed_candles": 32498,
+      "confirmed_segments": [
+        {
+          "start": {
+            "index": 22660,
+            "kind": "bottom",
+            "price": 62484.2,
+            "time": "2026-08-14T14:00:00+00:00"
+          },
+          "end": {
+            "index": 22836,
+            "kind": "top",
+            "price": 81270.5,
+            "time": "2026-08-25T02:00:00+00:00"
+          },
+          "first_stroke": 1586,
+          "last_stroke": 1594,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1597,
+          "evidence_at": "2026-08-27T04:00:00+00:00",
+          "feature_indices": [
+            [
+              1591,
+              1593
+            ],
+            [
+              1595
+            ],
+            [
+              1597
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 62484.2,
+          "range_high": 81270.5,
+          "local_evidence_stroke": 1597
+        },
+        {
+          "start": {
+            "index": 22836,
+            "kind": "top",
+            "price": 81270.5,
+            "time": "2026-08-25T02:00:00+00:00"
+          },
+          "end": {
+            "index": 22900,
+            "kind": "bottom",
+            "price": 76853.1,
+            "time": "2026-08-28T16:00:00+00:00"
+          },
+          "first_stroke": 1595,
+          "last_stroke": 1599,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1602,
+          "evidence_at": "2026-08-31T00:00:00+00:00",
+          "feature_indices": [
+            [
+              1596,
+              1598
+            ],
+            [
+              1600
+            ],
+            [
+              1602
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 76853.1,
+          "range_high": 81500.0,
+          "local_evidence_stroke": 1602
+        },
+        {
+          "start": {
+            "index": 22900,
+            "kind": "bottom",
+            "price": 76853.1,
+            "time": "2026-08-28T16:00:00+00:00"
+          },
+          "end": {
+            "index": 22934,
+            "kind": "top",
+            "price": 79384.4,
+            "time": "2026-08-30T16:00:00+00:00"
+          },
+          "first_stroke": 1600,
+          "last_stroke": 1602,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1605,
+          "evidence_at": "2026-09-02T06:00:00+00:00",
+          "feature_indices": [
+            [
+              1601
+            ],
+            [
+              1603
+            ],
+            [
+              1605
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 76853.1,
+          "range_high": 79384.4,
+          "local_evidence_stroke": 1605
+        }
+      ],
+      "pending_segment": {
+        "start": {
+          "index": 22934,
+          "kind": "top",
+          "price": 79384.4,
+          "time": "2026-08-30T16:00:00+00:00"
+        },
+        "end": {
+          "index": 22984,
+          "kind": "bottom",
+          "price": 76151.9,
+          "time": "2026-09-02T10:00:00+00:00"
+        },
+        "first_stroke": 1603,
+        "last_stroke": 1607,
+        "confirmed": false,
+        "confirmation": "pending",
+        "evidence_stroke": null,
+        "evidence_at": null,
+        "feature_indices": [],
+        "reverse_feature_indices": [],
+        "range_low": 76151.9,
+        "range_high": 79384.4,
+        "local_evidence_stroke": null
+      },
+      "last_strokes": [
+        {
+          "start": {
+            "index": 23080,
+            "kind": "top",
+            "price": 79476.0,
+            "time": "2026-09-08T02:00:00+00:00"
+          },
+          "end": {
+            "index": 23089,
+            "kind": "bottom",
+            "price": 77600.1,
+            "time": "2026-09-08T13:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-09T11:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23089,
+            "kind": "bottom",
+            "price": 77600.1,
+            "time": "2026-09-08T13:00:00+00:00"
+          },
+          "end": {
+            "index": 23106,
+            "kind": "top",
+            "price": 79737.3,
+            "time": "2026-09-09T08:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-09T23:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23106,
+            "kind": "top",
+            "price": 79737.3,
+            "time": "2026-09-09T08:00:00+00:00"
+          },
+          "end": {
+            "index": 23114,
+            "kind": "bottom",
+            "price": 77706.1,
+            "time": "2026-09-09T22:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-10T07:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23114,
+            "kind": "bottom",
+            "price": 77706.1,
+            "time": "2026-09-09T22:00:00+00:00"
+          },
+          "end": {
+            "index": 23118,
+            "kind": "top",
+            "price": 78543.9,
+            "time": "2026-09-10T03:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-10T17:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23118,
+            "kind": "top",
+            "price": 78543.9,
+            "time": "2026-09-10T03:00:00+00:00"
+          },
+          "end": {
+            "index": 23141,
+            "kind": "bottom",
+            "price": 76000.3,
+            "time": "2026-09-11T12:00:00+00:00"
+          },
+          "provisional": true,
+          "confirmed_at": null
+        }
+      ]
+    },
+    {
+      "asof": "2026-09-16 23:00",
+      "closed_candles": 32519,
+      "confirmed_segments": [
+        {
+          "start": {
+            "index": 22660,
+            "kind": "bottom",
+            "price": 62484.2,
+            "time": "2026-08-14T14:00:00+00:00"
+          },
+          "end": {
+            "index": 22836,
+            "kind": "top",
+            "price": 81270.5,
+            "time": "2026-08-25T02:00:00+00:00"
+          },
+          "first_stroke": 1586,
+          "last_stroke": 1594,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1597,
+          "evidence_at": "2026-08-27T04:00:00+00:00",
+          "feature_indices": [
+            [
+              1591,
+              1593
+            ],
+            [
+              1595
+            ],
+            [
+              1597
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 62484.2,
+          "range_high": 81270.5,
+          "local_evidence_stroke": 1597
+        },
+        {
+          "start": {
+            "index": 22836,
+            "kind": "top",
+            "price": 81270.5,
+            "time": "2026-08-25T02:00:00+00:00"
+          },
+          "end": {
+            "index": 22900,
+            "kind": "bottom",
+            "price": 76853.1,
+            "time": "2026-08-28T16:00:00+00:00"
+          },
+          "first_stroke": 1595,
+          "last_stroke": 1599,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1602,
+          "evidence_at": "2026-08-31T00:00:00+00:00",
+          "feature_indices": [
+            [
+              1596,
+              1598
+            ],
+            [
+              1600
+            ],
+            [
+              1602
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 76853.1,
+          "range_high": 81500.0,
+          "local_evidence_stroke": 1602
+        },
+        {
+          "start": {
+            "index": 22900,
+            "kind": "bottom",
+            "price": 76853.1,
+            "time": "2026-08-28T16:00:00+00:00"
+          },
+          "end": {
+            "index": 22934,
+            "kind": "top",
+            "price": 79384.4,
+            "time": "2026-08-30T16:00:00+00:00"
+          },
+          "first_stroke": 1600,
+          "last_stroke": 1602,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1605,
+          "evidence_at": "2026-09-02T06:00:00+00:00",
+          "feature_indices": [
+            [
+              1601
+            ],
+            [
+              1603
+            ],
+            [
+              1605
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 76853.1,
+          "range_high": 79384.4,
+          "local_evidence_stroke": 1605
+        }
+      ],
+      "pending_segment": {
+        "start": {
+          "index": 22934,
+          "kind": "top",
+          "price": 79384.4,
+          "time": "2026-08-30T16:00:00+00:00"
+        },
+        "end": {
+          "index": 23208,
+          "kind": "bottom",
+          "price": 74909.4,
+          "time": "2026-09-15T18:00:00+00:00"
+        },
+        "first_stroke": 1603,
+        "last_stroke": 1613,
+        "confirmed": false,
+        "confirmation": "pending",
+        "evidence_stroke": null,
+        "evidence_at": null,
+        "feature_indices": [],
+        "reverse_feature_indices": [],
+        "range_low": 74909.4,
+        "range_high": 82282.8,
+        "local_evidence_stroke": null
+      },
+      "last_strokes": [
+        {
+          "start": {
+            "index": 23020,
+            "kind": "bottom",
+            "price": 78618.1,
+            "time": "2026-09-04T14:00:00+00:00"
+          },
+          "end": {
+            "index": 23038,
+            "kind": "top",
+            "price": 80167.0,
+            "time": "2026-09-05T16:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-06T10:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23038,
+            "kind": "top",
+            "price": 80167.0,
+            "time": "2026-09-05T16:00:00+00:00"
+          },
+          "end": {
+            "index": 23056,
+            "kind": "bottom",
+            "price": 79125.3,
+            "time": "2026-09-06T14:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-07T04:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23056,
+            "kind": "bottom",
+            "price": 79125.3,
+            "time": "2026-09-06T14:00:00+00:00"
+          },
+          "end": {
+            "index": 23062,
+            "kind": "top",
+            "price": 80536.1,
+            "time": "2026-09-06T23:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-07T12:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23062,
+            "kind": "top",
+            "price": 80536.1,
+            "time": "2026-09-06T23:00:00+00:00"
+          },
+          "end": {
+            "index": 23208,
+            "kind": "bottom",
+            "price": 74909.4,
+            "time": "2026-09-15T18:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-16T15:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23208,
+            "kind": "bottom",
+            "price": 74909.4,
+            "time": "2026-09-15T18:00:00+00:00"
+          },
+          "end": {
+            "index": 23214,
+            "kind": "top",
+            "price": 76275.4,
+            "time": "2026-09-16T12:00:00+00:00"
+          },
+          "provisional": true,
+          "confirmed_at": null
+        }
+      ]
+    },
+    {
+      "asof": "2026-09-24 09:00",
+      "closed_candles": 32697,
+      "confirmed_segments": [
+        {
+          "start": {
+            "index": 22660,
+            "kind": "bottom",
+            "price": 62484.2,
+            "time": "2026-08-14T14:00:00+00:00"
+          },
+          "end": {
+            "index": 22836,
+            "kind": "top",
+            "price": 81270.5,
+            "time": "2026-08-25T02:00:00+00:00"
+          },
+          "first_stroke": 1586,
+          "last_stroke": 1594,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1597,
+          "evidence_at": "2026-08-27T04:00:00+00:00",
+          "feature_indices": [
+            [
+              1591,
+              1593
+            ],
+            [
+              1595
+            ],
+            [
+              1597
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 62484.2,
+          "range_high": 81270.5,
+          "local_evidence_stroke": 1597
+        },
+        {
+          "start": {
+            "index": 22836,
+            "kind": "top",
+            "price": 81270.5,
+            "time": "2026-08-25T02:00:00+00:00"
+          },
+          "end": {
+            "index": 22900,
+            "kind": "bottom",
+            "price": 76853.1,
+            "time": "2026-08-28T16:00:00+00:00"
+          },
+          "first_stroke": 1595,
+          "last_stroke": 1599,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1602,
+          "evidence_at": "2026-08-31T00:00:00+00:00",
+          "feature_indices": [
+            [
+              1596,
+              1598
+            ],
+            [
+              1600
+            ],
+            [
+              1602
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 76853.1,
+          "range_high": 81500.0,
+          "local_evidence_stroke": 1602
+        },
+        {
+          "start": {
+            "index": 22900,
+            "kind": "bottom",
+            "price": 76853.1,
+            "time": "2026-08-28T16:00:00+00:00"
+          },
+          "end": {
+            "index": 22934,
+            "kind": "top",
+            "price": 79384.4,
+            "time": "2026-08-30T16:00:00+00:00"
+          },
+          "first_stroke": 1600,
+          "last_stroke": 1602,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1605,
+          "evidence_at": "2026-09-02T06:00:00+00:00",
+          "feature_indices": [
+            [
+              1601
+            ],
+            [
+              1603
+            ],
+            [
+              1605
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 76853.1,
+          "range_high": 79384.4,
+          "local_evidence_stroke": 1605
+        }
+      ],
+      "pending_segment": {
+        "start": {
+          "index": 22934,
+          "kind": "top",
+          "price": 79384.4,
+          "time": "2026-08-30T16:00:00+00:00"
+        },
+        "end": {
+          "index": 23208,
+          "kind": "bottom",
+          "price": 74909.4,
+          "time": "2026-09-15T18:00:00+00:00"
+        },
+        "first_stroke": 1603,
+        "last_stroke": 1613,
+        "confirmed": false,
+        "confirmation": "pending",
+        "evidence_stroke": null,
+        "evidence_at": null,
+        "feature_indices": [],
+        "reverse_feature_indices": [],
+        "range_low": 74909.4,
+        "range_high": 82282.8,
+        "local_evidence_stroke": null
+      },
+      "last_strokes": [
+        {
+          "start": {
+            "index": 23270,
+            "kind": "top",
+            "price": 81933.9,
+            "time": "2026-09-19T15:00:00+00:00"
+          },
+          "end": {
+            "index": 23282,
+            "kind": "bottom",
+            "price": 80095.9,
+            "time": "2026-09-20T03:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-20T22:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23282,
+            "kind": "bottom",
+            "price": 80095.9,
+            "time": "2026-09-20T03:00:00+00:00"
+          },
+          "end": {
+            "index": 23308,
+            "kind": "top",
+            "price": 87385.1,
+            "time": "2026-09-21T20:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-22T14:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23308,
+            "kind": "top",
+            "price": 87385.1,
+            "time": "2026-09-21T20:00:00+00:00"
+          },
+          "end": {
+            "index": 23314,
+            "kind": "bottom",
+            "price": 85080.0,
+            "time": "2026-09-22T05:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-23T07:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23314,
+            "kind": "bottom",
+            "price": 85080.0,
+            "time": "2026-09-22T05:00:00+00:00"
+          },
+          "end": {
+            "index": 23328,
+            "kind": "top",
+            "price": 87247.3,
+            "time": "2026-09-23T04:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-23T16:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23328,
+            "kind": "top",
+            "price": 87247.3,
+            "time": "2026-09-23T04:00:00+00:00"
+          },
+          "end": {
+            "index": 23337,
+            "kind": "bottom",
+            "price": 83450.1,
+            "time": "2026-09-23T16:00:00+00:00"
+          },
+          "provisional": true,
+          "confirmed_at": null
+        }
+      ]
+    },
+    {
+      "asof": "2026-09-24 10:00",
+      "closed_candles": 32698,
+      "confirmed_segments": [
+        {
+          "start": {
+            "index": 22660,
+            "kind": "bottom",
+            "price": 62484.2,
+            "time": "2026-08-14T14:00:00+00:00"
+          },
+          "end": {
+            "index": 22836,
+            "kind": "top",
+            "price": 81270.5,
+            "time": "2026-08-25T02:00:00+00:00"
+          },
+          "first_stroke": 1586,
+          "last_stroke": 1594,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1597,
+          "evidence_at": "2026-08-27T04:00:00+00:00",
+          "feature_indices": [
+            [
+              1591,
+              1593
+            ],
+            [
+              1595
+            ],
+            [
+              1597
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 62484.2,
+          "range_high": 81270.5,
+          "local_evidence_stroke": 1597
+        },
+        {
+          "start": {
+            "index": 22836,
+            "kind": "top",
+            "price": 81270.5,
+            "time": "2026-08-25T02:00:00+00:00"
+          },
+          "end": {
+            "index": 22900,
+            "kind": "bottom",
+            "price": 76853.1,
+            "time": "2026-08-28T16:00:00+00:00"
+          },
+          "first_stroke": 1595,
+          "last_stroke": 1599,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1602,
+          "evidence_at": "2026-08-31T00:00:00+00:00",
+          "feature_indices": [
+            [
+              1596,
+              1598
+            ],
+            [
+              1600
+            ],
+            [
+              1602
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 76853.1,
+          "range_high": 81500.0,
+          "local_evidence_stroke": 1602
+        },
+        {
+          "start": {
+            "index": 22900,
+            "kind": "bottom",
+            "price": 76853.1,
+            "time": "2026-08-28T16:00:00+00:00"
+          },
+          "end": {
+            "index": 22934,
+            "kind": "top",
+            "price": 79384.4,
+            "time": "2026-08-30T16:00:00+00:00"
+          },
+          "first_stroke": 1600,
+          "last_stroke": 1602,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1605,
+          "evidence_at": "2026-09-02T06:00:00+00:00",
+          "feature_indices": [
+            [
+              1601
+            ],
+            [
+              1603
+            ],
+            [
+              1605
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 76853.1,
+          "range_high": 79384.4,
+          "local_evidence_stroke": 1605
+        },
+        {
+          "start": {
+            "index": 22934,
+            "kind": "top",
+            "price": 79384.4,
+            "time": "2026-08-30T16:00:00+00:00"
+          },
+          "end": {
+            "index": 23208,
+            "kind": "bottom",
+            "price": 74909.4,
+            "time": "2026-09-15T18:00:00+00:00"
+          },
+          "first_stroke": 1603,
+          "last_stroke": 1613,
+          "confirmed": true,
+          "confirmation": "gap_reverse_fractal",
+          "evidence_stroke": 1621,
+          "evidence_at": "2026-09-24T02:00:00+00:00",
+          "feature_indices": [
+            [
+              1612
+            ],
+            [
+              1614
+            ],
+            [
+              1616
+            ]
+          ],
+          "reverse_feature_indices": [
+            [
+              1617
+            ],
+            [
+              1619
+            ],
+            [
+              1621
+            ]
+          ],
+          "range_low": 74909.4,
+          "range_high": 82282.8,
+          "local_evidence_stroke": 1621
+        }
+      ],
+      "pending_segment": {
+        "start": {
+          "index": 23208,
+          "kind": "bottom",
+          "price": 74909.4,
+          "time": "2026-09-15T18:00:00+00:00"
+        },
+        "end": {
+          "index": 23308,
+          "kind": "top",
+          "price": 87385.1,
+          "time": "2026-09-21T20:00:00+00:00"
+        },
+        "first_stroke": 1614,
+        "last_stroke": 1618,
+        "confirmed": false,
+        "confirmation": "pending",
+        "evidence_stroke": null,
+        "evidence_at": null,
+        "feature_indices": [],
+        "reverse_feature_indices": [],
+        "range_low": 74909.4,
+        "range_high": 87385.1,
+        "local_evidence_stroke": null
+      },
+      "last_strokes": [
+        {
+          "start": {
+            "index": 23282,
+            "kind": "bottom",
+            "price": 80095.9,
+            "time": "2026-09-20T03:00:00+00:00"
+          },
+          "end": {
+            "index": 23308,
+            "kind": "top",
+            "price": 87385.1,
+            "time": "2026-09-21T20:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-22T14:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23308,
+            "kind": "top",
+            "price": 87385.1,
+            "time": "2026-09-21T20:00:00+00:00"
+          },
+          "end": {
+            "index": 23314,
+            "kind": "bottom",
+            "price": 85080.0,
+            "time": "2026-09-22T05:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-23T07:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23314,
+            "kind": "bottom",
+            "price": 85080.0,
+            "time": "2026-09-22T05:00:00+00:00"
+          },
+          "end": {
+            "index": 23328,
+            "kind": "top",
+            "price": 87247.3,
+            "time": "2026-09-23T04:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-23T16:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23328,
+            "kind": "top",
+            "price": 87247.3,
+            "time": "2026-09-23T04:00:00+00:00"
+          },
+          "end": {
+            "index": 23337,
+            "kind": "bottom",
+            "price": 83450.1,
+            "time": "2026-09-23T16:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-24T02:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23337,
+            "kind": "bottom",
+            "price": 83450.1,
+            "time": "2026-09-23T16:00:00+00:00"
+          },
+          "end": {
+            "index": 23342,
+            "kind": "top",
+            "price": 84638.5,
+            "time": "2026-09-23T22:00:00+00:00"
+          },
+          "provisional": true,
+          "confirmed_at": null
+        }
+      ]
+    }
+  ]
+}

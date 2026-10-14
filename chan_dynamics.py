@@ -136,6 +136,17 @@ def compare_strength(b: Movement, c: Movement, waves: Sequence[StrengthWave]) ->
                                *(w.evidence_at for part in selected for w in part))}
 
 
+def _center_inside_movement(z, move) -> bool:
+    """检查分解截面的完整范围；成枢时刻落在走势内不代表中枢属于它。"""
+    prices = (z.zd, z.zg, z.dd, z.gg, z.d, z.g)
+    return (z.level == move.level
+            and move.start.time <= z.start < z.formed_at <= z.end <= move.end.time
+            and all(math.isfinite(p) for p in (move.low, move.high, z.range_low, z.range_high, *prices))
+            and move.low <= z.range_low <= z.range_high <= move.high
+            and z.zd <= z.zg and z.dd <= z.gg
+            and all(z.range_low <= p <= z.range_high for p in prices))
+
+
 def audit_divergence(a, A, b, B, c, c_centers, third_point, waves, *,
                      higher_centers=(), lineage_valid=True) -> dict:
     """a+A+b+B+c 的条件审计。缺证据与条件不成立分别返回 pending/rejected。
@@ -159,14 +170,17 @@ def audit_divergence(a, A, b, B, c, c_centers, third_point, waves, *,
     check("b_level_not_above_c", b.level <= c.level)
     check("same_direction_legs", direction(a) == direction(b) == side != "flat")
     check("completed_comparison_legs", b.status == c.status == "completed")
-    check("source_lineage", lineage_valid)
+    # 调用者提供的来源检查不能替代本函数对声明成员的核验。
+    # 顺序也必须一致，后续内部趋势比较不得使用另行重排的中枢。
+    internal_ids = tuple(z.id for z in c_centers)
+    check("source_lineage", lineage_valid and internal_ids == tuple(c.center_ids)
+          and len(set(internal_ids)) == len(internal_ids))
     old_extreme = max(a.high, A.range_high, b.high, B.range_high) if side == "up" else min(a.low, A.range_low, b.low, B.range_low)
     check("new_directional_extreme", (c.end.price == c.high and c.end.price > old_extreme) if side == "up"
           else (side == "down" and c.end.price == c.low and c.end.price < old_extreme))
     check("c_two_internal_centers", len(c_centers) >= 2 if c.level > 0 else None,
           "L0 基底没有内部中枢证据" if c.level == 0 else [z.id for z in c_centers])
-    internal_valid = bool(c_centers) and all(z.level == c.level and c.start.time <= z.start
-                                           < z.formed_at <= c.end.time for z in c_centers)
+    internal_valid = bool(c_centers) and all(_center_inside_movement(z, c) for z in c_centers)
     check("c_internal_level_and_containment", internal_valid if c.level > 0 else None)
     check("c_internal_standard_trend", (internal_valid and len(c_centers) >= 2 and all(
         center_relation(x, y) == side for x, y in zip(c_centers, c_centers[1:]))) if c.level > 0 else None,
@@ -232,7 +246,10 @@ def analyze_dynamics(hierarchy: dict, candles: Sequence, hours: int,
                 inner_ids = tuple(zid for m in part for zid in m.center_ids)
                 # c 内部范围取父走势自身的切分截面，不挪用其后延伸的观察范围。
                 internal = [internal_catalog[zid] for zid in inner_ids if zid in internal_catalog]
-                inner_valid = len(inner_ids) == len(set(inner_ids)) == len(internal)
+                inner_valid = (len(inner_ids) == len(set(inner_ids)) == len(internal)
+                               and all(zid in internal_catalog
+                                       and _center_inside_movement(internal_catalog[zid], m)
+                                       for m in part for zid in m.center_ids))
                 c = Movement(f"C:{part[0].id}:{part[-1].id}", b.level, f"{side}trend",
                              part[0].start, part[-1].end, min(m.low for m in part), max(m.high for m in part),
                              tuple(m.id for m in part), inner_ids,

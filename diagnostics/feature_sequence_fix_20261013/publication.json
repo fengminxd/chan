@@ -1,0 +1,18 @@
+[
+  {
+    "updated": "reports/BTCUSDT_20260606_20261013_five_periods",
+    "backup": "reports/BTCUSDT_20260606_20261013_five_periods_before_v8",
+    "old_html_sha256": "f483d496a6d090414a4cdd6505b72621d0c5185be9843c0965fdc58bf5ad1d1d",
+    "new_html_sha256": "bcc2ac6911c126ac80c36864510b0b6e19da359ef84d00a8abd22d9e2170759e",
+    "verified_files": 65,
+    "all_published_files_identical": true
+  },
+  {
+    "updated": "reports/BTCUSDT_20260606_20261013_causal_v6",
+    "backup": "reports/BTCUSDT_20260606_20261013_causal_v6_before_v8",
+    "old_html_sha256": "f483d496a6d090414a4cdd6505b72621d0c5185be9843c0965fdc58bf5ad1d1d",
+    "new_html_sha256": "bcc2ac6911c126ac80c36864510b0b6e19da359ef84d00a8abd22d9e2170759e",
+    "verified_files": 65,
+    "all_published_files_identical": true
+  }
+]

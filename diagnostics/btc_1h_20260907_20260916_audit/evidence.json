@@ -1,0 +1,1888 @@
+{
+  "source_sha256": {
+    "analysis_1h.json": "d792c629f59d91d51e1b0640a04c24d036b42c7feec9c830bd00a7085f4eec72",
+    "history_1h.csv": "dc304895f0a80ef5017cbb322f63e7d4bee90b912cc2fc4a64c6629950c997ae",
+    "chart_data.json": "66834590b4a30c0e804b85a92a904ed95ab23930ada9ee549f56a1a101e8da1a"
+  },
+  "chart_matches_analysis": true,
+  "fractal_count": 82,
+  "local_admissible_edges": 72,
+  "records": [
+    {
+      "index": 23062,
+      "kind": "top",
+      "price": 80536.1,
+      "time": "2026-09-06T23:00:00+00:00",
+      "local_time": "2026-09-07 07:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": true,
+      "can_reach_09_16_low": true,
+      "selected": true,
+      "classification": "selected"
+    },
+    {
+      "index": 23065,
+      "kind": "bottom",
+      "price": 79500.8,
+      "time": "2026-09-07T04:00:00+00:00",
+      "local_time": "2026-09-07 12:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23066,
+      "kind": "top",
+      "price": 79892.9,
+      "time": "2026-09-07T05:00:00+00:00",
+      "local_time": "2026-09-07 13:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": true,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23068,
+      "kind": "bottom",
+      "price": 78938.7,
+      "time": "2026-09-07T07:00:00+00:00",
+      "local_time": "2026-09-07 15:00",
+      "incoming_indices": [
+        23062
+      ],
+      "reachable_from_09_07": true,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "reachable_branch_cannot_rejoin_09_16_low"
+    },
+    {
+      "index": 23069,
+      "kind": "top",
+      "price": 79517.5,
+      "time": "2026-09-07T09:00:00+00:00",
+      "local_time": "2026-09-07 17:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23070,
+      "kind": "bottom",
+      "price": 79230.0,
+      "time": "2026-09-07T11:00:00+00:00",
+      "local_time": "2026-09-07 19:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23071,
+      "kind": "top",
+      "price": 79613.8,
+      "time": "2026-09-07T13:00:00+00:00",
+      "local_time": "2026-09-07 21:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23073,
+      "kind": "bottom",
+      "price": 78636.0,
+      "time": "2026-09-07T15:00:00+00:00",
+      "local_time": "2026-09-07 23:00",
+      "incoming_indices": [
+        23062,
+        23066
+      ],
+      "reachable_from_09_07": true,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "reachable_branch_cannot_rejoin_09_16_low"
+    },
+    {
+      "index": 23076,
+      "kind": "top",
+      "price": 79391.4,
+      "time": "2026-09-07T19:00:00+00:00",
+      "local_time": "2026-09-08 03:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23078,
+      "kind": "bottom",
+      "price": 78737.9,
+      "time": "2026-09-07T22:00:00+00:00",
+      "local_time": "2026-09-08 06:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23080,
+      "kind": "top",
+      "price": 79476.0,
+      "time": "2026-09-08T02:00:00+00:00",
+      "local_time": "2026-09-08 10:00",
+      "incoming_indices": [
+        23073
+      ],
+      "reachable_from_09_07": true,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "reachable_branch_cannot_rejoin_09_16_low"
+    },
+    {
+      "index": 23085,
+      "kind": "bottom",
+      "price": 78133.0,
+      "time": "2026-09-08T07:00:00+00:00",
+      "local_time": "2026-09-08 15:00",
+      "incoming_indices": [
+        23062,
+        23066,
+        23071,
+        23080
+      ],
+      "reachable_from_09_07": true,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "reachable_branch_cannot_rejoin_09_16_low"
+    },
+    {
+      "index": 23087,
+      "kind": "top",
+      "price": 78969.6,
+      "time": "2026-09-08T10:00:00+00:00",
+      "local_time": "2026-09-08 18:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23089,
+      "kind": "bottom",
+      "price": 77600.1,
+      "time": "2026-09-08T13:00:00+00:00",
+      "local_time": "2026-09-08 21:00",
+      "incoming_indices": [
+        23062,
+        23066,
+        23071,
+        23080
+      ],
+      "reachable_from_09_07": true,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "reachable_branch_cannot_rejoin_09_16_low"
+    },
+    {
+      "index": 23092,
+      "kind": "top",
+      "price": 78966.0,
+      "time": "2026-09-08T16:00:00+00:00",
+      "local_time": "2026-09-09 00:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23094,
+      "kind": "bottom",
+      "price": 78230.5,
+      "time": "2026-09-08T18:00:00+00:00",
+      "local_time": "2026-09-09 02:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23095,
+      "kind": "top",
+      "price": 78595.7,
+      "time": "2026-09-08T20:00:00+00:00",
+      "local_time": "2026-09-09 04:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23096,
+      "kind": "bottom",
+      "price": 78360.2,
+      "time": "2026-09-08T21:00:00+00:00",
+      "local_time": "2026-09-09 05:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23097,
+      "kind": "top",
+      "price": 78658.6,
+      "time": "2026-09-08T22:00:00+00:00",
+      "local_time": "2026-09-09 06:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23098,
+      "kind": "bottom",
+      "price": 78375.8,
+      "time": "2026-09-08T23:00:00+00:00",
+      "local_time": "2026-09-09 07:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23101,
+      "kind": "top",
+      "price": 78899.0,
+      "time": "2026-09-09T02:00:00+00:00",
+      "local_time": "2026-09-09 10:00",
+      "incoming_indices": [
+        23094,
+        23096
+      ],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "different_local_root"
+    },
+    {
+      "index": 23102,
+      "kind": "bottom",
+      "price": 78502.0,
+      "time": "2026-09-09T03:00:00+00:00",
+      "local_time": "2026-09-09 11:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23106,
+      "kind": "top",
+      "price": 79737.3,
+      "time": "2026-09-09T08:00:00+00:00",
+      "local_time": "2026-09-09 16:00",
+      "incoming_indices": [
+        23089,
+        23094,
+        23096,
+        23098,
+        23102
+      ],
+      "reachable_from_09_07": true,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "reachable_branch_cannot_rejoin_09_16_low"
+    },
+    {
+      "index": 23108,
+      "kind": "bottom",
+      "price": 78690.3,
+      "time": "2026-09-09T11:00:00+00:00",
+      "local_time": "2026-09-09 19:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23109,
+      "kind": "top",
+      "price": 79648.1,
+      "time": "2026-09-09T13:00:00+00:00",
+      "local_time": "2026-09-09 21:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23112,
+      "kind": "bottom",
+      "price": 77884.7,
+      "time": "2026-09-09T20:00:00+00:00",
+      "local_time": "2026-09-10 04:00",
+      "incoming_indices": [
+        23106
+      ],
+      "reachable_from_09_07": true,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "reachable_branch_cannot_rejoin_09_16_low"
+    },
+    {
+      "index": 23113,
+      "kind": "top",
+      "price": 78307.7,
+      "time": "2026-09-09T21:00:00+00:00",
+      "local_time": "2026-09-10 05:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23114,
+      "kind": "bottom",
+      "price": 77706.1,
+      "time": "2026-09-09T22:00:00+00:00",
+      "local_time": "2026-09-10 06:00",
+      "incoming_indices": [
+        23106,
+        23109
+      ],
+      "reachable_from_09_07": true,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "reachable_branch_cannot_rejoin_09_16_low"
+    },
+    {
+      "index": 23116,
+      "kind": "top",
+      "price": 78482.6,
+      "time": "2026-09-10T01:00:00+00:00",
+      "local_time": "2026-09-10 09:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23117,
+      "kind": "bottom",
+      "price": 77951.5,
+      "time": "2026-09-10T02:00:00+00:00",
+      "local_time": "2026-09-10 10:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23118,
+      "kind": "top",
+      "price": 78543.9,
+      "time": "2026-09-10T03:00:00+00:00",
+      "local_time": "2026-09-10 11:00",
+      "incoming_indices": [
+        23114
+      ],
+      "reachable_from_09_07": true,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "reachable_branch_cannot_rejoin_09_16_low"
+    },
+    {
+      "index": 23121,
+      "kind": "bottom",
+      "price": 77867.5,
+      "time": "2026-09-10T07:00:00+00:00",
+      "local_time": "2026-09-10 15:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23122,
+      "kind": "top",
+      "price": 78195.7,
+      "time": "2026-09-10T09:00:00+00:00",
+      "local_time": "2026-09-10 17:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23124,
+      "kind": "bottom",
+      "price": 76634.3,
+      "time": "2026-09-10T12:00:00+00:00",
+      "local_time": "2026-09-10 20:00",
+      "incoming_indices": [
+        23062,
+        23066,
+        23106,
+        23109,
+        23118
+      ],
+      "reachable_from_09_07": true,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "reachable_branch_cannot_rejoin_09_16_low"
+    },
+    {
+      "index": 23125,
+      "kind": "top",
+      "price": 77393.9,
+      "time": "2026-09-10T14:00:00+00:00",
+      "local_time": "2026-09-10 22:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23126,
+      "kind": "bottom",
+      "price": 76760.0,
+      "time": "2026-09-10T16:00:00+00:00",
+      "local_time": "2026-09-11 00:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23127,
+      "kind": "top",
+      "price": 77518.6,
+      "time": "2026-09-10T17:00:00+00:00",
+      "local_time": "2026-09-11 01:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23128,
+      "kind": "bottom",
+      "price": 76942.6,
+      "time": "2026-09-10T18:00:00+00:00",
+      "local_time": "2026-09-11 02:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23129,
+      "kind": "top",
+      "price": 77316.0,
+      "time": "2026-09-10T20:00:00+00:00",
+      "local_time": "2026-09-11 04:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23132,
+      "kind": "bottom",
+      "price": 76402.9,
+      "time": "2026-09-10T23:00:00+00:00",
+      "local_time": "2026-09-11 07:00",
+      "incoming_indices": [
+        23062,
+        23066,
+        23106,
+        23109,
+        23118,
+        23122,
+        23127
+      ],
+      "reachable_from_09_07": true,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "reachable_branch_cannot_rejoin_09_16_low"
+    },
+    {
+      "index": 23135,
+      "kind": "top",
+      "price": 76988.0,
+      "time": "2026-09-11T02:00:00+00:00",
+      "local_time": "2026-09-11 10:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23136,
+      "kind": "bottom",
+      "price": 76667.0,
+      "time": "2026-09-11T03:00:00+00:00",
+      "local_time": "2026-09-11 11:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23139,
+      "kind": "top",
+      "price": 77469.3,
+      "time": "2026-09-11T08:00:00+00:00",
+      "local_time": "2026-09-11 16:00",
+      "incoming_indices": [
+        23132
+      ],
+      "reachable_from_09_07": true,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "reachable_branch_cannot_rejoin_09_16_low"
+    },
+    {
+      "index": 23141,
+      "kind": "bottom",
+      "price": 76000.3,
+      "time": "2026-09-11T12:00:00+00:00",
+      "local_time": "2026-09-11 20:00",
+      "incoming_indices": [
+        23062,
+        23066,
+        23106,
+        23109,
+        23118,
+        23122,
+        23127
+      ],
+      "reachable_from_09_07": true,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "reachable_branch_cannot_rejoin_09_16_low"
+    },
+    {
+      "index": 23143,
+      "kind": "top",
+      "price": 79859.8,
+      "time": "2026-09-11T14:00:00+00:00",
+      "local_time": "2026-09-11 22:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": true,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23145,
+      "kind": "bottom",
+      "price": 76837.8,
+      "time": "2026-09-11T18:00:00+00:00",
+      "local_time": "2026-09-12 02:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23146,
+      "kind": "top",
+      "price": 77495.3,
+      "time": "2026-09-11T20:00:00+00:00",
+      "local_time": "2026-09-12 04:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": true,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23148,
+      "kind": "bottom",
+      "price": 76942.7,
+      "time": "2026-09-11T22:00:00+00:00",
+      "local_time": "2026-09-12 06:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": true,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23150,
+      "kind": "top",
+      "price": 77346.8,
+      "time": "2026-09-12T01:00:00+00:00",
+      "local_time": "2026-09-12 09:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": true,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23151,
+      "kind": "bottom",
+      "price": 77176.5,
+      "time": "2026-09-12T02:00:00+00:00",
+      "local_time": "2026-09-12 10:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23152,
+      "kind": "top",
+      "price": 77315.0,
+      "time": "2026-09-12T03:00:00+00:00",
+      "local_time": "2026-09-12 11:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23154,
+      "kind": "bottom",
+      "price": 77129.0,
+      "time": "2026-09-12T05:00:00+00:00",
+      "local_time": "2026-09-12 13:00",
+      "incoming_indices": [
+        23150
+      ],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": true,
+      "selected": false,
+      "classification": "different_local_root"
+    },
+    {
+      "index": 23156,
+      "kind": "top",
+      "price": 77369.3,
+      "time": "2026-09-12T10:00:00+00:00",
+      "local_time": "2026-09-12 18:00",
+      "incoming_indices": [
+        23148
+      ],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "different_local_root"
+    },
+    {
+      "index": 23157,
+      "kind": "bottom",
+      "price": 77208.0,
+      "time": "2026-09-12T13:00:00+00:00",
+      "local_time": "2026-09-12 21:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23158,
+      "kind": "top",
+      "price": 77477.4,
+      "time": "2026-09-12T14:00:00+00:00",
+      "local_time": "2026-09-12 22:00",
+      "incoming_indices": [
+        23148,
+        23154
+      ],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": true,
+      "selected": false,
+      "classification": "different_local_root"
+    },
+    {
+      "index": 23162,
+      "kind": "bottom",
+      "price": 77025.1,
+      "time": "2026-09-12T19:00:00+00:00",
+      "local_time": "2026-09-13 03:00",
+      "incoming_indices": [
+        23158
+      ],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "different_local_root"
+    },
+    {
+      "index": 23165,
+      "kind": "top",
+      "price": 77275.7,
+      "time": "2026-09-12T22:00:00+00:00",
+      "local_time": "2026-09-13 06:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23166,
+      "kind": "bottom",
+      "price": 77110.7,
+      "time": "2026-09-13T00:00:00+00:00",
+      "local_time": "2026-09-13 08:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23167,
+      "kind": "top",
+      "price": 77321.0,
+      "time": "2026-09-13T01:00:00+00:00",
+      "local_time": "2026-09-13 09:00",
+      "incoming_indices": [
+        23162
+      ],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "different_local_root"
+    },
+    {
+      "index": 23168,
+      "kind": "bottom",
+      "price": 77150.9,
+      "time": "2026-09-13T03:00:00+00:00",
+      "local_time": "2026-09-13 11:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23169,
+      "kind": "top",
+      "price": 77291.2,
+      "time": "2026-09-13T06:00:00+00:00",
+      "local_time": "2026-09-13 14:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23172,
+      "kind": "bottom",
+      "price": 76458.9,
+      "time": "2026-09-13T11:00:00+00:00",
+      "local_time": "2026-09-13 19:00",
+      "incoming_indices": [
+        23143,
+        23146,
+        23158,
+        23167
+      ],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "different_local_root"
+    },
+    {
+      "index": 23176,
+      "kind": "top",
+      "price": 77387.0,
+      "time": "2026-09-13T17:00:00+00:00",
+      "local_time": "2026-09-14 01:00",
+      "incoming_indices": [
+        23172
+      ],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "different_local_root"
+    },
+    {
+      "index": 23177,
+      "kind": "bottom",
+      "price": 77186.3,
+      "time": "2026-09-13T19:00:00+00:00",
+      "local_time": "2026-09-14 03:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23178,
+      "kind": "top",
+      "price": 77427.4,
+      "time": "2026-09-13T21:00:00+00:00",
+      "local_time": "2026-09-14 05:00",
+      "incoming_indices": [
+        23172
+      ],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "different_local_root"
+    },
+    {
+      "index": 23180,
+      "kind": "bottom",
+      "price": 76350.1,
+      "time": "2026-09-14T00:00:00+00:00",
+      "local_time": "2026-09-14 08:00",
+      "incoming_indices": [
+        23143,
+        23146,
+        23158
+      ],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": true,
+      "selected": false,
+      "classification": "different_local_root"
+    },
+    {
+      "index": 23183,
+      "kind": "top",
+      "price": 77840.7,
+      "time": "2026-09-14T03:00:00+00:00",
+      "local_time": "2026-09-14 11:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23184,
+      "kind": "bottom",
+      "price": 77334.5,
+      "time": "2026-09-14T06:00:00+00:00",
+      "local_time": "2026-09-14 14:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": true,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23186,
+      "kind": "top",
+      "price": 78343.8,
+      "time": "2026-09-14T09:00:00+00:00",
+      "local_time": "2026-09-14 17:00",
+      "incoming_indices": [
+        23180
+      ],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "different_local_root"
+    },
+    {
+      "index": 23187,
+      "kind": "bottom",
+      "price": 77441.6,
+      "time": "2026-09-14T13:00:00+00:00",
+      "local_time": "2026-09-14 21:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": true,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23192,
+      "kind": "top",
+      "price": 79570.9,
+      "time": "2026-09-14T20:00:00+00:00",
+      "local_time": "2026-09-15 04:00",
+      "incoming_indices": [
+        23180,
+        23184,
+        23187
+      ],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": true,
+      "selected": false,
+      "classification": "different_local_root"
+    },
+    {
+      "index": 23202,
+      "kind": "bottom",
+      "price": 76667.3,
+      "time": "2026-09-15T08:00:00+00:00",
+      "local_time": "2026-09-15 16:00",
+      "incoming_indices": [
+        23192
+      ],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "different_local_root"
+    },
+    {
+      "index": 23204,
+      "kind": "top",
+      "price": 77188.0,
+      "time": "2026-09-15T11:00:00+00:00",
+      "local_time": "2026-09-15 19:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23206,
+      "kind": "bottom",
+      "price": 75560.0,
+      "time": "2026-09-15T14:00:00+00:00",
+      "local_time": "2026-09-15 22:00",
+      "incoming_indices": [
+        23062,
+        23066,
+        23143,
+        23192
+      ],
+      "reachable_from_09_07": true,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "reachable_branch_cannot_rejoin_09_16_low"
+    },
+    {
+      "index": 23207,
+      "kind": "top",
+      "price": 77323.6,
+      "time": "2026-09-15T17:00:00+00:00",
+      "local_time": "2026-09-16 01:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23208,
+      "kind": "bottom",
+      "price": 74909.4,
+      "time": "2026-09-15T18:00:00+00:00",
+      "local_time": "2026-09-16 02:00",
+      "incoming_indices": [
+        23062,
+        23066,
+        23143,
+        23192
+      ],
+      "reachable_from_09_07": true,
+      "can_reach_09_16_low": true,
+      "selected": true,
+      "classification": "selected"
+    },
+    {
+      "index": 23209,
+      "kind": "top",
+      "price": 76096.4,
+      "time": "2026-09-16T02:00:00+00:00",
+      "local_time": "2026-09-16 10:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23210,
+      "kind": "bottom",
+      "price": 75633.7,
+      "time": "2026-09-16T05:00:00+00:00",
+      "local_time": "2026-09-16 13:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23211,
+      "kind": "top",
+      "price": 76067.1,
+      "time": "2026-09-16T07:00:00+00:00",
+      "local_time": "2026-09-16 15:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23212,
+      "kind": "bottom",
+      "price": 75308.4,
+      "time": "2026-09-16T08:00:00+00:00",
+      "local_time": "2026-09-16 16:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    },
+    {
+      "index": 23214,
+      "kind": "top",
+      "price": 76275.4,
+      "time": "2026-09-16T12:00:00+00:00",
+      "local_time": "2026-09-16 20:00",
+      "incoming_indices": [
+        23208
+      ],
+      "reachable_from_09_07": true,
+      "can_reach_09_16_low": false,
+      "selected": true,
+      "classification": "selected"
+    },
+    {
+      "index": 23216,
+      "kind": "bottom",
+      "price": 75386.0,
+      "time": "2026-09-16T14:00:00+00:00",
+      "local_time": "2026-09-16 22:00",
+      "incoming_indices": [],
+      "reachable_from_09_07": false,
+      "can_reach_09_16_low": false,
+      "selected": false,
+      "classification": "no_admissible_incoming_edge_within_window"
+    }
+  ],
+  "edges": [
+    [
+      23062,
+      23068
+    ],
+    [
+      23062,
+      23073
+    ],
+    [
+      23062,
+      23085
+    ],
+    [
+      23062,
+      23089
+    ],
+    [
+      23062,
+      23124
+    ],
+    [
+      23062,
+      23132
+    ],
+    [
+      23062,
+      23141
+    ],
+    [
+      23062,
+      23206
+    ],
+    [
+      23062,
+      23208
+    ],
+    [
+      23066,
+      23073
+    ],
+    [
+      23066,
+      23085
+    ],
+    [
+      23066,
+      23089
+    ],
+    [
+      23066,
+      23124
+    ],
+    [
+      23066,
+      23132
+    ],
+    [
+      23066,
+      23141
+    ],
+    [
+      23066,
+      23206
+    ],
+    [
+      23066,
+      23208
+    ],
+    [
+      23071,
+      23085
+    ],
+    [
+      23071,
+      23089
+    ],
+    [
+      23073,
+      23080
+    ],
+    [
+      23080,
+      23085
+    ],
+    [
+      23080,
+      23089
+    ],
+    [
+      23089,
+      23106
+    ],
+    [
+      23094,
+      23101
+    ],
+    [
+      23094,
+      23106
+    ],
+    [
+      23096,
+      23101
+    ],
+    [
+      23096,
+      23106
+    ],
+    [
+      23098,
+      23106
+    ],
+    [
+      23102,
+      23106
+    ],
+    [
+      23106,
+      23112
+    ],
+    [
+      23106,
+      23114
+    ],
+    [
+      23106,
+      23124
+    ],
+    [
+      23106,
+      23132
+    ],
+    [
+      23106,
+      23141
+    ],
+    [
+      23109,
+      23114
+    ],
+    [
+      23109,
+      23124
+    ],
+    [
+      23109,
+      23132
+    ],
+    [
+      23109,
+      23141
+    ],
+    [
+      23114,
+      23118
+    ],
+    [
+      23118,
+      23124
+    ],
+    [
+      23118,
+      23132
+    ],
+    [
+      23118,
+      23141
+    ],
+    [
+      23122,
+      23132
+    ],
+    [
+      23122,
+      23141
+    ],
+    [
+      23127,
+      23132
+    ],
+    [
+      23127,
+      23141
+    ],
+    [
+      23132,
+      23139
+    ],
+    [
+      23143,
+      23172
+    ],
+    [
+      23143,
+      23180
+    ],
+    [
+      23143,
+      23206
+    ],
+    [
+      23143,
+      23208
+    ],
+    [
+      23146,
+      23172
+    ],
+    [
+      23146,
+      23180
+    ],
+    [
+      23148,
+      23156
+    ],
+    [
+      23148,
+      23158
+    ],
+    [
+      23150,
+      23154
+    ],
+    [
+      23154,
+      23158
+    ],
+    [
+      23158,
+      23162
+    ],
+    [
+      23158,
+      23172
+    ],
+    [
+      23158,
+      23180
+    ],
+    [
+      23162,
+      23167
+    ],
+    [
+      23167,
+      23172
+    ],
+    [
+      23172,
+      23176
+    ],
+    [
+      23172,
+      23178
+    ],
+    [
+      23180,
+      23186
+    ],
+    [
+      23180,
+      23192
+    ],
+    [
+      23184,
+      23192
+    ],
+    [
+      23187,
+      23192
+    ],
+    [
+      23192,
+      23202
+    ],
+    [
+      23192,
+      23206
+    ],
+    [
+      23192,
+      23208
+    ],
+    [
+      23208,
+      23214
+    ]
+  ],
+  "selected_strokes": [
+    {
+      "start": {
+        "index": 23062,
+        "kind": "top",
+        "price": 80536.1,
+        "time": "2026-09-06T23:00:00+00:00"
+      },
+      "end": {
+        "index": 23208,
+        "kind": "bottom",
+        "price": 74909.4,
+        "time": "2026-09-15T18:00:00+00:00"
+      },
+      "provisional": false,
+      "confirmed_at": "2026-09-16T15:00:00+00:00"
+    },
+    {
+      "start": {
+        "index": 23208,
+        "kind": "bottom",
+        "price": 74909.4,
+        "time": "2026-09-15T18:00:00+00:00"
+      },
+      "end": {
+        "index": 23214,
+        "kind": "top",
+        "price": 76275.4,
+        "time": "2026-09-16T12:00:00+00:00"
+      },
+      "provisional": false,
+      "confirmed_at": "2026-09-16T21:00:00+00:00"
+    },
+    {
+      "start": {
+        "index": 23214,
+        "kind": "top",
+        "price": 76275.4,
+        "time": "2026-09-16T12:00:00+00:00"
+      },
+      "end": {
+        "index": 23218,
+        "kind": "bottom",
+        "price": 75025.0,
+        "time": "2026-09-16T18:00:00+00:00"
+      },
+      "provisional": false,
+      "confirmed_at": "2026-09-19T18:00:00+00:00"
+    }
+  ],
+  "checkpoints": [
+    {
+      "asof": "2026-09-10T12:00:00+08:00",
+      "strokes": [
+        {
+          "start": {
+            "index": 23062,
+            "kind": "top",
+            "price": 80536.1,
+            "time": "2026-09-06T23:00:00+00:00"
+          },
+          "end": {
+            "index": 23073,
+            "kind": "bottom",
+            "price": 78636.0,
+            "time": "2026-09-07T15:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-08T05:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23073,
+            "kind": "bottom",
+            "price": 78636.0,
+            "time": "2026-09-07T15:00:00+00:00"
+          },
+          "end": {
+            "index": 23080,
+            "kind": "top",
+            "price": 79476.0,
+            "time": "2026-09-08T02:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-08T16:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23080,
+            "kind": "top",
+            "price": 79476.0,
+            "time": "2026-09-08T02:00:00+00:00"
+          },
+          "end": {
+            "index": 23089,
+            "kind": "bottom",
+            "price": 77600.1,
+            "time": "2026-09-08T13:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-09T11:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23089,
+            "kind": "bottom",
+            "price": 77600.1,
+            "time": "2026-09-08T13:00:00+00:00"
+          },
+          "end": {
+            "index": 23106,
+            "kind": "top",
+            "price": 79737.3,
+            "time": "2026-09-09T08:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-10T01:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23106,
+            "kind": "top",
+            "price": 79737.3,
+            "time": "2026-09-09T08:00:00+00:00"
+          },
+          "end": {
+            "index": 23114,
+            "kind": "bottom",
+            "price": 77706.1,
+            "time": "2026-09-09T22:00:00+00:00"
+          },
+          "provisional": true,
+          "confirmed_at": null
+        }
+      ],
+      "diagnostics": {
+        "policy": "earliest_origin_latest_reachable_max_edges_v1",
+        "fractal_count": 11348,
+        "selected_point_count": 1619,
+        "selected_start": "2022-12-31T22:00:00+00:00",
+        "selected_end": "2026-09-09T22:00:00+00:00",
+        "skipped_prefix_fractals": 0,
+        "unreachable_tail_fractals": 1,
+        "status": "selected",
+        "note": "末笔候选；不相连的新根不会替换已保留历史；不可达尾部显式报告"
+      }
+    },
+    {
+      "asof": "2026-09-11T20:00:00+08:00",
+      "strokes": [
+        {
+          "start": {
+            "index": 23062,
+            "kind": "top",
+            "price": 80536.1,
+            "time": "2026-09-06T23:00:00+00:00"
+          },
+          "end": {
+            "index": 23073,
+            "kind": "bottom",
+            "price": 78636.0,
+            "time": "2026-09-07T15:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-08T05:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23073,
+            "kind": "bottom",
+            "price": 78636.0,
+            "time": "2026-09-07T15:00:00+00:00"
+          },
+          "end": {
+            "index": 23080,
+            "kind": "top",
+            "price": 79476.0,
+            "time": "2026-09-08T02:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-08T16:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23080,
+            "kind": "top",
+            "price": 79476.0,
+            "time": "2026-09-08T02:00:00+00:00"
+          },
+          "end": {
+            "index": 23089,
+            "kind": "bottom",
+            "price": 77600.1,
+            "time": "2026-09-08T13:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-09T11:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23089,
+            "kind": "bottom",
+            "price": 77600.1,
+            "time": "2026-09-08T13:00:00+00:00"
+          },
+          "end": {
+            "index": 23106,
+            "kind": "top",
+            "price": 79737.3,
+            "time": "2026-09-09T08:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-10T01:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23106,
+            "kind": "top",
+            "price": 79737.3,
+            "time": "2026-09-09T08:00:00+00:00"
+          },
+          "end": {
+            "index": 23114,
+            "kind": "bottom",
+            "price": 77706.1,
+            "time": "2026-09-09T22:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-10T07:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23114,
+            "kind": "bottom",
+            "price": 77706.1,
+            "time": "2026-09-09T22:00:00+00:00"
+          },
+          "end": {
+            "index": 23118,
+            "kind": "top",
+            "price": 78543.9,
+            "time": "2026-09-10T03:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-11T02:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23118,
+            "kind": "top",
+            "price": 78543.9,
+            "time": "2026-09-10T03:00:00+00:00"
+          },
+          "end": {
+            "index": 23132,
+            "kind": "bottom",
+            "price": 76402.9,
+            "time": "2026-09-10T23:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-11T12:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23132,
+            "kind": "bottom",
+            "price": 76402.9,
+            "time": "2026-09-10T23:00:00+00:00"
+          },
+          "end": {
+            "index": 23139,
+            "kind": "top",
+            "price": 77469.3,
+            "time": "2026-09-11T08:00:00+00:00"
+          },
+          "provisional": true,
+          "confirmed_at": null
+        }
+      ],
+      "diagnostics": {
+        "policy": "earliest_origin_latest_reachable_max_edges_v1",
+        "fractal_count": 11362,
+        "selected_point_count": 1622,
+        "selected_start": "2022-12-31T22:00:00+00:00",
+        "selected_end": "2026-09-11T08:00:00+00:00",
+        "skipped_prefix_fractals": 0,
+        "unreachable_tail_fractals": 0,
+        "status": "selected",
+        "note": "末笔候选；不相连的新根不会替换已保留历史；不可达尾部显式报告"
+      }
+    },
+    {
+      "asof": "2026-09-12T08:00:00+08:00",
+      "strokes": [
+        {
+          "start": {
+            "index": 23062,
+            "kind": "top",
+            "price": 80536.1,
+            "time": "2026-09-06T23:00:00+00:00"
+          },
+          "end": {
+            "index": 23073,
+            "kind": "bottom",
+            "price": 78636.0,
+            "time": "2026-09-07T15:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-08T05:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23073,
+            "kind": "bottom",
+            "price": 78636.0,
+            "time": "2026-09-07T15:00:00+00:00"
+          },
+          "end": {
+            "index": 23080,
+            "kind": "top",
+            "price": 79476.0,
+            "time": "2026-09-08T02:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-08T16:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23080,
+            "kind": "top",
+            "price": 79476.0,
+            "time": "2026-09-08T02:00:00+00:00"
+          },
+          "end": {
+            "index": 23089,
+            "kind": "bottom",
+            "price": 77600.1,
+            "time": "2026-09-08T13:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-09T11:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23089,
+            "kind": "bottom",
+            "price": 77600.1,
+            "time": "2026-09-08T13:00:00+00:00"
+          },
+          "end": {
+            "index": 23106,
+            "kind": "top",
+            "price": 79737.3,
+            "time": "2026-09-09T08:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-10T01:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23106,
+            "kind": "top",
+            "price": 79737.3,
+            "time": "2026-09-09T08:00:00+00:00"
+          },
+          "end": {
+            "index": 23114,
+            "kind": "bottom",
+            "price": 77706.1,
+            "time": "2026-09-09T22:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-10T07:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23114,
+            "kind": "bottom",
+            "price": 77706.1,
+            "time": "2026-09-09T22:00:00+00:00"
+          },
+          "end": {
+            "index": 23118,
+            "kind": "top",
+            "price": 78543.9,
+            "time": "2026-09-10T03:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-11T15:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23118,
+            "kind": "top",
+            "price": 78543.9,
+            "time": "2026-09-10T03:00:00+00:00"
+          },
+          "end": {
+            "index": 23141,
+            "kind": "bottom",
+            "price": 76000.3,
+            "time": "2026-09-11T12:00:00+00:00"
+          },
+          "provisional": true,
+          "confirmed_at": null
+        }
+      ],
+      "diagnostics": {
+        "policy": "earliest_origin_latest_reachable_max_edges_v1",
+        "fractal_count": 11366,
+        "selected_point_count": 1621,
+        "selected_start": "2022-12-31T22:00:00+00:00",
+        "selected_end": "2026-09-11T12:00:00+00:00",
+        "skipped_prefix_fractals": 0,
+        "unreachable_tail_fractals": 3,
+        "status": "selected",
+        "note": "末笔候选；不相连的新根不会替换已保留历史；不可达尾部显式报告"
+      }
+    },
+    {
+      "asof": "2026-09-16T06:00:00+08:00",
+      "strokes": [
+        {
+          "start": {
+            "index": 23062,
+            "kind": "top",
+            "price": 80536.1,
+            "time": "2026-09-06T23:00:00+00:00"
+          },
+          "end": {
+            "index": 23206,
+            "kind": "bottom",
+            "price": 75560.0,
+            "time": "2026-09-15T14:00:00+00:00"
+          },
+          "provisional": true,
+          "confirmed_at": null
+        }
+      ],
+      "diagnostics": {
+        "policy": "earliest_origin_latest_reachable_max_edges_v1",
+        "fractal_count": 11393,
+        "selected_point_count": 1615,
+        "selected_start": "2022-12-31T22:00:00+00:00",
+        "selected_end": "2026-09-15T14:00:00+00:00",
+        "skipped_prefix_fractals": 0,
+        "unreachable_tail_fractals": 0,
+        "status": "selected",
+        "note": "末笔候选；不相连的新根不会替换已保留历史；不可达尾部显式报告"
+      }
+    },
+    {
+      "asof": "2026-09-16T23:00:00+08:00",
+      "strokes": [
+        {
+          "start": {
+            "index": 23062,
+            "kind": "top",
+            "price": 80536.1,
+            "time": "2026-09-06T23:00:00+00:00"
+          },
+          "end": {
+            "index": 23208,
+            "kind": "bottom",
+            "price": 74909.4,
+            "time": "2026-09-15T18:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-16T15:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23208,
+            "kind": "bottom",
+            "price": 74909.4,
+            "time": "2026-09-15T18:00:00+00:00"
+          },
+          "end": {
+            "index": 23214,
+            "kind": "top",
+            "price": 76275.4,
+            "time": "2026-09-16T12:00:00+00:00"
+          },
+          "provisional": true,
+          "confirmed_at": null
+        }
+      ],
+      "diagnostics": {
+        "policy": "earliest_origin_latest_reachable_max_edges_v1",
+        "fractal_count": 11400,
+        "selected_point_count": 1616,
+        "selected_start": "2022-12-31T22:00:00+00:00",
+        "selected_end": "2026-09-16T12:00:00+00:00",
+        "skipped_prefix_fractals": 0,
+        "unreachable_tail_fractals": 0,
+        "status": "selected",
+        "note": "末笔候选；不相连的新根不会替换已保留历史；不可达尾部显式报告"
+      }
+    }
+  ],
+  "passed": true
+}

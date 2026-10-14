@@ -1,0 +1,2534 @@
+{
+  "synthetic_cases": [
+    {
+      "prices": [
+        0,
+        8,
+        4,
+        14,
+        6,
+        13,
+        9,
+        12,
+        8,
+        11,
+        5
+      ],
+      "issue": {
+        "segment": {
+          "start": {
+            "index": 0,
+            "kind": "bottom",
+            "price": 0,
+            "time": "2024-01-01T00:00:00+00:00"
+          },
+          "end": {
+            "index": 12,
+            "kind": "top",
+            "price": 14,
+            "time": "2024-01-01T12:00:00+00:00"
+          },
+          "first_stroke": 0,
+          "last_stroke": 2,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 9,
+          "evidence_at": "2024-01-02T16:00:00+00:00",
+          "feature_indices": [
+            [
+              1
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              7
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 0,
+          "range_high": 14,
+          "local_evidence_stroke": 9
+        },
+        "left": {
+          "low": 4,
+          "high": 8,
+          "source_indices": [
+            1
+          ]
+        },
+        "standardized_middle": {
+          "low": 9,
+          "high": 14,
+          "source_indices": [
+            3,
+            5
+          ]
+        },
+        "standardized_gap": true,
+        "audit": {
+          "turn_stroke": 3,
+          "gap": false,
+          "direct_break": false,
+          "first_pattern_found": true,
+          "reverse_pattern_found": false,
+          "reverse_span_ready": true,
+          "reason": "confirmed_no_gap",
+          "evidence_stroke": 9
+        }
+      },
+      "trial_segments": []
+    },
+    {
+      "prices": [
+        0,
+        -8,
+        -4,
+        -14,
+        -6,
+        -13,
+        -9,
+        -12,
+        -8,
+        -11,
+        -5
+      ],
+      "issue": {
+        "segment": {
+          "start": {
+            "index": 0,
+            "kind": "top",
+            "price": 0,
+            "time": "2024-01-01T00:00:00+00:00"
+          },
+          "end": {
+            "index": 12,
+            "kind": "bottom",
+            "price": -14,
+            "time": "2024-01-01T12:00:00+00:00"
+          },
+          "first_stroke": 0,
+          "last_stroke": 2,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 9,
+          "evidence_at": "2024-01-02T16:00:00+00:00",
+          "feature_indices": [
+            [
+              1
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              7
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": -14,
+          "range_high": 0,
+          "local_evidence_stroke": 9
+        },
+        "left": {
+          "low": -8,
+          "high": -4,
+          "source_indices": [
+            1
+          ]
+        },
+        "standardized_middle": {
+          "low": -14,
+          "high": -9,
+          "source_indices": [
+            3,
+            5
+          ]
+        },
+        "standardized_gap": true,
+        "audit": {
+          "turn_stroke": 3,
+          "gap": false,
+          "direct_break": false,
+          "first_pattern_found": true,
+          "reverse_pattern_found": false,
+          "reverse_span_ready": true,
+          "reason": "confirmed_no_gap",
+          "evidence_stroke": 9
+        }
+      },
+      "trial_segments": []
+    }
+  ],
+  "periods": {
+    "8h": {
+      "total_misclassified_no_gap": 0,
+      "visible_misclassified_no_gap": 0,
+      "examples": [],
+      "production_segment_count": 26,
+      "trial_segment_count": 26,
+      "current_user_window": [],
+      "trial_user_window": []
+    },
+    "4h": {
+      "total_misclassified_no_gap": 1,
+      "visible_misclassified_no_gap": 0,
+      "examples": [],
+      "production_segment_count": 48,
+      "trial_segment_count": 46,
+      "current_user_window": [],
+      "trial_user_window": []
+    },
+    "2h": {
+      "total_misclassified_no_gap": 4,
+      "visible_misclassified_no_gap": 0,
+      "examples": [],
+      "production_segment_count": 97,
+      "trial_segment_count": 95,
+      "current_user_window": [
+        {
+          "start": {
+            "index": 11055,
+            "kind": "bottom",
+            "price": 62484.2,
+            "time": "2026-08-14T14:00:00+00:00"
+          },
+          "end": {
+            "index": 11176,
+            "kind": "top",
+            "price": 81500.0,
+            "time": "2026-08-28T00:00:00+00:00"
+          },
+          "first_stroke": 814,
+          "last_stroke": 820,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 823,
+          "evidence_at": "2026-09-03T08:00:00+00:00",
+          "feature_indices": [
+            [
+              819
+            ],
+            [
+              821
+            ],
+            [
+              823
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 62484.2,
+          "range_high": 81500.0,
+          "local_evidence_stroke": 823
+        }
+      ],
+      "trial_user_window": [
+        {
+          "start": {
+            "index": 11055,
+            "kind": "bottom",
+            "price": 62484.2,
+            "time": "2026-08-14T14:00:00+00:00"
+          },
+          "end": {
+            "index": 11176,
+            "kind": "top",
+            "price": 81500.0,
+            "time": "2026-08-28T00:00:00+00:00"
+          },
+          "first_stroke": 814,
+          "last_stroke": 820,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 823,
+          "evidence_at": "2026-09-03T08:00:00+00:00",
+          "feature_indices": [
+            [
+              819
+            ],
+            [
+              821
+            ],
+            [
+              823
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 62484.2,
+          "range_high": 81500.0,
+          "local_evidence_stroke": 823
+        }
+      ]
+    },
+    "1h": {
+      "total_misclassified_no_gap": 2,
+      "visible_misclassified_no_gap": 0,
+      "examples": [],
+      "production_segment_count": 179,
+      "trial_segment_count": 177,
+      "current_user_window": [
+        {
+          "start": {
+            "index": 22660,
+            "kind": "bottom",
+            "price": 62484.2,
+            "time": "2026-08-14T14:00:00+00:00"
+          },
+          "end": {
+            "index": 22836,
+            "kind": "top",
+            "price": 81270.5,
+            "time": "2026-08-25T02:00:00+00:00"
+          },
+          "first_stroke": 1586,
+          "last_stroke": 1594,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1597,
+          "evidence_at": "2026-08-27T04:00:00+00:00",
+          "feature_indices": [
+            [
+              1591,
+              1593
+            ],
+            [
+              1595
+            ],
+            [
+              1597
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 62484.2,
+          "range_high": 81270.5,
+          "local_evidence_stroke": 1597
+        },
+        {
+          "start": {
+            "index": 22836,
+            "kind": "top",
+            "price": 81270.5,
+            "time": "2026-08-25T02:00:00+00:00"
+          },
+          "end": {
+            "index": 22900,
+            "kind": "bottom",
+            "price": 76853.1,
+            "time": "2026-08-28T16:00:00+00:00"
+          },
+          "first_stroke": 1595,
+          "last_stroke": 1599,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1602,
+          "evidence_at": "2026-08-31T00:00:00+00:00",
+          "feature_indices": [
+            [
+              1596,
+              1598
+            ],
+            [
+              1600
+            ],
+            [
+              1602
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 76853.1,
+          "range_high": 81500.0,
+          "local_evidence_stroke": 1602
+        },
+        {
+          "start": {
+            "index": 22900,
+            "kind": "bottom",
+            "price": 76853.1,
+            "time": "2026-08-28T16:00:00+00:00"
+          },
+          "end": {
+            "index": 22934,
+            "kind": "top",
+            "price": 79384.4,
+            "time": "2026-08-30T16:00:00+00:00"
+          },
+          "first_stroke": 1600,
+          "last_stroke": 1602,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1605,
+          "evidence_at": "2026-09-02T06:00:00+00:00",
+          "feature_indices": [
+            [
+              1601
+            ],
+            [
+              1603
+            ],
+            [
+              1605
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 76853.1,
+          "range_high": 79384.4,
+          "local_evidence_stroke": 1605
+        },
+        {
+          "start": {
+            "index": 22934,
+            "kind": "top",
+            "price": 79384.4,
+            "time": "2026-08-30T16:00:00+00:00"
+          },
+          "end": {
+            "index": 23208,
+            "kind": "bottom",
+            "price": 74909.4,
+            "time": "2026-09-15T18:00:00+00:00"
+          },
+          "first_stroke": 1603,
+          "last_stroke": 1613,
+          "confirmed": true,
+          "confirmation": "gap_reverse_fractal",
+          "evidence_stroke": 1621,
+          "evidence_at": "2026-09-24T02:00:00+00:00",
+          "feature_indices": [
+            [
+              1612
+            ],
+            [
+              1614
+            ],
+            [
+              1616
+            ]
+          ],
+          "reverse_feature_indices": [
+            [
+              1617
+            ],
+            [
+              1619
+            ],
+            [
+              1621
+            ]
+          ],
+          "range_low": 74909.4,
+          "range_high": 82282.8,
+          "local_evidence_stroke": 1621
+        }
+      ],
+      "trial_user_window": [
+        {
+          "start": {
+            "index": 22660,
+            "kind": "bottom",
+            "price": 62484.2,
+            "time": "2026-08-14T14:00:00+00:00"
+          },
+          "end": {
+            "index": 22836,
+            "kind": "top",
+            "price": 81270.5,
+            "time": "2026-08-25T02:00:00+00:00"
+          },
+          "first_stroke": 1586,
+          "last_stroke": 1594,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1597,
+          "evidence_at": "2026-08-27T04:00:00+00:00",
+          "feature_indices": [
+            [
+              1591,
+              1593
+            ],
+            [
+              1595
+            ],
+            [
+              1597
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 62484.2,
+          "range_high": 81270.5,
+          "local_evidence_stroke": 1597
+        },
+        {
+          "start": {
+            "index": 22836,
+            "kind": "top",
+            "price": 81270.5,
+            "time": "2026-08-25T02:00:00+00:00"
+          },
+          "end": {
+            "index": 22900,
+            "kind": "bottom",
+            "price": 76853.1,
+            "time": "2026-08-28T16:00:00+00:00"
+          },
+          "first_stroke": 1595,
+          "last_stroke": 1599,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1602,
+          "evidence_at": "2026-08-31T00:00:00+00:00",
+          "feature_indices": [
+            [
+              1596,
+              1598
+            ],
+            [
+              1600
+            ],
+            [
+              1602
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 76853.1,
+          "range_high": 81500.0,
+          "local_evidence_stroke": 1602
+        },
+        {
+          "start": {
+            "index": 22900,
+            "kind": "bottom",
+            "price": 76853.1,
+            "time": "2026-08-28T16:00:00+00:00"
+          },
+          "end": {
+            "index": 22934,
+            "kind": "top",
+            "price": 79384.4,
+            "time": "2026-08-30T16:00:00+00:00"
+          },
+          "first_stroke": 1600,
+          "last_stroke": 1602,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1605,
+          "evidence_at": "2026-09-02T06:00:00+00:00",
+          "feature_indices": [
+            [
+              1601
+            ],
+            [
+              1603
+            ],
+            [
+              1605
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 76853.1,
+          "range_high": 79384.4,
+          "local_evidence_stroke": 1605
+        },
+        {
+          "start": {
+            "index": 22934,
+            "kind": "top",
+            "price": 79384.4,
+            "time": "2026-08-30T16:00:00+00:00"
+          },
+          "end": {
+            "index": 23208,
+            "kind": "bottom",
+            "price": 74909.4,
+            "time": "2026-09-15T18:00:00+00:00"
+          },
+          "first_stroke": 1603,
+          "last_stroke": 1613,
+          "confirmed": true,
+          "confirmation": "gap_reverse_fractal",
+          "evidence_stroke": 1621,
+          "evidence_at": "2026-09-24T02:00:00+00:00",
+          "feature_indices": [
+            [
+              1612
+            ],
+            [
+              1614
+            ],
+            [
+              1616
+            ]
+          ],
+          "reverse_feature_indices": [
+            [
+              1617
+            ],
+            [
+              1619
+            ],
+            [
+              1621
+            ]
+          ],
+          "range_low": 74909.4,
+          "range_high": 82282.8,
+          "local_evidence_stroke": 1621
+        }
+      ]
+    },
+    "15m": {
+      "total_misclassified_no_gap": 4,
+      "visible_misclassified_no_gap": 3,
+      "examples": [
+        {
+          "segment": {
+            "start": {
+              "index": 7826,
+              "kind": "top",
+              "price": 73932.2,
+              "time": "2026-05-28T22:00:00+00:00"
+            },
+            "end": {
+              "index": 8389,
+              "kind": "bottom",
+              "price": 59080.0,
+              "time": "2026-06-05T19:15:00+00:00"
+            },
+            "first_stroke": 608,
+            "last_stroke": 634,
+            "confirmed": true,
+            "confirmation": "no_gap",
+            "evidence_stroke": 643,
+            "evidence_at": "2026-06-07T10:45:00+00:00",
+            "feature_indices": [
+              [
+                633
+              ],
+              [
+                635,
+                637,
+                639,
+                641
+              ],
+              [
+                643
+              ]
+            ],
+            "reverse_feature_indices": [],
+            "range_low": 59080.0,
+            "range_high": 74293.1,
+            "local_evidence_stroke": 643
+          },
+          "left": {
+            "low": 61067.6,
+            "high": 63231.8,
+            "source_indices": [
+              633
+            ]
+          },
+          "standardized_middle": {
+            "low": 59080.0,
+            "high": 60969.2,
+            "source_indices": [
+              635,
+              637,
+              639,
+              641
+            ]
+          },
+          "standardized_gap": true,
+          "audit": {
+            "turn_stroke": 635,
+            "gap": false,
+            "direct_break": false,
+            "first_pattern_found": true,
+            "reverse_pattern_found": false,
+            "reverse_span_ready": true,
+            "reason": "confirmed_no_gap",
+            "evidence_stroke": 643
+          }
+        },
+        {
+          "segment": {
+            "start": {
+              "index": 8727,
+              "kind": "bottom",
+              "price": 60691.9,
+              "time": "2026-06-10T09:15:00+00:00"
+            },
+            "end": {
+              "index": 8820,
+              "kind": "top",
+              "price": 63915.3,
+              "time": "2026-06-11T19:30:00+00:00"
+            },
+            "first_stroke": 661,
+            "last_stroke": 665,
+            "confirmed": true,
+            "confirmation": "no_gap",
+            "evidence_stroke": 670,
+            "evidence_at": "2026-06-12T09:15:00+00:00",
+            "feature_indices": [
+              [
+                664
+              ],
+              [
+                666,
+                668
+              ],
+              [
+                670
+              ]
+            ],
+            "reverse_feature_indices": [],
+            "range_low": 60691.9,
+            "range_high": 63915.3,
+            "local_evidence_stroke": 670
+          },
+          "left": {
+            "low": 62315.0,
+            "high": 63235.9,
+            "source_indices": [
+              664
+            ]
+          },
+          "standardized_middle": {
+            "low": 63271.6,
+            "high": 63915.3,
+            "source_indices": [
+              666,
+              668
+            ]
+          },
+          "standardized_gap": true,
+          "audit": {
+            "turn_stroke": 666,
+            "gap": false,
+            "direct_break": false,
+            "first_pattern_found": true,
+            "reverse_pattern_found": false,
+            "reverse_span_ready": true,
+            "reason": "confirmed_no_gap",
+            "evidence_stroke": 670
+          }
+        },
+        {
+          "segment": {
+            "start": {
+              "index": 9560,
+              "kind": "top",
+              "price": 65597.2,
+              "time": "2026-06-22T14:00:00+00:00"
+            },
+            "end": {
+              "index": 9779,
+              "kind": "bottom",
+              "price": 58030.0,
+              "time": "2026-06-25T13:45:00+00:00"
+            },
+            "first_stroke": 732,
+            "last_stroke": 742,
+            "confirmed": true,
+            "confirmation": "no_gap",
+            "evidence_stroke": 751,
+            "evidence_at": "2026-06-27T18:15:00+00:00",
+            "feature_indices": [
+              [
+                741
+              ],
+              [
+                743,
+                745,
+                747
+              ],
+              [
+                749
+              ]
+            ],
+            "reverse_feature_indices": [],
+            "range_low": 58030.0,
+            "range_high": 65597.2,
+            "local_evidence_stroke": 751
+          },
+          "left": {
+            "low": 60648.0,
+            "high": 61931.1,
+            "source_indices": [
+              741
+            ]
+          },
+          "standardized_middle": {
+            "low": 58030.0,
+            "high": 60472.2,
+            "source_indices": [
+              743,
+              745,
+              747
+            ]
+          },
+          "standardized_gap": true,
+          "audit": {
+            "turn_stroke": 743,
+            "gap": false,
+            "direct_break": false,
+            "first_pattern_found": true,
+            "reverse_pattern_found": false,
+            "reverse_span_ready": true,
+            "reason": "confirmed_no_gap",
+            "evidence_stroke": 751
+          }
+        }
+      ],
+      "production_segment_count": 146,
+      "trial_segment_count": 144,
+      "current_user_window": [
+        {
+          "start": {
+            "index": 13251,
+            "kind": "bottom",
+            "price": 62484.2,
+            "time": "2026-08-14T14:45:00+00:00"
+          },
+          "end": {
+            "index": 13460,
+            "kind": "top",
+            "price": 64600.8,
+            "time": "2026-08-17T18:15:00+00:00"
+          },
+          "first_stroke": 997,
+          "last_stroke": 1015,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1020,
+          "evidence_at": "2026-08-18T15:15:00+00:00",
+          "feature_indices": [
+            [
+              1014
+            ],
+            [
+              1016,
+              1018
+            ],
+            [
+              1020
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 62484.2,
+          "range_high": 64600.8,
+          "local_evidence_stroke": 1020
+        },
+        {
+          "start": {
+            "index": 13460,
+            "kind": "top",
+            "price": 64600.8,
+            "time": "2026-08-17T18:15:00+00:00"
+          },
+          "end": {
+            "index": 13512,
+            "kind": "bottom",
+            "price": 63979.2,
+            "time": "2026-08-18T13:30:00+00:00"
+          },
+          "first_stroke": 1016,
+          "last_stroke": 1020,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1025,
+          "evidence_at": "2026-08-19T18:15:00+00:00",
+          "feature_indices": [
+            [
+              1017,
+              1019
+            ],
+            [
+              1021
+            ],
+            [
+              1025
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 63979.2,
+          "range_high": 64600.8,
+          "local_evidence_stroke": 1025
+        },
+        {
+          "start": {
+            "index": 13512,
+            "kind": "bottom",
+            "price": 63979.2,
+            "time": "2026-08-18T13:30:00+00:00"
+          },
+          "end": {
+            "index": 13957,
+            "kind": "top",
+            "price": 81270.5,
+            "time": "2026-08-25T02:15:00+00:00"
+          },
+          "first_stroke": 1021,
+          "last_stroke": 1049,
+          "confirmed": true,
+          "confirmation": "gap_reverse_fractal",
+          "evidence_stroke": 1059,
+          "evidence_at": "2026-08-26T05:45:00+00:00",
+          "feature_indices": [
+            [
+              1048
+            ],
+            [
+              1050
+            ],
+            [
+              1052
+            ]
+          ],
+          "reverse_feature_indices": [
+            [
+              1053,
+              1055
+            ],
+            [
+              1057
+            ],
+            [
+              1059
+            ]
+          ],
+          "range_low": 63979.2,
+          "range_high": 81270.5,
+          "local_evidence_stroke": 1059
+        },
+        {
+          "start": {
+            "index": 13957,
+            "kind": "top",
+            "price": 81270.5,
+            "time": "2026-08-25T02:15:00+00:00"
+          },
+          "end": {
+            "index": 14016,
+            "kind": "bottom",
+            "price": 77808.1,
+            "time": "2026-08-25T21:00:00+00:00"
+          },
+          "first_stroke": 1050,
+          "last_stroke": 1056,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1059,
+          "evidence_at": "2026-08-26T05:45:00+00:00",
+          "feature_indices": [
+            [
+              1053,
+              1055
+            ],
+            [
+              1057
+            ],
+            [
+              1059
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 77808.1,
+          "range_high": 81270.5,
+          "local_evidence_stroke": 1059
+        },
+        {
+          "start": {
+            "index": 14016,
+            "kind": "bottom",
+            "price": 77808.1,
+            "time": "2026-08-25T21:00:00+00:00"
+          },
+          "end": {
+            "index": 14033,
+            "kind": "top",
+            "price": 79200.0,
+            "time": "2026-08-26T02:30:00+00:00"
+          },
+          "first_stroke": 1057,
+          "last_stroke": 1059,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1062,
+          "evidence_at": "2026-08-26T18:15:00+00:00",
+          "feature_indices": [
+            [
+              1058
+            ],
+            [
+              1060
+            ],
+            [
+              1062
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 77808.1,
+          "range_high": 79200.0,
+          "local_evidence_stroke": 1062
+        },
+        {
+          "start": {
+            "index": 14033,
+            "kind": "top",
+            "price": 79200.0,
+            "time": "2026-08-26T02:30:00+00:00"
+          },
+          "end": {
+            "index": 14070,
+            "kind": "bottom",
+            "price": 77600.0,
+            "time": "2026-08-26T15:00:00+00:00"
+          },
+          "first_stroke": 1060,
+          "last_stroke": 1062,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1065,
+          "evidence_at": "2026-08-27T02:30:00+00:00",
+          "feature_indices": [
+            [
+              1061
+            ],
+            [
+              1063
+            ],
+            [
+              1065
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 77600.0,
+          "range_high": 79200.0,
+          "local_evidence_stroke": 1065
+        },
+        {
+          "start": {
+            "index": 14070,
+            "kind": "bottom",
+            "price": 77600.0,
+            "time": "2026-08-26T15:00:00+00:00"
+          },
+          "end": {
+            "index": 14172,
+            "kind": "top",
+            "price": 81500.0,
+            "time": "2026-08-28T01:30:00+00:00"
+          },
+          "first_stroke": 1063,
+          "last_stroke": 1071,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1074,
+          "evidence_at": "2026-08-29T15:30:00+00:00",
+          "feature_indices": [
+            [
+              1070
+            ],
+            [
+              1072
+            ],
+            [
+              1074
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 77600.0,
+          "range_high": 81500.0,
+          "local_evidence_stroke": 1074
+        },
+        {
+          "start": {
+            "index": 14172,
+            "kind": "top",
+            "price": 81500.0,
+            "time": "2026-08-28T01:30:00+00:00"
+          },
+          "end": {
+            "index": 14214,
+            "kind": "bottom",
+            "price": 76853.1,
+            "time": "2026-08-28T16:15:00+00:00"
+          },
+          "first_stroke": 1072,
+          "last_stroke": 1074,
+          "confirmed": true,
+          "confirmation": "gap_reverse_fractal",
+          "evidence_stroke": 1084,
+          "evidence_at": "2026-08-31T15:45:00+00:00",
+          "feature_indices": [
+            [
+              1073
+            ],
+            [
+              1075,
+              1077
+            ],
+            [
+              1079
+            ]
+          ],
+          "reverse_feature_indices": [
+            [
+              1078
+            ],
+            [
+              1080,
+              1082
+            ],
+            [
+              1084
+            ]
+          ],
+          "range_low": 76853.1,
+          "range_high": 81500.0,
+          "local_evidence_stroke": 1084
+        },
+        {
+          "start": {
+            "index": 14214,
+            "kind": "bottom",
+            "price": 76853.1,
+            "time": "2026-08-28T16:15:00+00:00"
+          },
+          "end": {
+            "index": 14353,
+            "kind": "top",
+            "price": 79384.4,
+            "time": "2026-08-30T16:45:00+00:00"
+          },
+          "first_stroke": 1075,
+          "last_stroke": 1081,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1088,
+          "evidence_at": "2026-09-01T22:00:00+00:00",
+          "feature_indices": [
+            [
+              1080
+            ],
+            [
+              1082
+            ],
+            [
+              1088
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 76853.1,
+          "range_high": 79384.4,
+          "local_evidence_stroke": 1088
+        },
+        {
+          "start": {
+            "index": 14353,
+            "kind": "top",
+            "price": 79384.4,
+            "time": "2026-08-30T16:45:00+00:00"
+          },
+          "end": {
+            "index": 14548,
+            "kind": "bottom",
+            "price": 76151.9,
+            "time": "2026-09-02T10:45:00+00:00"
+          },
+          "first_stroke": 1082,
+          "last_stroke": 1092,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1097,
+          "evidence_at": "2026-09-03T11:15:00+00:00",
+          "feature_indices": [
+            [
+              1091
+            ],
+            [
+              1093,
+              1095
+            ],
+            [
+              1097
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 76151.9,
+          "range_high": 79384.4,
+          "local_evidence_stroke": 1097
+        },
+        {
+          "start": {
+            "index": 14548,
+            "kind": "bottom",
+            "price": 76151.9,
+            "time": "2026-09-02T10:45:00+00:00"
+          },
+          "end": {
+            "index": 14652,
+            "kind": "top",
+            "price": 82282.8,
+            "time": "2026-09-03T21:30:00+00:00"
+          },
+          "first_stroke": 1093,
+          "last_stroke": 1099,
+          "confirmed": true,
+          "confirmation": "gap_reverse_fractal",
+          "evidence_stroke": 1115,
+          "evidence_at": "2026-09-05T14:30:00+00:00",
+          "feature_indices": [
+            [
+              1098
+            ],
+            [
+              1100
+            ],
+            [
+              1102
+            ]
+          ],
+          "reverse_feature_indices": [
+            [
+              1103,
+              1105
+            ],
+            [
+              1107,
+              1109,
+              1111,
+              1113
+            ],
+            [
+              1115
+            ]
+          ],
+          "range_low": 76151.9,
+          "range_high": 82282.8,
+          "local_evidence_stroke": 1115
+        },
+        {
+          "start": {
+            "index": 14652,
+            "kind": "top",
+            "price": 82282.8,
+            "time": "2026-09-03T21:30:00+00:00"
+          },
+          "end": {
+            "index": 14701,
+            "kind": "bottom",
+            "price": 78618.1,
+            "time": "2026-09-04T14:45:00+00:00"
+          },
+          "first_stroke": 1100,
+          "last_stroke": 1106,
+          "confirmed": true,
+          "confirmation": "gap_reverse_fractal",
+          "evidence_stroke": 1122,
+          "evidence_at": "2026-09-06T10:15:00+00:00",
+          "feature_indices": [
+            [
+              1103,
+              1105
+            ],
+            [
+              1107,
+              1109,
+              1111,
+              1113
+            ],
+            [
+              1115
+            ]
+          ],
+          "reverse_feature_indices": [
+            [
+              1116
+            ],
+            [
+              1118,
+              1120
+            ],
+            [
+              1122
+            ]
+          ],
+          "range_low": 78618.1,
+          "range_high": 82282.8,
+          "local_evidence_stroke": 1122
+        },
+        {
+          "start": {
+            "index": 14701,
+            "kind": "bottom",
+            "price": 78618.1,
+            "time": "2026-09-04T14:45:00+00:00"
+          },
+          "end": {
+            "index": 14780,
+            "kind": "top",
+            "price": 80167.0,
+            "time": "2026-09-05T16:45:00+00:00"
+          },
+          "first_stroke": 1107,
+          "last_stroke": 1117,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1122,
+          "evidence_at": "2026-09-06T10:15:00+00:00",
+          "feature_indices": [
+            [
+              1116
+            ],
+            [
+              1118,
+              1120
+            ],
+            [
+              1122
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 78618.1,
+          "range_high": 80167.0,
+          "local_evidence_stroke": 1122
+        },
+        {
+          "start": {
+            "index": 14780,
+            "kind": "top",
+            "price": 80167.0,
+            "time": "2026-09-05T16:45:00+00:00"
+          },
+          "end": {
+            "index": 14844,
+            "kind": "bottom",
+            "price": 79125.3,
+            "time": "2026-09-06T14:30:00+00:00"
+          },
+          "first_stroke": 1118,
+          "last_stroke": 1124,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1127,
+          "evidence_at": "2026-09-06T23:00:00+00:00",
+          "feature_indices": [
+            [
+              1123
+            ],
+            [
+              1125
+            ],
+            [
+              1127
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 79125.3,
+          "range_high": 80167.0,
+          "local_evidence_stroke": 1127
+        },
+        {
+          "start": {
+            "index": 14844,
+            "kind": "bottom",
+            "price": 79125.3,
+            "time": "2026-09-06T14:30:00+00:00"
+          },
+          "end": {
+            "index": 14873,
+            "kind": "top",
+            "price": 80536.1,
+            "time": "2026-09-06T23:45:00+00:00"
+          },
+          "first_stroke": 1125,
+          "last_stroke": 1129,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1134,
+          "evidence_at": "2026-09-07T18:45:00+00:00",
+          "feature_indices": [
+            [
+              1126,
+              1128
+            ],
+            [
+              1130
+            ],
+            [
+              1134
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 79125.3,
+          "range_high": 80536.1,
+          "local_evidence_stroke": 1134
+        },
+        {
+          "start": {
+            "index": 14873,
+            "kind": "top",
+            "price": 80536.1,
+            "time": "2026-09-06T23:45:00+00:00"
+          },
+          "end": {
+            "index": 14923,
+            "kind": "bottom",
+            "price": 78636.0,
+            "time": "2026-09-07T15:30:00+00:00"
+          },
+          "first_stroke": 1130,
+          "last_stroke": 1134,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1137,
+          "evidence_at": "2026-09-08T04:15:00+00:00",
+          "feature_indices": [
+            [
+              1133
+            ],
+            [
+              1135
+            ],
+            [
+              1137
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 78636.0,
+          "range_high": 80536.1,
+          "local_evidence_stroke": 1137
+        },
+        {
+          "start": {
+            "index": 14923,
+            "kind": "bottom",
+            "price": 78636.0,
+            "time": "2026-09-07T15:30:00+00:00"
+          },
+          "end": {
+            "index": 14947,
+            "kind": "top",
+            "price": 79439.6,
+            "time": "2026-09-08T01:15:00+00:00"
+          },
+          "first_stroke": 1135,
+          "last_stroke": 1137,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1140,
+          "evidence_at": "2026-09-08T16:30:00+00:00",
+          "feature_indices": [
+            [
+              1136
+            ],
+            [
+              1138
+            ],
+            [
+              1140
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 78636.0,
+          "range_high": 79439.6,
+          "local_evidence_stroke": 1140
+        },
+        {
+          "start": {
+            "index": 14947,
+            "kind": "top",
+            "price": 79439.6,
+            "time": "2026-09-08T01:15:00+00:00"
+          },
+          "end": {
+            "index": 14984,
+            "kind": "bottom",
+            "price": 77600.1,
+            "time": "2026-09-08T13:45:00+00:00"
+          },
+          "first_stroke": 1138,
+          "last_stroke": 1140,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1147,
+          "evidence_at": "2026-09-09T10:45:00+00:00",
+          "feature_indices": [
+            [
+              1139
+            ],
+            [
+              1141,
+              1143
+            ],
+            [
+              1145
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 77600.1,
+          "range_high": 79439.6,
+          "local_evidence_stroke": 1147
+        },
+        {
+          "start": {
+            "index": 14984,
+            "kind": "bottom",
+            "price": 77600.1,
+            "time": "2026-09-08T13:45:00+00:00"
+          },
+          "end": {
+            "index": 15042,
+            "kind": "top",
+            "price": 79737.3,
+            "time": "2026-09-09T08:30:00+00:00"
+          },
+          "first_stroke": 1141,
+          "last_stroke": 1147,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1150,
+          "evidence_at": "2026-09-10T00:45:00+00:00",
+          "feature_indices": [
+            [
+              1142,
+              1144,
+              1146
+            ],
+            [
+              1148
+            ],
+            [
+              1150
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 77600.1,
+          "range_high": 79737.3,
+          "local_evidence_stroke": 1150
+        },
+        {
+          "start": {
+            "index": 15042,
+            "kind": "top",
+            "price": 79737.3,
+            "time": "2026-09-09T08:30:00+00:00"
+          },
+          "end": {
+            "index": 15153,
+            "kind": "bottom",
+            "price": 76402.9,
+            "time": "2026-09-10T23:00:00+00:00"
+          },
+          "first_stroke": 1148,
+          "last_stroke": 1158,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1161,
+          "evidence_at": "2026-09-11T16:00:00+00:00",
+          "feature_indices": [
+            [
+              1157
+            ],
+            [
+              1159
+            ],
+            [
+              1161
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 76402.9,
+          "range_high": 79737.3,
+          "local_evidence_stroke": 1161
+        },
+        {
+          "start": {
+            "index": 15153,
+            "kind": "bottom",
+            "price": 76402.9,
+            "time": "2026-09-10T23:00:00+00:00"
+          },
+          "end": {
+            "index": 15198,
+            "kind": "top",
+            "price": 79859.8,
+            "time": "2026-09-11T14:00:00+00:00"
+          },
+          "first_stroke": 1159,
+          "last_stroke": 1161,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1174,
+          "evidence_at": "2026-09-13T13:00:00+00:00",
+          "feature_indices": [
+            [
+              1160
+            ],
+            [
+              1162,
+              1164,
+              1166,
+              1168
+            ],
+            [
+              1170,
+              1172
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 76402.9,
+          "range_high": 79859.8,
+          "local_evidence_stroke": 1174
+        },
+        {
+          "start": {
+            "index": 15198,
+            "kind": "top",
+            "price": 79859.8,
+            "time": "2026-09-11T14:00:00+00:00"
+          },
+          "end": {
+            "index": 15329,
+            "kind": "bottom",
+            "price": 76458.9,
+            "time": "2026-09-13T11:00:00+00:00"
+          },
+          "first_stroke": 1162,
+          "last_stroke": 1174,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1177,
+          "evidence_at": "2026-09-14T00:00:00+00:00",
+          "feature_indices": [
+            [
+              1171,
+              1173
+            ],
+            [
+              1175
+            ],
+            [
+              1177
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 76458.9,
+          "range_high": 79859.8,
+          "local_evidence_stroke": 1177
+        },
+        {
+          "start": {
+            "index": 15329,
+            "kind": "bottom",
+            "price": 76458.9,
+            "time": "2026-09-13T11:00:00+00:00"
+          },
+          "end": {
+            "index": 15764,
+            "kind": "top",
+            "price": 81933.9,
+            "time": "2026-09-19T15:30:00+00:00"
+          },
+          "first_stroke": 1175,
+          "last_stroke": 1201,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1204,
+          "evidence_at": "2026-09-20T06:30:00+00:00",
+          "feature_indices": [
+            [
+              1198,
+              1200
+            ],
+            [
+              1202
+            ],
+            [
+              1204
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 74909.4,
+          "range_high": 81933.9,
+          "local_evidence_stroke": 1204
+        }
+      ],
+      "trial_user_window": [
+        {
+          "start": {
+            "index": 13251,
+            "kind": "bottom",
+            "price": 62484.2,
+            "time": "2026-08-14T14:45:00+00:00"
+          },
+          "end": {
+            "index": 13460,
+            "kind": "top",
+            "price": 64600.8,
+            "time": "2026-08-17T18:15:00+00:00"
+          },
+          "first_stroke": 997,
+          "last_stroke": 1015,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1020,
+          "evidence_at": "2026-08-18T15:15:00+00:00",
+          "feature_indices": [
+            [
+              1014
+            ],
+            [
+              1016,
+              1018
+            ],
+            [
+              1020
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 62484.2,
+          "range_high": 64600.8,
+          "local_evidence_stroke": 1020
+        },
+        {
+          "start": {
+            "index": 13460,
+            "kind": "top",
+            "price": 64600.8,
+            "time": "2026-08-17T18:15:00+00:00"
+          },
+          "end": {
+            "index": 13512,
+            "kind": "bottom",
+            "price": 63979.2,
+            "time": "2026-08-18T13:30:00+00:00"
+          },
+          "first_stroke": 1016,
+          "last_stroke": 1020,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1025,
+          "evidence_at": "2026-08-19T18:15:00+00:00",
+          "feature_indices": [
+            [
+              1017,
+              1019
+            ],
+            [
+              1021
+            ],
+            [
+              1025
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 63979.2,
+          "range_high": 64600.8,
+          "local_evidence_stroke": 1025
+        },
+        {
+          "start": {
+            "index": 13512,
+            "kind": "bottom",
+            "price": 63979.2,
+            "time": "2026-08-18T13:30:00+00:00"
+          },
+          "end": {
+            "index": 13957,
+            "kind": "top",
+            "price": 81270.5,
+            "time": "2026-08-25T02:15:00+00:00"
+          },
+          "first_stroke": 1021,
+          "last_stroke": 1049,
+          "confirmed": true,
+          "confirmation": "gap_reverse_fractal",
+          "evidence_stroke": 1059,
+          "evidence_at": "2026-08-26T05:45:00+00:00",
+          "feature_indices": [
+            [
+              1048
+            ],
+            [
+              1050
+            ],
+            [
+              1052
+            ]
+          ],
+          "reverse_feature_indices": [
+            [
+              1053,
+              1055
+            ],
+            [
+              1057
+            ],
+            [
+              1059
+            ]
+          ],
+          "range_low": 63979.2,
+          "range_high": 81270.5,
+          "local_evidence_stroke": 1059
+        },
+        {
+          "start": {
+            "index": 13957,
+            "kind": "top",
+            "price": 81270.5,
+            "time": "2026-08-25T02:15:00+00:00"
+          },
+          "end": {
+            "index": 14016,
+            "kind": "bottom",
+            "price": 77808.1,
+            "time": "2026-08-25T21:00:00+00:00"
+          },
+          "first_stroke": 1050,
+          "last_stroke": 1056,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1059,
+          "evidence_at": "2026-08-26T05:45:00+00:00",
+          "feature_indices": [
+            [
+              1053,
+              1055
+            ],
+            [
+              1057
+            ],
+            [
+              1059
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 77808.1,
+          "range_high": 81270.5,
+          "local_evidence_stroke": 1059
+        },
+        {
+          "start": {
+            "index": 14016,
+            "kind": "bottom",
+            "price": 77808.1,
+            "time": "2026-08-25T21:00:00+00:00"
+          },
+          "end": {
+            "index": 14033,
+            "kind": "top",
+            "price": 79200.0,
+            "time": "2026-08-26T02:30:00+00:00"
+          },
+          "first_stroke": 1057,
+          "last_stroke": 1059,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1062,
+          "evidence_at": "2026-08-26T18:15:00+00:00",
+          "feature_indices": [
+            [
+              1058
+            ],
+            [
+              1060
+            ],
+            [
+              1062
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 77808.1,
+          "range_high": 79200.0,
+          "local_evidence_stroke": 1062
+        },
+        {
+          "start": {
+            "index": 14033,
+            "kind": "top",
+            "price": 79200.0,
+            "time": "2026-08-26T02:30:00+00:00"
+          },
+          "end": {
+            "index": 14070,
+            "kind": "bottom",
+            "price": 77600.0,
+            "time": "2026-08-26T15:00:00+00:00"
+          },
+          "first_stroke": 1060,
+          "last_stroke": 1062,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1065,
+          "evidence_at": "2026-08-27T02:30:00+00:00",
+          "feature_indices": [
+            [
+              1061
+            ],
+            [
+              1063
+            ],
+            [
+              1065
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 77600.0,
+          "range_high": 79200.0,
+          "local_evidence_stroke": 1065
+        },
+        {
+          "start": {
+            "index": 14070,
+            "kind": "bottom",
+            "price": 77600.0,
+            "time": "2026-08-26T15:00:00+00:00"
+          },
+          "end": {
+            "index": 14172,
+            "kind": "top",
+            "price": 81500.0,
+            "time": "2026-08-28T01:30:00+00:00"
+          },
+          "first_stroke": 1063,
+          "last_stroke": 1071,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1074,
+          "evidence_at": "2026-08-29T15:30:00+00:00",
+          "feature_indices": [
+            [
+              1070
+            ],
+            [
+              1072
+            ],
+            [
+              1074
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 77600.0,
+          "range_high": 81500.0,
+          "local_evidence_stroke": 1074
+        },
+        {
+          "start": {
+            "index": 14172,
+            "kind": "top",
+            "price": 81500.0,
+            "time": "2026-08-28T01:30:00+00:00"
+          },
+          "end": {
+            "index": 14214,
+            "kind": "bottom",
+            "price": 76853.1,
+            "time": "2026-08-28T16:15:00+00:00"
+          },
+          "first_stroke": 1072,
+          "last_stroke": 1074,
+          "confirmed": true,
+          "confirmation": "gap_reverse_fractal",
+          "evidence_stroke": 1084,
+          "evidence_at": "2026-08-31T15:45:00+00:00",
+          "feature_indices": [
+            [
+              1073
+            ],
+            [
+              1075,
+              1077
+            ],
+            [
+              1079
+            ]
+          ],
+          "reverse_feature_indices": [
+            [
+              1078
+            ],
+            [
+              1080,
+              1082
+            ],
+            [
+              1084
+            ]
+          ],
+          "range_low": 76853.1,
+          "range_high": 81500.0,
+          "local_evidence_stroke": 1084
+        },
+        {
+          "start": {
+            "index": 14214,
+            "kind": "bottom",
+            "price": 76853.1,
+            "time": "2026-08-28T16:15:00+00:00"
+          },
+          "end": {
+            "index": 14353,
+            "kind": "top",
+            "price": 79384.4,
+            "time": "2026-08-30T16:45:00+00:00"
+          },
+          "first_stroke": 1075,
+          "last_stroke": 1081,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1088,
+          "evidence_at": "2026-09-01T22:00:00+00:00",
+          "feature_indices": [
+            [
+              1080
+            ],
+            [
+              1082
+            ],
+            [
+              1088
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 76853.1,
+          "range_high": 79384.4,
+          "local_evidence_stroke": 1088
+        },
+        {
+          "start": {
+            "index": 14353,
+            "kind": "top",
+            "price": 79384.4,
+            "time": "2026-08-30T16:45:00+00:00"
+          },
+          "end": {
+            "index": 14548,
+            "kind": "bottom",
+            "price": 76151.9,
+            "time": "2026-09-02T10:45:00+00:00"
+          },
+          "first_stroke": 1082,
+          "last_stroke": 1092,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1097,
+          "evidence_at": "2026-09-03T11:15:00+00:00",
+          "feature_indices": [
+            [
+              1091
+            ],
+            [
+              1093,
+              1095
+            ],
+            [
+              1097
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 76151.9,
+          "range_high": 79384.4,
+          "local_evidence_stroke": 1097
+        },
+        {
+          "start": {
+            "index": 14548,
+            "kind": "bottom",
+            "price": 76151.9,
+            "time": "2026-09-02T10:45:00+00:00"
+          },
+          "end": {
+            "index": 14652,
+            "kind": "top",
+            "price": 82282.8,
+            "time": "2026-09-03T21:30:00+00:00"
+          },
+          "first_stroke": 1093,
+          "last_stroke": 1099,
+          "confirmed": true,
+          "confirmation": "gap_reverse_fractal",
+          "evidence_stroke": 1115,
+          "evidence_at": "2026-09-05T14:30:00+00:00",
+          "feature_indices": [
+            [
+              1098
+            ],
+            [
+              1100
+            ],
+            [
+              1102
+            ]
+          ],
+          "reverse_feature_indices": [
+            [
+              1103,
+              1105
+            ],
+            [
+              1107,
+              1109,
+              1111,
+              1113
+            ],
+            [
+              1115
+            ]
+          ],
+          "range_low": 76151.9,
+          "range_high": 82282.8,
+          "local_evidence_stroke": 1115
+        },
+        {
+          "start": {
+            "index": 14652,
+            "kind": "top",
+            "price": 82282.8,
+            "time": "2026-09-03T21:30:00+00:00"
+          },
+          "end": {
+            "index": 14701,
+            "kind": "bottom",
+            "price": 78618.1,
+            "time": "2026-09-04T14:45:00+00:00"
+          },
+          "first_stroke": 1100,
+          "last_stroke": 1106,
+          "confirmed": true,
+          "confirmation": "gap_reverse_fractal",
+          "evidence_stroke": 1122,
+          "evidence_at": "2026-09-06T10:15:00+00:00",
+          "feature_indices": [
+            [
+              1103,
+              1105
+            ],
+            [
+              1107,
+              1109,
+              1111,
+              1113
+            ],
+            [
+              1115
+            ]
+          ],
+          "reverse_feature_indices": [
+            [
+              1116
+            ],
+            [
+              1118,
+              1120
+            ],
+            [
+              1122
+            ]
+          ],
+          "range_low": 78618.1,
+          "range_high": 82282.8,
+          "local_evidence_stroke": 1122
+        },
+        {
+          "start": {
+            "index": 14701,
+            "kind": "bottom",
+            "price": 78618.1,
+            "time": "2026-09-04T14:45:00+00:00"
+          },
+          "end": {
+            "index": 14780,
+            "kind": "top",
+            "price": 80167.0,
+            "time": "2026-09-05T16:45:00+00:00"
+          },
+          "first_stroke": 1107,
+          "last_stroke": 1117,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1122,
+          "evidence_at": "2026-09-06T10:15:00+00:00",
+          "feature_indices": [
+            [
+              1116
+            ],
+            [
+              1118,
+              1120
+            ],
+            [
+              1122
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 78618.1,
+          "range_high": 80167.0,
+          "local_evidence_stroke": 1122
+        },
+        {
+          "start": {
+            "index": 14780,
+            "kind": "top",
+            "price": 80167.0,
+            "time": "2026-09-05T16:45:00+00:00"
+          },
+          "end": {
+            "index": 14844,
+            "kind": "bottom",
+            "price": 79125.3,
+            "time": "2026-09-06T14:30:00+00:00"
+          },
+          "first_stroke": 1118,
+          "last_stroke": 1124,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1127,
+          "evidence_at": "2026-09-06T23:00:00+00:00",
+          "feature_indices": [
+            [
+              1123
+            ],
+            [
+              1125
+            ],
+            [
+              1127
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 79125.3,
+          "range_high": 80167.0,
+          "local_evidence_stroke": 1127
+        },
+        {
+          "start": {
+            "index": 14844,
+            "kind": "bottom",
+            "price": 79125.3,
+            "time": "2026-09-06T14:30:00+00:00"
+          },
+          "end": {
+            "index": 14873,
+            "kind": "top",
+            "price": 80536.1,
+            "time": "2026-09-06T23:45:00+00:00"
+          },
+          "first_stroke": 1125,
+          "last_stroke": 1129,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1134,
+          "evidence_at": "2026-09-07T18:45:00+00:00",
+          "feature_indices": [
+            [
+              1126,
+              1128
+            ],
+            [
+              1130
+            ],
+            [
+              1134
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 79125.3,
+          "range_high": 80536.1,
+          "local_evidence_stroke": 1134
+        },
+        {
+          "start": {
+            "index": 14873,
+            "kind": "top",
+            "price": 80536.1,
+            "time": "2026-09-06T23:45:00+00:00"
+          },
+          "end": {
+            "index": 14923,
+            "kind": "bottom",
+            "price": 78636.0,
+            "time": "2026-09-07T15:30:00+00:00"
+          },
+          "first_stroke": 1130,
+          "last_stroke": 1134,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1137,
+          "evidence_at": "2026-09-08T04:15:00+00:00",
+          "feature_indices": [
+            [
+              1133
+            ],
+            [
+              1135
+            ],
+            [
+              1137
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 78636.0,
+          "range_high": 80536.1,
+          "local_evidence_stroke": 1137
+        },
+        {
+          "start": {
+            "index": 14923,
+            "kind": "bottom",
+            "price": 78636.0,
+            "time": "2026-09-07T15:30:00+00:00"
+          },
+          "end": {
+            "index": 14947,
+            "kind": "top",
+            "price": 79439.6,
+            "time": "2026-09-08T01:15:00+00:00"
+          },
+          "first_stroke": 1135,
+          "last_stroke": 1137,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1140,
+          "evidence_at": "2026-09-08T16:30:00+00:00",
+          "feature_indices": [
+            [
+              1136
+            ],
+            [
+              1138
+            ],
+            [
+              1140
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 78636.0,
+          "range_high": 79439.6,
+          "local_evidence_stroke": 1140
+        },
+        {
+          "start": {
+            "index": 14947,
+            "kind": "top",
+            "price": 79439.6,
+            "time": "2026-09-08T01:15:00+00:00"
+          },
+          "end": {
+            "index": 14984,
+            "kind": "bottom",
+            "price": 77600.1,
+            "time": "2026-09-08T13:45:00+00:00"
+          },
+          "first_stroke": 1138,
+          "last_stroke": 1140,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1147,
+          "evidence_at": "2026-09-09T10:45:00+00:00",
+          "feature_indices": [
+            [
+              1139
+            ],
+            [
+              1141,
+              1143
+            ],
+            [
+              1145
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 77600.1,
+          "range_high": 79439.6,
+          "local_evidence_stroke": 1147
+        },
+        {
+          "start": {
+            "index": 14984,
+            "kind": "bottom",
+            "price": 77600.1,
+            "time": "2026-09-08T13:45:00+00:00"
+          },
+          "end": {
+            "index": 15042,
+            "kind": "top",
+            "price": 79737.3,
+            "time": "2026-09-09T08:30:00+00:00"
+          },
+          "first_stroke": 1141,
+          "last_stroke": 1147,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1150,
+          "evidence_at": "2026-09-10T00:45:00+00:00",
+          "feature_indices": [
+            [
+              1142,
+              1144,
+              1146
+            ],
+            [
+              1148
+            ],
+            [
+              1150
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 77600.1,
+          "range_high": 79737.3,
+          "local_evidence_stroke": 1150
+        },
+        {
+          "start": {
+            "index": 15042,
+            "kind": "top",
+            "price": 79737.3,
+            "time": "2026-09-09T08:30:00+00:00"
+          },
+          "end": {
+            "index": 15153,
+            "kind": "bottom",
+            "price": 76402.9,
+            "time": "2026-09-10T23:00:00+00:00"
+          },
+          "first_stroke": 1148,
+          "last_stroke": 1158,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1161,
+          "evidence_at": "2026-09-11T16:00:00+00:00",
+          "feature_indices": [
+            [
+              1157
+            ],
+            [
+              1159
+            ],
+            [
+              1161
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 76402.9,
+          "range_high": 79737.3,
+          "local_evidence_stroke": 1161
+        },
+        {
+          "start": {
+            "index": 15153,
+            "kind": "bottom",
+            "price": 76402.9,
+            "time": "2026-09-10T23:00:00+00:00"
+          },
+          "end": {
+            "index": 15198,
+            "kind": "top",
+            "price": 79859.8,
+            "time": "2026-09-11T14:00:00+00:00"
+          },
+          "first_stroke": 1159,
+          "last_stroke": 1161,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1174,
+          "evidence_at": "2026-09-13T13:00:00+00:00",
+          "feature_indices": [
+            [
+              1160
+            ],
+            [
+              1162,
+              1164,
+              1166,
+              1168
+            ],
+            [
+              1170,
+              1172
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 76402.9,
+          "range_high": 79859.8,
+          "local_evidence_stroke": 1174
+        },
+        {
+          "start": {
+            "index": 15198,
+            "kind": "top",
+            "price": 79859.8,
+            "time": "2026-09-11T14:00:00+00:00"
+          },
+          "end": {
+            "index": 15329,
+            "kind": "bottom",
+            "price": 76458.9,
+            "time": "2026-09-13T11:00:00+00:00"
+          },
+          "first_stroke": 1162,
+          "last_stroke": 1174,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1177,
+          "evidence_at": "2026-09-14T00:00:00+00:00",
+          "feature_indices": [
+            [
+              1171,
+              1173
+            ],
+            [
+              1175
+            ],
+            [
+              1177
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 76458.9,
+          "range_high": 79859.8,
+          "local_evidence_stroke": 1177
+        },
+        {
+          "start": {
+            "index": 15329,
+            "kind": "bottom",
+            "price": 76458.9,
+            "time": "2026-09-13T11:00:00+00:00"
+          },
+          "end": {
+            "index": 15764,
+            "kind": "top",
+            "price": 81933.9,
+            "time": "2026-09-19T15:30:00+00:00"
+          },
+          "first_stroke": 1175,
+          "last_stroke": 1201,
+          "confirmed": true,
+          "confirmation": "no_gap",
+          "evidence_stroke": 1204,
+          "evidence_at": "2026-09-20T06:30:00+00:00",
+          "feature_indices": [
+            [
+              1198,
+              1200
+            ],
+            [
+              1202
+            ],
+            [
+              1204
+            ]
+          ],
+          "reverse_feature_indices": [],
+          "range_low": 74909.4,
+          "range_high": 81933.9,
+          "local_evidence_stroke": 1204
+        }
+      ]
+    }
+  }
+}

@@ -14,6 +14,7 @@ class AnalysisPolicy:
     zero_axis_ratio: float = 0.2
     strength_fast: int = 5
     strength_slow: int = 10
+    stroke_policy: str = "connected"
 
     def __post_init__(self):
         for name in ("min_span", "max_levels", "strength_fast", "strength_slow"):
@@ -23,6 +24,10 @@ class AnalysisPolicy:
             raise ValueError("min_span >= 4 且 1 <= max_levels <= 20")
         if self.initial_direction not in ("up", "down") or self.mode not in ("strict", "bi"):
             raise ValueError("initial_direction 或 mode 无效")
+        if self.stroke_policy == 'causal':
+            object.__setattr__(self, 'stroke_policy', 'connected')
+        if self.stroke_policy not in ('connected', 'snapshot'):
+            raise ValueError('stroke_policy 必须为 connected/snapshot（causal 为兼容别名）')
         if not 1 <= self.strength_fast < self.strength_slow:
             raise ValueError("力度窗口须满足 1 <= fast < slow")
         if not math.isfinite(self.zero_axis_ratio) or not 0 <= self.zero_axis_ratio <= 1:
@@ -33,12 +38,16 @@ class AnalysisPolicy:
 
     def manifest(self):
         rules = {
-            "version": "chan-rules-v5",
+            "version": "chan-rules-v10",
             "parameters": self.kwargs(),
             "inclusion": "directional_high_low_merge; stable_right_neighbor",
-            "stroke": "earliest_origin_latest_reachable_max_edges_v1",
+            "stroke": ("connected_strict_revision_events_v1" if self.stroke_policy == 'connected'
+                       else "earliest_origin_latest_reachable_max_edges_v1"),
+            "stroke_continuity": "one_connected_chain_per_source_run; revisions_instead_of_structural_breaks",
             "stroke_evidence": "stable_right_neighbor_witness_first_raw_close",
             "segment": "feature_sequence_no_gap_or_reverse_fractal; reverse_valid_span_required",
+            "segment_gap": "first_reverse_break_precedes_containment; otherwise_standardized_gap_reverse_fractal",
+            "segment_direct_break": "up_low<=old_feature_high; down_high>=old_feature_low; strict_first_endpoint_resolution",
             "segment_origin": "earliest_overlapping_first_three; retain_extendable_origin",
             "segment_evidence": "local_pattern_plus_predecessor_publication; max_input_prefix_availability",
             "direct_break": "retain_attacking_stroke_events_across_segment_extension",
@@ -50,12 +59,16 @@ class AnalysisPolicy:
             "third_signal_history": "seed_identity; causal_prefix_publication; retain_closed_center_evidence",
             "third_retry": "new_departure_after_return_to_center; consume_first_success",
             "base_divergence": "missing_L0_internal_centers_is_pending",
+            "divergence_internal_centers": "ordered_unique_declared_ids; full_time_and_price_containment; component_ownership",
             "macd": {"metric": "same_direction_histogram_sum", "parameters": [12, 26, 9],
                      "histogram_multiplier": 2, "interval": "[start,end)",
-                     "units": "price_bars", "scope": "auxiliary_only"},
+                     "units": "price_bars", "scope": "auxiliary_only",
+                     "evidence": "both_classifications_include_compared_center_updates_and_closure"},
             "strength": {"metric": "cross_kiss_sma", "units": "price_hours",
                          "scope": "complete_aligned_waves_only"},
-            "confirmation": "snapshot_evidence_can_be_revised; replay_observation_required",
+            "confirmation": ("causal_publication_with_explicit_suffix_revisions; completion_is_snapshot_relative"
+                             if self.stroke_policy == 'connected' else
+                             "snapshot_evidence_can_be_revised; replay_observation_required"),
             "scope": "explicit_engineering_policy_not_unique_canonical_decomposition",
         }
         rules["fingerprint"] = hashlib.sha256(json.dumps(

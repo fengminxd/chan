@@ -1,0 +1,63 @@
+test_closed_data_evidence_not_after_as_of (test_structure.IntegrationTests.test_closed_data_evidence_not_after_as_of) ... ok
+test_default_strict_and_legacy_explicit (test_structure.IntegrationTests.test_default_strict_and_legacy_explicit) ... ok
+test_disjoint_up_moves_do_not_create_higher_center (test_structure.RecursiveTests.test_disjoint_up_moves_do_not_create_higher_center) ... ok
+test_exact_l1_interval (test_structure.RecursiveTests.test_exact_l1_interval) ... ok
+test_l2_requires_nine_segments_not_three_l1_rectangles (test_structure.RecursiveTests.test_l2_requires_nine_segments_not_three_l1_rectangles) ... ok
+test_l3_and_lineage_have_no_reused_children (test_structure.RecursiveTests.test_l3_and_lineage_have_no_reused_children) ... ok
+test_leading_connector_preserves_continuity (test_structure.RecursiveTests.test_leading_connector_preserves_continuity) ... ok
+test_max_level_and_evidence_propagation (test_structure.RecursiveTests.test_max_level_and_evidence_propagation) ... ok
+test_mixed_levels_and_gaps_rejected (test_structure.RecursiveTests.test_mixed_levels_and_gaps_rejected) ... ok
+test_three_completed_segments_required (test_structure.RecursiveTests.test_three_completed_segments_required) ... ok
+test_unassigned_tail_not_promoted (test_structure.RecursiveTests.test_unassigned_tail_not_promoted) ... ok
+test_zero_width_intersection (test_structure.RecursiveTests.test_zero_width_intersection) ... ok
+test_boundary_inclusion_must_not_swallow_direct_break (test_structure.SegmentTests.test_boundary_inclusion_must_not_swallow_direct_break) ... ok
+test_contained_reverse_extreme_does_not_lock_an_unbuildable_next_segment (test_structure.SegmentTests.test_contained_reverse_extreme_does_not_lock_an_unbuildable_next_segment) ... ok
+test_contained_third_stroke_waits_for_resolution (test_structure.SegmentTests.test_contained_third_stroke_waits_for_resolution) ... ok
+test_containment_created_gap_waits_for_standardized_reverse_fractal (test_structure.SegmentTests.test_containment_created_gap_waits_for_standardized_reverse_fractal) ... ok
+test_direct_break_cannot_be_confirmed_by_a_merged_pseudo_fractal (test_structure.SegmentTests.test_direct_break_cannot_be_confirmed_by_a_merged_pseudo_fractal) ... ok
+test_direct_break_confirmation_reports_ready_reverse_span (test_structure.SegmentTests.test_direct_break_confirmation_reports_ready_reverse_span) ... ok
+test_equal_boundary_inclusion_confirms_only_after_strict_third_break (test_structure.SegmentTests.test_equal_boundary_inclusion_confirms_only_after_strict_third_break) ... ok
+test_equal_low_in_reverse_sequence_is_inclusion_not_bottom (test_structure.SegmentTests.test_equal_low_in_reverse_sequence_is_inclusion_not_bottom) ... ok
+test_evidence_time_is_not_endpoint_time (test_structure.SegmentTests.test_evidence_time_is_not_endpoint_time) ... ok
+test_gap_first_fractal_insufficient (test_structure.SegmentTests.test_gap_first_fractal_insufficient) ... ok
+test_gap_invalidated_before_reverse_fractal (test_structure.SegmentTests.test_gap_invalidated_before_reverse_fractal) ... ok
+test_gap_reverse_fractal_does_not_need_gap_fill (test_structure.SegmentTests.test_gap_reverse_fractal_does_not_need_gap_fill) ... ok
+test_gap_second_fractal_may_itself_have_gap (test_structure.SegmentTests.test_gap_second_fractal_may_itself_have_gap) ... ok
+test_invalid_sequence_rejected (test_structure.SegmentTests.test_invalid_sequence_rejected) ... ok
+test_last_provisional_stroke_cannot_confirm (test_structure.SegmentTests.test_last_provisional_stroke_cannot_confirm) ... ok
+test_no_confirmation_before_third_reverse_stroke (test_structure.SegmentTests.test_no_confirmation_before_third_reverse_stroke) ... ok
+test_no_gap_top_and_bottom (test_structure.SegmentTests.test_no_gap_top_and_bottom) ... ok
+test_no_overlap_prefix_exposed (test_structure.SegmentTests.test_no_overlap_prefix_exposed) ... ok
+test_prefix_stability_on_fixed_completed_strokes (test_structure.SegmentTests.test_prefix_stability_on_fixed_completed_strokes) ... ok
+test_right_containment_keeps_old_direction_until_fractal_forms (test_structure.SegmentTests.test_right_containment_keeps_old_direction_until_fractal_forms) ... ok
+test_standardization_preserves_sources_and_order (test_structure.SegmentTests.test_standardization_preserves_sources_and_order) ... ok
+test_touching_feature_boundary_has_no_gap (test_structure.SegmentTests.test_touching_feature_boundary_has_no_gap) ... ok
+test_touching_first_break_end_does_not_confirm_direct_break (test_structure.SegmentTests.test_touching_first_break_end_does_not_confirm_direct_break) ... ok
+test_historical_attacking_stroke_survives_extension_and_export (test_logic_regressions.BreakDisplayTests.test_historical_attacking_stroke_survives_extension_and_export) ... ok
+test_svg_and_fallback_keep_color_dash_and_only_bold_attacker (test_logic_regressions.BreakDisplayTests.test_svg_and_fallback_keep_color_dash_and_only_bold_attacker) ... ok
+test_unified_tree_carries_mark_into_viewer_payload (test_logic_regressions.BreakDisplayTests.test_unified_tree_carries_mark_into_viewer_payload) ... ok
+test_all_used_stroke_times_propagate_but_future_times_do_not (test_logic_regressions.CausalStructureTests.test_all_used_stroke_times_propagate_but_future_times_do_not) ... ok
+test_containment_does_not_move_existing_confirmation_time (test_logic_regressions.CausalStructureTests.test_containment_does_not_move_existing_confirmation_time) ... ok
+test_extendable_origin_survives_non_extreme_third_stroke (test_logic_regressions.CausalStructureTests.test_extendable_origin_survives_non_extreme_third_stroke) ... ok
+test_later_segment_waits_for_its_start_boundary (test_logic_regressions.CausalStructureTests.test_later_segment_waits_for_its_start_boundary) ... FAIL
+test_random_fixed_strokes_have_causal_prefixes_and_persistent_marks (test_logic_regressions.CausalStructureTests.test_random_fixed_strokes_have_causal_prefixes_and_persistent_marks) ... ok
+
+======================================================================
+FAIL: test_later_segment_waits_for_its_start_boundary (test_logic_regressions.CausalStructureTests.test_later_segment_waits_for_its_start_boundary)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/root/chan/test_logic_regressions.py", line 37, in test_later_segment_waits_for_its_start_boundary
+    self.assertEqual([(s.first_stroke,s.last_stroke,s.evidence_stroke) for s in full],
+AssertionError: Lists differ: [] != [(0, 4, 11), (5, 7, 11)]
+
+Second list contains 2 additional elements.
+First extra element 0:
+(0, 4, 11)
+
+- []
++ [(0, 4, 11), (5, 7, 11)]
+
+----------------------------------------------------------------------
+Ran 43 tests in 2.729s
+
+FAILED (failures=1)

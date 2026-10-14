@@ -1,0 +1,315 @@
+{
+  "passed": true,
+  "code_hashes_verified": true,
+  "source_hashes_verified": true,
+  "embedded_equals_chart_data": true,
+  "periods": {
+    "8h": {
+      "strokes": 26,
+      "stroke_discontinuities": 0,
+      "segment_discontinuities": 0,
+      "segment_states": {
+        "completed": 3,
+        "pending": 1
+      },
+      "macd_matches_complete_source": true,
+      "historical_revisions": 5
+    },
+    "4h": {
+      "strokes": 34,
+      "stroke_discontinuities": 0,
+      "segment_discontinuities": 0,
+      "segment_states": {
+        "completed": 3,
+        "pending": 1
+      },
+      "macd_matches_complete_source": true,
+      "historical_revisions": 4
+    },
+    "2h": {
+      "strokes": 69,
+      "stroke_discontinuities": 0,
+      "segment_discontinuities": 0,
+      "segment_states": {
+        "completed": 8,
+        "pending": 1
+      },
+      "macd_matches_complete_source": true,
+      "historical_revisions": 13
+    },
+    "1h": {
+      "strokes": 135,
+      "stroke_discontinuities": 0,
+      "segment_discontinuities": 0,
+      "segment_states": {
+        "completed": 16,
+        "pending": 1
+      },
+      "macd_matches_complete_source": true,
+      "historical_revisions": 14
+    },
+    "15m": {
+      "strokes": 675,
+      "stroke_discontinuities": 0,
+      "segment_discontinuities": 0,
+      "segment_states": {
+        "completed": 70,
+        "pending": 1
+      },
+      "macd_matches_complete_source": true,
+      "historical_revisions": 79
+    }
+  },
+  "raw_prefixes": [
+    {
+      "asof": "2026-09-06T23:00:00+00:00",
+      "strokes": 1612,
+      "connected": true,
+      "revisions": 179
+    },
+    {
+      "asof": "2026-09-07T23:00:00+00:00",
+      "strokes": 1614,
+      "connected": true,
+      "revisions": 179
+    },
+    {
+      "asof": "2026-09-08T23:00:00+00:00",
+      "strokes": 1616,
+      "connected": true,
+      "revisions": 179
+    },
+    {
+      "asof": "2026-09-09T23:00:00+00:00",
+      "strokes": 1618,
+      "connected": true,
+      "revisions": 179
+    },
+    {
+      "asof": "2026-09-10T23:00:00+00:00",
+      "strokes": 1620,
+      "connected": true,
+      "revisions": 179
+    },
+    {
+      "asof": "2026-09-11T12:00:00+00:00",
+      "strokes": 1621,
+      "connected": true,
+      "revisions": 179
+    },
+    {
+      "asof": "2026-09-11T15:00:00+00:00",
+      "strokes": 1620,
+      "connected": true,
+      "revisions": 180
+    },
+    {
+      "asof": "2026-09-11T23:00:00+00:00",
+      "strokes": 1620,
+      "connected": true,
+      "revisions": 180
+    },
+    {
+      "asof": "2026-09-12T23:00:00+00:00",
+      "strokes": 1620,
+      "connected": true,
+      "revisions": 180
+    },
+    {
+      "asof": "2026-09-14T23:00:00+00:00",
+      "strokes": 1620,
+      "connected": true,
+      "revisions": 180
+    },
+    {
+      "asof": "2026-09-15T23:00:00+00:00",
+      "strokes": 1614,
+      "connected": true,
+      "revisions": 181
+    },
+    {
+      "asof": "2026-09-17T14:00:00+00:00",
+      "strokes": 1617,
+      "connected": true,
+      "revisions": 182
+    }
+  ],
+  "september_strict_long_stroke": {
+    "start": {
+      "index": 23062,
+      "kind": "top",
+      "price": 80536.1,
+      "time": "2026-09-06T23:00:00+00:00"
+    },
+    "end": {
+      "index": 23208,
+      "kind": "bottom",
+      "price": 74909.4,
+      "time": "2026-09-15T18:00:00+00:00"
+    },
+    "provisional": false,
+    "confirmed_at": "2026-09-16T15:00:00+00:00"
+  },
+  "september_revision_events": [
+    {
+      "observed_at": "2026-09-11T15:00:00+00:00",
+      "reason": "strict_connected_path_reselection",
+      "removed_completed": [
+        {
+          "start": {
+            "index": 23118,
+            "kind": "top",
+            "price": 78543.9,
+            "time": "2026-09-10T03:00:00+00:00"
+          },
+          "end": {
+            "index": 23132,
+            "kind": "bottom",
+            "price": 76402.9,
+            "time": "2026-09-10T23:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-11T12:00:00+00:00"
+        }
+      ],
+      "replacement": [
+        {
+          "start": {
+            "index": 23118,
+            "kind": "top",
+            "price": 78543.9,
+            "time": "2026-09-10T03:00:00+00:00"
+          },
+          "end": {
+            "index": 23141,
+            "kind": "bottom",
+            "price": 76000.3,
+            "time": "2026-09-11T12:00:00+00:00"
+          },
+          "provisional": true,
+          "confirmed_at": null
+        }
+      ]
+    },
+    {
+      "observed_at": "2026-09-15T19:00:00+00:00",
+      "reason": "strict_connected_path_reselection",
+      "removed_completed": [
+        {
+          "start": {
+            "index": 23062,
+            "kind": "top",
+            "price": 80536.1,
+            "time": "2026-09-06T23:00:00+00:00"
+          },
+          "end": {
+            "index": 23073,
+            "kind": "bottom",
+            "price": 78636.0,
+            "time": "2026-09-07T15:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-08T05:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23073,
+            "kind": "bottom",
+            "price": 78636.0,
+            "time": "2026-09-07T15:00:00+00:00"
+          },
+          "end": {
+            "index": 23080,
+            "kind": "top",
+            "price": 79476.0,
+            "time": "2026-09-08T02:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-08T11:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23080,
+            "kind": "top",
+            "price": 79476.0,
+            "time": "2026-09-08T02:00:00+00:00"
+          },
+          "end": {
+            "index": 23089,
+            "kind": "bottom",
+            "price": 77600.1,
+            "time": "2026-09-08T13:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-09T11:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23089,
+            "kind": "bottom",
+            "price": 77600.1,
+            "time": "2026-09-08T13:00:00+00:00"
+          },
+          "end": {
+            "index": 23106,
+            "kind": "top",
+            "price": 79737.3,
+            "time": "2026-09-09T08:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-09T23:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23106,
+            "kind": "top",
+            "price": 79737.3,
+            "time": "2026-09-09T08:00:00+00:00"
+          },
+          "end": {
+            "index": 23114,
+            "kind": "bottom",
+            "price": 77706.1,
+            "time": "2026-09-09T22:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-10T07:00:00+00:00"
+        },
+        {
+          "start": {
+            "index": 23114,
+            "kind": "bottom",
+            "price": 77706.1,
+            "time": "2026-09-09T22:00:00+00:00"
+          },
+          "end": {
+            "index": 23118,
+            "kind": "top",
+            "price": 78543.9,
+            "time": "2026-09-10T03:00:00+00:00"
+          },
+          "provisional": false,
+          "confirmed_at": "2026-09-10T17:00:00+00:00"
+        }
+      ],
+      "replacement": [
+        {
+          "start": {
+            "index": 23062,
+            "kind": "top",
+            "price": 80536.1,
+            "time": "2026-09-06T23:00:00+00:00"
+          },
+          "end": {
+            "index": 23206,
+            "kind": "bottom",
+            "price": 75560.0,
+            "time": "2026-09-15T14:00:00+00:00"
+          },
+          "provisional": true,
+          "confirmed_at": null
+        }
+      ]
+    }
+  ]
+}

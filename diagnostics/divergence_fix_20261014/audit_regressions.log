@@ -1,0 +1,9 @@
+test_changed_divergence_classification_carries_new_evidence (test_findings.AuditFindings.test_changed_divergence_classification_carries_new_evidence) ... ok
+test_internal_center_must_finish_inside_c (test_findings.AuditFindings.test_internal_center_must_finish_inside_c) ... ok
+test_internal_center_price_range_must_be_inside_c (test_findings.AuditFindings.test_internal_center_price_range_must_be_inside_c) ... ok
+test_internal_centers_must_match_c_declared_lineage (test_findings.AuditFindings.test_internal_centers_must_match_c_declared_lineage) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.004s
+
+OK
